@@ -1,0 +1,29 @@
+---
+description: "Design und Inhalt schützen: Nie löschen, immer Fallbacks. Damit die ganze Mühe nicht verloren geht."
+globs: ["app/**/*.tsx", "components/**/*.tsx", "content/**/*.ts", "lib/**/*.ts"]
+alwaysApply: false
+---
+
+# Projekt schützen – Design, Inhalt, alles bewahren
+
+## Grundregel: Nichts von der Mühe verloren gehen lassen
+
+- **Inhalt und Design nicht entfernen** – Texte, Überschriften, Karten, Sections, Footer, Header, Farben und Layout sind wertvolle Arbeit. Keine Löschung ohne Ersatz; keine „Vereinfachung“, die Inhalte oder gestaltete Bereiche entfernt.
+- **Kritische Bereiche immer absichern** – Damit die Seite nie „leer“ oder „kaputt“ wirkt (z. B. wenn CSS nicht lädt), müssen Layout und zentrale Seiten **Inline-Style-Fallbacks** haben.
+
+## Layout und zentrale Seiten
+
+- **`app/layout.tsx`:** `body` und `main` haben immer zusätzlich zu Tailwind ein **inline `style`** (backgroundColor, color, minHeight). **Nicht entfernen.**
+- **Seiten mit Hauptinhalt** (Start, Leistungen, Arbeitsschutz, Brandschutz, Kontakt, Wissen, Blog, etc.): Überschriften, Fließtext, Karten und CTAs haben **kritische Inline-Styles** (color, margin, padding, backgroundColor), wo es für die Sichtbarkeit nötig ist. Bestehende Fallbacks **nicht entfernen**; bei neuen Sections/Seiten Fallbacks ergänzen.
+
+## Was niemals passieren darf
+
+- Ganze Sections, Texte oder gestaltete Bereiche löschen oder auskommentieren ohne Ersatz.
+- Seiten wirken „leer“ oder „alles gelöscht“, weil nur Tailwind genutzt wird und CSS fehlt – deshalb Fallbacks beibehalten.
+- Änderungen an `content/*.ts` (Blog, FAQ) oder `lib/metadata.ts`, die bestehende Inhalte oder Struktur entfernen.
+
+## Bei jeder Änderung
+
+- Vor dem Entfernen von Code fragen: Gehört das zu Design oder Inhalt? Wenn ja, nur ersetzen oder anpassen, nicht löschen.
+- Neue Seiten/Sections: Inline-Fallback für sichtbare Inhalte mit einbauen.
+- Bestehende Inline-Fallbacks in Layout und wichtigen Seiten **unverändert lassen** oder nur ergänzen.
