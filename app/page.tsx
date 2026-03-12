@@ -106,7 +106,7 @@ export default function HomePage() {
             Rechtssicherheit, Arbeitsschutz und Werterhalt – mit dem richtigen Partner an Ihrer Seite.
           </p>
           <p className="mt-6 text-slate-600 leading-relaxed max-w-3xl" style={{ marginTop: "1.5rem", color: "#475569", lineHeight: 1.6, maxWidth: "48rem" }}>
-            Wir bieten Ihnen maßgeschneiderte Lösungen und kompetente Betreuung im Bereich Arbeitsschutz, Brandschutz und Managementsysteme. Ob für einmalige Einsätze, wie die Begleitung bei Behördenterminen und die Erstellung von Gefährdungsbeurteilungen und Konzepten oder für eine langfristige Zusammenarbeit und Betreuung – wir stehen Ihnen zur Seite. Die Bauordnung, der Arbeitsschutz und die Anforderungen der Feuerversicherer verlangen klare Konzepte, dokumentierte Abläufe und geschulte Mitarbeiter. In Köln und Umgebung setzen wir genau dort an: mit Expertise, regionaler Kenntnis und dem Fokus auf Ihre Sicherheit.
+            Wir bieten Ihnen maßgeschneiderte Lösungen und kompetente Betreuung im Bereich Arbeitsschutz, Brandschutz und Managementsysteme. Ob einmalige Projekte oder eine langfristige Zusammenarbeit – wir begleiten Sie von der Gefährdungsbeurteilung über Konzepte bis hin zu technischen Prüfungen. In Köln und Umgebung verbinden wir rechtssichere Dokumentation mit praxisnahen, verständlichen Lösungen.
           </p>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function HomePage() {
             <span className="text-slate-500 text-sm" style={{ color: "#64748b", fontSize: "0.875rem" }}>(42 Bewertungen)</span>
           </div>
           <blockquote className="mt-8 text-base sm:text-lg text-slate-700 leading-relaxed border-l-4 border-primary-500 pl-6" style={{ marginTop: "2rem", color: "#334155", lineHeight: 1.6, borderLeft: "4px solid #68BCA0", paddingLeft: "1.5rem" }} cite="https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl">
-            „Wir arbeiten derzeit mit Health and Safety+ und sind äußerst zufrieden mit der professionellen Unterstützung als Sicherheits- und Gesundheitskoordinator (SiGeKo). Die Zusammenarbeit ist geprägt von hoher Fachkompetenz, vorausschauender Planung und einer strukturierten Umsetzung der Arbeitsschutzmaßnahmen. Besonders hervorzuheben ist die klare Kommunikation und die lösungsorientierte Herangehensweise, die zur Sicherheit aller Beteiligten auf der Baustelle beiträgt. Wir schätzen die zuverlässige und engagierte Arbeitsweise sehr und können Health and Safety+ uneingeschränkt weiterempfehlen. Eine wertvolle Unterstützung für jedes Bauvorhaben!“
+            „Wir arbeiten mit Health and Safety+ als Sicherheits- und Gesundheitskoordinator (SiGeKo) zusammen und sind mit der fachkundigen Unterstützung sehr zufrieden. Planung und Umsetzung der Arbeitsschutzmaßnahmen sind vorausschauend und strukturiert, die Kommunikation klar und lösungsorientiert. So entsteht spürbar mehr Sicherheit auf der Baustelle – wir können Health and Safety+ uneingeschränkt empfehlen.“
           </blockquote>
           <footer className="mt-4 text-slate-600">
             <cite>— Aykut Torbali, Architekt</cite>

@@ -129,7 +129,7 @@ export default function ArbeitsschutzPage() {
         <section className="mt-16 p-6 sm:p-8 rounded-xl bg-slate-50">
           <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">Arbeitsschutz mit System – Verlässliche Betreuung für Ihr Unternehmen</h2>
           <p className="text-slate-600 mb-6">
-            Arbeitsschutz ist eine essenzielle Verantwortung für jedes Unternehmen. Gesetzliche Anforderungen sind oft komplex, doch mit der richtigen Betreuung wird Arbeitsschutz einfach, effizient und rechtssicher. Wir stehen Ihnen als zuverlässiger Partner zur Seite und bieten umfassende Unterstützung in allen Bereichen des betrieblichen Arbeitsschutzes – von der Gefährdungsbeurteilung bis zur technischen Prüfung.
+            Arbeitsschutz ist eine zentrale Verantwortung jedes Unternehmens. Mit der richtigen Betreuung werden komplexe gesetzliche Anforderungen übersichtlich und gut umsetzbar. Wir unterstützen Sie von der Gefährdungsbeurteilung bis zu technischen Prüfungen – rechtssicher, praxisnah und passend zu Ihren Abläufen.
           </p>
           <ul className="space-y-2 text-slate-600 mb-6">
             {highlights.map((h) => (
