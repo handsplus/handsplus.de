@@ -25,7 +25,7 @@ export function Header() {
               alt="H&S+ Health and Safety + – Managementsysteme"
               width={3049}
               height={501}
-              className="h-8 w-auto sm:h-9"
+              className="h-9 w-auto min-h-9 sm:h-10"
               priority
               fetchPriority="high"
               sizes="120px"
