@@ -11,7 +11,13 @@ const navLinks = [
   { href: "/kontakt", label: "Kontakt" },
 ];
 
-export function NavLinks({ variant = "desktop" }: { variant?: "desktop" | "mobile" }) {
+export function NavLinks({
+  variant = "desktop",
+  onLinkClick,
+}: {
+  variant?: "desktop" | "mobile";
+  onLinkClick?: () => void;
+}) {
   const pathname = usePathname();
 
   if (variant === "mobile") {
@@ -21,7 +27,10 @@ export function NavLinks({ variant = "desktop" }: { variant?: "desktop" | "mobil
           <li key={href}>
             <Link
               href={href}
-              className={`block py-3 text-sm font-medium transition-colors ${pathname === href ? "text-primary-800" : "text-slate-700"}`}
+              onClick={onLinkClick}
+              className={`block py-3 text-sm font-medium transition-colors ${
+                pathname === href ? "text-primary-800" : "text-slate-700"
+              }`}
               aria-current={pathname === href ? "page" : undefined}
             >
               {label}
