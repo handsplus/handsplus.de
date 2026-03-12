@@ -18,18 +18,17 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center shrink-0" aria-label="Startseite">
+        <div className="flex items-center justify-between h-16 gap-4">
+          <Link href="/" className="flex items-center min-w-0 shrink" aria-label="Startseite">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="H&S+ Health and Safety + – Managementsysteme"
-              width={3049}
-              height={501}
-              className="h-9 w-auto min-h-9 sm:h-10"
+              width={400}
+              height={70}
+              className="h-[23px] w-auto min-h-[23px] max-w-full object-contain sm:h-[27px]"
               priority
               fetchPriority="high"
-              sizes="120px"
-              unoptimized
+              sizes="(max-width: 640px) 180px, 220px"
             />
           </Link>
 
