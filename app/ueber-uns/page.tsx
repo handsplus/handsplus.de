@@ -10,18 +10,18 @@ export const metadata = pageMetadata({
 });
 
 const referenzen: { name: string; logo?: string }[] = [
-  { name: "RheinEnergie" },
-  { name: "TJX Europe" },
-  { name: "ISG" },
-  { name: "Wolf & Pabich Werbeartikel" },
-  { name: "Rheinische Gesellschaft für Diakonie" },
-  { name: "eBay" },
-  { name: "Hakle" },
-  { name: "Fastned" },
-  { name: "HBG Kompressoren" },
-  { name: "HOW.FM" },
-  { name: "Kamps" },
-  { name: "Cookie GmbH" },
+  { name: "RheinEnergie", logo: "/Kundenlogos/rheinenergie.png" },
+  { name: "TJX Europe", logo: "/Kundenlogos/tjx-europe.png" },
+  { name: "ISG", logo: "/Kundenlogos/isg-gmbh.png" },
+  { name: "Wolf & Pabich Werbeartikel", logo: "/Kundenlogos/wolf-pabich.png" },
+  { name: "Rheinische Gesellschaft für Diakonie", logo: "/Kundenlogos/rheinische-diakonie.png" },
+  { name: "eBay", logo: "/Kundenlogos/ebay.png" },
+  { name: "Hakle", logo: "/Kundenlogos/hakle.png" },
+  { name: "Fastned", logo: "/Kundenlogos/fastned.png" },
+  { name: "HBG Kompressoren", logo: "/Kundenlogos/hbg-kompressoren.png" },
+  { name: "HOW.FM", logo: "/Kundenlogos/how-fm.png" },
+  { name: "Kamps", logo: "/Kundenlogos/kamps.png" },
+  { name: "Cookie GmbH", logo: "/Kundenlogos/cookies-gmbh.png" },
 ];
 
 const qualifikationen = [
