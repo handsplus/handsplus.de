@@ -60,11 +60,9 @@ Diese Webseite soll vor versehentlicher Löschung, kaputten Änderungen und Date
 
 ### Empfohlene Regeln (GitHub)
 
-1. **Branch Protection für `main`:**
-   - GitHub → Repository → Settings → Branches → Add rule für `main`.
-   - „Require a pull request before merging“ optional.
-   - **Wichtig:** „Do not allow force pushes“ aktivieren (verhindert Überschreiben/Löschen der History).
-   - „Do not allow deletions“ für den Branch aktivieren, falls angeboten.
+1. **Branch Protection für `main`** (einmalig einrichten):
+   - **Anleitung (Browser oder GitHub CLI):** [.github/BRANCH-PROTECTION.md](.github/BRANCH-PROTECTION.md)
+   - Direktlink: **https://github.com/handsplus/handsplus.de/settings/branches** → Add rule für `main` → „Do not allow force pushes“ und „Do not allow deletions“ aktivieren → Save.
 
 2. **Nicht:** Kein `git push --force` auf `main`, keine Löschung des `main`-Branchs, keine Umstellung ohne Backup.
 
