@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { serviceIcons } from "@/lib/serviceIcons";
 
 const services = [
   { title: "Arbeitsschutz", description: "Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz", href: "/arbeitsschutz" },
-  { title: "SiGeKo", description: "Sicherheits- und Gesundheitsschutzkoordination", href: "/sigeko" },
   { title: "Brandschutz", description: "Beratung und Unterstützung im baulichen, anlagentechnischen und organisatorischen Brandschutz", href: "/brandschutz" },
-  { title: "Schulungen", description: "Schulungs- und Weiterbildungsangebote, die individuell auf Sie abgestimmt und zeitlich flexibel gestaltet werden – online oder vor Ort.", href: "/schulungen" },
+  { title: "SiGeKo", description: "Sicherheits- und Gesundheitsschutzkoordination", href: "/sigeko" },
   { title: "Elektrosicherheit", description: "Elektrosicherheit zum Schutz von Beschäftigten und Unternehmen vor Gefahren durch elektrischen Strom.", href: "/elektrosicherheit" },
+  { title: "Schulungen", description: "Schulungs- und Weiterbildungsangebote, die individuell auf Sie abgestimmt und zeitlich flexibel gestaltet werden – online oder vor Ort.", href: "/schulungen" },
   { title: "Managementsysteme", description: "Einführung, Pflege, Auditierung und Optimierung von Managementsystemen (ISO 9001, ISO 45001, AMS VBG, AMS BAU)", href: "/managementsysteme" },
 ];
 
@@ -21,10 +22,10 @@ function LeistungenJsonLd() {
   const url = `${BASE_URL}/leistungen`;
   const items = [
     { name: "Arbeitsschutz", url: `${BASE_URL}/arbeitsschutz` },
-    { name: "SiGeKo – Sicherheits- und Gesundheitsschutzkoordination", url: `${BASE_URL}/sigeko` },
     { name: "Brandschutz", url: `${BASE_URL}/brandschutz` },
-    { name: "Schulungen", url: `${BASE_URL}/schulungen` },
+    { name: "SiGeKo – Sicherheits- und Gesundheitsschutzkoordination", url: `${BASE_URL}/sigeko` },
     { name: "Elektrosicherheit", url: `${BASE_URL}/elektrosicherheit` },
+    { name: "Schulungen", url: `${BASE_URL}/schulungen` },
     { name: "Managementsysteme", url: `${BASE_URL}/managementsysteme` },
   ];
 
@@ -61,14 +62,19 @@ export default function LeistungenPage() {
           Wir sorgen für eine qualitativ hochwertige Betreuung, die an Ihre Bedürfnisse angepasst ist.
         </p>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{ marginTop: "3rem", display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gap: "2rem" }}>
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((s) => (
-            <div key={s.href} className="border border-slate-200 rounded-xl p-6 bg-white hover:border-primary-200 hover:shadow-md transition-all" style={{ border: "1px solid #e2e8f0", borderRadius: "0.75rem", padding: "1.5rem", backgroundColor: "#fff" }}>
-              <h2 className="text-lg font-semibold text-slate-900" style={{ fontSize: "1.125rem", fontWeight: 600, color: "#0f172a", margin: 0 }}>{s.title}</h2>
-              <p className="mt-3 text-slate-600 text-sm leading-relaxed" style={{ marginTop: "0.75rem", fontSize: "0.875rem", color: "#475569", lineHeight: 1.6 }}>{s.description}</p>
-              <Link href={s.href} className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900" style={{ marginTop: "1rem", fontSize: "0.875rem", fontWeight: 500, color: "#3b7564" }}>
+            <div key={s.href} className="border border-slate-200 rounded-xl p-6 bg-white hover:border-primary-200 hover:shadow-md transition-all">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary-50 text-primary-600 flex items-center justify-center" aria-hidden>
+                  {serviceIcons[s.title]}
+                </span>
+                <h2 className="text-lg font-semibold text-slate-900 m-0">{s.title}</h2>
+              </div>
+              <p className="mt-3 text-slate-600 text-sm leading-relaxed">{s.description}</p>
+              <Link href={s.href} className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900">
                 Mehr erfahren
-                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ marginLeft: "0.25rem", width: "1rem", height: "1rem" }}>
+                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </Link>

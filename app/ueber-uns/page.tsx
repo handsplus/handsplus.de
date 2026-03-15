@@ -4,7 +4,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   path: "/ueber-uns",
-  title: "Über uns – H&S+ Health and Safety +",
+  title: "Über uns",
   description: "Health and Safety + – Ihr Partner für Arbeitsschutz, Brandschutz, Elektrosicherheit, Managementsysteme und Schulungen. Qualifikationen und Erfahrung.",
   keywords: ["Über uns", "Health and Safety Plus", "Arbeitsschutz Köln", "Brandschutz Köln", "Qualifikationen", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter"],
 });
