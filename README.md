@@ -48,6 +48,31 @@ import Image from "next/image";
 
 Für Produktion `NEXT_PUBLIC_SITE_URL` auf die echte Domain setzen (z. B. `https://www.handsplus.de`).
 
+## Schutz vor Löschung und Datenverlust
+
+Diese Webseite soll vor versehentlicher Löschung, kaputten Änderungen und Datenverlust geschützt werden.
+
+### Was bereits schützt
+
+- **Git + GitHub:** Jeder Stand ist versioniert. Nach jedem sinnvollen Änderungsstand: `git add …`, `git commit -m "…"`, `git push origin main`. So ist der Code bei GitHub gesichert.
+- **Vercel:** Alte Deployments bleiben in der Vercel-Historie. Bei Problemen kann ein älteres Deployment wieder aktiviert werden.
+- **Tags:** Wichtige Stände werden als Git-Tag gespeichert (z. B. `v1.0`). Bei Totalausfall: `git checkout <Tag-Name>` oder auf GitHub den Tag als Basis für einen neuen Branch nutzen.
+
+### Empfohlene Regeln (GitHub)
+
+1. **Branch Protection für `main`:**
+   - GitHub → Repository → Settings → Branches → Add rule für `main`.
+   - „Require a pull request before merging“ optional.
+   - **Wichtig:** „Do not allow force pushes“ aktivieren (verhindert Überschreiben/Löschen der History).
+   - „Do not allow deletions“ für den Branch aktivieren, falls angeboten.
+
+2. **Nicht:** Kein `git push --force` auf `main`, keine Löschung des `main`-Branchs, keine Umstellung ohne Backup.
+
+### Wiederherstellung
+
+- **Letzter guter Stand:** In GitHub unter „Commits“ den gewünschten Commit öffnen und z. B. „Revert“ nutzen oder einen neuen Branch davon erstellen.
+- **Mit Tag:** `git checkout tags/v1.0` (lokal), dann ggf. neuen Branch erstellen und pushen; auf Vercel diesen Branch deployen oder nach Merge nach `main` wieder live gehen.
+
 ## Technik
 
 - Next.js 14 (App Router)
