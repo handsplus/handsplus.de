@@ -21,6 +21,16 @@ export function FooterInner() {
             <ul className="space-y-1 text-sm">
               <li>
                 <a
+                  href="https://www.sigeko.koeln"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-200 hover:text-white transition-colors"
+                >
+                  www.sigeko.koeln
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://www.handsplus.de"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -51,12 +61,12 @@ export function FooterInner() {
               </li>
               <li>
                 <a
-                  href="https://www.sigeko.koeln"
+                  href="https://www.arbeitssicherheitkoeln.de"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
-                  www.sigeko.koeln
+                  www.arbeitssicherheitkoeln.de
                 </a>
               </li>
             </ul>

@@ -99,6 +99,58 @@ export const blogPosts: BlogPost[] = [
       "Insgesamt trägt die neue DGUV Vorschrift 2 dazu bei, die betriebliche Betreuung ressourcenschonend und zeitgemäß zu organisieren. Unternehmen und Fachkräfte erhalten eine klarere Struktur und praxistaugliche Vorgaben, um Gesundheit und Sicherheit nachhaltig zu sichern.",
     ],
   },
+  {
+    slug: "asr-a2-2-brandschutzhelfer",
+    title: "ASR A2.2 Brandschutzhelfer – Anzahl, Schulung und Pflicht",
+    excerpt:
+      "Brandschutzhelfer gemäß ASR A2.2: Wie viele braucht der Betrieb, welche Schulungsinhalte sind nötig und wie oft muss geschult werden? Praxisnah zusammengefasst.",
+    date: "2025-03-12",
+    content: [
+      "Die Technische Regel für Arbeitsstätten ASR A2.2 „Maßnahmen gegen Brände“ verlangt, dass Arbeitgeber eine ausreichende Anzahl von Brandschutzhelfern ausbilden lassen. Brandschutzhelfer unterstützen im Brandfall bei der Evakuierung, der Bedienung von Löschgeräten und der Sicherstellung der Brandschutzordnung. Sie ersetzen keinen Brandschutzbeauftragten, ergänzen aber die betriebliche Brandschutzorganisation.",
+      "Die erforderliche Anzahl an Brandschutzhelfern ergibt sich aus der Gefährdungsbeurteilung. Ausschlaggebend sind unter anderem die Anzahl der Beschäftigten, die räumliche Verteilung (z. B. mehrere Gebäude oder Stockwerke), die Fluchtwegplanung und ob besondere Gefährdungen bestehen. In der Praxis werden häufig etwa 5 bis 10 % der Beschäftigten als Brandschutzhelfer ausgebildet; in Kleinstbetrieben oft mindestens eine Person pro Schicht oder Gebäudebereich.",
+      "Die Ausbildung muss die Inhalte der ASR A2.2 abdecken: u. a. Gefahren durch Brände, betriebliche Brandschutzorganisation, Verhalten im Brandfall, Wirkungsweise und Handhabung von Löschgeräten sowie Evakuierung. Die Schulung umfasst in der Regel theoretische und praktische Anteile (z. B. Löschübung). Eine Wiederholungsschulung ist in angemessenen Abständen erforderlich – typischerweise alle drei bis fünf Jahre, sofern keine besonderen Anlässe vorliegen.",
+      "Arbeitgeber müssen die Zahl der Brandschutzhelfer festlegen, die Ausbildung sicherstellen und die Teilnahme dokumentieren. Wer unsicher ist, wie viele Brandschutzhelfer im eigenen Betrieb nötig sind, kann sich an einer Gefährdungsbeurteilung orientieren oder eine Fachkraft für Arbeitsschutz bzw. einen Brandschutzbeauftragten hinzuziehen. Wir beraten Sie in Köln und NRW zur richtigen Anzahl, führen Brandschutzhelfer-Schulungen durch und unterstützen bei der Dokumentation.",
+    ],
+  },
+  {
+    slug: "unterweisung-arbeitsschutz-fristen",
+    title: "Unterweisung im Arbeitsschutz – Fristen, Inhalte und Dokumentation",
+    excerpt:
+      "Unterweisungspflicht nach ArbSchG: Wie oft unterweisen, was muss rein und wie dokumentieren? Die wichtigsten Punkte für Arbeitgeber und Verantwortliche.",
+    date: "2025-03-01",
+    content: [
+      "Die Unterweisung ist eine zentrale Pflicht des Arbeitgebers nach dem Arbeitsschutzgesetz (ArbSchG). Beschäftigte müssen über die bei ihrer Arbeit auftretenden Gefahren und die zu treffenden Schutzmaßnahmen unterwiesen werden – und zwar in ausreichender Zahl und mindestens einmal jährlich. Bei neuen Beschäftigten ist die Unterweisung vor der ersten Tätigkeit erforderlich.",
+      "Neben der jährlichen Wiederholung sind zusätzliche Unterweisungen nötig, wenn sich die Tätigkeit oder die Gefährdungen wesentlich ändern, neue Arbeitsmittel oder Stoffe eingeführt werden oder besondere Vorkommnisse (z. B. Unfälle, Beinahe-Unfälle) es erfordern. Die Unterweisung muss in einer für die Beschäftigten verständlichen Form und Sprache erfolgen.",
+      "Inhaltlich muss die Unterweisung die konkreten Arbeitsplätze und Tätigkeiten betreffen: Welche Gefahren bestehen, welche Schutzmaßnahmen und Verhaltensregeln gelten, wie sind Notfälle zu handhaben? Je nach Betrieb können Themen wie Brandschutz, Gefahrstoffe, Elektrosicherheit, Ergonomie oder PSA hinzukommen. Die Unterweisung darf nicht nur aus dem Verteilen von Merkblättern bestehen; ein dialogischer Austausch und die Möglichkeit für Rückfragen sind wichtig.",
+      "Der Arbeitgeber muss die Durchführung der Unterweisungen dokumentieren – in der Regel mit Datum, Thema, Namen der Unterwiesenen und des Unterweisenden. So kann im Nachhinein nachgewiesen werden, dass die Pflicht erfüllt wurde. Wir unterstützen Sie bei der Planung und Durchführung von Unterweisungen zu Arbeitsschutz, Brandschutz und weiteren Themen – vor Ort in Köln und NRW oder in Abstimmung mit Ihren Abläufen.",
+    ],
+  },
+  {
+    slug: "gefaehrdungsbeurteilung-ablauf",
+    title: "Gefährdungsbeurteilung erstellen – Ablauf, Pflichten und Aktualisierung",
+    excerpt:
+      "Gefährdungsbeurteilung nach ArbSchG: Wer ist verantwortlich, welche Schritte gehören dazu und wann muss sie aktualisiert werden? Kurz und praxisnah erklärt.",
+    date: "2025-02-18",
+    content: [
+      "Die Gefährdungsbeurteilung ist die zentrale Grundlage des betrieblichen Arbeitsschutzes. Nach dem Arbeitsschutzgesetz (ArbSchG) muss der Arbeitgeber die für die Beschäftigten mit ihrer Arbeit verbundenen Gefährdungen ermitteln und beurteilen sowie die erforderlichen Maßnahmen des Arbeitsschutzes festlegen, umsetzen und auf Wirksamkeit prüfen. Ohne Gefährdungsbeurteilung fehlt die systematische Basis für Unterweisungen, Betriebsanweisungen und technische Schutzmaßnahmen.",
+      "Der Ablauf umfasst typischerweise: Arbeitsbereiche und Tätigkeiten erfassen, Gefährdungen identifizieren (z. B. aus ArbStättV, BetrSichV, GefStoffV, Lärm, psychische Belastung), Risiken beurteilen, Schutzmaßnahmen festlegen und priorisieren, Maßnahmen umsetzen und deren Wirksamkeit prüfen, Gefährdungsbeurteilung dokumentieren und bei Änderungen aktualisieren. Die Dokumentation muss für Außenstehende (z. B. Aufsichtsbehörden, Berufsgenossenschaft) nachvollziehbar sein.",
+      "Der Arbeitgeber trägt die Verantwortung für die Durchführung; er kann sich dabei fachkundig unterstützen lassen. Eine Fachkraft für Arbeitsschutz darf die Gefährdungsbeurteilung fachlich erstellen und den Prozess begleiten. In vielen Betrieben übernimmt die externe oder interne FaSi die Erstellung, der Arbeitgeber bestätigt und setzt die Maßnahmen um.",
+      "Eine einmal erstellte Gefährdungsbeurteilung ist nicht „fertig für immer“. Sie muss regelmäßig überprüft und bei wesentlichen Änderungen (neue Tätigkeiten, neue Stoffe, Unfälle, neue Erkenntnisse) aktualisiert werden. Wir erstellen und aktualisieren für Sie Gefährdungsbeurteilungen, die rechtssicher und in der Praxis umsetzbar sind – in Köln, NRW und auf Wunsch darüber hinaus.",
+    ],
+  },
+  {
+    slug: "sigeko-kosten-honorar-orientierung",
+    title: "SiGeKo-Kosten und Honorar – Orientierung für Bauherren und Planer",
+    excerpt:
+      "Was kostet ein SiGeKo? Honorar-Orientierung für Sicherheits- und Gesundheitsschutzkoordination auf der Baustelle – Faktoren, Richtwerte und transparente Angebote.",
+    date: "2025-01-28",
+    content: [
+      "Die Sicherheits- und Gesundheitsschutzkoordination (SiGeKo) ist bei Baustellen mit mehreren Arbeitgebern oder Selbstständigen gesetzlich vorgesehen (RAB 30). Bauherren und Planer fragen sich oft: Was kostet ein SiGeKo, und woran kann man sich orientieren?",
+      "Das Honorar hängt von vielen Faktoren ab: Art und Größe des Bauvorhabens, Bauphase (Planung vs. Ausführung), Laufzeit, Anzahl der Einweisungen und Baustellenbegehungen, Umfang der Dokumentation (SiGe-Plan, Sicherheits- und Gesundheitsschutzplan, Unterlagen für die Baustelle). Pauschale Preise sind daher nicht seriös – ein Einfamilienhaus-Neubau erfordert einen anderen Aufwand als ein Gewerbe-Neubau oder eine Sanierung mit vielen Gewerken.",
+      "Richtwerte und Honorarrahmen werden von verschiedenen Stellen veröffentlicht, z. B. von Architektenkammern oder Fachverbänden. Sie dienen als grobe Orientierung, ersetzen aber keine individuelle Angebotserstellung. Wichtig ist eine klare Leistungsbeschreibung: Was ist im Honorar enthalten (SiGe-Plan, Einweisungen, Begehungen, Dokumentation), welche Termine sind geplant, wie ist die Kommunikation geregelt?",
+      "Wir übernehmen die SiGeKo für Ihr Bauvorhaben in Köln und NRW und erstellen Ihnen ein transparentes Angebot nach Klärung von Umfang und Anforderungen. Auf unserer Wissen-Seite finden Sie zudem einen Rechner zur groben Honorar-Orientierung. Für ein unverbindliches Angebot und eine kostenlose Erstberatung sprechen Sie uns gerne an.",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

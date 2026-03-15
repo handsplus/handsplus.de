@@ -143,6 +143,12 @@ export default function HomePage() {
           <p className="mt-6 text-slate-600 leading-relaxed max-w-3xl" style={{ marginTop: "1.5rem", color: "#475569", lineHeight: 1.6, maxWidth: "48rem" }}>
             Wir bieten Ihnen maßgeschneiderte Lösungen und kompetente Betreuung im Bereich Arbeitsschutz, Brandschutz und Managementsysteme. Ob einmalige Projekte oder eine langfristige Zusammenarbeit – wir begleiten Sie von der Gefährdungsbeurteilung über Konzepte bis hin zu technischen Prüfungen. In Köln und Umgebung verbinden wir rechtssichere Dokumentation mit praxisnahen, verständlichen Lösungen.
           </p>
+          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl" style={{ marginTop: "1rem", color: "#475569", lineHeight: 1.6, maxWidth: "48rem" }}>
+            Als Fachkraft für Arbeitssicherheit, Brandschutzbeauftragte und SiGeKo erfüllen wir die Anforderungen von ASiG, DGUV Vorschrift 2, BauO NRW und den Vorgaben der Feuerversicherer. Für Gewerbe, Industrie, Büros, Hotels und Baustellen – von der Gefährdungsbeurteilung über Brandschutzkonzepte bis zu Schulungen und Managementsystemen (ISO 45001, AMS). Alle Leistungen finden Sie übersichtlich auf unserer <Link href="/leistungen" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Leistungsseite</Link>.
+          </p>
+          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl" style={{ marginTop: "1rem", color: "#475569", lineHeight: 1.6, maxWidth: "48rem" }}>
+            Wir unterstützen Unternehmer, Hausverwaltungen, Architekten und Bauherren in Köln und NRW – ob Sie eine <Link href="/arbeitsschutz" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">betriebliche Arbeitsschutzbetreuung</Link>, einen <Link href="/brandschutz" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Brandschutzbeauftragten</Link>, einen <Link href="/sigeko" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">SiGeKo für die Baustelle</Link> oder Unterstützung bei <Link href="/managementsysteme" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Managementsystemen</Link> benötigen.
+          </p>
         </div>
       </section>
 
@@ -205,6 +211,9 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          <p className="mt-10 text-slate-600 text-sm leading-relaxed" style={{ marginTop: "2.5rem", color: "#475569", fontSize: "0.875rem", lineHeight: 1.6 }}>
+            Mehr über unser Team, unsere Qualifikationen und Zertifizierungen erfahren Sie unter <Link href="/ueber-uns" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Über uns</Link>. Häufige Fragen zu Arbeitsschutz, Brandschutz und SiGeKo beantworten wir in unserem <Link href="/wissen/faq" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">FAQ</Link> und im <Link href="/wissen" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Wissen-Bereich</Link>.
+          </p>
         </div>
       </section>
 

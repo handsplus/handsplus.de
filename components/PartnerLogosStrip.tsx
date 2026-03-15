@@ -15,18 +15,18 @@ export function PartnerLogosStrip() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="sr-only">Unsere Partner</h2>
-        <div className="flex flex-wrap items-center justify-start gap-x-8 gap-y-6 sm:gap-x-10 md:gap-x-12">
+        <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-4 sm:gap-x-8 md:gap-x-10">
           {PARTNER_LOGOS.map(({ name, src }) => (
             <div
               key={name}
-              className="flex items-center justify-center shrink-0 h-12 sm:h-14 md:h-16 overflow-hidden"
+              className="flex items-center justify-center shrink-0 h-9 sm:h-10 md:h-11 overflow-hidden"
             >
               <img
                 src={src}
                 alt={name}
-                width={160}
-                height={64}
-                className="h-full w-auto max-h-full object-contain object-center"
+                width={120}
+                height={48}
+                className="h-full w-auto max-h-full max-w-[110px] sm:max-w-[120px] object-contain object-center"
                 style={{ maxHeight: "100%" }}
                 loading="lazy"
                 decoding="async"

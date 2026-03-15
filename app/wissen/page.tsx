@@ -1,5 +1,32 @@
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
+import { faqItems } from "@/content/faq";
+import { blogPosts } from "@/content/blog";
+
+/** Beliebte FAQ – für Schnellzugriff und SEO */
+const featuredFaqIds = [
+  "fachkraft-arbeitssicherheit",
+  "brandschutzbeauftragter-pflicht",
+  "brandschutzhelfer-anzahl",
+  "unterweisung-haeufigkeit",
+  "kosten-erstberatung",
+  "sigeko-kosten-honorar",
+  "ablauf-zusammenarbeit",
+  "sigeko-wann",
+];
+
+/** Empfohlene Blogbeiträge – thematisch stark und suchrelevant */
+const featuredBlogSlugs = [
+  "dguv-vorschrift-2",
+  "asr-a2-2-brandschutzhelfer",
+  "bestellung-fachkraft-arbeitssicherheit",
+  "unterweisung-arbeitsschutz-fristen",
+  "akteure-arbeitsschutz",
+  "gefaehrdungsbeurteilung-ablauf",
+  "getraenke-am-arbeitsplatz",
+  "brandschutz-lithium-ionen-batterien",
+  "sigeko-kosten-honorar-orientierung",
+];
 
 export const metadata = pageMetadata({
   path: "/wissen",
@@ -110,7 +137,84 @@ export default function WissenPage() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* Beliebte FAQ */}
+        <section className="mt-16 sm:mt-20" aria-labelledby="beliebte-faq-heading">
+          <h2 id="beliebte-faq-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+            Beliebte FAQ
+          </h2>
+          <p className="mt-2 text-slate-600">
+            Die wichtigsten Fragen zu Arbeitsschutz, Brandschutz und SiGeKo – direkt zur Antwort.
+          </p>
+          <ul className="mt-6 space-y-3">
+            {featuredFaqIds
+              .map((id) => faqItems.find((item) => item.id === id))
+              .filter(Boolean)
+              .map((item) => (
+                <li key={item!.id}>
+                  <Link
+                    href={`/wissen/faq#${item!.id}`}
+                    className="flex items-start gap-3 rounded-lg border border-slate-200 bg-white p-4 text-left transition-colors hover:border-primary-200 hover:bg-slate-50/50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                  >
+                    <span className="flex-shrink-0 mt-0.5 text-primary-600" aria-hidden>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </span>
+                    <span className="font-medium text-slate-900">{item!.question}</span>
+                    <span className="ml-auto flex-shrink-0 text-primary-800">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+          <p className="mt-4">
+            <Link href="/wissen/faq" className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
+              Alle FAQ ansehen
+            </Link>
+          </p>
+        </section>
+
+        {/* Empfohlene Blogbeiträge */}
+        <section className="mt-16 sm:mt-20" aria-labelledby="empfohlene-blog-heading">
+          <h2 id="empfohlene-blog-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+            Empfohlene Blogbeiträge
+          </h2>
+          <p className="mt-2 text-slate-600">
+            Aktuelle und oft gesuchte Themen – kompakt und praxisnah.
+          </p>
+          <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {featuredBlogSlugs
+              .map((slug) => blogPosts.find((p) => p.slug === slug))
+              .filter(Boolean)
+              .map((post) => (
+                <li key={post!.slug}>
+                  <Link
+                    href={`/wissen/blog/${post!.slug}`}
+                    className="block h-full rounded-lg border border-slate-200 bg-white p-5 transition-colors hover:border-primary-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                  >
+                    <h3 className="font-semibold text-slate-900">{post!.title}</h3>
+                    <p className="mt-2 text-sm text-slate-600 line-clamp-2">{post!.excerpt}</p>
+                    <span className="mt-3 inline-flex items-center text-sm font-medium text-primary-800">
+                      Weiterlesen
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+          <p className="mt-4">
+            <Link href="/wissen/blog" className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
+              Alle Blogbeiträge ansehen
+            </Link>
+          </p>
+        </section>
+
+        <div className="mt-16 sm:mt-20 text-center">
           <Link
             href="/kontakt"
             className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"

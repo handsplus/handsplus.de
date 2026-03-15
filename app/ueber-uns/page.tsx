@@ -9,19 +9,19 @@ export const metadata = pageMetadata({
   keywords: ["Über uns", "Health and Safety Plus", "Arbeitsschutz Köln", "Brandschutz Köln", "Qualifikationen", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter"],
 });
 
-const referenzen: { name: string; logo?: string }[] = [
-  { name: "RheinEnergie", logo: "/Kundenlogos/rheinenergie.png" },
-  { name: "TJX Europe", logo: "/Kundenlogos/tjx-europe.png" },
-  { name: "ISG", logo: "/Kundenlogos/isg-gmbh.png" },
-  { name: "Wolf & Pabich Werbeartikel", logo: "/Kundenlogos/wolf-pabich.png" },
-  { name: "Rheinische Gesellschaft für Diakonie", logo: "/Kundenlogos/rheinische-diakonie.png" },
-  { name: "eBay", logo: "/Kundenlogos/ebay.png" },
-  { name: "Hakle", logo: "/Kundenlogos/hakle.png" },
-  { name: "Fastned", logo: "/Kundenlogos/fastned.png" },
-  { name: "HBG Kompressoren", logo: "/Kundenlogos/hbg-kompressoren.png" },
-  { name: "HOW.FM", logo: "/Kundenlogos/how-fm.png" },
-  { name: "Kamps", logo: "/Kundenlogos/kamps.png" },
-  { name: "Cookie GmbH", logo: "/Kundenlogos/cookies-gmbh.png" },
+const referenzen: { name: string; logo?: string; url?: string }[] = [
+  { name: "RheinEnergie", logo: "/Kundenlogos/rheinenergie.png", url: "https://www.rheinenergie.de" },
+  { name: "TJX Europe", logo: "/Kundenlogos/tjx-europe.png", url: "https://www.tjx.com" },
+  { name: "ISG", logo: "/Kundenlogos/isg-gmbh.png", url: "https://www.isg-institut.de" },
+  { name: "Wolf & Pabich Werbeartikel", logo: "/Kundenlogos/wolf-pabich.png", url: "https://www.wolf-pabich.de" },
+  { name: "Rheinische Gesellschaft für Diakonie", logo: "/Kundenlogos/rheinische-diakonie.png", url: "https://www.rgd-online.de" },
+  { name: "eBay", logo: "/Kundenlogos/ebay.png", url: "https://www.ebay.de" },
+  { name: "Hakle", logo: "/Kundenlogos/hakle.png", url: "https://www.hakle.de" },
+  { name: "Fastned", logo: "/Kundenlogos/fastned.png", url: "https://fastnedcharging.com" },
+  { name: "HBG Kompressoren", logo: "/Kundenlogos/hbg-kompressoren.png", url: "https://www.hbg-kompressoren.de" },
+  { name: "HOW.FM", logo: "/Kundenlogos/how-fm.png", url: "https://how.fm" },
+  { name: "Kamps", logo: "/Kundenlogos/kamps.png", url: "https://www.kamps.de" },
+  { name: "Cookie GmbH", logo: "/Kundenlogos/cookies-gmbh.png", url: "https://cookie-couture.com/de/" },
 ];
 
 const qualifikationen = [
@@ -78,24 +78,42 @@ export default function UberUnsPage() {
             Eine kleine Auswahl unserer umfangreichen Berufs- und Projekterfahrungen
           </h2>
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-            {referenzen.map(({ name, logo }) => (
-              <div
-                key={name}
-                className="flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-8 shadow-sm transition-shadow hover:shadow-md min-h-[120px]"
-              >
-                {logo ? (
-                  <img
-                    src={logo}
-                    alt={name}
-                    className="max-h-16 w-full object-contain object-center"
-                  />
-                ) : (
-                  <span className="text-center text-sm font-medium text-slate-600 leading-snug">
-                    {name}
-                  </span>
-                )}
-              </div>
-            ))}
+            {referenzen.map(({ name, logo, url }) => {
+              const content = (
+                <>
+                  {logo ? (
+                    <img
+                      src={logo}
+                      alt={name}
+                      className="max-h-16 w-full object-contain object-center"
+                    />
+                  ) : (
+                    <span className="text-center text-sm font-medium text-slate-600 leading-snug">
+                      {name}
+                    </span>
+                  )}
+                </>
+              );
+              const cardClass =
+                "flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-8 shadow-sm transition-shadow hover:shadow-md min-h-[120px]";
+              return (
+                <div key={name} className={cardClass}>
+                  {url ? (
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full h-full flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-xl"
+                      aria-label={`${name} – Website besuchen`}
+                    >
+                      {content}
+                    </a>
+                  ) : (
+                    content
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
 

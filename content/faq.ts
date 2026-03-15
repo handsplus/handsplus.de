@@ -65,4 +65,34 @@ export const faqItems: FaqItem[] = [
     answer:
       "Die Kosten hängen vom Leistungsumfang ab: z. B. Art der Betreuung (Grund- oder betriebsspezifisch), Anzahl der Beschäftigten, Branche, Objekte und gewünschte Vor-Ort-Termine. Die Erstberatung bei uns ist kostenlos und unverbindlich. Darin besprechen wir Ihren Bedarf und geben Ihnen eine transparente Einschätzung – ohne Verpflichtung. So können Sie in Ruhe entscheiden.",
   },
+  {
+    id: "unterweisung-haeufigkeit",
+    question: "Wie oft muss eine Unterweisung im Arbeitsschutz erfolgen?",
+    answer:
+      "Nach Arbeitsschutzgesetz (ArbSchG) müssen Unterweisungen in ausreichender Zahl und mindestens einmal jährlich erfolgen. Bei neuen Beschäftigten ist eine Unterweisung vor der ersten Tätigkeit erforderlich; bei wesentlichen Änderungen, neuen Gefährdungen oder nach Unfällen sind zusätzliche Unterweisungen durchzuführen. Die Unterweisung muss verständlich sein und dokumentiert werden. Wir unterstützen Sie bei der Planung, Durchführung und Dokumentation von Unterweisungen – z. B. zu Arbeitsschutz, Brandschutz, Gefahrstoffen oder Elektrosicherheit – in Köln und NRW.",
+  },
+  {
+    id: "brandschutzhelfer-anzahl",
+    question: "Wie viele Brandschutzhelfer brauche ich im Betrieb?",
+    answer:
+      "Die erforderliche Anzahl an Brandschutzhelfern ergibt sich aus der Technischen Regel ASR A2.2 „Maßnahmen gegen Brände“. Sie hängt von der Anzahl der Beschäftigten, der räumlichen Aufteilung und den betrieblichen Gegebenheiten ab. In der Praxis werden oft etwa 5 bis 10 % der Beschäftigten als Brandschutzhelfer ausgebildet; in kleinen Betrieben mindestens eine Person. Wir beraten Sie zur richtigen Anzahl, führen Schulungen durch und bieten auf unserer Website einen kostenlosen Rechner zur Orientierung. Die genaue Festlegung erfolgt im Rahmen der Gefährdungsbeurteilung.",
+  },
+  {
+    id: "sigeko-kosten-honorar",
+    question: "Was kostet ein SiGeKo – gibt es eine Honorar-Orientierung?",
+    answer:
+      "Das SiGeKo-Honorar hängt vom Bauvorhaben ab: Art und Umfang des Projekts, Laufzeit, Anzahl der Bauphasen und erforderliche Leistungen (SiGe-Plan, Einweisungen, Baustellenbegehungen, Dokumentation). Eine pauschale Preisangabe ist daher nicht möglich. Viele Koordinatoren orientieren sich an Honorarrahmen oder Richtwerten, die z. B. von Verbänden oder Architektenkammern veröffentlicht werden. Auf unserer Wissen-Seite finden Sie einen Rechner zur groben Honorar-Orientierung. Für ein konkretes Angebot sprechen Sie uns gerne an – die Erstberatung ist kostenlos.",
+  },
+  {
+    id: "gefaehrdungsbeurteilung-aktualisierung",
+    question: "Wie oft muss die Gefährdungsbeurteilung aktualisiert werden?",
+    answer:
+      "Nach ArbSchG muss die Gefährdungsbeurteilung regelmäßig überprüft und bei Bedarf aktualisiert werden. Ein festes Intervall (z. B. jährlich) ist gesetzlich nicht vorgegeben – entscheidend ist, dass sie aktuell bleibt. Eine Aktualisierung ist erforderlich, wenn sich Arbeitsabläufe, Arbeitsmittel, Stoffe oder die Organisation ändern, neue Erkenntnisse zu Gefährdungen vorliegen oder Unfälle bzw. Beinahe-Unfälle darauf hinweisen. Wir unterstützen Sie bei der Erstellerstellung und bei der turnusmäßigen Überprüfung Ihrer Gefährdungsbeurteilungen, damit Sie rechtssicher und praxisnah aufgestellt sind.",
+  },
+  {
+    id: "externe-interne-fachkraft",
+    question: "Externe oder interne Fachkraft für Arbeitssicherheit – was ist besser?",
+    answer:
+      "Beides ist rechtlich zulässig. Eine interne Fachkraft ist fest im Betrieb, kennt Abläufe und Mitarbeiter oft sehr gut. Eine externe FaSi bringt breite Erfahrung aus vielen Betrieben mit, ist flexibel skalierbar und entlastet Sie von Personalkapazität und Fortbildungspflicht. Viele kleine und mittlere Unternehmen entscheiden sich für die externe Lösung; größere Betriebe haben teils eine Mischung. Wir bieten die Betreuung als externe Fachkraft für Arbeitssicherheit in Köln und NRW an – passend zu Ihrem Bedarf, ob Grund- oder betriebsspezifische Betreuung.",
+  },
 ];

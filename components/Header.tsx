@@ -25,10 +25,10 @@ export function Header() {
               alt="H&S+ Health and Safety + – Managementsysteme"
               width={400}
               height={70}
-              className="h-[23px] w-auto min-h-[23px] max-w-full object-contain sm:h-[27px]"
+              className="h-[19px] w-auto min-h-[19px] max-w-full object-contain sm:h-[22px]"
               priority
               fetchPriority="high"
-              sizes="(max-width: 640px) 180px, 220px"
+              sizes="(max-width: 640px) 146px, 179px"
             />
           </Link>
 
