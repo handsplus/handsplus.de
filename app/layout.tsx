@@ -114,12 +114,19 @@ export default function RootLayout({
     inLanguage: "de-DE",
   };
 
+  const criticalCSS = [
+    "body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;background:#f8fafc;color:#0f172a;min-height:100vh;margin:0;display:flex;flex-direction:column}",
+    "main{flex:1;min-height:60vh;background:#fff;color:#1e293b}",
+    ".skip-link{position:absolute;top:-3rem;left:.5rem;z-index:100;padding:.5rem 1rem;background:#1e4d44;color:#fff;font-weight:600;border-radius:.25rem;transition:top .2s ease}.skip-link:focus{top:.5rem;outline:2px solid #68BCA0;outline-offset:2px}",
+    "[data-hero]{background:linear-gradient(180deg,#1e4d44 0%,#2d5a4e 50%,#256358 100%);color:#fff;position:relative}",
+    "[data-hero] h1{font-size:clamp(1.875rem,4vw,3rem);font-weight:700;letter-spacing:-.025em;max-width:56rem;margin:0}",
+    "[data-hero] p{margin-top:1.5rem;font-size:1.125rem;max-width:48rem;color:rgba(255,255,255,.9)}",
+  ].join("");
+
   return (
     <html lang="de">
-      <body
-        className="font-sans min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased"
-        style={{ minHeight: "100vh", margin: 0, backgroundColor: "#f8fafc", color: "#0f172a" }}
-      >
+      <body className="font-sans min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
+        <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
         <a
           href="#main-content"
           className="skip-link"
@@ -127,12 +134,7 @@ export default function RootLayout({
           Zum Hauptinhalt springen
         </a>
         <Header />
-        <main
-          id="main-content"
-          tabIndex={-1}
-          className="flex-1 min-h-[60vh] bg-white text-slate-800"
-          style={{ flex: "1 1 auto", minHeight: "60vh", backgroundColor: "#ffffff", color: "#1e293b" }}
-        >
+        <main id="main-content" tabIndex={-1} className="flex-1 min-h-[60vh] bg-white text-slate-800">
           {children}
         </main>
         <Footer />

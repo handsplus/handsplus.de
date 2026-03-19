@@ -5,6 +5,8 @@
 
 # Build
 .next/
+# optional: NEXT_DIST_DIR=.next-cache o. Ä.
+.next-cache/
 out/
 build
 dist

@@ -11,9 +11,8 @@ import {
 } from "./FooterParts";
 
 export function FooterInner() {
-  const footerStyle = { backgroundColor: "#1e4d44", color: "#cbd5e1", padding: "1.5rem 0" };
   return (
-    <footer className="text-slate-300" style={footerStyle}>
+    <footer className="bg-[#1e4d44] text-slate-300 py-6">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10">
           <div className="space-y-4">

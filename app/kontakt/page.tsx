@@ -11,10 +11,7 @@ export const metadata = pageMetadata({
 
 export default function KontaktPage() {
   return (
-    <div
-      className="py-16 sm:py-20 lg:py-24"
-      style={{ minHeight: "50vh", color: "#1e293b", backgroundColor: "#fff" }}
-    >
+    <div className="py-16 sm:py-20 lg:py-24 min-h-[50vh] text-slate-800 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
           Jetzt kostenlose Erstberatung sichern!

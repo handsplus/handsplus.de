@@ -7,6 +7,10 @@ const PARTNER_LOGOS = [
   { name: "BEW – Das Bildungszentrum für die Ver- und Entsorgungswirtschaft", src: "/partner-logos/bew.png" },
 ] as const;
 
+/** Anzeige-Breite der Logos: max 110px (sm) / 120px (md+). Native img = weniger Client-JS/TBT als next/image. */
+const LOGO_WIDTH = 120;
+const LOGO_HEIGHT = 65;
+
 export function PartnerLogosStrip() {
   return (
     <section
@@ -15,23 +19,18 @@ export function PartnerLogosStrip() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="sr-only">Unsere Partner</h2>
-        <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-4 sm:gap-x-8 md:gap-x-10">
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-4 sm:gap-x-10 md:gap-x-12">
           {PARTNER_LOGOS.map(({ name, src }) => (
-            <div
+            <img
               key={name}
-              className="flex items-center justify-center shrink-0 h-9 sm:h-10 md:h-11 overflow-hidden"
-            >
-              <img
-                src={src}
-                alt={name}
-                width={120}
-                height={48}
-                className="h-full w-auto max-h-full max-w-[110px] sm:max-w-[120px] object-contain object-center"
-                style={{ maxHeight: "100%" }}
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+              src={src}
+              alt={name}
+              width={LOGO_WIDTH}
+              height={LOGO_HEIGHT}
+              loading="lazy"
+              decoding="async"
+              className={`w-auto object-contain ${name === "DEKRA" ? "h-7 sm:h-8 md:h-9" : "h-9 sm:h-10 md:h-11"}`}
+            />
           ))}
         </div>
       </div>

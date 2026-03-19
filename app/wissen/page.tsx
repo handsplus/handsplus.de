@@ -114,7 +114,7 @@ export default function WissenPage() {
             <Link
               key={item.href}
               href={item.href}
-              className="block p-6 rounded-xl border border-slate-200 bg-white hover:border-primary-200 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+              className="block p-6 rounded-xl border border-slate-200 bg-white hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
             >
               <div className="flex items-start gap-4">
                 <span className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary-50 text-primary-700 flex items-center justify-center" aria-hidden>

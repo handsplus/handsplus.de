@@ -38,7 +38,7 @@ export default function WissenBlogPage() {
           {blogPosts.map((post) => (
             <li
               key={post.slug}
-              className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:border-primary-200 hover:shadow-md transition-all"
+              className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200"
             >
               <Link
                 href={`/wissen/blog/${post.slug}`}

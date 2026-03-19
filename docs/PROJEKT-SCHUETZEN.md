@@ -7,7 +7,7 @@ Damit **keine Mühe verloren geht** (Design, Texte, Struktur, Inhalte), gelten d
 ## 1. Was alles dazugehört (nichts davon unnötig löschen)
 
 - **`app/`** – Alle Seiten (Start, Leistungen, Arbeitsschutz, Brandschutz, SiGeKo, Schulungen, Elektrosicherheit, Managementsysteme, Über uns, Kontakt, Wissen, Blog, FAQ, Impressum) inkl. Layout und globalem CSS.
-- **`components/`** – Header, Footer, ContactStrip, ContactForm, NavLinks.
+- **`components/`** – Header, Footer, ContactStrip, ContactForm, DesktopNav, MobileHeaderNav.
 - **`content/`** – Blog-Texte (`blog.ts`), FAQ (`faq.ts`).
 - **`lib/`** – Metadaten-Hilfe (`metadata.ts`).
 - **`public/`** – Logo und statische Dateien.
@@ -64,5 +64,27 @@ Details zur „leeren Seite“ und zum schnellen Fix: **`docs/VERLAESSLICHKEIT.m
 - [ ] Keine Löschung von Inhalt/Design ohne Ersatz.
 - [ ] Inline-Fallbacks in Layout und wichtigen Seiten nicht entfernt.
 - [ ] Bei Problemen: `npm run dev:clean` + Hard Refresh (Strg+Shift+R); bei „alles weg“: Git zurücksetzen oder Backup wiederherstellen.
+
+### Weiße Seite auf `localhost:3000` (Windows / OneDrive)
+
+Liegt oft **nicht** am Seiten-Code, sondern an **Next.js + `.next`-Cache** im OneDrive-Ordner: `readlink` → `EINVAL`, Dev-Server startet nicht oder liefert 500.
+
+- **Normal starten:** `npm run dev` – vorher wird auf Windows automatisch `.next` geleert (`scripts/ensure-next-dev-cache.js`).
+- **Manuell:** `npm run clean`, dann `npm run dev`.
+- **Empfehlung:** Ordner `.next` in OneDrive **vom Sync ausschließen** oder Projekt außerhalb von OneDrive entwickeln.
+
+### „Cannot read properties of undefined (reading 'call')“ (Webpack) im Browser
+
+**Standard:** `npm run dev` nutzt **Webpack** mit vereinfachtem Chunk-Splitting (`next.config.js`) – stabiler mit OneDrive/Chrome. Optional schneller: `npm run dev:turbo`.
+
+### Server: `Cannot find module './682.js'` (o. ä.)
+
+Der **Next-Build-Ordner** (`.next` oder `NEXT_DIST_DIR`) ist **unvollständig** – typisch bei **OneDrive** (Dateien weg oder halb synchron). **Vorgehen:** Dev-Server stoppen, `npm run clean`, dann `npm run dev`. Auf Windows läuft vor **`npm run build`** automatisch ein Cache-Leeren (`prebuild`).
+
+**Empfehlung:** Build-Cache **außerhalb von OneDrive** legen, z. B. im Projektordner eine Datei `.env.local` mit:
+
+`NEXT_DIST_DIR=.next-cache`
+
+(Ordner `.next-cache/` ist in `.gitignore`.) Oder einen Ordner **neben** dem Projekt: `NEXT_DIST_DIR=../handsplus-next-cache` – diesen Ordner von OneDrive **nicht** synchronisieren.
 
 So bleibt alles erhalten: Design, Inhalt und die ganze Mühe.

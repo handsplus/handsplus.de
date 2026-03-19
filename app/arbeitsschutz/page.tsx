@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -105,13 +106,42 @@ const whyUs = [
 
 export default function ArbeitsschutzPage() {
   return (
-    <div className="py-16 sm:py-20 lg:py-24">
+    <div>
+      <ArbeitsschutzJsonLd />
+      <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
+        <Image
+          src="/Arbeitsschutz.jpeg"
+          alt="Arbeitsschutz – Fachkraft für Arbeitssicherheit"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+        <div className="absolute inset-0 flex items-end">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-14 w-full">
+            <p className="text-sm font-medium text-white/70 uppercase tracking-widest mb-2">Unsere Leistung</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white drop-shadow-md">
+              Arbeitsschutz
+            </h1>
+            <p className="mt-3 text-lg sm:text-xl text-white/90 max-w-3xl">
+              Grundbetreuung und betriebsspezifische Betreuung gemäß ASiG und DGUV&nbsp;Vorschrift&nbsp;2
+            </p>
+            <Link
+              href="/kontakt"
+              className="mt-6 inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
+            >
+              Jetzt Angebot anfragen
+              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <div className="py-16 sm:py-20 lg:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ArbeitsschutzJsonLd />
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">Arbeitsschutz – Betreuung im Arbeitsschutz</h1>
-        <p className="text-xl text-slate-600 mb-12">
-          Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz gemäß Arbeitssicherheitsgesetz (ASiG) und DGUV Vorschrift 2
-        </p>
 
         <div className="space-y-12">
           {sections.map((sec) => (
@@ -150,14 +180,16 @@ export default function ArbeitsschutzPage() {
           </ul>
         </section>
 
-        <div className="mt-12 text-center">
+        <div className="mt-12 pt-10 border-t border-slate-200 text-center">
+          <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>
           <Link
             href="/kontakt"
             className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
           >
-            Jetzt Angebot anfragen
+            Kostenlose Erstberatung anfragen
           </Link>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -60,40 +61,71 @@ const listItems = [
 
 export default function BrandschutzPage() {
   return (
-    <div className="py-16 sm:py-20 lg:py-24">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <BrandschutzJsonLd />
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">Brandschutz</h1>
-        <p className="text-xl text-slate-600 mb-8">
-          Beratung und Unterstützung im baulichen, anlagentechnischen und organisatorischen Brandschutz
-        </p>
-        <p className="text-slate-600 mb-10">
-          Grundbetreuung sowie betriebsspezifische Betreuung im Brandschutz gemäß DGUV Vorschrift 2 und DGUV I 205-003
-        </p>
+    <div>
+      <BrandschutzJsonLd />
+      <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
+        <Image
+          src="/Brandschutz.jpeg"
+          alt="Brandschutz – Beratung und Konzepte"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+        <div className="absolute inset-0 flex items-end">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-14 w-full">
+            <p className="text-sm font-medium text-white/70 uppercase tracking-widest mb-2">Unsere Leistung</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white drop-shadow-md">
+              Brandschutz
+            </h1>
+            <p className="mt-3 text-lg sm:text-xl text-white/90 max-w-3xl">
+              Beratung und Unterstützung im baulichen, anlagentechnischen{" "}<br className="hidden sm:inline" />und&nbsp;organisatorischen&nbsp;Brandschutz
+            </p>
+            <Link
+              href="/kontakt"
+              className="mt-6 inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
+            >
+              Jetzt Angebot anfragen
+              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
 
-        <ul className="list-disc pl-6 space-y-2 text-slate-600 mb-12">
-          {listItems.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-
-        <section className="p-6 sm:p-8 rounded-xl bg-slate-50 mt-12">
-          <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">Brandschutz – Schutz und Sicherheit für Ihr Unternehmen</h2>
-          <p className="text-slate-600 mb-4">
-            Ein effektiver Brandschutz ist unverzichtbar, um Menschen, Sachwerte und betriebliche Abläufe zu schützen. Gesetzliche Vorschriften sind streng – wir helfen Ihnen, alle Anforderungen zu erfüllen und Risiken zu minimieren. Wir bieten Ihnen eine umfassende Betreuung in allen Bereichen des Brandschutzes, von der Erstellung individueller Brandschutzkonzepte über die Prüfung und Fortschreibung von Brandschutzordnungen bis hin zur Überprüfung von Feuerwehr- und Rettungsplänen. Zudem bewerten wir Brandgefährdungen an Arbeitsplätzen und unterstützen Sie bei der Umsetzung behördlicher Anordnungen.
+      <div className="py-16 sm:py-20 lg:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-slate-600 mb-10">
+            Grundbetreuung sowie betriebsspezifische Betreuung im Brandschutz gemäß DGUV&nbsp;Vorschrift&nbsp;2 und DGUV&nbsp;I&nbsp;205-003
           </p>
-          <p className="text-slate-600">
-            Unsere Experten begleiten Sie bei behördlichen Abnahmen, Erweiterungen und Genehmigungsverfahren und beraten Sie zur optimalen Ausstattung mit Feuerlöscheinrichtungen. Wir planen und koordinieren Brandschutzmaßnahmen, helfen bei der Meldung und Behebung von Brandschutzmängeln und führen Brandschutzunterweisungen für Führungskräfte sowie Beschäftigte durch. Ob baulicher, anlagentechnischer oder organisatorischer Brandschutz – wir bieten Ihnen eine vollständige Betreuung und individuelle Lösungen, die auf Ihr Unternehmen und Vorhaben abgestimmt sind.
-          </p>
-        </section>
 
-        <div className="mt-12 text-center">
-          <Link
-            href="/kontakt"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
-          >
-            Jetzt Angebot anfragen
-          </Link>
+          <ul className="list-disc pl-6 space-y-2 text-slate-600 mb-12">
+            {listItems.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+
+          <section className="p-6 sm:p-8 rounded-xl bg-slate-50 mt-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">Brandschutz – Schutz und Sicherheit für Ihr Unternehmen</h2>
+            <p className="text-slate-600 mb-4">
+              Ein effektiver Brandschutz ist unverzichtbar, um Menschen, Sachwerte und betriebliche Abläufe zu schützen. Gesetzliche Vorschriften sind streng – wir helfen Ihnen, alle Anforderungen zu erfüllen und Risiken zu minimieren. Wir bieten Ihnen eine umfassende Betreuung in allen Bereichen des Brandschutzes, von der Erstellung individueller Brandschutzkonzepte über die Prüfung und Fortschreibung von Brandschutzordnungen bis hin zur Überprüfung von Feuerwehr- und Rettungsplänen. Zudem bewerten wir Brandgefährdungen an Arbeitsplätzen und unterstützen Sie bei der Umsetzung behördlicher Anordnungen.
+            </p>
+            <p className="text-slate-600">
+              Unsere Experten begleiten Sie bei behördlichen Abnahmen, Erweiterungen und Genehmigungsverfahren und beraten Sie zur optimalen Ausstattung mit Feuerlöscheinrichtungen. Wir planen und koordinieren Brandschutzmaßnahmen, helfen bei der Meldung und Behebung von Brandschutzmängeln und führen Brandschutzunterweisungen für Führungskräfte sowie Beschäftigte durch. Ob baulicher, anlagentechnischer oder organisatorischer Brandschutz – wir bieten Ihnen eine vollständige Betreuung und individuelle Lösungen, die auf Ihr Unternehmen und Vorhaben abgestimmt sind.
+            </p>
+          </section>
+
+          <div className="mt-12 pt-10 border-t border-slate-200 text-center">
+            <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>
+            <Link
+              href="/kontakt"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
+            >
+              Kostenlose Erstberatung anfragen
+            </Link>
+          </div>
         </div>
       </div>
     </div>
