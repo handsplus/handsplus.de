@@ -28,10 +28,32 @@ export function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 max-w-xl"
+      className="space-y-4"
       aria-label="Kontaktformular"
       aria-busy={status === "sending"}
     >
+      <div>
+        <label htmlFor="topic" className="block text-sm font-medium text-slate-700 mb-1">
+          Thema / Anliegen
+        </label>
+        <select
+          id="topic"
+          name="topic"
+          required
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 outline-none transition bg-white"
+          defaultValue=""
+        >
+          <option value="" disabled>Bitte wählen</option>
+          <option value="Arbeitssicherheit">Arbeitssicherheit</option>
+          <option value="Brandschutz">Brandschutz</option>
+          <option value="Schulungen">Schulungen</option>
+          <option value="Elektrosicherheit">Elektrosicherheit</option>
+          <option value="SiGeKo">SiGeKo</option>
+          <option value="Managementsysteme (ISO 45001, ISO 14001)">Managementsysteme (ISO 45001, ISO 14001)</option>
+          <option value="Kostenlose Erstberatung">Kostenlose Erstberatung</option>
+          <option value="Sonstiges">Sonstiges</option>
+        </select>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="firstName" className="block text-sm font-medium text-slate-700 mb-1">

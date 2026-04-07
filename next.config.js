@@ -58,6 +58,24 @@ const nextConfig = {
 
     return out;
   },
+  /** arbeitsschutzkoeln.de → kanonische Domain (Vercel + Domain bei Projekt hinterlegen). */
+  async redirects() {
+    const target = "https://www.handsplus.de";
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "arbeitsschutzkoeln.de" }],
+        destination: `${target}/:path*`,
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.arbeitsschutzkoeln.de" }],
+        destination: `${target}/:path*`,
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

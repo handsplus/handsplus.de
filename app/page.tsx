@@ -84,7 +84,7 @@ export default function HomePage() {
               href="/kontakt"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors bg-primary-800 text-white"
             >
-              Kostenlose Erstberatung
+              Angebot anfragen
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -94,6 +94,12 @@ export default function HomePage() {
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white/80 font-medium text-white transition-colors hover:bg-white/10"
             >
               Unsere Leistungen
+            </Link>
+            <Link
+              href="/kontakt"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white/80 font-medium text-white transition-colors hover:bg-white/10"
+            >
+              Kostenlose Erstberatung
             </Link>
           </div>
           <div className="mt-10 pt-10 border-t border-white/30">

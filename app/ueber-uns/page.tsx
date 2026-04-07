@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ContactStrip } from "@/components/ContactStrip";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -117,15 +116,15 @@ export default function UberUnsPage() {
           </div>
         </section>
 
-        <div className="mt-12 pt-10 border-t border-slate-200">
-          <ContactStrip />
-        </div>
-        <div className="mt-10">
+        <div className="mt-16 pt-10 border-t border-slate-200 text-center">
           <Link
             href="/kontakt"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
+            className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
           >
-            Jetzt Kontakt aufnehmen und kostenlose Erstberatung sichern
+            Kontaktieren Sie uns jetzt
+            <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
           </Link>
         </div>
       </div>
