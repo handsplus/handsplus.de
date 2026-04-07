@@ -66,7 +66,7 @@ export default function LeistungenPage() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((s) => (
             <div key={s.href} className="border border-slate-200 rounded-xl bg-white hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200 overflow-hidden">
-              <div className="relative h-44 w-full">
+              <div className="relative h-48 w-full">
                 <Image
                   src={s.image}
                   alt={s.title}
@@ -75,15 +75,14 @@ export default function LeistungenPage() {
                   className="object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
-                <div className="absolute bottom-0 left-0 right-0 p-4 flex items-center gap-3">
-                  <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-white/20 backdrop-blur-sm text-white flex items-center justify-center" aria-hidden>
-                    {serviceIcons[s.title]}
-                  </span>
-                  <h2 className="text-lg font-semibold text-white m-0 drop-shadow-sm">{s.title}</h2>
-                </div>
               </div>
               <div className="p-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-50 text-primary-600 flex items-center justify-center" aria-hidden>
+                    {serviceIcons[s.title]}
+                  </span>
+                  <h2 className="text-lg font-semibold text-slate-900 m-0">{s.title}</h2>
+                </div>
                 <p className="text-slate-600 text-sm leading-relaxed">{s.description}</p>
                 <Link href={s.href} className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900">
                   Mehr erfahren
