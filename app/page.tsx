@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ContactStrip } from "@/components/ContactStrip";
-import { PartnerLogosStrip } from "@/components/PartnerLogosStrip";
 import { pageMetadata } from "@/lib/metadata";
 import { serviceIcons } from "@/lib/serviceIcons";
 
@@ -107,9 +106,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Partner- und Zertifizierungslogos (wie arbeitssicherheit.nrw) */}
-      <PartnerLogosStrip />
 
       {/* Warum professionelle Betreuung unverzichtbar ist – eure Texte */}
       <section className="py-16 sm:py-20 lg:py-24 bg-slate-50">

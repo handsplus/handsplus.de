@@ -30,16 +30,6 @@ export function FooterInner() {
               </li>
               <li>
                 <a
-                  href="https://www.handsplus.de"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/50 hover:text-white/80 transition-colors"
-                >
-                  www.handsplus.de
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://www.arbeitssicherheit.nrw"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -50,22 +40,12 @@ export function FooterInner() {
               </li>
               <li>
                 <a
-                  href="https://www.brandschutzköln.com"
+                  href="https://www.brandschutzkoeln.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
                 >
-                  www.brandschutzköln.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.arbeitssicherheitkoeln.de"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/50 hover:text-white/80 transition-colors"
-                >
-                  www.arbeitssicherheitkoeln.de
+                  www.brandschutzkoeln.com
                 </a>
               </li>
             </ul>
