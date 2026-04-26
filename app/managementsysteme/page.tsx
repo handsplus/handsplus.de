@@ -8,6 +8,7 @@ export const metadata = pageMetadata({
   title: "Managementsysteme für Arbeitssicherheit & Qualitätsmanagement",
   description: "Einführung, Pflege und Optimierung von Managementsystemen: ISO 9001, ISO 45001, AMS VBG, AMS BAU. Audits, Zertifizierung.",
   keywords: ["ISO 9001", "ISO 45001", "AMS VBG", "AMS BAU", "Managementsysteme Arbeitsschutz"],
+  openGraphImage: "/Managementsysteme.jpeg",
 });
 
 function ManagementsystemeJsonLd() {

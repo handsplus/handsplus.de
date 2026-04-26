@@ -7,7 +7,8 @@ export const metadata = pageMetadata({
   path: "/brandschutz",
   title: "Brandschutz Köln – Experten für Beratung & Konzepte für Ihr Unternehmen",
   description: "Beratung und Unterstützung im baulichen, anlagentechnischen und organisatorischen Brandschutz. Brandschutzordnungen, Evakuierungskonzepte, Brandschutzhelfer.",
-  keywords: ["Brandschutz Köln", "Brandschutzbeauftragter", "Brandschutzordnung", "Evakuierungskonzept", "Brandschutzhelfer"],
+  keywords: ["Brandschutz Köln", "Brandschutzbeauftragter", "Brandschutz Sachverständiger", "Brandschutzordnung", "Evakuierungskonzept", "Brandschutzhelfer"],
+  openGraphImage: "/Brandschutz.jpeg",
 });
 
 function BrandschutzJsonLd() {
@@ -29,7 +30,7 @@ function BrandschutzJsonLd() {
       name: "Health and Safety +",
       url: BASE_URL,
     },
-    serviceType: ["Brandschutz", "Brandschutzbeauftragter"],
+    serviceType: ["Brandschutz", "Brandschutzbeauftragter", "Brandschutz Sachverständiger"],
   };
 
   return (

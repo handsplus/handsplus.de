@@ -8,6 +8,7 @@ export const metadata = pageMetadata({
   title: "Elektrosicherheit & Prüfung elektrischer Anlagen",
   description: "Externe verantwortliche Elektrofachkraft (VEFK), Gefährdungsbeurteilungen, Prüfungen gemäß DGUV Vorschrift 3.",
   keywords: ["Elektrosicherheit", "VEFK", "DGUV Vorschrift 3", "Elektroprüfung", "DIN VDE 1000-10"],
+  openGraphImage: "/Elektrosicherheit.jpeg",
 });
 
 function ElektrosicherheitJsonLd() {

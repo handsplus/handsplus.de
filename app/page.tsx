@@ -9,7 +9,7 @@ export const metadata = pageMetadata({
   path: "/",
   title: "Arbeitsschutz & Brandschutz Köln | H&S+",
   description: "Arbeitsschutz, Brandschutz und Managementsysteme in Köln – Fachkraft für Arbeitssicherheit, Brandschutzbeauftragter, SiGeKo. Kostenlose Erstberatung.",
-  keywords: ["Arbeitsschutz Köln", "Brandschutz Köln", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter", "SiGeKo", "Health and Safety Plus"],
+  keywords: ["Arbeitsschutz Köln", "Brandschutz Köln", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter", "Brandschutz Sachverständiger", "SiGeKo", "Health and Safety Plus"],
 });
 
 const services = [
@@ -66,9 +66,33 @@ const partnerItems = [
   },
 ];
 
+function HomeReviewJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "LocalBusiness",
+      "@id": "https://www.handsplus.de#organization",
+      name: "Health and Safety +",
+    },
+    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+    author: { "@type": "Person", name: "Aykut Torbali", jobTitle: "Architekt" },
+    reviewBody:
+      "Wir arbeiten mit Health and Safety+ als Sicherheits- und Gesundheitskoordinator (SiGeKo) zusammen und sind mit der fachkundigen Unterstützung sehr zufrieden. Planung und Umsetzung der Arbeitsschutzmaßnahmen sind vorausschauend und strukturiert, die Kommunikation klar und lösungsorientiert. So entsteht spürbar mehr Sicherheit auf der Baustelle – wir können Health and Safety+ uneingeschränkt empfehlen.",
+    publisher: { "@type": "Organization", name: "Google" },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export default function HomePage() {
   return (
     <>
+      <HomeReviewJsonLd />
       {/* Hero – Corporate-Design: farbiger Oberbereich (data-hero für kritisches CSS) */}
       <section data-hero className="relative pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-24 bg-[#1e4d44] text-white [background:linear-gradient(180deg,#1e4d44_0%,#2d5a4e_50%,#256358_100%)]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

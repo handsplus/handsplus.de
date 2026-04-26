@@ -8,6 +8,7 @@ export const metadata = pageMetadata({
   title: "Arbeitsschutz Köln – Externe Fachkraft für Arbeitssicherheit",
   description: "Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz gemäß ASiG und DGUV Vorschrift 2. Gefährdungsbeurteilungen, technische Prüfungen, Schulungen.",
   keywords: ["Arbeitsschutz Köln", "Fachkraft für Arbeitssicherheit", "DGUV Vorschrift 2", "Gefährdungsbeurteilung", "ASiG"],
+  openGraphImage: "/Arbeitsschutz.jpeg",
 });
 
 function ArbeitsschutzJsonLd() {

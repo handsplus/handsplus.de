@@ -8,6 +8,7 @@ export const metadata = pageMetadata({
   title: "SiGeKo Köln – Baustellenkoordination & Arbeitsschutz",
   description: "Sicherheits- und Gesundheitsschutzkoordination gemäß RAB 30. SiGe-Plan, Sicherheitseinweisungen, Baustellenkontrollen.",
   keywords: ["SiGeKo Köln", "Sicherheits- und Gesundheitsschutzkoordination", "RAB 30", "SiGe-Plan", "Baustellenkoordination"],
+  openGraphImage: "/SiGeko.jpeg",
 });
 
 function SiGeKoJsonLd() {

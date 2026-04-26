@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
 
 export const metadata = pageMetadata({
   path: "/ueber-uns",
   title: "Über uns",
   description: "Health and Safety + – Ihr Partner für Arbeitsschutz, Brandschutz, Elektrosicherheit, Managementsysteme und Schulungen. Qualifikationen und Erfahrung.",
-  keywords: ["Über uns", "Health and Safety Plus", "Arbeitsschutz Köln", "Brandschutz Köln", "Qualifikationen", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter"],
+  keywords: ["Über uns", "Health and Safety Plus", "Arbeitsschutz Köln", "Brandschutz Köln", "Brandschutz Sachverständiger", "Qualifikationen", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter"],
 });
 
 const referenzen: { name: string; logo?: string; url?: string }[] = [
@@ -36,9 +39,61 @@ const qualifikationen = [
   "IQPR Certified Profiler (IMBA)",
 ];
 
+function UeberUnsJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    mainEntity: {
+      "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
+      name: "Health and Safety +",
+      url: BASE_URL,
+      member: {
+        "@type": "Person",
+        name: "Health and Safety + Team",
+        jobTitle: [
+          "Fachkraft für Arbeitssicherheit",
+          "Brandschutzbeauftragter",
+          "Brandschutzmanager (VdS)",
+          "Brandschutz Sachverständiger",
+          "HSE-Manager (DEKRA)",
+          "Arbeitsschutzmanager nach DIN ISO 45001 (TÜV)",
+          "Sicherheits- und Gesundheitsschutzkoordinator (TÜV)",
+          "Sachverständiger und Gutachter für Elektrotechnik und Arbeitsschutz",
+        ],
+        worksFor: { "@type": "Organization", "@id": `${BASE_URL}#organization` },
+        knowsAbout: [
+          "Arbeitsschutz",
+          "Brandschutz",
+          "Brandschutz Sachverständiger",
+          "Elektrosicherheit",
+          "Managementsysteme",
+          "SiGeKo",
+          "Gefährdungsbeurteilung",
+          "ISO 45001",
+          "DGUV Vorschrift 2",
+        ],
+        hasCredential: qualifikationen.map((q) => ({
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "Professional Certification",
+          name: q,
+        })),
+      },
+    },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export default function UberUnsPage() {
   return (
     <div className="py-16 sm:py-20 lg:py-24">
+      <UeberUnsJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Über uns" }]} />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
           Über uns

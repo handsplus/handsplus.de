@@ -16,7 +16,7 @@ export const metadata = pageMetadata({
   path: "/leistungen",
   title: "Leistungen im Arbeitsschutz & Brandschutz – Ihre Experten",
   description: "Arbeitsschutz, SiGeKo, Brandschutz, Elektrosicherheit, Schulungen und Managementsysteme. Qualitativ hochwertige Betreuung, die an Ihre Bedürfnisse angepasst ist.",
-  keywords: ["Leistungen Arbeitsschutz", "Brandschutz Köln", "SiGeKo", "Schulungen Arbeitsschutz", "Fachkraft für Arbeitssicherheit"],
+  keywords: ["Leistungen Arbeitsschutz", "Brandschutz Köln", "Brandschutz Sachverständiger", "SiGeKo", "Schulungen Arbeitsschutz", "Fachkraft für Arbeitssicherheit"],
 });
 
 function LeistungenJsonLd() {

@@ -8,6 +8,7 @@ export const metadata = pageMetadata({
   title: "Arbeitsschutz & Brandschutz Schulungen Köln – Weiterbildung für Sie und Ihr Unternehmen",
   description: "Maßgeschneiderte Schulungs- und Weiterbildungsangebote – online oder vor Ort. Sicherheitsbeauftragte, Brandschutzhelfer, Elektrofachkräfte, Qualitätsmanagement.",
   keywords: ["Schulungen Arbeitsschutz", "Brandschutzhelfer Schulung", "Sicherheitsbeauftragte", "Unterweisung", "Weiterbildung Köln"],
+  openGraphImage: "/Schulungen.jpeg",
 });
 
 function SchulungenJsonLd() {

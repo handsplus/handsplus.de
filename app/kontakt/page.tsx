@@ -1,12 +1,32 @@
 import { ContactForm } from "@/components/ContactForm";
 import { pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
 
 export const metadata = pageMetadata({
   path: "/kontakt",
   title: "Kontakt – Arbeitsschutz & Brandschutz Beratung in Köln",
   description: "Jetzt kostenlose und unverbindliche Erstberatung sichern. Telefon, E-Mail, WhatsApp. Onlineunterweisung möglich.",
-  keywords: ["Kontakt H&S+", "Erstberatung Arbeitsschutz", "Köln Beratung", "Brandschutz Beratung"],
+  keywords: ["Kontakt H&S+", "Erstberatung Arbeitsschutz", "Köln Beratung", "Brandschutz Beratung", "Brandschutz Sachverständiger"],
 });
+
+function KontaktJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Kontakt – Health and Safety +",
+    description: "Kostenlose und unverbindliche Erstberatung zu Arbeitsschutz, Brandschutz, SiGeKo und Managementsystemen in Köln.",
+    url: `${BASE_URL}/kontakt`,
+    mainEntity: { "@type": "Organization", "@id": `${BASE_URL}#organization` },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
 
 const benefits = [
   "Kostenlose und unverbindliche Erstberatung",
@@ -18,6 +38,8 @@ const benefits = [
 export default function KontaktPage() {
   return (
     <div className="min-h-[80vh]">
+      <KontaktJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Kontakt" }]} />
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left: Brand panel */}
         <div className="bg-[#1e4d44] text-white px-6 sm:px-10 lg:px-16 py-16 sm:py-20 lg:py-24 flex flex-col justify-center [background:linear-gradient(160deg,#1e4d44_0%,#256358_50%,#2d6b5a_100%)]">
