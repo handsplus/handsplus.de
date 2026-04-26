@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { pageMetadata } from "@/lib/metadata";
+import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/managementsysteme",
@@ -8,6 +9,32 @@ export const metadata = pageMetadata({
   description: "Einführung, Pflege und Optimierung von Managementsystemen: ISO 9001, ISO 45001, AMS VBG, AMS BAU. Audits, Zertifizierung.",
   keywords: ["ISO 9001", "ISO 45001", "AMS VBG", "AMS BAU", "Managementsysteme Arbeitsschutz"],
 });
+
+function ManagementsystemeJsonLd() {
+  const url = `${BASE_URL}/managementsysteme`;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Managementsysteme – ISO 9001, ISO 45001, AMS in Köln",
+    description:
+      "Einführung, Pflege, Auditierung und Optimierung von Managementsystemen nach ISO 9001, ISO 45001, AMS VBG und AMS BAU.",
+    url,
+    areaServed: { "@type": "AdministrativeArea", name: "Köln und Umgebung" },
+    provider: {
+      "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
+      name: "Health and Safety +",
+      url: BASE_URL,
+    },
+    serviceType: ["Managementsysteme", "ISO 9001", "ISO 45001", "Audits"],
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
 
 const managementItems = [
   "Einführung, Pflege und Optimierung von Managementsystemen",
@@ -29,6 +56,8 @@ const auditItems = [
 export default function ManagementsystemePage() {
   return (
     <div>
+      <ManagementsystemeJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Leistungen", path: "/leistungen" }, { name: "Managementsysteme" }]} />
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/Managementsysteme.jpeg"

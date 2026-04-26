@@ -22,7 +22,7 @@ export function pageMetadata({
 }): Metadata {
   const url = path.startsWith("/") ? `${BASE_URL}${path}` : `${BASE_URL}/${path}`;
   const desc = description.slice(0, META_DESC_MAX).trim();
-  const imageUrl = openGraphImage ? `${BASE_URL}${openGraphImage}` : `${BASE_URL}/logo.svg`;
+  const imageUrl = openGraphImage ? `${BASE_URL}${openGraphImage}` : `${BASE_URL}/logo.png`;
 
   return {
     title,

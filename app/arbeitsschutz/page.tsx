@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/arbeitsschutz",
@@ -108,6 +109,7 @@ export default function ArbeitsschutzPage() {
   return (
     <div>
       <ArbeitsschutzJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Leistungen", path: "/leistungen" }, { name: "Arbeitsschutz" }]} />
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/Arbeitsschutz.jpeg"

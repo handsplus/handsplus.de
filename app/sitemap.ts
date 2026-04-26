@@ -45,9 +45,11 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
 
+  const siteLastUpdated = new Date("2026-04-26");
+
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((path) => ({
     url: `${baseUrl}${path}`,
-    lastModified: new Date(),
+    lastModified: siteLastUpdated,
     changeFrequency: path === "" || path === "/leistungen" ? "weekly" : path.startsWith("/wissen") ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/leistungen" || path === "/kontakt" ? 0.9 : 0.8,
   }));

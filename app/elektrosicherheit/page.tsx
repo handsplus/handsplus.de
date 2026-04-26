@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { pageMetadata } from "@/lib/metadata";
+import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/elektrosicherheit",
@@ -8,6 +9,32 @@ export const metadata = pageMetadata({
   description: "Externe verantwortliche Elektrofachkraft (VEFK), Gefährdungsbeurteilungen, Prüfungen gemäß DGUV Vorschrift 3.",
   keywords: ["Elektrosicherheit", "VEFK", "DGUV Vorschrift 3", "Elektroprüfung", "DIN VDE 1000-10"],
 });
+
+function ElektrosicherheitJsonLd() {
+  const url = `${BASE_URL}/elektrosicherheit`;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Elektrosicherheit – VEFK und Elektroprüfungen in Köln",
+    description:
+      "Externe verantwortliche Elektrofachkraft (VEFK) gemäß DIN VDE 1000-10, Gefährdungsbeurteilungen und Prüfungen elektrischer Betriebsmittel gemäß DGUV Vorschrift 3.",
+    url,
+    areaServed: { "@type": "AdministrativeArea", name: "Köln und Umgebung" },
+    provider: {
+      "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
+      name: "Health and Safety +",
+      url: BASE_URL,
+    },
+    serviceType: ["Elektrosicherheit", "VEFK", "Elektroprüfung"],
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
 
 const listItems = [
   "Auftragsübernahmen als externe verantwortliche Elektrofachkraft (VEFK) gemäß Abschnitt 5.3 der DIN VDE 1000-10 in elektrotechnischen Bereichen des gesamten Unternehmens oder in definierten Teilbereichen bzw. an einzelnen Standorten.",
@@ -25,6 +52,8 @@ const listItems = [
 export default function ElektrosicherheitPage() {
   return (
     <div>
+      <ElektrosicherheitJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Leistungen", path: "/leistungen" }, { name: "Elektrosicherheit" }]} />
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/Elektrosicherheit.jpeg"

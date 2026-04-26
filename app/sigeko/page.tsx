@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/sigeko",
@@ -55,6 +56,7 @@ export default function SiGeKoPage() {
   return (
     <div>
       <SiGeKoJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Leistungen", path: "/leistungen" }, { name: "SiGeKo" }]} />
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/SiGeko.jpeg"

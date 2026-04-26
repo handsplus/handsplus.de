@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
 
 export const metadata = pageMetadata({
   path: "/wissen/glossar",
@@ -22,9 +25,34 @@ const glossarEntries = [
   { abbr: "VEFK", term: "Verantwortliche Elektrofachkraft", definition: "Vom Arbeitgeber bestellte Person, die die Verantwortung für die elektrotechnischen Anlagen und Prüfungen trägt. Qualifikation nach DIN VDE 1000-10. Kann extern bestellt werden." },
 ];
 
+function GlossarJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    name: "Glossar Arbeitssicherheit, Brandschutz & SiGeKo",
+    description: "Wichtige Begriffe aus Arbeitssicherheit, Brandschutz und SiGeKo – kurz erklärt.",
+    url: `${BASE_URL}/wissen/glossar`,
+    hasDefinedTerm: glossarEntries.map((e) => ({
+      "@type": "DefinedTerm",
+      name: e.term,
+      ...(e.abbr ? { alternateName: e.abbr } : {}),
+      description: e.definition,
+      inDefinedTermSet: `${BASE_URL}/wissen/glossar`,
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export default function GlossarPage() {
   return (
     <div className="py-16 sm:py-20 lg:py-24">
+      <GlossarJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Wissen", path: "/wissen" }, { name: "Glossar" }]} />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
           Glossar

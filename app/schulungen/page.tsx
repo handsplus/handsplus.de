@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { pageMetadata } from "@/lib/metadata";
+import { BASE_URL, pageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/schulungen",
@@ -8,6 +9,32 @@ export const metadata = pageMetadata({
   description: "Maßgeschneiderte Schulungs- und Weiterbildungsangebote – online oder vor Ort. Sicherheitsbeauftragte, Brandschutzhelfer, Elektrofachkräfte, Qualitätsmanagement.",
   keywords: ["Schulungen Arbeitsschutz", "Brandschutzhelfer Schulung", "Sicherheitsbeauftragte", "Unterweisung", "Weiterbildung Köln"],
 });
+
+function SchulungenJsonLd() {
+  const url = `${BASE_URL}/schulungen`;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Schulungen und Unterweisungen in Arbeitsschutz und Brandschutz",
+    description:
+      "Maßgeschneiderte Schulungs- und Weiterbildungsangebote zu Arbeitsschutz, Brandschutz, Elektrosicherheit und Qualitätsmanagement – online oder vor Ort in Köln.",
+    url,
+    areaServed: { "@type": "AdministrativeArea", name: "Köln und Umgebung" },
+    provider: {
+      "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
+      name: "Health and Safety +",
+      url: BASE_URL,
+    },
+    serviceType: ["Schulungen Arbeitsschutz", "Brandschutzhelfer-Ausbildung", "Unterweisungen"],
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
 
 const arbeitsschutzTopics = [
   "Sicherheitsbeauftragte",
@@ -36,6 +63,8 @@ const qualitaetsmanagementTopics = [
 export default function SchulungenPage() {
   return (
     <div>
+      <SchulungenJsonLd />
+      <BreadcrumbJsonLd items={[{ name: "Leistungen", path: "/leistungen" }, { name: "Schulungen" }]} />
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/Schulungen.jpeg"

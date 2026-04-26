@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, blogPosts } from "@/content/blog";
+import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -63,16 +64,21 @@ export default async function BlogPostPage({
     dateModified: post.date,
     author: {
       "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
       name: "Health and Safety +",
       url: BASE_URL,
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${BASE_URL}#organization`,
       name: "H&S+ Health and Safety +",
       url: BASE_URL,
+      logo: { "@type": "ImageObject", url: `${BASE_URL}/logo.png` },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
+    inLanguage: "de-DE",
+    isPartOf: { "@type": "WebSite", "@id": BASE_URL, name: "H&S+ Health and Safety +" },
   };
 
   return (
@@ -81,6 +87,7 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <BreadcrumbJsonLd items={[{ name: "Wissen", path: "/wissen" }, { name: "Blog", path: "/wissen/blog" }, { name: post.title }]} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="mb-8" aria-label="Breadcrumb">
           <Link
@@ -92,9 +99,11 @@ export default async function BlogPostPage({
         </nav>
 
         <article itemScope itemType="https://schema.org/Article">
-          <time className="text-sm text-slate-500" dateTime={post.date}>
-            {formatDate(post.date)}
-          </time>
+          <div className="flex items-center gap-2 text-sm text-slate-500">
+            <time dateTime={post.date}>{formatDate(post.date)}</time>
+            <span aria-hidden>·</span>
+            <span>Health and Safety +</span>
+          </div>
           <h1 className="mt-2 text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
             {post.title}
           </h1>
