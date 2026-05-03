@@ -119,7 +119,7 @@ export default function HomePage() {
               Unsere Leistungen
             </Link>
             <Link
-              href="/kontakt"
+              href="/kontakt?thema=Kostenlose+Erstberatung"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white/80 font-medium text-white transition-colors hover:bg-white/10"
             >
               Kostenlose Erstberatung
@@ -187,7 +187,7 @@ export default function HomePage() {
                           href={s.href}
                           className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900"
                         >
-                          Mehr erfahren
+                          Mehr zu {s.title}
                           <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                           </svg>
@@ -207,7 +207,7 @@ export default function HomePage() {
                         href={s.href}
                         className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900"
                       >
-                        Mehr erfahren
+                        Mehr zu {s.title}
                         <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
