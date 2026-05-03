@@ -7,7 +7,7 @@ export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 export async function generateMetadata({
   params,

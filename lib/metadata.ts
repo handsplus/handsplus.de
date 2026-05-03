@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 /** Max length for meta description (SEO best practice). */
 const META_DESC_MAX = 160;

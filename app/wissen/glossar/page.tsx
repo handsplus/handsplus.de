@@ -2,7 +2,7 @@ import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 export const metadata = pageMetadata({
   path: "/wissen/glossar",

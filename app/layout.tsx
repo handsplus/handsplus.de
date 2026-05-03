@@ -3,7 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 const defaultTitle = "Arbeitsschutz & Brandschutz Köln | H&S+";
 const defaultDescription =
   "Arbeitsschutz, Brandschutz und Managementsysteme in Köln – Fachkraft für Arbeitssicherheit, Brandschutzbeauftragter, SiGeKo. Kostenlose Erstberatung.";

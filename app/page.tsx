@@ -72,7 +72,7 @@ function HomeReviewJsonLd() {
     "@type": "Review",
     itemReviewed: {
       "@type": "LocalBusiness",
-      "@id": "https://www.handsplus.de#organization",
+      "@id": "https://handsplus.de#organization",
       name: "Health and Safety +",
     },
     reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },

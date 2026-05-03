@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { headers } from "next/headers";
 import { blogPosts } from "@/content/blog";
 
-const DEFAULT_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const DEFAULT_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 /** Host der zweiten Domain (Punycode) für eigene Sitemap in der GSC. */
 const BRANDSCHUTZ_KOELN_HOST = "xn--brandschutzkln-6pb.com";

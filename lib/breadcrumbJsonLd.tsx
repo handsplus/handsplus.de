@@ -1,4 +1,4 @@
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.handsplus.de";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 type Crumb = { name: string; path?: string };
 
