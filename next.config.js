@@ -64,12 +64,6 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
-        has: [{ type: "host", value: "handsplus.de" }],
-        destination: `${target}/:path*`,
-        permanent: true,
-      },
-      {
-        source: "/:path*",
         has: [{ type: "host", value: "arbeitsschutzkoeln.de" }],
         destination: `${target}/:path*`,
         permanent: true,
