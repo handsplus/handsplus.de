@@ -223,6 +223,77 @@ export const blogPosts: BlogPost[] = [
       "Als qualifizierter SiGeKo in Köln und NRW begleiten wir Ihr Bauvorhaben von der Planung bis zur Fertigstellung. Wir erstellen den SiGe-Plan, führen regelmäßige Begehungen durch und dokumentieren alle Maßnahmen – damit Sie als Bauherr Ihre gesetzlichen Pflichten zuverlässig erfüllen. Vereinbaren Sie eine kostenlose Erstberatung.",
     ],
   },
+  {
+    slug: "externe-fachkraft-arbeitssicherheit-koeln",
+    title: "Externe Fachkraft für Arbeitssicherheit in Köln – Vorteile, Ablauf und Kosten",
+    excerpt:
+      "Externe Fachkraft für Arbeitssicherheit in Köln: Warum sich die externe Betreuung lohnt, wie der Ablauf aussieht und welche Vorteile Unternehmen dadurch haben.",
+    date: "2026-05-04",
+    content: [
+      "Jeder Arbeitgeber in Deutschland ist nach dem Arbeitssicherheitsgesetz (ASiG) und der DGUV Vorschrift 2 verpflichtet, eine Fachkraft für Arbeitssicherheit zu bestellen. Dabei haben Unternehmen die Wahl: Eine interne Fachkraft ausbilden oder einen externen Dienstleister beauftragen. Gerade für kleine und mittelständische Unternehmen in Köln und NRW ist die externe Lösung oft die wirtschaftlichere und flexiblere Variante.",
+      "Eine externe Fachkraft für Arbeitssicherheit bringt branchenübergreifende Erfahrung mit. Sie kennt die aktuellen Vorschriften, hat Einblick in verschiedene Betriebsarten und erkennt Gefährdungen, die betriebsblinden internen Mitarbeitern möglicherweise entgehen. Gleichzeitig arbeitet sie unabhängig und kann Missstände neutral benennen – ein wichtiger Faktor für eine ehrliche Arbeitsschutzkultur.",
+      "Der Ablauf einer externen Betreuung beginnt typischerweise mit einer Bestandsaufnahme: Welche Gefährdungen bestehen, welche Dokumentation liegt vor, wo gibt es Handlungsbedarf? Darauf aufbauend erstellt die Fachkraft Gefährdungsbeurteilungen, führt Begehungen durch, berät zu Schutzmaßnahmen und unterstützt bei Unterweisungen. Die Betreuung erfolgt in regelmäßigen Intervallen – je nach Betriebsgröße und Gefährdungslage.",
+      "Die Kosten für eine externe Fachkraft für Arbeitssicherheit hängen von der Betreuungsform ab. Die DGUV Vorschrift 2 unterscheidet zwischen Grundbetreuung (abhängig von der Betriebsart und Mitarbeiterzahl) und betriebsspezifischer Betreuung (abhängig von individuellen Gefährdungen). Für viele kleine Betriebe liegen die Kosten deutlich unter denen einer internen Vollzeitstelle – bei gleichzeitig höherer fachlicher Qualität.",
+      "In Köln und NRW bieten wir als externe Fachkraft für Arbeitssicherheit die komplette sicherheitstechnische Betreuung nach DGUV Vorschrift 2. Von der Gefährdungsbeurteilung über Betriebsbegehungen bis zu Schulungen und der Teilnahme am Arbeitsschutzausschuss (ASA) – alles aus einer Hand. Vereinbaren Sie eine kostenlose Erstberatung, um den Betreuungsumfang für Ihr Unternehmen zu klären.",
+    ],
+  },
+  {
+    slug: "arbeitsschutzberatung-unternehmen",
+    title: "Arbeitsschutzberatung für Unternehmen – Leistungen, Ablauf und Nutzen",
+    excerpt:
+      "Professionelle Arbeitsschutzberatung: Was umfasst sie, wie läuft sie ab und welchen konkreten Nutzen haben Unternehmen? Praxisnah erklärt für Arbeitgeber in Köln und NRW.",
+    date: "2026-05-04",
+    content: [
+      "Arbeitsschutzberatung unterstützt Unternehmen dabei, gesetzliche Anforderungen zu erfüllen, Arbeitsunfälle zu vermeiden und eine sichere Arbeitsumgebung zu schaffen. Professionelle Berater analysieren betriebliche Abläufe, identifizieren Gefährdungen und entwickeln praxistaugliche Lösungen – von der Gefährdungsbeurteilung bis zur Schulung der Mitarbeiter.",
+      "Eine umfassende Arbeitsschutzberatung umfasst typischerweise folgende Leistungen: Erstellung und Aktualisierung von Gefährdungsbeurteilungen für alle Arbeitsplätze und Tätigkeiten, regelmäßige Betriebsbegehungen mit Dokumentation und Maßnahmenempfehlungen, Beratung zu organisatorischen und technischen Schutzmaßnahmen, Unterstützung bei der Auswahl persönlicher Schutzausrüstung (PSA), Vorbereitung und Durchführung von Unterweisungen sowie Begleitung bei Kontrollen durch Aufsichtsbehörden und Berufsgenossenschaften.",
+      "Der Ablauf einer Arbeitsschutzberatung beginnt mit einem Erstgespräch, in dem der aktuelle Stand des betrieblichen Arbeitsschutzes erfasst wird. Darauf folgt eine systematische Analyse der Arbeitsbedingungen, Prozesse und vorhandenen Dokumentation. Auf Basis der Analyse werden konkrete Maßnahmen empfohlen, priorisiert und gemeinsam mit dem Unternehmen umgesetzt. Eine regelmäßige Überprüfung stellt sicher, dass der Arbeitsschutz aktuell bleibt.",
+      "Der Nutzen geht weit über die Erfüllung gesetzlicher Pflichten hinaus. Unternehmen mit gutem Arbeitsschutz verzeichnen nachweislich weniger Arbeitsunfälle und Fehlzeiten, niedrigere Versicherungsbeiträge, höhere Mitarbeiterzufriedenheit und eine positive Unternehmenskultur. Zudem schützt eine professionelle Arbeitsschutzberatung vor Bußgeldern und Haftungsrisiken bei Verstößen.",
+      "Als erfahrener Arbeitsschutzberater in Köln und NRW bieten wir maßgeschneiderte Beratung für Unternehmen jeder Größe und Branche. Ob Gewerbe, Industrie, Büro, Hotel oder Baustelle – wir kennen die spezifischen Anforderungen und setzen sie verständlich und praxisnah um. Die kostenlose Erstberatung gibt Ihnen einen Überblick über den Handlungsbedarf in Ihrem Betrieb.",
+    ],
+  },
+  {
+    slug: "sicherheitsbeauftragte-schulung-koeln",
+    title: "Sicherheitsbeauftragte Schulung in Köln – Pflicht, Inhalte und Ablauf",
+    excerpt:
+      "Schulung für Sicherheitsbeauftragte in Köln: Wann ist die Schulung Pflicht, was sind die Inhalte und wie läuft die Ausbildung ab? Alle wichtigen Informationen.",
+    date: "2026-05-04",
+    content: [
+      "Sicherheitsbeauftragte sind Beschäftigte, die den Arbeitgeber bei der Verbesserung des Arbeitsschutzes unterstützen. Nach § 22 SGB VII sind Unternehmen mit regelmäßig mehr als 20 Beschäftigten verpflichtet, Sicherheitsbeauftragte zu bestellen. Die genaue Anzahl richtet sich nach der DGUV Vorschrift 1 und hängt von Betriebsgröße, Unfallgefährdung und räumlicher Struktur ab.",
+      "Sicherheitsbeauftragte müssen für ihre Aufgabe geschult werden. Die Schulung vermittelt grundlegende Kenntnisse im Arbeitsschutz, damit sie Gefährdungen erkennen, Kollegen sensibilisieren und den Zustand von Schutzeinrichtungen im Blick behalten können. Die Ausbildung umfasst in der Regel Grundlagen des Arbeitsschutzrechts (ArbSchG, DGUV Vorschriften), die Rolle und Aufgaben des Sicherheitsbeauftragten, das Erkennen von Gefährdungen und unsicheren Verhaltensweisen, Grundlagen des Brandschutzes und der Ersten Hilfe sowie die Zusammenarbeit mit Fachkraft für Arbeitssicherheit und Betriebsarzt.",
+      "Die Schulung dauert je nach Anbieter und Umfang ein bis zwei Tage. Neben der Grundschulung sind regelmäßige Fortbildungen empfehlenswert, um aktuelle Entwicklungen im Arbeitsschutz kennenzulernen. Die DGUV empfiehlt eine Auffrischung alle drei bis fünf Jahre.",
+      "Sicherheitsbeauftragte haben keine Weisungsbefugnis – sie arbeiten auf Augenhöhe mit ihren Kollegen. Gerade deshalb sind sie besonders wirksam: Sie erkennen Gefahren im Arbeitsalltag oft früher als externe Prüfer und können niedrigschwellig auf unsichere Situationen hinweisen. Eine gute Schulung befähigt sie, diese Rolle kompetent und selbstbewusst auszufüllen.",
+      "In Köln und NRW bieten wir Schulungen für Sicherheitsbeauftragte an – praxisnah, verständlich und auf Ihren Betrieb zugeschnitten. Ob vor Ort in Ihrem Unternehmen oder als Online-Schulung – wir passen Format und Inhalte an Ihre Bedürfnisse an. Sprechen Sie uns an für ein individuelles Angebot.",
+    ],
+  },
+  {
+    slug: "arbeitsschutz-dienstleister-nrw",
+    title: "Arbeitsschutz Dienstleister in NRW finden – worauf Unternehmen achten sollten",
+    excerpt:
+      "Arbeitsschutz Dienstleister in NRW: Wie Sie den richtigen Partner finden, welche Leistungen ein guter Dienstleister bietet und worauf Sie bei der Auswahl achten sollten.",
+    date: "2026-05-04",
+    content: [
+      "Die Suche nach einem zuverlässigen Arbeitsschutz Dienstleister stellt viele Unternehmen in Nordrhein-Westfalen vor eine Herausforderung. Der Markt ist groß, die Angebote unterschiedlich und die gesetzlichen Anforderungen komplex. Worauf sollten Arbeitgeber bei der Auswahl achten?",
+      "Ein seriöser Arbeitsschutz Dienstleister verfügt über qualifizierte Fachkräfte für Arbeitssicherheit mit entsprechender Ausbildung und Berufserfahrung. Die Qualifikation sollte den Anforderungen der DGUV Vorschrift 2 entsprechen – idealerweise mit branchenspezifischer Erfahrung in Ihrem Tätigkeitsbereich. Zertifizierungen und Mitgliedschaften in Fachverbänden sind weitere Qualitätsmerkmale.",
+      "Achten Sie auf das Leistungsspektrum: Ein guter Dienstleister bietet nicht nur die Grundbetreuung nach DGUV Vorschrift 2, sondern auch Gefährdungsbeurteilungen, Betriebsbegehungen, Unterweisungen, Brandschutz, Schulungen und Unterstützung bei Behördenkontakten. Je breiter das Angebot, desto weniger Schnittstellen und Koordinationsaufwand haben Sie als Unternehmen.",
+      "Regionale Nähe ist ein wichtiger Faktor. Ein Dienstleister in NRW kennt die örtlichen Aufsichtsbehörden, die regionalen Besonderheiten und kann schnell vor Ort sein – sei es für regelmäßige Begehungen oder bei akutem Handlungsbedarf. Lange Anfahrtswege kosten Zeit und Geld und können die Betreuungsqualität beeinträchtigen.",
+      "Transparenz bei den Kosten ist entscheidend. Seriöse Anbieter erstellen ein individuelles Angebot nach Klärung des Betreuungsumfangs – keine Pauschalangebote ohne vorherige Analyse. Fragen Sie nach einer kostenlosen Erstberatung, um den Bedarf zu ermitteln und den Dienstleister kennenzulernen.",
+      "Als zugelassener Arbeitsschutz Dienstleister in Köln und NRW betreuen wir Unternehmen aus Gewerbe, Industrie, Bauwesen, Hotellerie und Dienstleistung. Unsere Leistungen umfassen Arbeitsschutz, Brandschutz, Elektrosicherheit, SiGeKo und Managementsysteme – alles aus einer Hand. Vereinbaren Sie eine kostenlose Erstberatung.",
+    ],
+  },
+  {
+    slug: "unterweisung-arbeitssicherheit-pflicht",
+    title: "Unterweisung Arbeitssicherheit – gesetzliche Pflicht für jeden Arbeitgeber",
+    excerpt:
+      "Unterweisung in der Arbeitssicherheit: Warum sie Pflicht ist, welche Themen abgedeckt werden müssen und wie Unternehmen Unterweisungen effizient organisieren.",
+    date: "2026-05-04",
+    content: [
+      "Die Unterweisung in der Arbeitssicherheit ist keine optionale Maßnahme, sondern eine gesetzliche Pflicht nach § 12 Arbeitsschutzgesetz (ArbSchG). Jeder Arbeitgeber muss seine Beschäftigten über die Gefahren an ihrem Arbeitsplatz und die erforderlichen Schutzmaßnahmen informieren – ausreichend, angemessen und verständlich.",
+      "Unterweisungen müssen bei bestimmten Anlässen durchgeführt werden: vor Aufnahme einer neuen Tätigkeit (Erstunterweisung), mindestens einmal jährlich als Wiederholungsunterweisung, bei Einführung neuer Arbeitsmittel, Stoffe oder Verfahren, nach Unfällen oder Beinahe-Unfällen sowie bei Änderungen der Gefährdungslage. Für Jugendliche unter 18 Jahren schreibt das Jugendarbeitsschutzgesetz eine halbjährliche Unterweisung vor.",
+      "Typische Themen einer Unterweisung in der Arbeitssicherheit sind: allgemeine Sicherheitsregeln im Betrieb, arbeitsplatzspezifische Gefährdungen und Schutzmaßnahmen, richtiger Umgang mit Arbeitsmitteln und Gefahrstoffen, Verhalten bei Notfällen (Brand, Evakuierung, Erste Hilfe), Nutzung persönlicher Schutzausrüstung (PSA) und ergonomisches Arbeiten. Die konkreten Inhalte ergeben sich aus der Gefährdungsbeurteilung.",
+      "Effiziente Organisation ist der Schlüssel zu wirksamen Unterweisungen. Statt monotoner Frontalvorträge empfehlen sich praxisnahe Formate: Kurzunterweisungen am Arbeitsplatz, Demonstrationen, praktische Übungen und Fallbeispiele aus dem eigenen Betrieb. Unterweisungen können auch digital unterstützt werden – allerdings ersetzt ein reines Online-Modul nicht den persönlichen Dialog und die Möglichkeit für Rückfragen.",
+      "Die Dokumentation der Unterweisung ist Pflicht. Notieren Sie Datum, Thema, Inhalt, Namen der Teilnehmer und des Unterweisenden. Im Falle einer Überprüfung durch Aufsichtsbehörden oder nach einem Unfall ist diese Dokumentation entscheidend. Wir unterstützen Unternehmen in Köln und NRW bei der Planung, Durchführung und Dokumentation von Unterweisungen – vor Ort oder online.",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
