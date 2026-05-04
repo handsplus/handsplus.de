@@ -45,7 +45,7 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
 
-  const siteLastUpdated = new Date("2026-04-26");
+  const siteLastUpdated = new Date("2026-05-04");
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((path) => ({
     url: `${baseUrl}${path}`,

@@ -151,6 +151,78 @@ export const blogPosts: BlogPost[] = [
       "Wir übernehmen die SiGeKo für Ihr Bauvorhaben in Köln und NRW und erstellen Ihnen ein transparentes Angebot nach Klärung von Umfang und Anforderungen. Auf unserer Wissen-Seite finden Sie zudem einen Rechner zur groben Honorar-Orientierung. Für ein unverbindliches Angebot und eine kostenlose Erstberatung sprechen Sie uns gerne an.",
     ],
   },
+  {
+    slug: "brandschutz-sachverstaendiger-koeln",
+    title: "Brandschutz Sachverständiger in Köln – Aufgaben, Qualifikation und Einsatzgebiete",
+    excerpt:
+      "Was macht ein Brandschutz Sachverständiger? Aufgaben, erforderliche Qualifikationen und wann Unternehmen, Bauherren oder Hausverwaltungen einen Sachverständigen für Brandschutz in Köln beauftragen sollten.",
+    date: "2026-05-04",
+    content: [
+      "Ein Brandschutz Sachverständiger ist eine hochqualifizierte Fachperson, die Gebäude, Anlagen und betriebliche Abläufe hinsichtlich des vorbeugenden und abwehrenden Brandschutzes bewertet. Sachverständige erstellen Brandschutzkonzepte, prüfen die Einhaltung baurechtlicher Vorgaben und beraten Bauherren, Architekten, Hausverwaltungen und Unternehmen bei komplexen Brandschutzfragen.",
+      "Zu den typischen Aufgaben gehören die Erstellung und Prüfung von Brandschutzkonzepten nach Landesbauordnung (BauO NRW), die Bewertung von Flucht- und Rettungswegen, die Begutachtung von Brandschutzmaßnahmen im Bestand sowie die fachliche Begleitung von Baugenehmigungsverfahren. Darüber hinaus erstellen Sachverständige Brandschutzgutachten, etwa bei Abweichungen von den bauordnungsrechtlichen Anforderungen oder bei Sonderbauten wie Hotels, Versammlungsstätten oder Industriebauten.",
+      "Die Qualifikation eines Brandschutz Sachverständigen geht deutlich über die eines Brandschutzbeauftragten hinaus. In der Regel verfügen Sachverständige über ein ingenieurwissenschaftliches Studium, eine Weiterbildung im vorbeugenden Brandschutz sowie mehrjährige Berufserfahrung. Anerkennungen erfolgen über Institutionen wie Architektenkammern, Ingenieurkammern oder durch öffentliche Bestellung und Vereidigung.",
+      "In Köln und NRW ist die Nachfrage nach Brandschutz Sachverständigen besonders hoch – sowohl bei Neubauten als auch bei Bestandsgebäuden, die an aktuelle Brandschutzanforderungen angepasst werden müssen. Typische Anlässe sind Nutzungsänderungen (z. B. Büro zu Wohnraum), Erweiterungen, Sanierungen oder behördliche Auflagen nach Begehungen.",
+      "Health and Safety + bietet als Brandschutz Sachverständiger in Köln und Umgebung umfassende Leistungen: von der Erstellung von Brandschutzkonzepten über die Prüfung bestehender Brandschutzmaßnahmen bis hin zur fachlichen Begleitung im Baugenehmigungsverfahren. Kombiniert mit unserer Expertise als Brandschutzbeauftragte und Fachkraft für Arbeitssicherheit erhalten Sie alle Leistungen aus einer Hand.",
+    ],
+  },
+  {
+    slug: "strafen-arbeitsschutz",
+    title: "Welche Strafen gibt es im Arbeitsschutz? Bußgelder, Haftung und Konsequenzen",
+    excerpt:
+      "Strafen im Arbeitsschutz: Welche Bußgelder drohen bei Verstößen, wer haftet und welche Konsequenzen können bis hin zur Strafanzeige führen? Überblick für Arbeitgeber.",
+    date: "2026-05-04",
+    content: [
+      "Verstöße gegen den Arbeitsschutz können erhebliche Konsequenzen nach sich ziehen – von Bußgeldern über Haftungsansprüche bis hin zu strafrechtlichen Folgen. Arbeitgeber sollten die wichtigsten Regelungen kennen, um Risiken zu vermeiden und ihrer Verantwortung gerecht zu werden.",
+      "Das Arbeitsschutzgesetz (ArbSchG) sieht in § 25 und § 26 Bußgeld- und Strafvorschriften vor. Ordnungswidrigkeiten – etwa die fehlende Gefährdungsbeurteilung, unterlassene Unterweisungen oder Nichteinhaltung von Auflagen der Aufsichtsbehörde – können mit Bußgeldern bis zu 25.000 Euro je Einzelverstoß geahndet werden. Bei wiederholten oder vorsätzlichen Verstößen können die Beträge deutlich höher ausfallen.",
+      "Kommt es infolge mangelhaften Arbeitsschutzes zu Unfällen mit Personenschaden, drohen darüber hinaus strafrechtliche Konsequenzen. Fahrlässige Körperverletzung (§ 229 StGB) kann mit Geldstrafe oder Freiheitsstrafe bis zu drei Jahren bestraft werden. Bei Todesfolge kommt fahrlässige Tötung (§ 222 StGB) in Betracht – mit Freiheitsstrafe bis zu fünf Jahren. Die strafrechtliche Verantwortung trifft in der Regel die Person, die organisatorisch für den Arbeitsschutz zuständig war.",
+      "Neben dem Strafrecht spielen auch zivilrechtliche Haftung und Regress der Berufsgenossenschaft eine Rolle. Hat der Arbeitgeber den Arbeitsunfall durch grobe Fahrlässigkeit oder Vorsatz verursacht, kann die Berufsgenossenschaft Regressansprüche geltend machen. Beschäftigte können unter bestimmten Voraussetzungen Schmerzensgeld und Schadensersatz fordern.",
+      "Die Gewerbeaufsichtsämter und Berufsgenossenschaften führen regelmäßig Betriebsbegehungen durch. Bei festgestellten Mängeln werden Auflagen erteilt, deren Nichtbefolgung zu weiteren Sanktionen führt. In schweren Fällen kann eine Betriebsstilllegung angeordnet werden.",
+      "Eine systematische Arbeitsschutzorganisation mit aktuellen Gefährdungsbeurteilungen, regelmäßigen Unterweisungen und dokumentierten Maßnahmen ist der beste Schutz vor Sanktionen. Als Fachkraft für Arbeitssicherheit in Köln unterstützen wir Unternehmen dabei, alle gesetzlichen Anforderungen zu erfüllen und Haftungsrisiken zu minimieren.",
+    ],
+  },
+  {
+    slug: "pflichtuebertragung-arbeitsschutz",
+    title: "Pflichtenübertragung im Arbeitsschutz – rechtssicher delegieren",
+    excerpt:
+      "Pflichtenübertragung im Arbeitsschutz: Wie Arbeitgeber Arbeitsschutzpflichten rechtssicher an Führungskräfte delegieren – Voraussetzungen, Form und typische Fehler.",
+    date: "2026-05-04",
+    content: [
+      "Der Arbeitgeber trägt nach dem Arbeitsschutzgesetz (ArbSchG) die Gesamtverantwortung für Sicherheit und Gesundheit der Beschäftigten. In der Praxis kann er jedoch nicht alle Pflichten persönlich wahrnehmen – insbesondere in größeren Betrieben mit mehreren Standorten oder Abteilungen. Daher sieht § 13 ArbSchG die Möglichkeit der Pflichtenübertragung vor.",
+      "Durch eine schriftliche Pflichtenübertragung kann der Arbeitgeber einzelne Arbeitsschutzpflichten an zuverlässige und fachkundige Personen delegieren – typischerweise Führungskräfte, Abteilungsleiter oder Meister. Die Übertragung muss schriftlich erfolgen, die konkreten Pflichten klar benennen und sicherstellen, dass der Empfänger über die nötigen Befugnisse, Mittel und Qualifikationen verfügt.",
+      "Wichtig: Die Gesamtverantwortung des Arbeitgebers bleibt bestehen. Er muss die Einhaltung der übertragenen Pflichten überwachen (Aufsichtspflicht) und bei Bedarf eingreifen. Eine Pflichtenübertragung ohne anschließende Kontrolle entlastet den Arbeitgeber im Schadensfall nicht.",
+      "Typische Fehler bei der Pflichtenübertragung sind: rein mündliche Delegation ohne schriftliche Dokumentation, zu allgemeine Formulierungen ohne konkrete Aufgabenbeschreibung, Übertragung an Personen ohne ausreichende Qualifikation oder Weisungsbefugnis sowie fehlende Nachkontrolle. All dies kann dazu führen, dass die Übertragung rechtlich unwirksam ist und der Arbeitgeber im Haftungsfall vollständig verantwortlich bleibt.",
+      "Für eine rechtssichere Pflichtenübertragung empfiehlt sich ein strukturiertes Vorgehen: Zunächst die relevanten Arbeitsschutzpflichten identifizieren, dann geeignete Empfänger auswählen, die Übertragung schriftlich dokumentieren und regelmäßig überprüfen, ob die Pflichten tatsächlich wahrgenommen werden. Als Fachkraft für Arbeitssicherheit unterstützen wir Unternehmen in Köln und NRW bei der Erstellung rechtssicherer Übertragungsdokumente und der Schulung von Führungskräften.",
+    ],
+  },
+  {
+    slug: "brandschutzbeauftragter-aufgaben-pflichten",
+    title: "Brandschutzbeauftragter – Aufgaben, Pflichten und Bestellung",
+    excerpt:
+      "Brandschutzbeauftragter im Unternehmen: Welche Aufgaben hat er, wann ist die Bestellung Pflicht und welche Qualifikation braucht er? Alles Wichtige für Arbeitgeber.",
+    date: "2026-05-04",
+    content: [
+      "Der Brandschutzbeauftragte ist eine vom Arbeitgeber bestellte Person, die den betrieblichen Brandschutz organisiert, überwacht und weiterentwickelt. Anders als Brandschutzhelfer, die im Ernstfall erste Löschmaßnahmen einleiten, ist der Brandschutzbeauftragte strategisch und beratend tätig – er ist die zentrale Ansprechperson für alle Brandschutzfragen im Unternehmen.",
+      "Die Aufgaben des Brandschutzbeauftragten umfassen unter anderem: Erstellung und Aktualisierung der Brandschutzordnung (Teile A, B und C nach DIN 14096), Durchführung von Brandschutzbegehungen, Organisation von Evakuierungsübungen, Überwachung der Brandschutzeinrichtungen (Feuerlöscher, Brandmeldeanlagen, Rauch- und Wärmeabzugsanlagen), Zusammenarbeit mit Behörden und Feuerwehr sowie die Schulung von Brandschutzhelfern und Beschäftigten.",
+      "Eine gesetzliche Pflicht zur Bestellung eines Brandschutzbeauftragten besteht für bestimmte Gebäudearten und Nutzungen – etwa für Sonderbauten nach Landesbauordnung (z. B. Versammlungsstätten, Krankenhäuser, Hotels, Hochhäuser), für Industriebauten nach IndBauRL oder wenn die Baugenehmigung dies als Auflage vorsieht. Darüber hinaus fordern viele Feuerversicherer und Berufsgenossenschaften die Bestellung eines Brandschutzbeauftragten als Voraussetzung für den Versicherungsschutz.",
+      "Die Qualifikation des Brandschutzbeauftragten ist in der DGUV Information 205-003 (ehemals BGI 847) und der vfdb-Richtlinie 12-09/01 geregelt. Die Ausbildung umfasst typischerweise 64 Unterrichtseinheiten und deckt baulichen, anlagentechnischen und organisatorischen Brandschutz ab. Regelmäßige Fortbildungen sind erforderlich, um den aktuellen Stand der Technik und der Vorschriften zu kennen.",
+      "Als externer Brandschutzbeauftragter in Köln und NRW übernehmen wir alle genannten Aufgaben für Ihr Unternehmen. Von der Erstellung der Brandschutzordnung über regelmäßige Begehungen bis zur Schulung Ihrer Mitarbeiter – Sie erhalten professionellen Brandschutz ohne eigene Personalkapazitäten aufbauen zu müssen.",
+    ],
+  },
+  {
+    slug: "sigeko-pflicht-wann-braucht-man-sigeko",
+    title: "SiGeKo-Pflicht – Wann braucht man einen SiGeKo auf der Baustelle?",
+    excerpt:
+      "Wann ist ein SiGeKo Pflicht? Voraussetzungen nach BaustellV und RAB 30, Aufgaben des Sicherheits- und Gesundheitsschutzkoordinators und Verantwortung des Bauherrn.",
+    date: "2026-05-04",
+    content: [
+      "Die Baustellenverordnung (BaustellV) verpflichtet Bauherren, einen Sicherheits- und Gesundheitsschutzkoordinator (SiGeKo) zu bestellen, wenn auf einer Baustelle Beschäftigte mehrerer Arbeitgeber gleichzeitig oder nacheinander tätig werden. Diese Regelung gilt unabhängig von der Größe des Bauvorhabens – auch bei kleineren Projekten wie Einfamilienhäusern kann die SiGeKo-Pflicht greifen.",
+      "Konkret ist ein SiGeKo erforderlich, wenn mindestens zwei Unternehmen gleichzeitig auf der Baustelle arbeiten oder wenn besonders gefährliche Arbeiten ausgeführt werden (Anhang II der BaustellV). Dazu zählen unter anderem Arbeiten mit Absturzgefahr, Arbeiten in Gräben und Schächten, Abbrucharbeiten, Arbeiten mit Gefahrstoffen oder Arbeiten in der Nähe von Hochspannungsleitungen.",
+      "Der SiGeKo unterstützt den Bauherrn bereits in der Planungsphase, indem er sicherheitsrelevante Aspekte in die Planung einbringt. Während der Ausführung koordiniert er die Sicherheitsmaßnahmen der verschiedenen Gewerke, erstellt und pflegt den Sicherheits- und Gesundheitsschutzplan (SiGe-Plan) und führt regelmäßige Baustellenbegehungen durch. Ziel ist es, Gefährdungen durch das Zusammenwirken verschiedener Unternehmen zu minimieren.",
+      "Die Verantwortung für die Bestellung liegt immer beim Bauherrn. Er kann die SiGeKo-Aufgabe an einen geeigneten Dritten übertragen – der Bauherr bleibt jedoch in der Pflicht sicherzustellen, dass der SiGeKo seine Aufgaben auch tatsächlich wahrnimmt. Wer keinen SiGeKo bestellt, obwohl die Voraussetzungen vorliegen, begeht eine Ordnungswidrigkeit.",
+      "Die Qualifikation des SiGeKo wird durch die Regeln zum Arbeitsschutz auf Baustellen (RAB 30) definiert. Danach muss der SiGeKo über baufachliche Kenntnisse, arbeitsschutzfachliche Kenntnisse sowie spezielle Koordinatorenkenntnisse verfügen. In der Praxis sind dies häufig Ingenieure oder Architekten mit einer Zusatzqualifikation als SiGeKo.",
+      "Als qualifizierter SiGeKo in Köln und NRW begleiten wir Ihr Bauvorhaben von der Planung bis zur Fertigstellung. Wir erstellen den SiGe-Plan, führen regelmäßige Begehungen durch und dokumentieren alle Maßnahmen – damit Sie als Bauherr Ihre gesetzlichen Pflichten zuverlässig erfüllen. Vereinbaren Sie eine kostenlose Erstberatung.",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
