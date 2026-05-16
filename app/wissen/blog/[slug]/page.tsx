@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, blogPosts } from "@/content/blog";
+import { getPillarSlugForBlog } from "@/content/blogClusters";
+import { PillarGuideBanner } from "@/components/PillarGuideBanner";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export async function generateStaticParams() {
@@ -54,6 +56,7 @@ export default async function BlogPostPage({
   const post = getPostBySlug(params.slug);
   if (!post || !post.content) notFound();
 
+  const pillarSlug = getPillarSlugForBlog(post.slug);
   const url = `${BASE_URL}/wissen/blog/${post.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
@@ -107,6 +110,7 @@ export default async function BlogPostPage({
           <h1 className="mt-2 text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
             {post.title}
           </h1>
+          {pillarSlug && <PillarGuideBanner pillarSlug={pillarSlug} />}
           <div className="mt-8 space-y-6 text-slate-600 leading-relaxed">
             {post.content.map((paragraph, i) => (
               <p key={i}>{paragraph}</p>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 import { faqItems } from "@/content/faq";
 import { blogPosts } from "@/content/blog";
+import { ratgeberPosts } from "@/content/ratgeber";
 
 /** Beliebte FAQ – für Schnellzugriff und SEO */
 const featuredFaqIds = [
@@ -36,6 +37,16 @@ export const metadata = pageMetadata({
 });
 
 const resources = [
+  {
+    title: "Ratgeber",
+    description: "Umfassende Leitfäden zu Arbeitsschutz, Brandschutz, SiGeKo, Gefährdungsbeurteilung und BauO NRW.",
+    href: "/wissen/ratgeber",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    ),
+  },
   {
     title: "Checklisten & Selbstbewertung",
     description: "Gefährdungsbeurteilung, Brandschutz und SiGeKo im Check.",
@@ -136,6 +147,38 @@ export default function WissenPage() {
             </Link>
           ))}
         </div>
+
+        {/* Ratgeber-Pillars */}
+        <section className="mt-16 sm:mt-20" aria-labelledby="ratgeber-heading">
+          <h2 id="ratgeber-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+            Ratgeber – Themen im Überblick
+          </h2>
+          <p className="mt-2 text-slate-600">
+            Vertiefende Leitfäden mit Pflichten, Organisation und Praxisbezug für Köln und NRW.
+          </p>
+          <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {ratgeberPosts.map((guide) => (
+              <li key={guide.slug}>
+                <Link
+                  href={`/wissen/ratgeber/${guide.slug}`}
+                  className="block h-full rounded-lg border border-slate-200 bg-white p-5 transition-colors hover:border-primary-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                >
+                  <span className="text-xs font-semibold uppercase text-primary-700">{guide.tag}</span>
+                  <h3 className="mt-2 font-semibold text-slate-900 line-clamp-2">{guide.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600 line-clamp-2">{guide.excerpt}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4">
+            <Link
+              href="/wissen/ratgeber"
+              className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+            >
+              Alle Ratgeber ansehen
+            </Link>
+          </p>
+        </section>
 
         {/* Beliebte FAQ */}
         <section className="mt-16 sm:mt-20" aria-labelledby="beliebte-faq-heading">

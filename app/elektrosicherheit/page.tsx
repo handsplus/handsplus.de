@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+import { ServiceRatgeberTeaser } from "@/components/ServiceRatgeberTeaser";
 
 export const metadata = pageMetadata({
   path: "/elektrosicherheit",
@@ -107,6 +108,8 @@ export default function ElektrosicherheitPage() {
               Durch gezielte Analysen unterstützen wir Unternehmen bei der Behebung technischer Störungen und Defekte. Wir beraten unabhängig und kompetent in allen Fragen der Elektrosicherheit und bieten gezielte Schulungen, Unterweisungen sowie Qualifikationen für Elektrofachkräfte. Zusätzlich führen wir Prüfungen von ortsfesten und ortsveränderlichen elektrischen Betriebsmitteln gemäß DGUV Vorschrift 3 durch, um die Betriebssicherheit sicherzustellen.
             </p>
           </section>
+
+          <ServiceRatgeberTeaser ratgeberSlug="elektrosicherheit-dguv-v3" />
 
           <div className="mt-12 pt-10 border-t border-slate-200 text-center">
             <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>

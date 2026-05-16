@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { headers } from "next/headers";
 import { blogPosts } from "@/content/blog";
+import { ratgeberPosts } from "@/content/ratgeber";
 
 const DEFAULT_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
@@ -27,6 +28,7 @@ const staticRoutes = [
   "/leistungen",
   "/ueber-uns",
   "/wissen",
+  "/wissen/ratgeber",
   "/wissen/blog",
   "/wissen/faq",
   "/wissen/checklisten",
@@ -45,7 +47,7 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
 
-  const siteLastUpdated = new Date("2026-05-04");
+  const siteLastUpdated = new Date("2026-05-09");
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((path) => ({
     url: `${baseUrl}${path}`,
@@ -54,12 +56,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1 : path === "/leistungen" || path === "/kontakt" ? 0.9 : 0.8,
   }));
 
-  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${baseUrl}/wissen/blog/${post.slug}`,
-    lastModified: new Date(post.date),
+  const blogEntries: MetadataRoute.Sitemap = blogPosts
+    .filter((post) => post.slug !== "unterweisung-arbeitssicherheit-pflicht")
+    .map((post) => ({
+      url: `${baseUrl}/wissen/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
+
+  const ratgeberEntries: MetadataRoute.Sitemap = ratgeberPosts.map((post) => ({
+    url: `${baseUrl}/wissen/ratgeber/${post.slug}`,
+    lastModified: siteLastUpdated,
     changeFrequency: "monthly" as const,
-    priority: 0.7,
+    priority: 0.85,
   }));
 
-  return [...staticEntries, ...blogEntries];
+  return [...staticEntries, ...ratgeberEntries, ...blogEntries];
 }

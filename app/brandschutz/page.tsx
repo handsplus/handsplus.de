@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+import { ServiceRatgeberTeaser } from "@/components/ServiceRatgeberTeaser";
 
 export const metadata = pageMetadata({
   path: "/brandschutz",
@@ -119,6 +120,8 @@ export default function BrandschutzPage() {
               Unsere Experten begleiten Sie bei behördlichen Abnahmen, Erweiterungen und Genehmigungsverfahren und beraten Sie zur optimalen Ausstattung mit Feuerlöscheinrichtungen. Wir planen und koordinieren Brandschutzmaßnahmen, helfen bei der Meldung und Behebung von Brandschutzmängeln und führen Brandschutzunterweisungen für Führungskräfte sowie Beschäftigte durch. Ob baulicher, anlagentechnischer oder organisatorischer Brandschutz – wir bieten Ihnen eine vollständige Betreuung und individuelle Lösungen, die auf Ihr Unternehmen und Vorhaben abgestimmt sind.
             </p>
           </section>
+
+          <ServiceRatgeberTeaser ratgeberSlug="brandschutz-betrieb" />
 
           <div className="mt-12 pt-10 border-t border-slate-200 text-center">
             <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>

@@ -5,6 +5,7 @@ export const footerSeiten = [
   { href: "/leistungen", label: "Leistungen" },
   { href: "/wissen", label: "Wissen & Ressourcen" },
   { href: "/wissen/faq", label: "FAQ" },
+  { href: "/wissen/ratgeber", label: "Ratgeber" },
   { href: "/wissen/blog", label: "Blog" },
   { href: "/wissen/checklisten", label: "Checklisten" },
   { href: "/wissen/glossar", label: "Glossar" },

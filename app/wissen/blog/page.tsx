@@ -14,7 +14,12 @@ function formatDate(iso: string) {
   return d.toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" });
 }
 
+/** Aus Listing/Sitemap ausgeschlossen – 301 auf unterweisung-arbeitsschutz-fristen */
+const REDIRECTED_BLOG_SLUGS = new Set(["unterweisung-arbeitssicherheit-pflicht"]);
+
 export default function WissenBlogPage() {
+  const visiblePosts = blogPosts.filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug));
+
   return (
     <div className="py-16 sm:py-20 lg:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +40,7 @@ export default function WissenBlogPage() {
         </p>
 
         <ul className="mt-10 space-y-6 list-none pl-0" role="list">
-          {blogPosts.map((post) => (
+          {visiblePosts.map((post) => (
             <li
               key={post.slug}
               className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200"

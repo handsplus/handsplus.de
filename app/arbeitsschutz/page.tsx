@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+import { ServiceRatgeberTeaser } from "@/components/ServiceRatgeberTeaser";
 
 export const metadata = pageMetadata({
   path: "/arbeitsschutz",
@@ -182,6 +183,8 @@ export default function ArbeitsschutzPage() {
             ))}
           </ul>
         </section>
+
+        <ServiceRatgeberTeaser ratgeberSlug="arbeitsschutz-unternehmen" />
 
         <div className="mt-12 pt-10 border-t border-slate-200 text-center">
           <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>

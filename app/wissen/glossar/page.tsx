@@ -8,14 +8,17 @@ export const metadata = pageMetadata({
   path: "/wissen/glossar",
   title: "Glossar: Arbeitssicherheit, Brandschutz, SiGeKo (FaSi, BSB, GBU, ASiG, DGUV, VEFK) | H&S+",
   description: "Wichtige Begriffe aus Arbeitssicherheit, Brandschutz und SiGeKo – kurz erklärt.",
-  keywords: ["Glossar Arbeitsschutz", "Brandschutz Begriffe", "SiGeKo", "FaSi", "BSB", "DGUV", "VEFK", "ASiG"],
+  keywords: ["Glossar Arbeitsschutz", "Arbeitsschutzgesetz", "ArbSchG", "Brandschutz Begriffe", "SiGeKo", "FaSi", "BSB", "DGUV", "VEFK", "ASiG"],
 });
 
 const glossarEntries = [
+  { abbr: "ArbSchG", term: "Arbeitsschutzgesetz", definition: "Das Arbeitsschutzgesetz (ArbSchG) ist das zentrale Gesetz zum Schutz der Gesundheit und Sicherheit der Beschäftigten in Deutschland. Es verpflichtet Arbeitgeber unter anderem zur Gefährdungsbeurteilung, zu Unterweisungen und zur Dokumentation von Arbeitsschutzmaßnahmen. Es bildet die Grundlage für zahlreiche Verordnungen wie ArbStättV, BetrSichV und GefStoffV." },
   { abbr: "ASiG", term: "Arbeitssicherheitsgesetz", definition: "Das Arbeitssicherheitsgesetz verpflichtet Arbeitgeber, Betriebsärzte und Fachkräfte für Arbeitssicherheit in bestimmter Anzahl zu bestellen. Die konkrete Ausgestaltung regelt die DGUV Vorschrift 2." },
   { abbr: "BSB", term: "Brandschutzbeauftragter", definition: "Eine vom Arbeitgeber bestellte Person, die in Fragen des Brandschutzes berät und bei der Umsetzung unterstützt. Kann betriebsintern oder extern (z. B. von uns) erbracht werden." },
   { abbr: "DGUV", term: "Deutsche Gesetzliche Unfallversicherung", definition: "Spitzenverband der Berufsgenossenschaften und Unfallkassen. Er gibt u. a. die DGUV Vorschrift 2 (Betreuung durch FaSi und Betriebsarzt) und Vorschrift 3 (Elektrische Anlagen und Betriebsmittel) heraus." },
+  { abbr: "DGUV V3", term: "DGUV Vorschrift 3 (ehemals BGV A3)", definition: "Unfallverhütungsvorschrift für elektrische Anlagen und Betriebsmittel. Sie verpflichtet Arbeitgeber zur regelmäßigen Prüfung aller elektrischen Geräte und Anlagen durch befähigte Personen (Elektrofachkräfte). Typische Prüffristen: ortsveränderliche Geräte alle 6–24 Monate, ortsfeste Anlagen alle 4 Jahre." },
   { abbr: "FaSi", term: "Fachkraft für Arbeitssicherheit", definition: "Fachperson, die den Arbeitgeber in allen Fragen der Arbeitssicherheit unterstützt – z. B. bei Gefährdungsbeurteilungen, Betriebsbegehungen und Unterweisungen. Die Betreuung kann extern erfolgen." },
+  { term: "Flucht- und Rettungsplan", abbr: null, definition: "Maßstabsgetreue zeichnerische Darstellung eines Gebäudes mit Fluchtwegen, Notausgängen, Sammelplätzen und Standorten von Brandschutz- und Erste-Hilfe-Einrichtungen. Wird nach DIN ISO 23601 erstellt und ist in vielen Arbeitsstätten Pflicht (ASR A2.3)." },
   { term: "Gefährdungsbeurteilung", abbr: "GBU", definition: "Vom Arbeitgeber durchzuführende systematische Bewertung der Arbeitsbedingungen, um Gefahren zu erkennen und Schutzmaßnahmen festzulegen. Dokumentation ist Pflicht. Wir unterstützen bei der Erstellung." },
   { abbr: "PSA", term: "Persönliche Schutzausrüstung", definition: "Ausrüstung, die Beschäftigte gegen Risiken schützt (z. B. Helm, Handschuhe, Schutzbrille). Der Arbeitgeber muss sie bereitstellen und deren Einsatz in der Gefährdungsbeurteilung berücksichtigen." },
   { abbr: "SiGeKo", term: "Sicherheits- und Gesundheitsschutzkoordinator", definition: "Auf Baustellen mit mehreren Arbeitgebern muss ein SiGeKo bestellt werden. Er koordiniert den Arbeitsschutz, erstellt den SiGePlan und führt die Unternehmerübergabe durch." },
