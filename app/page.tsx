@@ -99,8 +99,8 @@ export default function HomePage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight max-w-4xl m-0">
             Arbeitsschutz, Brandschutz und Managementsysteme – Professionelle Beratung und maßgeschneiderte Lösungen
           </h1>
-          <p className="mt-6 text-lg max-w-3xl text-white/90">
-            Wir bieten Ihnen kompetente Betreuung in Arbeitsschutz, Brandschutz und Managementsystemen – ob für einmalige Einsätze oder langfristige Zusammenarbeit: Wir stehen Ihnen zur Seite. Kostenlose und unverbindliche Erstberatung inklusive.
+          <p className="mt-6 text-lg max-w-2xl text-white/90 leading-relaxed">
+            Umfassende Betreuung in Köln und NRW – ob für einmalige Einsätze oder langfristige Zusammenarbeit. Kostenlose Erstberatung inklusive.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
