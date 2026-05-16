@@ -100,30 +100,32 @@ export default function HomePage() {
             Arbeitsschutz, Brandschutz und Managementsysteme – Professionelle Beratung und maßgeschneiderte Lösungen
           </h1>
           <p className="mt-6 text-lg max-w-2xl text-white/90 leading-relaxed">
-            Umfassende Betreuung in Köln und NRW – ob für einmalige Einsätze oder langfristige Zusammenarbeit. Kostenlose Erstberatung inklusive.
+            Umfassende Betreuung in Köln und NRW – für einmalige Einsätze oder langfristige Zusammenarbeit. Kostenlose Erstberatung inklusive.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
             <Link
               href="/kontakt"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors bg-primary-800 text-white"
+              className="inline-flex items-center justify-center px-7 py-3.5 rounded-lg font-semibold text-base bg-white text-[#1e4d44] shadow-lg shadow-black/25 transition-[background-color,box-shadow,transform] hover:bg-slate-50 hover:shadow-xl hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#1e4d44] w-full sm:w-auto"
             >
               Angebot anfragen
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <Link
-              href="/leistungen"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white/80 font-medium text-white transition-colors hover:bg-white/10"
-            >
-              Unsere Leistungen
-            </Link>
-            <Link
-              href="/kontakt?thema=Kostenlose+Erstberatung"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white/80 font-medium text-white transition-colors hover:bg-white/10"
-            >
-              Kostenlose Erstberatung
-            </Link>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/leistungen"
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#1e4d44]"
+              >
+                Unsere Leistungen
+              </Link>
+              <Link
+                href="/kontakt?thema=Kostenlose+Erstberatung"
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#1e4d44]"
+              >
+                Kostenlose Erstberatung
+              </Link>
+            </div>
           </div>
           <div className="mt-10 pt-10 border-t border-white/30">
             <ContactStrip variant="light" />
