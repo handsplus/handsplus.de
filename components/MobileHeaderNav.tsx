@@ -30,11 +30,11 @@ export function MobileHeaderNav() {
       >
         <span className="sr-only">Menü</span>
         {mobileOpen ? (
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+          <svg className="w-6 h-6 shrink-0" width={24} height={24} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         ) : (
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+          <svg className="w-6 h-6 shrink-0" width={24} height={24} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         )}
@@ -70,6 +70,8 @@ export function MobileHeaderNav() {
                 Leistungen
                 <svg
                   className={`h-4 w-4 shrink-0 transition-transform ${leistungenOpen ? "rotate-180" : ""}`}
+                  width={16}
+                  height={16}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

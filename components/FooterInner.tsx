@@ -25,7 +25,7 @@ export function FooterInner() {
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
                 >
-                  www.sigeko.koeln
+                  sigeko.koeln
                 </a>
               </li>
               <li>
@@ -35,7 +35,7 @@ export function FooterInner() {
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
                 >
-                  www.arbeitssicherheit.nrw
+                  arbeitssicherheit.nrw
                 </a>
               </li>
               <li>
@@ -45,7 +45,7 @@ export function FooterInner() {
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
                 >
-                  www.brandschutzkoeln.com
+                  brandschutzkoeln.com
                 </a>
               </li>
             </ul>

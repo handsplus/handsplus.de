@@ -58,7 +58,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Rollen und Verantwortlichkeiten im Betrieb",
         "paragraphs": [
-          "Klare Zuständigkeiten sind der Schlüssel: Ohne benannte Verantwortliche für Maschinensicherheit, Gefahrstoffmanagement oder Mobile Arbeit bleiben Maßnahmen in der Schwebe. In mittelständischen Strukturen werden diese Rollen häufig kombiniert – dann müssen Zeitbudgets und Qualifikationen realistisch bemessen sein. [Link: /wissen/blog/arbeitsschutz-kleine-betriebe] beschreibt kompakte Modelle für KMU."
+          "Klare Zuständigkeiten sind der Schlüssel: Ohne benannte Verantwortliche für Maschinensicherheit, Gefahrstoffmanagement oder Mobile Arbeit bleiben Maßnahmen in der Schwebe. In mittelständischen Strukturen werden diese Rollen häufig kombiniert – dann müssen Zeitbudgets und Qualifikationen realistisch bemessen sein. [Link: /wissen/blog/arbeitsschutzberatung-unternehmen] beschreibt kompakte Modelle für KMU."
         ],
         "table": {
           "headers": [
@@ -99,7 +99,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Gefährdungsbeurteilung als Steuerungsinstrument",
         "paragraphs": [
           "Die dokumentierte Gefährdungsbeurteilung (GBU) beschreibt für Arbeitsbereiche und Tätigkeiten die relevanten Gefährdungen, bewertet Risiken und definiert Prioritäten für Schutzmaßnahmen nach dem STOP-Prinzip. Psychische Belastung, Gefahrstoffe, ergonomische Aspekte und Homeoffice sind seit Jahren eigenständige Bewertungsfelder und dürfen nicht vernachlässigt werden.",
-          "Die GBU ist kein Archivprojekt: Änderungen von Technologie, Personalstand oder Lieferketten erfordern Aktualisierung. Nach Belastungsereignissen oder Beinahe-Unfällen ist eine Revision zwingend sinnvoll. Für Übergaben oder neue Standorte lohnt sich ein strukturiertes Audit mit klarem Maßnahmenplan – siehe auch [Link: /wissen/blog/homeoffice-arbeitsschutz-pflichten]."
+          "Die GBU ist kein Archivprojekt: Änderungen von Technologie, Personalstand oder Lieferketten erfordern Aktualisierung. Nach Belastungsereignissen oder Beinahe-Unfällen ist eine Revision zwingend sinnvoll. Für Übergaben oder neue Standorte lohnt sich ein strukturiertes Audit mit klarem Maßnahmenplan – siehe auch [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz]."
         ],
         "list": [
           "Erfassung der Ist-Situation mit Bildern, Messwerten und Beobachtungen aus der Praxis",
@@ -112,28 +112,28 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Unterweisungen dokumentieren und wirksam gestalten",
         "paragraphs": [
           "Pflichtunterweisungen müssen verständlich sein, auf konkrete Arbeitsplätze bezogen und wiederholt werden. Die Dokumentation soll Datum, Inhalte, Teilnehmende und die unterweisende Person umfassen; digitale Nachweise sind zulässig, wenn Revisionssicherheit gewährleistet ist. Einheitliche Schulungsfolien ohne Bezug zur Hallenlogistik oder zu den eingesetzten Chemikalien genügen revisorenseitig selten.",
-          "In Großstätten wie Köln mit heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Kombinieren Sie Unterweisung zu Brandschutz mit jährlichen Übungen und verknüpfen Sie Erste Hilfe mit realistischen Szenarien. Details zu Erste-Hilfe-Organisation finden Sie unter [Link: /wissen/blog/erste-hilfe-betrieb-pflichten]."
+          "In Großstätten wie Köln mit heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Kombinieren Sie Unterweisung zu Brandschutz mit jährlichen Übungen und verknüpfen Sie Erste Hilfe mit realistischen Szenarien. Details zu Erste-Hilfe-Organisation finden Sie unter Erste-Hilfe-Organisation im Betrieb."
         ]
       },
       {
         "h2": "ASA-Sitzung und betriebsärztliche Mitwirkung",
         "paragraphs": [
           "Der Arbeitsschutzausschuss (ASA) ist dort ein zentrales Steuerungsforum, wo gesetzliche Voraussetzungen erfüllt sind. In der Sitzung werden Unfälle, Beinahe-Ereignisse, Maßnahmenstände und geplante Änderungen diskutiert – immer mit Blick auf Umsetzbarkeit und Budget.",
-          "Der Betriebsarzt berät zu Arbeitsgestaltung und Prävention und wirkt bei GBU und Unterweisungen mit. Die Einbindungspflicht richtet sich nach Beschäftigtenzahl und Gefährdungsklassen; eine belastbare Übersicht liefert [Link: /wissen/blog/betriebsarzt-pflicht-betriebsgroesse]. Für den formalen Ablauf der ASA empfehlen wir die Orientierung an [Link: /wissen/blog/asa-sitzung-pflichten-ablauf]."
+          "Der Betriebsarzt berät zu Arbeitsgestaltung und Prävention und wirkt bei GBU und Unterweisungen mit. Die Einbindungspflicht richtet sich nach Beschäftigtenzahl und Gefährdungsklassen; eine belastbare Übersicht liefert [Link: /wissen/blog/dguv-vorschrift-2]. Für den formalen Ablauf der ASA empfehlen wir die Orientierung an [Link: /wissen/blog/akteure-arbeitsschutz]."
         ]
       },
       {
         "h2": "Technische Prüfungen und Betriebssicherheit",
         "paragraphs": [
           "Unter BetrSichV fallen zahlreiche Arbeitsmittel und Anlagenteile – von Regalen über ortsveränderliche Elektrogeräte bis zu Drucksystemen. Die Koordination von Prüfterminen, Nachverfolgung von Mängeln und Freigaben gehört zur operativen Arbeitssicherheit. Elektrische Anlagen und Geräte unterliegen ergänzend der DGUV Vorschrift 3; siehe den Ratgeber [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3].",
-          "Regalanlagen sollten nach DIN EN 15635 instand gehalten und wiederkehrend geprüft werden ([Link: /wissen/blog/regalpruefung-din-15635]); Leitern und Trittsteige unterliegen eigenen Anforderungen ([Link: /wissen/blog/leitern-pruefung-betrsichv]). Wer Prüfungen bündelt, reduziert Stillstände und erhöht Transparenz gegenüber internen Audits."
+          "Regalanlagen sollten nach DIN EN 15635 instand gehalten und wiederkehrend geprüft werden (Regalprüfung nach DIN EN 15635); Leitern und Trittsteige unterliegen eigenen Anforderungen (Leitern und Trittsteige (Betriebssicherheitsverordnung)). Wer Prüfungen bündelt, reduziert Stillstände und erhöht Transparenz gegenüber internen Audits."
         ]
       },
       {
         "h2": "Gefahrstoffmanagement und Dokumentationspflichten",
         "paragraphs": [
-          "Das sichere Arbeiten mit Chemikalien erfordert REACH-/CLP-konforme Informationsketten, exponierte relevante Stoffe und wirksame Schutzmaßnahmen. Das Gefahrstoffverzeichnis ist mehr als eine Liste – es unterstützt die Substitution und die Unterweisung. Aufbau und Pflege beschreiben wir unter [Link: /wissen/blog/gefahrstoffverzeichnis-pflicht].",
-          "Abstimmungen mit dem Brandschutz sind bei brennbaren Stoffen und Lagerzonen zwingend – siehe [Link: /wissen/ratgeber/brandschutz-betrieb]. Für Bauprojekte gelten zusätzlich SiGeKo- und Bauherrpflichten ([Link: /wissen/blog/bauherr-arbeitsschutz-pflichten])."
+          "Das sichere Arbeiten mit Chemikalien erfordert REACH-/CLP-konforme Informationsketten, exponierte relevante Stoffe und wirksame Schutzmaßnahmen. Das Gefahrstoffverzeichnis ist mehr als eine Liste – es unterstützt die Substitution und die Unterweisung. Aufbau und Pflege beschreiben wir unter [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe].",
+          "Abstimmungen mit dem Brandschutz sind bei brennbaren Stoffen und Lagerzonen zwingend – siehe [Link: /wissen/ratgeber/brandschutz-betrieb]. Für Bauprojekte gelten zusätzlich SiGeKo- und Bauherrpflichten ([Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko])."
         ]
       },
       {
@@ -160,12 +160,12 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Fallstränge aus Beratungsprojekten in Köln und NRW",
         "paragraphs": [
-          "In Beratungsprojekten wiederholen sich einige Muster: Unterweisungen sind formal erledigt, aber Inhalte passen nicht zur realen Tätigkeit; GBU-Dokumente sind veraltet, weil neue Maschinen ohne Nachbewertung in Betrieb gingen; Verantwortlichkeiten zwischen Produktion und Facility sind uneindeutig; Fremdfirmen werden eingewiesen, aber nicht nachgehalten.",
-          "Gerade in Logistik und Handwerk treten Schnittstellenprobleme zwischen Schichtführung und EHS auf: Kurzfristige Produktionsaufträge verschieben Unterweisungstermine, sodass Compliance-Rückstände entstehen. Ein quartalsweiser Rhythmus mit fest reservierten Slots reduziert diese Reibung messbar.",
-          "Ein weiteres Feld sind psychische Belastungen: Sie werden in GBU genannt, aber ohne konkrete Interview-Leitfäden oder Auswertungszyklen bleiben Maßnahmen vage. Hier helfen kurze, wiederholbare Surveys kombiniert mit teamnahen Workshops.",
-          "Elektrische Themen koppeln sich häufig mit umbauten Hallen: neue Verteilerzonen werden eingeführt, ohne dass DGUV-V3-Inventare aktualisiert werden – bis zur nächsten Arbeitgeberprüfung entsteht Nachholebedarf. Ein gemeinsamer Kalender für Elektro und Arbeitssicherheit verhindert das.",
-          "Brandschutz und Arbeitsschutz sollten nicht nur parallel existieren: gemeinsame Toolbox-Themen zu temporären Brandschutzabschlüssen bei Umbauten erhöhen Akzeptanz bei Montageteams.",
-          "Langfristig zahlt sich eine kleine interne Policy-Bibliothek aus – drei bis fünf Kernrichtlinien zu PSA, Fremdfirmen und Änderungsmanagement genügen oft, wenn sie konsequent angewendet werden."
+          "Unsere Mandate zeigen wiederkehrende Muster – und konkrete Lösungen. In einer KiTa-Küche in Köln führte die ergonomische Begehung zu belastbaren GBU-Ergänzungen (Spülbereich, LMM, Kinderessbereich) statt generischer Floskeln – siehe [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
+          "Beim Start externer FaSi-Betreuung (z. B. HVAC-Niederlassung Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Voll-GBU-Neuerstellung: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
+          "Logistikstandorte mit ca. 80 Beschäftigten profitieren von Jahrespauschalen mit ASA, integrierter Begehung und strukturierten Einarbeitungsunterweisungen – Ablauf im ersten Vertragsjahr: [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf].",
+          "SiFa-Jahresberichte nach DGUV Vorschrift 2 müssen Begehungen, Unterweisungen, Evakuierungsübungen und Einzelfragen (z. B. Handhubwagen-Prüfpflicht, psychische Belastung) nachvollziehbar bündeln: [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein] und [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit].",
+          "ASA-Sitzungen bei Sozialträgern verbinden GBU Küche, psychische GBU und Bildschirmarbeitsplätze – gute Protokolle mit Status und Verantwortlichen verhindern Insellösungen: [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz].",
+          "Brandschutz und Arbeitsschutz bleiben gekoppelt: Evakuierungsübungen, Unterweisungen und GBU-Review gehören in einen Rhythmus – nicht in getrennte Ordner ohne Priorisierung."
         ]
       },
       {
@@ -294,7 +294,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Gefahrstoffe, Lagerung und thermische Risiken",
         "paragraphs": [
-          "Brennbare Flüssigkeiten und Lose Ware erfordern zonale Konzepte und Abstände zu Heizungen. Das Gefahrstoffmanagement unterstützt Substitution und technische Entzündungsschutzmaßnahmen – siehe [Link: /wissen/blog/gefahrstoffverzeichnis-pflicht].",
+          "Brennbare Flüssigkeiten und Lose Ware erfordern zonale Konzepte und Abstände zu Heizungen. Das Gefahrstoffmanagement unterstützt Substitution und technische Entzündungsschutzmaßnahmen – siehe [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe].",
           "Elektrische Brandlasten aus Ladestationen oder Alterstechnik sollten im Kontext der [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3] betrachtet werden."
         ]
       },
@@ -302,7 +302,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Integration mit Arbeitsschutz und DGUV",
         "paragraphs": [
           "Brandschutz und Arbeitssicherheit teilen Schnittstellen bei Unterweisungen, ASA und Haftungsfragen. Doppelte Schulungen lassen sich intelligent bündeln, wenn Lernziele klar getrennt dokumentiert sind.",
-          "Regale und Fluchtwegbreiten sind sowohl arbeitssicherheits- als auch brandschutzrelevant ([Link: /wissen/blog/regalpruefung-din-15635])."
+          "Regale und Fluchtwegbreiten sind sowohl arbeitssicherheits- als auch brandschutzrelevant (Regalprüfung nach DIN EN 15635)."
         ]
       },
       {
@@ -363,7 +363,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Was ist bei Garagen zu beachten?",
-        "answer": "Besondere Belüftungs- und Brandschutzanforderungen – siehe auch unsere BauO-Serie zu Garagen ([Link: /wissen/blog/garagen-stellplaetze-brandschutz])."
+        "answer": "Besondere Belüftungs- und Brandschutzanforderungen – siehe [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze (BauO)]."
       },
       {
         "question": "Unterstützt H&S+ auch Unterweisungen?",
@@ -430,7 +430,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "SiGeKo-Plan – Struktur und Nutzen",
         "paragraphs": [
           "Der SiGeKo-Plan beschreibt baustellenspezifische Risiken und Maßnahmen, abstimmt Besonderheiten wie Kranbetrieb, Tiefbau oder Gleisbau und verknüpft Unterweisungsbedarf. Ein guter Plan ist kurz, aber präzise – mit Bezug zu Gewerkeketten und Zeitachsen.",
-          "Versionierung ist entscheidend: Änderungen durch Planungsupdates oder Bauablauf müssen nachvollziehbar sein. Vertiefung liefert [Link: /wissen/blog/sigeko-plan-inhalt] sowie unsere Übersicht zu [Link: /wissen/blog/sigeko-koeln-kosten]."
+          "Versionierung ist entscheidend: Änderungen durch Planungsupdates oder Bauablauf müssen nachvollziehbar sein. Vertiefung liefert [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] sowie unsere Übersicht zu [Link: /wissen/blog/sigeko-koeln-kosten]."
         ],
         "list": [
           "Projektsteckbrief mit Nutzungsänderungen und Nachbarschaftseinflüssen",
@@ -443,35 +443,35 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Vorankündigung und Informationsflüsse",
         "paragraphs": [
           "Die Vorankündigung strukturiert Informationspflichten gegenüber Betrieben und Behörden – sie ist kein Formalismus, sondern der Startpunkt eines durchgängigen Informationsflusses. Fehler hier führen später zu Behinderungen oder gefährlichen Parallelarbeiten.",
-          "Details zum praktischen Vorgehen siehe [Link: /wissen/blog/sigeko-vorankuendigung]. In Ballungsräumen wie Köln sind Genehmigungen und Verkehrsführungen häufig kritische Pfade der Vorplanung."
+          "Details zum praktischen Vorgehen siehe SiGeKo-Vorankündigung und Behördenablauf. In Ballungsräumen wie Köln sind Genehmigungen und Verkehrsführungen häufig kritische Pfade der Vorplanung."
         ]
       },
       {
         "h2": "Übergaben zwischen Bauabschnitten und Unternehmerübergaben",
         "paragraphs": [
           "Übergaben dokumentieren den IST-Zustand sicherheitsrelevanter Arbeitsschutzmaßnahmen – vom gesicherten Rand zum freigegebenen Gerüst. Ein standardisiertes Protokoll mit Fotos reduziert Streit und Nacharbeiten.",
-          "Unternehmerübergaben erfordern klare Signaturen und Schulungsnachweise für Folgegewerke – siehe [Link: /wissen/blog/unternehmeruebergabe-sigeko]."
+          "Unternehmerübergaben erfordern klare Signaturen und Schulungsnachweise für Folgegewerke – siehe Unternehmerübergaben auf der Baustelle."
         ]
       },
       {
         "h2": "Besonders gefährliche Arbeiten",
         "paragraphs": [
           "Tätigkeiten nach Anhang II erfordern erhöhte Aufmerksamkeit: Abstimmung mit den ausführenden Firmen, Unterweisungen und oft zusätzliche technische Schutzmaßnahmen. Bauherren sollten frühzeitig klären, welche Gewerke welche Sonderregeln auslösen.",
-          "Handlungshilfen finden Sie unter [Link: /wissen/blog/besonders-gefaehrliche-arbeiten-baustelle] sowie zu Bauherrenpflichten unter [Link: /wissen/blog/bauherr-arbeitsschutz-pflichten]."
+          "Handlungshilfen zu Anhang II und Bauherrenpflichten: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln] (Absturz/Seitenschutz) und [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko]."
         ]
       },
       {
         "h2": "Kooperation mit Arbeitssicherheit und Elektro",
         "paragraphs": [
           "Baustellenstrom und ortsveränderliche Geräte unterliegen DGUV V3 ([Link: /wissen/ratgeber/elektrosicherheit-dguv-v3]). Kurzschlüsse und fehlerhafte Verlängerungen gehören zu häufigen Ursachen von Vorällen – der SiGeKo-Koordinator sollte kritische Elektrozonen kennzeichnen.",
-          "Regale und Baustellenlogistik sind ebenfalls mit Arbeitssicherheit zu koppeln ([Link: /wissen/blog/regalpruefung-din-15635])."
+          "Regale und Baustellenlogistik sind ebenfalls mit Arbeitssicherheit zu koppeln (Regalprüfung nach DIN EN 15635)."
         ]
       },
       {
         "h2": "Baustellenbegehungen und behördliche Erwartungen",
         "paragraphs": [
           "Begehungen dokumentieren Mängel, Maßnahmen und Verantwortliche – nicht nur für BGUV/IFA-Themen, sondern auch für Brandschutz temporärer Anlagen. NRW-Behörden erwarten nachvollziehbare Nachweise und kurzfristige Sanierung sicherheitsrelevanter Abweichungen.",
-          "H&S+ führt Begehungen zielorientiert durch und übersetzt Ergebnisse in umsetzbare Maßnahmenpläne ohne Überorganisation."
+          "In der Praxis zählen fotodokumentierte Begehungsberichte mit Nachverfolgung offener Punkte – etwa Absturzsicherung in der Abbruchphase: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln]. H&S+ führt Begehungen zielorientiert durch und übersetzt Ergebnisse in umsetzbare Maßnahmenpläne ohne Überorganisation."
         ]
       },
       {
@@ -484,11 +484,12 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Baustellen-Erfahrungen aus Köln",
         "paragraphs": [
-          "Enge innerstädtische Grundstücke erfordern oft zeitversetzte Anlieferungen und klare Verkehrsführung – der SiGeKo-Plan sollte diese Punkte operationalisieren, nicht nur beschreiben.",
-          "Parallelarbeiten von Gerüstbau und Fassade erhöhen Absturz- und Wurfgefahren; tägliche Kurzabstimmungen (15 Minuten) mindern Koordinationslücken.",
-          "Elektro-Leihverteiler müssen mit Übergabeprotokollen dokumentiert sein – Beschädigungen durch Baustellenlogistik sind häufig.",
-          "Nachbarschaftsbetroffenheit kann zu Eskalationen führen; Kommunikationspläne mit Anwohnerbrief und Hotline sind wirksame Präventionsinstrumente.",
-          "Digitale Freigaben für Übergaben beschleunigen die Nachverfolgbarkeit und sind vor Gericht/Audit leichter zu verteidigen."
+          "Hotelumbau Köln (Abbruchphase): Wiederkehrendes Thema Seitenschutz – Begehungen dokumentieren Verbesserungen und verbleibende Mängel mit Fotos: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln].",
+          "Gleiches Projekt – Rauchen auf der Baustelle vs. § 5 ArbStättV: übergeordnete GBU, Baustellenordnung und ausgewiesene Raucherstellen statt pauschaler „Fassade offen“-Argumente: [Link: /wissen/blog/rauchen-baustelle-arbstattv-sigeko].",
+          "Schnittstellen-GBU bei Glasatrium, Innenhof und Dritt-Infrastruktur – Abgrenzung SiGeKo-GBU und Gewerke-GBU: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt].",
+          "Neubau Wohngebäude NRW: SiGe-Plan v1.0, Baustellenordnung, Projektverlauf mit acht Begehungen – Ablauf ab Auftrag: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wipperfuerth].",
+          "Bestand Köln (Dach/Klima): Absturz nach ASR A2.1, Feuerlöscher/Fluchtwege – SiGeKo-Begehung im laufenden Betrieb: [Link: /wissen/blog/sigeko-dacharbeiten-absturz-bestand-koeln].",
+          "Innenausbau Bestand: Leistungskatalog und Honorarlogik aus Angebot (SiGe-Plan, Begehungen, Einweisungen): [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang]. Honorar-Orientierung Köln: [Link: /wissen/blog/sigeko-koeln-kosten]."
         ]
       },
       {
@@ -545,7 +546,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Die Gefährdungsbeurteilung ist das zentrale Instrument des Arbeitsschutzrechts: Sie verpflichtet Arbeitgeber, alle relevanten Gefährdungen zu ermitteln, zu bewerten und wirksame Schutzmaßnahmen festzulegen. Ohne belastbare GBU fehlt die Grundlage für Unterweisungen, Investitionsentscheidungen und ASA-Themen – Revisionssicherheit wird dann fragil.",
-          "Der Ratgeber beschreibt ein umsetzbares Vorgehen für Büro- und Produktionsumfelder im Rheinland und zeigt, wie Sie GBU mit bestehenden Managementsystemen synchronisieren. Vertiefungen zu Stoffen und Unterweisungen verlinken auf [Link: /wissen/blog/gefahrstoffverzeichnis-pflicht] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen]."
+          "Der Ratgeber beschreibt ein umsetzbares Vorgehen für Büro- und Produktionsumfelder im Rheinland und zeigt, wie Sie GBU mit bestehenden Managementsystemen synchronisieren. Vertiefungen zu Stoffen und Unterweisungen verlinken auf [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen]."
         ]
       },
       {
@@ -604,7 +605,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Psychische Belastung und Organisation",
         "paragraphs": [
           "Psychische Gefährdungen sind integraler Bestandteil moderner GBU: Zeitdruck, Schichtmodelle, Konfliktkultur und Schnittstellenstress gehören auf den Prüfstand. Instrumente wie kurze Surveys oder strukturierte Interviews liefern belastbare Hinweise.",
-          "In Großstädten wie Köln sind Pendelbelastungen und Hybridmodelle Alltag – berücksichtigen Sie Homeoffice explizit ([Link: /wissen/blog/homeoffice-arbeitsschutz-pflichten])."
+          "In Großstädten wie Köln sind Pendelbelastungen und Hybridmodelle Alltag – berücksichtigen Sie Homeoffice explizit ([Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz]). Bei Sozialträgern planen wir psychische GBU häufig in drei Schritten (IST, Analyse, Maßnahmen) – dokumentiert in ASA-Protokollen: [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz]."
         ],
         "list": [
           "Klärung von Rollen und Erwartungen bei verteilten Teams",
@@ -617,14 +618,15 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Gefahrstoffe und Maschinensicherheit",
         "paragraphs": [
           "Chemikalienmanagement verknüpft GBU mit REACH/CLP-Informationen und technischen Schutzmaßnahmen. Substitution bleibt vorrangig vor persönlichen Schutzmaßnahmen.",
-          "Maschinenänderungen lösen neue GBU aus – auch wenn Kapazität oder Software angepasst wurden. Verknüpfen Sie mit BetrSichV-Prüfungen."
+          "Maschinenänderungen lösen neue GBU aus – auch wenn Kapazität oder Software angepasst wurden. Verknüpfen Sie mit BetrSichV-Prüfungen. Auch scheinbar einfache Arbeitsmittel wie Handhubwagen gehören in die GBU und Prüfplanung – Praxisbeispiel: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit]."
         ]
       },
       {
         "h2": "Ergonomie und Bewegungsarbeit",
         "paragraphs": [
           "Heben, Halten, repetitives Arbeiten und Bildschirmarbeitsplätze sind häufige Themen in Handwerk und Verwaltung. Messungen und kurze Videos vor Ort verbessern die Qualität der Bewertung.",
-          "Kleinbetriebe finden kompakte Vorlagen unter [Link: /wissen/blog/arbeitsschutz-kleine-betriebe]."
+          "In Großküchen sozialer Einrichtungen zeigt sich in der Praxis: haushaltsübliche Spültechnik, manuelles Spülen schwerer Töpfe und sehr niedrige Essmöbel für Kinder erzeugen wiederholtes Bücken – bewertbar mit LMM und DGUV Branchenregel Küchenbetriebe. Fallbericht (anonymisiert, Köln): [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
+          "Kleinbetriebe finden kompakte Vorlagen unter [Link: /wissen/blog/arbeitsschutzberatung-unternehmen]."
         ]
       },
       {
@@ -708,21 +710,21 @@ export const ratgeberPosts: RatgeberPost[] = [
     "title": "Bauordnung NRW und Brandschutz – Gebäudeplanung, Nutzung und Betrieb",
     "excerpt": "Die Landesbauordnung NRW (BauO NRW) strukturiert brandschutztechnische Anforderungen an Gebäude vom Entwurf bis zur Nutzung. Für Bauherren, Betreiber und Planende ist entscheidend, dass genehmigungsfä…",
     "titleTag": "BauO NRW Brandschutz Köln NRW Ratgeber | handsplus.de",
-    "metaDescription": "Bauordnung NRW & Brandschutz: Gebäudeklassen, Rettungswege, technischer Brandschutz. Überblick für Bauherren und Betreiber mit Deep-Dives in der Blogserie.",
+    "metaDescription": "Bauordnung NRW & Brandschutz: Überblick für Bauherren und Betreiber. Deep-Dives zu Genehmigung und Köln auf brandschutzkoeln.com – Betrieb auf handsplus.de.",
     "servicePath": "/brandschutz",
     "tag": "Ratgeber Bauordnung",
     "sections": [
       {
         "paragraphs": [
           "Die Landesbauordnung NRW (BauO NRW) strukturiert brandschutztechnische Anforderungen an Gebäude vom Entwurf bis zur Nutzung. Für Bauherren, Betreiber und Planende ist entscheidend, dass genehmigungsfähige Unterlagen mit späterem Gebäudebetrieb konsistent bleiben – jede nachträgliche Nutzungsänderung kann Rettungswegkonzepte oder Feuerwiderstände neu verhandeln.",
-          "Health and Safety+ liefert einen strategischen Überblick und verweist auf unsere 25-teilige Serie zu Detailthemen – von Gebäudeklassen bis Prüfingenieur Brandschutz. Für den laufenden Betrieb ergänzt [Link: /wissen/ratgeber/brandschutz-betrieb] die organisatorische Perspektive."
+          "Health and Safety+ liefert hier den strategischen Überblick für NRW. Ausführliche Artikel zu Genehmigung, Nutzungsänderung und Praxisfällen in Köln finden Sie auf [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber] (gleiches Team, anonymisierte Mandate). Für den laufenden Betrieb ergänzt [Link: /wissen/ratgeber/brandschutz-betrieb] die organisatorische Perspektive; zum betrieblichen Konzept siehe [Link: /wissen/blog/brandschutzkonzept-erstellen]."
         ]
       },
       {
         "h2": "Gebäudeklassen und ihre Auswirkungen",
         "paragraphs": [
           "Gebäudeklassen bündeln Risikoindikatoren wie Höhe, Nutzung und Personenaufkommen. Sie steuern Anforderungen an Feuerwiderstand, Rettungswege und technische Systeme.",
-          "Vertiefend lesen Sie [Link: /wissen/blog/bauo-nrw-gebaeudeklassen-brandschutz] sowie unsere Artikel zu Sonderbauten/Hochhäusern."
+          "Vertiefend: [Link: https://brandschutzkoeln.com/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw|Gebäudeklassen und Brandschutz] und [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten]."
         ],
         "table": {
           "headers": [
@@ -758,49 +760,49 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Brandschutzkonzept und Nachweise",
         "paragraphs": [
           "Komplexe Vorhaben erfordern strukturierte Brandschutzkonzepte, die Planung, Ausführung und spätere Betriebsphase verzahnen. Das Konzept sollte eindeutige Verantwortlichkeiten und Schnittstellen zu SiGeKo beschreiben.",
-          "Siehe [Link: /wissen/blog/brandschutzkonzept-bauo-nrw]."
+          "Betrieblich: [Link: /wissen/blog/brandschutzkonzept-erstellen]. Genehmigung Köln: [Link: https://brandschutzkoeln.com/ratgeber/brandschutzkonzept-wann-noetig|Konzept oder Stellungnahme?]"
         ]
       },
       {
         "h2": "Baustoffe und Feuerwiderstand",
         "paragraphs": [
           "Brandverhalten von Baustoffen und die Feuerwiderstandsfähigkeit von Bauteilen sind separate, aber zusammenhängende Themenfelder. Die Auswahl falscher Materialien kann Nachweise gefährden und Umbauten verteuern.",
-          "Artikel: [Link: /wissen/blog/baustoffe-brandverhalten-bauo-nrw], [Link: /wissen/blog/feuerwiderstand-bauteile-bauo-nrw], [Link: /wissen/blog/brandwaende-bauo-nrw]."
+          "Grundlagen zum vorbeugenden Brandschutz: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen]. BauO-Details: [Link: https://brandschutzkoeln.com/ratgeber/umbau-nutzungsaenderung-brandschutz|Umbau und Nutzungsänderung]."
         ]
       },
       {
         "h2": "Rettungswege, Treppen und Flure",
         "paragraphs": [
           "Erster und zweiter Rettungsweg strukturieren die Entfluchtung – mit klaren Anforderungen an Breiten, Längen und abschottende Bauteile.",
-          "Vertiefungen: [Link: /wissen/blog/erster-rettungsweg-bauo-nrw], [Link: /wissen/blog/zweiter-rettungsweg-bauo-nrw], [Link: /wissen/blog/notwendige-treppen-bauo-nrw], [Link: /wissen/blog/treppenraeume-brandschutz-bauo-nrw], [Link: /wissen/blog/notwendige-flure-bauo-nrw]."
+          "Vertiefungen: [Link: https://brandschutzkoeln.com/ratgeber/flucht-und-rettungswege-bauo-nrw|Flucht- und Rettungswege] und [Link: https://brandschutzkoeln.com/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw|Zweiter Rettungsweg über Dachfenster]."
         ]
       },
       {
         "h2": "Rauchableitung, Öffnungen, Aufzüge",
         "paragraphs": [
           "Entrauchungskonzepte schützen Treppenräume und erleichtern die Brandbekämpfung; Brandschutztüren und Leitungsführungen dürfen Abschottungen nicht unterlaufen.",
-          "Lesen Sie [Link: /wissen/blog/rauchableitung-entrauchung-bauo-nrw], [Link: /wissen/blog/brandschutztueren-bauo-nrw], [Link: /wissen/blog/aufzuege-brandschutz-bauo-nrw], [Link: /wissen/blog/leitungsdurchfuehrungen-brandschutz]."
+          "Im Bestand: [Link: https://brandschutzkoeln.com/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln|Feuerschutztüren im Bestand]. Organisatorisch: [Link: /wissen/blog/brandschutzordnung-din-14096]."
         ]
       },
       {
         "h2": "Technische Anlagen und Sonderthemen",
         "paragraphs": [
           "Lüftung, Feuerungsanlagen und Blitzschutz haben jeweils eigenständige Nachweisketten. Garagen und Sonderbauten erhöhen oft den regulatorischen Aufwand.",
-          "Links: [Link: /wissen/blog/lueftungsanlagen-brandschutz-bauo-nrw], [Link: /wissen/blog/feuerungsanlagen-bauo-nrw], [Link: /wissen/blog/blitzschutz-bauo-nrw], [Link: /wissen/blog/rauchwarnmelder-wohnungen-bauo-nrw], [Link: /wissen/blog/sonderbauten-hochhaus-bauo-nrw], [Link: /wissen/blog/garagen-stellplaetze-brandschutz]."
+          "Links: [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze], [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten], [Link: https://brandschutzkoeln.com/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw|Sprinkler und Trockenbau]."
         ]
       },
       {
         "h2": "Außenanlagen: Feuerwehr und Abstände",
         "paragraphs": [
           "Feuerwehrzufahrten und Abstandsflächen sind oft projektentscheidend – insbesondere bei verdichteter Innerstadt wie in Köln.",
-          "Artikel: [Link: /wissen/blog/feuerwehrzufahrt-bauo-nrw], [Link: /wissen/blog/abstandsflaechen-bauo-nrw]."
+          "Artikel: [Link: https://brandschutzkoeln.com/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw|Feuerwehr-Abstimmung vor dem Bauamt] und [Link: https://brandschutzkoeln.com/ratgeber/loeschwasser-hydranten-gewerbe-koeln|Löschwasser und Hydranten]."
         ]
       },
       {
         "h2": "Prüfingenieur Brandschutz und Genehmigungspraxis",
         "paragraphs": [
           "Der Prüfingenieur Brandschutz begleitet Nachweise in genehmigungspflichtigen Fällen und sichert fachliche Qualität der Brandschutzdokumentation.",
-          "Details unter [Link: /wissen/blog/pruefingenieur-brandschutz-bauo-nrw]."
+          "Details: [Link: https://brandschutzkoeln.com/ratgeber/bauantrag-brandschutz-unterlagen-koeln|Bauantrag und Unterlagen-Checkliste Köln]."
         ]
       },
       {
@@ -818,7 +820,7 @@ export const ratgeberPosts: RatgeberPost[] = [
           "Die Übergabe aus Bau in Betrieb erfordert konsolidierte Unterlagen für Facility: BMA-Zonenpläne, Wartungsverträge und Schulungskonzepte für Hausmeister.",
           "Bei Mieterausbauprojekten in Bürohochhäusern Köln sind gemeinsame Brandschutzregeln des Gebäudebetreibers zu respektieren – individuelle Umbauten ohne Abstimmung gefährden Genehmigungen.",
           "Digitalisierung der Unterlagen erleichtert Revisionen durch Versicherer und große Kunden – Ordnerarchive sollten parallel migriert werden.",
-          "Externe Prüfingenieure sollten früh eingebunden werden, nicht erst bei Genehmigungsstopp ([Link: /wissen/blog/pruefingenieur-brandschutz-bauo-nrw])."
+          "Externe Prüfingenieure sollten früh eingebunden werden, nicht erst bei Genehmigungsstopp – siehe [Link: https://brandschutzkoeln.com/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln|Zwischenbescheid der Bauaufsicht]."
         ]
       },
       {
@@ -854,7 +856,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Was ist mit Decken und Dächern?",
-        "answer": "Siehe [Link: /wissen/blog/decken-brandschutz-bauo-nrw] und [Link: /wissen/blog/daecher-brandschutz-bauo-nrw]."
+        "answer": "Vertiefende Artikel zu Decken und Dächern finden Sie im [Link: https://brandschutzkoeln.com/ratgeber|Ratgeber auf brandschutzkoeln.com]."
       }
     ]
   },
@@ -961,7 +963,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Elektrosicherheit in Köln und NRW – Service von H&S+",
         "paragraphs": [
-          "Wir koordinieren Prüftermine, harmonisieren Inventare mit Arbeitssicherheit und unterstützen bei der GBU für elektrische Gefährdungen. Für Kleinbetriebe bündeln wir DGUV V3 mit anderen BetrSichV-Themen wie Leitern ([Link: /wissen/blog/leitern-pruefung-betrsichv]).",
+          "Wir koordinieren Prüftermine, harmonisieren Inventare mit Arbeitssicherheit und unterstützen bei der GBU für elektrische Gefährdungen. Für Kleinbetriebe bündeln wir DGUV V3 mit anderen BetrSichV-Themen wie Leitern (Leitern und Trittsteige (Betriebssicherheitsverordnung)).",
           "Kontaktieren Sie uns für eine transparente Planung – [Link: /kontakt]."
         ]
       },
@@ -998,7 +1000,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Gilt das auch im Homeoffice?",
-        "answer": "Wenn der Arbeitgeber Arbeitsmittel stellt, sind klare Regeln und gegebenenfalls Prüfungen zu definieren ([Link: /wissen/blog/homeoffice-arbeitsschutz-pflichten])."
+        "answer": "Wenn der Arbeitgeber Arbeitsmittel stellt, sind klare Regeln und gegebenenfalls Prüfungen zu definieren ([Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz])."
       },
       {
         "question": "Was bei gemieteten Räumen?",

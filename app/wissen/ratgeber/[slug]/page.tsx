@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getRatgeberBySlug, ratgeberPosts, type RatgeberSection } from "@/content/ratgeber";
+import { getBlogSlugsForPillar } from "@/content/blogClusters";
+import { BauordnungKoelnBox } from "@/components/BauordnungKoelnBox";
+import { ClusterRelatedPosts } from "@/components/ClusterRelatedPosts";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 import { ContentBody } from "@/components/ContentBody";
 import { ContentText } from "@/lib/contentLinks";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
+
+const RATGEER_STAND = "2026-05-09";
 
 export async function generateStaticParams() {
   return ratgeberPosts.map((post) => ({ slug: post.slug }));
@@ -130,8 +135,18 @@ export default function RatgeberPostPage({ params }: { params: { slug: string } 
 
         <p className="text-sm font-semibold uppercase tracking-wide text-primary-700">{post.tag}</p>
         <h1 className="mt-2 text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">{post.title}</h1>
+        <p className="mt-3 text-sm text-slate-500">
+          Stand:{" "}
+          {new Date(RATGEER_STAND).toLocaleDateString("de-DE", {
+            month: "long",
+            year: "numeric",
+          })}{" "}
+          · Health and Safety+
+        </p>
 
         <TableOfContents sections={post.sections} />
+
+        {post.slug === "bauordnung-nrw-brandschutz" && <BauordnungKoelnBox />}
 
         <ContentBody sections={post.sections} />
 
@@ -152,6 +167,11 @@ export default function RatgeberPostPage({ params }: { params: { slug: string } 
             </dl>
           </section>
         )}
+
+        <ClusterRelatedPosts
+          slugs={getBlogSlugsForPillar(post.slug, 5)}
+          title="Passende Blog-Artikel zu diesem Ratgeber"
+        />
 
         <aside className="mt-12 rounded-lg border-l-4 border-amber-400 bg-slate-50 p-5 text-sm text-slate-600">
           <p className="font-semibold text-slate-900">Verfasst von Health and Safety+ (H&S+)</p>

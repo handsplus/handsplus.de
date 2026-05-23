@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, blogPosts } from "@/content/blog";
-import { getPillarSlugForBlog } from "@/content/blogClusters";
+import { getPillarSlugForBlog, getRelatedBlogSlugs } from "@/content/blogClusters";
+import { BlogBauordnungKoelnTeaser } from "@/components/BlogBauordnungKoelnTeaser";
+import { ClusterRelatedPosts } from "@/components/ClusterRelatedPosts";
 import { PillarGuideBanner } from "@/components/PillarGuideBanner";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
@@ -111,12 +113,15 @@ export default async function BlogPostPage({
             {post.title}
           </h1>
           {pillarSlug && <PillarGuideBanner pillarSlug={pillarSlug} />}
+          <BlogBauordnungKoelnTeaser slug={post.slug} />
           <div className="mt-8 space-y-6 text-slate-600 leading-relaxed">
             {post.content.map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
           </div>
         </article>
+
+        <ClusterRelatedPosts slugs={getRelatedBlogSlugs(post.slug, 4)} />
 
         <div className="mt-10 flex flex-wrap gap-4">
           <Link

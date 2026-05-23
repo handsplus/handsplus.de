@@ -32,7 +32,15 @@ export function DesktopNav({ pathname }: DesktopNavProps) {
           aria-haspopup="true"
         >
           Leistungen
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+          <svg
+            className="w-4 h-4 shrink-0"
+            width={16}
+            height={16}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden
+          >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </Link>

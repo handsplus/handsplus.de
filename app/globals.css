@@ -76,3 +76,13 @@ a:focus-visible,
 button:focus-visible {
   @apply outline-none ring-2 ring-primary-400 ring-offset-2;
 }
+
+/* Fallback: Nav-Icons bleiben klein, wenn Tailwind-Chunks (Dev/OneDrive) nicht laden */
+header nav svg,
+header button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  flex-shrink: 0;
+}

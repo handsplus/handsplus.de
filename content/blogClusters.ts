@@ -32,8 +32,40 @@ export const blogPillarBySlug: Record<string, string> = {
   "iso-45001-arbeitsschutzmanagementsystem": "arbeitsschutz-unternehmen",
   "brandschutzkonzept-erstellen": "bauordnung-nrw-brandschutz",
   "vorbeugender-brandschutz-massnahmen": "brandschutz-betrieb",
+  "ergonomie-kueche-kita-gefaehrdungsbeurteilung": "gefaehrdungsbeurteilung",
+  "sifa-jahresbericht-was-gehoert-rein": "arbeitsschutz-unternehmen",
+  "ist-zustandserfassung-externe-fasi": "arbeitsschutz-unternehmen",
+  "pruefpflicht-handhubwagen-arbeitssicherheit": "gefaehrdungsbeurteilung",
+  "externe-fasi-erstes-vertragsjahr-ablauf": "arbeitsschutz-unternehmen",
+  "asa-sitzung-praxis-kita-arbeitsschutz": "arbeitsschutz-unternehmen",
+  "unterweisung-arbeitssicherheit-pflicht": "arbeitsschutz-unternehmen",
+  "sigeko-begehung-seitenschutz-hotelumbau-koeln": "sigeko-baustelle",
+  "rauchen-baustelle-arbstattv-sigeko": "sigeko-baustelle",
+  "gbu-schnittstelle-mehrere-gewerke-bauprojekt": "sigeko-baustelle",
+  "sigeko-projektverlauf-neubau-wipperfuerth": "sigeko-baustelle",
+  "sigeko-dacharbeiten-absturz-bestand-koeln": "sigeko-baustelle",
+  "sigeko-innenausbau-bestand-leistungsumfang": "sigeko-baustelle",
+  "sigeko-koeln-kosten": "sigeko-baustelle",
 };
 
 export function getPillarSlugForBlog(slug: string): string | undefined {
   return blogPillarBySlug[slug];
+}
+
+/** Andere Blog-Beiträge im selben Pillar-Cluster (max. limit, ohne aktuellen Slug). */
+export function getRelatedBlogSlugs(slug: string, limit = 4): string[] {
+  const pillar = blogPillarBySlug[slug];
+  if (!pillar) return [];
+  return Object.entries(blogPillarBySlug)
+    .filter(([s, p]) => p === pillar && s !== slug)
+    .map(([s]) => s)
+    .slice(0, limit);
+}
+
+/** Blog-Beiträge, die zu einem Ratgeber-Pillar gehören. */
+export function getBlogSlugsForPillar(pillarSlug: string, limit = 5): string[] {
+  return Object.entries(blogPillarBySlug)
+    .filter(([, p]) => p === pillarSlug)
+    .map(([s]) => s)
+    .slice(0, limit);
 }
