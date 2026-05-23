@@ -616,9 +616,9 @@ export const blogPosts: BlogPost[] = [
       "Ein Neubau-Wohngebäude in NRW zeigt den typischen SiGeKo-Ablauf von der Auftragserteilung bis zur laufenden Ausführungskoordination – dokumentiert in einem Projektverlauf mit Meilensteinen und Leistungsstatus.",
       "Projektdaten (anonymisiert): schriftliche Beauftragung, Pauschalhonorar für den Standardumfang, Bauleitung durch ein externes Planungsbüro, Bauherr über Projektgesellschaft. Vereinbart: SiGe-Plan nach BaustellV und eine festgelegte Anzahl Baustellenbegehungen im Ausführungszeitraum (typisch ca. monatlich).",
       "Erste Meilensteine: SiGe-Plan Version 1.0 erstellt, Baustellenordnung entworfen, SiGe-Plan-Aushang vorbereitet, Checkliste Erstbegehung durchgeführt, Begehungsbericht Nr. 1 dokumentiert. Status nach Projektstart: erste Begehung abgeschlossen – normaler Rhythmus für den Rohbauanfang.",
-      "Was Bauherren daraus lernen können: SiGeKo ist kein Einmal-PDF, sondern ein Prozess mit Versionierung. Der Projektverlauf macht für alle Beteiligten transparent, was erledigt ist und was als Nächstes ansteht (Vorankündigung, Unterweisungen, Übergaben Rohbau/Ausbau).",
+      "Was Bauherren daraus lernen können: SiGeKo ist kein einmaliges Dokument zum Ablegen, sondern ein laufender Prozess mit Versionierung. Der Projektverlauf macht für alle Beteiligten transparent, was erledigt ist und was als Nächstes ansteht (Vorankündigung, Unterweisungen, Übergaben Rohbau/Ausbau).",
       "Abgrenzung Honorar: Die Pauschale deckt den vereinbarten Standardumfang; Mehrleistungen (zusätzliche Begehungen, Sondergutachten, erweiterte GBU) werden separat abgerechnet – im Vertrag vorab klären verhindert Streit.",
-      "Vergleichbare Strukturen setzen wir für Neubauten und Umbauten in Köln und NRW um. Kostenorientierung: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] und [Link: /wissen/blog/sigeko-koeln-kosten]. Ratgeber: [Link: /wissen/ratgeber/sigeko-baustelle].",
+      "Vergleichbare Strukturen setzen wir für Neubauten und Umbauten in Köln und NRW um. Mehr zu [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten in Köln] und im [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber].",
     ],
   },
   {
@@ -633,7 +633,7 @@ export const blogPosts: BlogPost[] = [
       "SiGeKo-Aufgabe hier: Organisation und Dokumentation vorbereiten, Schnittstellen zwischen Facility, ausführenden Firmen und Betrieb klären, Feststellungen für die übergeordnete GBU des Betriebs bzw. das Bauvorhaben aufbereiten. Nicht die Rolle des ausführenden Unternehmers ersetzen.",
       "Typisches Muster im Bestand: Mehrere Dienstleister, kurze Einsatzzeiten, unklare Zuständigkeit für temporäre Absturzsicherung. Der SiGeKo schafft mit Begehung und schriftlicher Nachverfolgung Klarheit – bevor die BG fragt.",
       "Für Betreiber und Bauherren in Köln: Dacharbeiten und technische Wartung sind oft unterschätzte Absturzrisiken. Frühzeitige SiGeKo- oder FaSi-Einbindung spart Nachforderungen. Mehr Pflichten: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko].",
-      "Health and Safety+ koordiniert SiGeKo für Bestand und Neubau in Köln und NRW: [Link: /wissen/ratgeber/sigeko-baustelle] · [Link: /kontakt].",
+      "Health and Safety+ koordiniert SiGeKo für Bestand und Neubau in Köln und NRW – [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber] oder [Link: /kontakt|Kontakt].",
     ],
   },
   {
@@ -648,7 +648,7 @@ export const blogPosts: BlogPost[] = [
       "Honorarlogik: Orientierung an üblichen Strukturen für Innenausbau mit Gewerke-Mix – nicht pauschal „pro Quadratmeter“, sondern nach Schnittstellenanzahl, Betriebszeiten und Zugangsbeschränkungen. Transparentes Leistungsverzeichnis im Angebot erleichtert Vergleiche und verhindert Scope-Creep.",
       "Besonderheit Bestand: Abstimmung mit Facility, Brandschutz des Gebäudes, evtl. Denkmalschutz oder Mieteranforderungen. Der SiGe-Plan muss temporäre Maßnahmen (Staub, Absperrungen, Fluchtwege) beschreiben, die nach Ende der Maßnahme wieder entfallen.",
       "Bauherren-Tipp: Bauzeitenplan und Gewerkeübersicht früh liefern – der SiGeKo kann dann in der Vorplanungsphase wirksam werden, nicht erst wenn die ersten Firmen auf der Matte stehen.",
-      "Vergleichbare Angebote erstellen wir für Köln und NRW. Honorar-Rechner: [Link: /wissen/rechner] · Blog: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] · Ratgeber: [Link: /wissen/ratgeber/sigeko-baustelle].",
+      "Vergleichbare Angebote erstellen wir für Köln und NRW – [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung] und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber].",
     ],
   },
   {
@@ -663,7 +663,7 @@ export const blogPosts: BlogPost[] = [
       "Einflussfaktoren in der Praxis: Anzahl gleichzeitiger Gewerke, Anteil besonders gefährlicher Arbeiten (Anhang II BaustellV), Abbruch vs. Neubau, Nachbarschaft und Verkehr (Köln innerstädtisch), Zusatzleistungen wie übergeordnete GBU, Prüfung von Gewerke-GBUs, Sonderbegehungen.",
       "Orientierungswerte (generisch, nicht mandatsbezogen): kleinere Neubauten in NRW oft im mittleren vierstelligen Nettobereich inkl. SiGe-Plan und vereinbarter Begehungszahl; komplexe innerstädtische Umbauten mit Zusatz-GBU und intensivem Abbruch deutlich darüber; Bestands-/Innenausbau nach Gewerke-Mix und Bauzeitenplan.",
       "ROI: Ein belastbarer SiGe-Plan und dokumentierte Begehungen reduzieren BG-Anhalten, Nacharbeiten und Haftungsstreit – das rechtfertigt das Honorar gegenüber vermeintlich günstigen „Nur-Plan“-Angeboten ohne Koordination vor Ort.",
-      "Health and Safety+ erstellt transparente SiGeKo-Angebote für Köln und NRW. Rechner: [Link: /wissen/rechner] · Ausführlich: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] · Ablauf: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw] · [Link: /kontakt].",
+      "Health and Safety+ erstellt transparente SiGeKo-Angebote für Köln und NRW – [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|ausführliche Orientierung] und [Link: /kontakt|Kontakt].",
     ],
   },
 ];

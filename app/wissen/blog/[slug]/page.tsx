@@ -5,6 +5,7 @@ import { getPillarSlugForBlog, getRelatedBlogSlugs } from "@/content/blogCluster
 import { BlogBauordnungKoelnTeaser } from "@/components/BlogBauordnungKoelnTeaser";
 import { ClusterRelatedPosts } from "@/components/ClusterRelatedPosts";
 import { PillarGuideBanner } from "@/components/PillarGuideBanner";
+import { ContentText } from "@/lib/contentLinks";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export async function generateStaticParams() {
@@ -116,7 +117,9 @@ export default async function BlogPostPage({
           <BlogBauordnungKoelnTeaser slug={post.slug} />
           <div className="mt-8 space-y-6 text-slate-600 leading-relaxed">
             {post.content.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
+              <p key={i}>
+                <ContentText text={paragraph} />
+              </p>
             ))}
           </div>
         </article>
