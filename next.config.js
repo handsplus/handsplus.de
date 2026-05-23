@@ -185,6 +185,16 @@ const nextConfig = {
         destination: "/wissen/blog/unterweisung-arbeitsschutz-fristen",
         permanent: true,
       },
+      {
+        source: "/wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln",
+        destination: "/wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln",
+        permanent: true,
+      },
+      {
+        source: "/wissen/blog/sigeko-projektverlauf-neubau-wipperfuerth",
+        destination: "/wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw",
+        permanent: true,
+      },
     ];
   },
 };

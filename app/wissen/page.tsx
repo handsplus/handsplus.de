@@ -27,7 +27,7 @@ const featuredBlogSlugs = [
   "getraenke-am-arbeitsplatz",
   "brandschutz-lithium-ionen-batterien",
   "sigeko-kosten-honorar-orientierung",
-  "sigeko-begehung-seitenschutz-hotelumbau-koeln",
+  "sigeko-begehung-seitenschutz-abbruch-koeln",
 ];
 
 export const metadata = pageMetadata({

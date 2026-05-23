@@ -487,7 +487,7 @@ export const blogPosts: BlogPost[] = [
       "Jahresbericht der Fachkraft für Arbeitssicherheit nach DGUV Vorschrift 2: Inhalte, Struktur und typische Schwerpunkte – anonymisiert aus einem NRW-Mandat.",
     date: "2026-05-21",
     content: [
-      "Viele Geschäftsführungen fragen uns nach dem SiFa-Jahresbericht: Was muss dokumentiert werden, was ist optional – und wann reicht eine schriftliche Zusammenfassung? Ein anonymisierter Fall aus der Betreuung eines mittelständischen Unternehmens in NRW (Logistik/Handel, unter 20 Beschäftigte am Standort) zeigt eine belastbare Struktur.",
+      "Viele Geschäftsführungen fragen uns nach dem SiFa-Jahresbericht: Was muss dokumentiert werden, was ist optional – und wann reicht eine schriftliche Zusammenfassung? Ein anonymisierter Fall aus der Betreuung eines mittelständischen Unternehmens in NRW (Handel/Logistik, kleinerer Standort) zeigt eine belastbare Struktur.",
       "Grundlage ist § 5 DGUV Vorschrift 2: Die Fachkraft für Arbeitssicherheit berichtet dem Arbeitgeber über ihre Tätigkeit. Der Bericht soll nachvollziehbar machen, welche Beratung, Begehungen, Unterweisungen und Schwerpunktthemen im Berichtszeitraum bearbeitet wurden – nicht nur Stundenlisten.",
       "Organisatorischer Teil: Auch ohne pflichtigen Arbeitsschutzausschuss (ASA) unter 20 Beschäftigten wurden sicherheitstechnische Abstimmungen dokumentiert. Im Fall: eine Begehung mit Protokoll, Abstimmung mit dem Betriebsarzt bei Bedarf, Rückblick auf vereinbarte Maßnahmen.",
       "Inhaltliche Schwerpunkte aus dem Berichtszeitraum: aktuelle Gefährdungsbeurteilung als Basis; Unfallgeschehen (hier: keine meldepflichtigen Arbeitsunfälle); durchgeführte Evakuierungsübung mit Dokumentation; jährliche Unterweisung inkl. Brandschutz, Gefahrstoffe, Ergonomie am Bildschirmarbeitsplatz; Stellungnahme zur Prüfpflicht von Handhubwagen; psychische Belastung über PegA-Befragung mit Maßnahmenplan; Hinweis auf MuSchG-Änderung ab Juni 2025 (Schutzfristen nach Fehlgeburten).",
@@ -498,15 +498,15 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ist-zustandserfassung-externe-fasi",
-    title: "Ist-Zustandserfassung vor externer FaSi-Betreuung – Ablauf für HVAC-Betrieb Köln",
+    title: "Ist-Zustandserfassung vor externer FaSi-Betreuung – Ablauf für technischen Dienstleister (Köln)",
     excerpt:
-      "Ist-Zustandserfassung beim Start der Grundbetreuung: Checkliste für GBU, ASA, Gefahrstoffe und Dokumentation – anonymisiert aus einem HVAC-Mandat in Köln.",
+      "Ist-Zustandserfassung beim Start der Grundbetreuung: Checkliste für GBU, ASA, Gefahrstoffe und Dokumentation – anonymisiert aus einem Mandat in Köln.",
     date: "2026-05-22",
     content: [
-      "Wer eine externe Fachkraft für Arbeitssicherheit neu beauftragt, sollte nicht mit generischen Vorlagen starten, sondern mit einer strukturierten Ist-Zustandserfassung. In einem Mandat für einen HVAC-Dienstleister (Niederlassung Köln, Installation, Wartung, Außendienst) diente ein mehrseitiges Kennenlerngespräch plus Betriebsrundgang als Einstieg in die jährliche Grundbetreuung.",
+      "Wer eine externe Fachkraft für Arbeitssicherheit neu beauftragt, sollte nicht mit generischen Vorlagen starten, sondern mit einer strukturierten Ist-Zustandserfassung. In einem Mandat für einen technischen Gebäudedienstleister (Niederlassung Köln, Installation, Wartung, Außendienst) diente ein mehrseitiges Kennenlerngespräch plus Betriebsrundgang als Einstieg in die jährliche Grundbetreuung.",
       "Abschnitt A–B erfasste Unternehmensstruktur und Tätigkeiten: Mitarbeiterzahl am Vertragsstandort, Anteil Außendienst/Montage, typische Arbeiten (Schweißen, Kältemittel, Höhenarbeit, Fahrzeugflotte). Abschnitt C klärte die sicherheitstechnische Aufstellung: interne/externe SiFa, Betriebsarzt, Sicherheitsbeauftragte, Ersthelfer, Brandschutzhelfer, ASA-Frequenz, Einbindung von BR/SV.",
       "Dokumentation (Abschnitt D): Liegen Gefährdungsbeurteilungen vor und wann wurden sie zuletzt aktualisiert? Betriebsanweisungen, Unterweisungsnachweise, Prüfbücher (DGUV V3, Regale), Gefahrstoffverzeichnis, Unfallbuch, Notfallplan, Arbeitsschutzprogramm. Offene Felder werden nicht kaschiert – sie werden als Maßnahmen in den Betreuungsplan übernommen.",
-      "Schulungen und Begehungen (Abschnitt E): Wann fand die letzte Sicherheitsbegehung statt? Wie ist das Unterweisungssystem organisiert (digital/Papier)? Welche Themen haben Rückstand? Für HVAC typisch: Kältemittel, Druckgeräte, PSA, Subunternehmer auf Kundenbaustellen.",
+      "Schulungen und Begehungen (Abschnitt E): Wann fand die letzte Sicherheitsbegehung statt? Wie ist das Unterweisungssystem organisiert (digital/Papier)? Welche Themen haben Rückstand? Branchentypisch: Kältemittel, Druckgeräte, PSA, Subunternehmer auf Kundenbaustellen.",
       "Praxis-Tipp vor Ort: Zuerst Organisation und Verantwortlichkeiten besprechen, beim Rundgang Gefahrstoffe, Werkstatt und Lager vertiefen, am Ende offene Punkte laut mit dem Ansprechpartner bestätigen. Angeforderte Unterlagen (Organigramm, SiFa-Vertrag, GBU-Übersicht, Unterweisungsmatrix) werden für ein Follow-up-Termin nachgereicht.",
       "Im ersten Vertragsjahr ergänzt die Ist-Zustandserfassung den Betreuungsplan: priorisierte Maßnahmen, ASA-Termine, GBU-Fortschreibung, Kick-off-Unterweisungen. So wird aus dem Angebot ein belastbarer Jahresrhythmus – nicht nur eine Stundenabrechnung.",
       "Health and Safety+ führt Ist-Zustandserfassungen in Köln und NRW für Mittelstand und Handwerk durch – modular zur [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln] und zum Ratgeber [Link: /wissen/ratgeber/arbeitsschutz-unternehmen].",
@@ -530,17 +530,17 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "externe-fasi-erstes-vertragsjahr-ablauf",
-    title: "Externe FaSi – Ablauf im ersten Vertragsjahr (Logistikstandort Köln, ca. 80 MA)",
+    title: "Externe FaSi – Ablauf im ersten Vertragsjahr (Logistikstandort Köln)",
     excerpt:
       "Jahrespauschale, ASA-Betreuung, integrierte Begehung, Unterweisungen: So strukturieren wir das erste Vertragsjahr externer Arbeitssicherheit – anonymisiert aus einem Kölner Mandat.",
     date: "2026-05-23",
     content: [
-      "Ein Unternehmen am Kölner Rudolfplatz (ca. 80 Beschäftigte, Bahn-/Logistikumfeld) suchte eine externe Fachkraft für Arbeitssicherheit mit klarem Leistungsumfang statt reiner Stundenabrechnung. Das Angebot kombinierte Grundbetreuung nach ASiG und DGUV Vorschrift 2 mit festen Bausteinen im ersten Jahr.",
+      "Ein mittelgroßer Logistikstandort in Köln suchte eine externe Fachkraft für Arbeitssicherheit mit klarem Leistungsumfang statt reiner Stundenabrechnung. Das Angebot kombinierte Grundbetreuung nach ASiG und DGUV Vorschrift 2 mit festen Bausteinen im ersten Jahr.",
       "Kernleistungen in der Jahrespauschale: Beratung und Koordination, Betreuung der vom Auftraggeber einberufenen ASA-Sitzungen (Regelfall bis zu vier pro Jahr) inkl. Vorbereitung und Protokollierung, eine jährliche Sicherheitsbegehung am Standort – im Idealfall an eine ASA gekoppelt, jährliche kompakte Grundunterweisung (Gruppe, vor Ort oder digital), Einarbeitungsunterweisungen für Neueinstellungen (bis zu drei zusätzliche Termine pro Jahr).",
       "Speziell im ersten Vertragsjahr: Ist-Zustands-Check und Erstellung eines Betreuungsplans. Damit werden GBU-Lücken, offene Prüfungen, Unterweisungsrückstände und ASA-Themen priorisiert – statt alles gleichzeitig anzugehen.",
       "Mitwirkungspflichten des Auftraggebers sind vertraglich klar: ASA-Einladung mindestens fünf Werktage vorher, Bereitstellung von Unterlagen und Räumen, Terminorganisation für Unterweisungen. Mehrleistungen (zusätzliche ASA-Termine, Sonderbegehungen, GBU-Neuerstellung) werden gesondert abgestimmt – typisch nach Stundensatz.",
       "Für die Geschäftsführung bedeutet das: planbare Kosten, fester Ansprechpartner in Köln, dokumentierte ASA-Protokolle und nachvollziehbare Unterweisungen. Für HR relevant: strukturierte Einarbeitungsunterweisungen bei Fluktuation.",
-      "Vergleichbare Strukturen nutzen wir für HVAC-Niederlassungen, Sozialträger und Mittelstand in NRW – jeweils mit branchenspezifischer Ist-Erfassung. Details zur Bestellung: [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit].",
+      "Vergleichbare Strukturen nutzen wir für technische Dienstleister, Sozialträger und Mittelstand in NRW – jeweils mit branchenspezifischer Ist-Erfassung. Details zur Bestellung: [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit].",
       "Kostenlose Erstberatung zur Abgrenzung Grundbetreuung und Mehrleistungen: [Link: /kontakt]. Ausführlicher Überblick: [Link: /wissen/ratgeber/arbeitsschutz-unternehmen].",
     ],
   },
@@ -561,14 +561,14 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "sigeko-begehung-seitenschutz-hotelumbau-koeln",
-    title: "SiGeKo-Begehung: Seitenschutz und Absturzsicherung beim Hotelumbau in Köln",
+    slug: "sigeko-begehung-seitenschutz-abbruch-koeln",
+    title: "SiGeKo-Begehung: Seitenschutz und Absturzsicherung in der Abbruchphase (Köln)",
     excerpt:
-      "Absturzsicherung in der Abbruchphase: Was SiGeKo-Begehungen prüfen, typische Mängel am Seitenschutz und dokumentierte Nachbesserung – anonymisiert aus einem Kölner Großprojekt.",
+      "Absturzsicherung in der Abbruchphase: Was SiGeKo-Begehungen prüfen, typische Mängel am Seitenschutz und dokumentierte Nachbesserung – anonymisiert aus einem innerstädtischen Bauprojekt.",
     date: "2026-05-24",
     content: [
-      "In einem innerstädtischen Hotelumbau in Köln (Abbruch- und Rückbauphase, mehrere Gewerke parallel) wurden im Rahmen der SiGeKo-Koordination regelmäßige Baustellenbegehungen durchgeführt. Schwerpunkt: Absturzsicherung und Seitenschutz in den oberen Geschossen – ein klassisches Anhang-II-Thema nach BaustellV.",
-      "Ausgangslage: Abbrucharbeiten durch ein spezialisiertes Unternehmen, zwischen neun und dreizehn Beschäftigte regelmäßig vor Ort. Die Begehungen dokumentierten den Fortschritt gegenüber früheren Berichten – Verbesserungen an vielen Stellen, aber weiterhin einzelne Bereiche mit Nachbesserungsbedarf bei Vollständigkeit, Stabilität und dauerhafter Befestigung.",
+      "In einem innerstädtischen Umbau in Köln (Abbruch- und Rückbauphase, mehrere Gewerke parallel) wurden im Rahmen der SiGeKo-Koordination regelmäßige Baustellenbegehungen durchgeführt. Schwerpunkt: Absturzsicherung und Seitenschutz in den oberen Geschossen – ein klassisches Anhang-II-Thema nach BaustellV.",
+      "Ausgangslage: Abbrucharbeiten durch ein spezialisiertes Unternehmen, mehrere Beschäftigte regelmäßig vor Ort. Die Begehungen dokumentierten den Fortschritt gegenüber früheren Berichten – Verbesserungen an vielen Stellen, aber weiterhin einzelne Bereiche mit Nachbesserungsbedarf bei Vollständigkeit, Stabilität und dauerhafter Befestigung.",
       "Typische Feststellungen: Unvollständiger Seitenschutz an Deckenkanten, provisorische Absicherungen ohne belastbare Verankerung, Lücken beim Übergang zwischen Gewerken. Jeder Mangel wurde mit Fotos, Bereichsangabe und Verantwortlichem im Begehungsbericht festgehalten – nicht als pauschale „Baustelle unsicher“-Formulierung.",
       "SiGeKo-Rolle: Der Koordinator priorisiert nicht alle Mängel gleich, sondern trennt unmittelbare Absturzgefahr (sofortige Sperrung/Nachbesserung) von organisatorischen Nacharbeiten. Abstimmung mit Bauleitung und Abbruchunternehmen erfolgt schriftlich; Wiederbegehung zur Wirksamkeitskontrolle ist eingeplant.",
       "Rechtliche Einordnung: Seitenschutz und Absturzsicherung folgen TRBS 2121, ASR A2.1 und der projektbezogenen Gefährdungsbeurteilung. Der SiGeKo-Plan verweist auf verantwortliche Unternehmer; die Koordination stellt sicher, dass Schnittstellen zwischen Gerüst, Abbruch und Rohbau nicht im Freien bleiben.",
@@ -583,7 +583,7 @@ export const blogPosts: BlogPost[] = [
       "Darf auf der Baustelle geraucht werden, solange die Fassade offen ist? SiGeKo-Stellungnahme zu Nichtraucherschutz, übergeordneter GBU und Raucherstellen – aus einem Kölner Bauprojekt.",
     date: "2026-05-24",
     content: [
-      "Ein häufiger Konflikt auf Baustellen: Der Bauherr möchte grundsätzlich Rauchen zulassen – Argument oft „Fassade noch nicht geschlossen“. In einem Kölner Hotelumbau wurde diese Frage an den SiGeKo herangetragen. Die Antwort ist rechtlich klarer, als viele erwarten.",
+      "Ein häufiger Konflikt auf Baustellen: Der Bauherr möchte grundsätzlich Rauchen zulassen – Argument oft „Fassade noch nicht geschlossen“. In einem innerstädtischen Bauprojekt in Köln wurde diese Frage an den SiGeKo herangetragen. Die Antwort ist rechtlich klarer, als viele erwarten.",
       "§ 5 ArbStättV verpflichtet zum Nichtraucherschutz am Arbeitsplatz. Das gilt auch auf Baustellen – eine offene Fassade begründet kein pauschales „Rauchen erlaubt“. Zusätzlich spielt der organisatorische Brandschutz eine Rolle: Zündquellen in der Nähe brennbarer Materialien und temporärer Einrichtungen erhöhen das Risiko.",
       "SiGeKo-Perspektive: Es gibt eine übergeordnete, phasenweise fortzuschreibende Gefährdungsbeurteilung für das Bauvorhaben (Querschnittsthemen wie Rauchen, Verkehrswege, Nachbarschaft) und betriebliche GBUs der einzelnen Gewerke für deren Beschäftigte. Beides muss konsistent sein – widersprüchliche Regeln in Baustellenordnung und SiGe-Plan verwirren ausführende Firmen.",
       "Praxisempfehlung aus dem Mandat: Generelles Rauchverbot auf der Baustelle, kombiniert mit ausgewiesenen Raucherstellen im Außenbereich – ausreichender Abstand zum Gebäude (Orientierung oft 2,5–5 m), klar gekennzeichnet, in der übergeordneten GBU begründet. Abstimmung mit Baustellenordnung und Bauleitung dokumentieren.",
@@ -593,29 +593,29 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "gbu-schnittstelle-mehrere-gewerke-bauprojekt",
-    title: "Gefährdungsbeurteilung bei Schnittstellen – DB, Glasatrium und Innenhof (SiGeKo-Projekt Köln)",
+    title: "Gefährdungsbeurteilung bei Schnittstellen – mehrere Gewerke und Infrastruktur (SiGeKo Köln)",
     excerpt:
-      "Übergeordnete GBU vs. Gewerke-GBU: Wie SiGeKo tätigkeitsbezogene Gefährdungsbeurteilungen bei komplexen Schnittstellen erstellt – anonymisiert aus Hotelumbau Köln.",
+      "Übergeordnete GBU vs. Gewerke-GBU: Wie SiGeKo tätigkeitsbezogene Gefährdungsbeurteilungen bei komplexen Schnittstellen erstellt – anonymisiert aus einem Kölner Bauprojekt.",
     date: "2026-05-24",
     content: [
-      "Bei komplexen Umbauten reicht eine allgemeine Baustellen-GBU oft nicht aus. In einem Kölner Hotelprojekt (Glasatrium, Betondecke im 1. OG, Innenhof, Schnittstelle zu Infrastruktur eines Dritten) wurde eine tätigkeitsbezogene Gefährdungsbeurteilung als SiGeKo-Zusatzleistung erstellt und fortgeschrieben.",
+      "Bei komplexen Umbauten reicht eine allgemeine Baustellen-GBU oft nicht aus. In einem Kölner Bauprojekt (mehrere Ebenen, Innenhof, Schnittstelle zu fremder Infrastruktur) wurde eine tätigkeitsbezogene Gefährdungsbeurteilung als SiGeKo-Zusatzleistung erstellt und fortgeschrieben.",
       "Abgrenzung: Die übergeordnete GBU des SiGeKo beschreibt bauvorhabenbezogene Querschnittsrisiken (Absturz, Staub, Lärm, Verkehr, Nachbarschaft, temporäre Anlagen). Jeder ausführende Unternehmer bleibt für die GBU seiner Beschäftigten verantwortlich – der SiGeKo koordiniert, widerspricht nicht ersetzt.",
       "Inhaltliche Schwerpunkte der GBU: Arbeiten in der Nähe öffentlicher Verkehrswege/Infrastruktur, Abbruch und Demontage in mehreren Ebenen, Gleichzeitigkeit von Gewerken, Staub- und Lärmexposition, Kran- und Logistikzonen. Szenarien wurden schriftlich mit Maßnahmenkatalog und Verantwortlichkeiten dokumentiert.",
-      "Ablauf im Mandat: Erstfassung der Szenarien, Abstimmung mit Bauleitung und Fachfirmen, Fortschreibung nach Planungsänderungen, Stundennachweis und versionierte HTML/PDF-Dokumentation. Prüfanfragen zu eingereichten Gewerke-GBUs (z. B. Abbruch) wurden gesondert beantwortet.",
+      "Ablauf im Mandat: Erstfassung der Szenarien, Abstimmung mit Bauleitung und Fachfirmen, Fortschreibung nach Planungsänderungen und versionierte Dokumentation. Prüfanfragen zu eingereichten Gewerke-GBUs wurden gesondert beantwortet.",
       "Typischer Fehler: GBU nur als Ablage für Sicherheitsdatenblätter – ohne Schnittstellenlogik. Behörden und Berufsgenossenschaften erwarten bei Großprojekten nachvollziehbare Verknüpfung zwischen SiGe-Plan, Begehungsberichten und GBU.",
       "Health and Safety+ erstellt und koordiniert GBU im Baustellenkontext in Köln und NRW. Ergänzend für Betriebe ohne Baustelle: [Link: /wissen/ratgeber/gefaehrdungsbeurteilung]. SiGeKo-Überblick: [Link: /wissen/ratgeber/sigeko-baustelle].",
     ],
   },
   {
-    slug: "sigeko-projektverlauf-neubau-wipperfuerth",
+    slug: "sigeko-projektverlauf-neubau-wohngebaeude-nrw",
     title: "SiGeKo-Projektverlauf Neubau – von Auftrag bis erste Begehung (Wohngebäude NRW)",
     excerpt:
-      "SiGe-Plan, Baustellenordnung, acht Begehungen, Honorar 5.200 € netto: So strukturieren wir SiGeKo bei einem Neubau – anonymisiert aus Wipperfürth.",
+      "SiGe-Plan, Baustellenordnung und Begehungsrhythmus: So strukturieren wir SiGeKo bei einem Neubau – anonymisiert aus einem Wohnbauprojekt in NRW.",
     date: "2026-05-25",
     content: [
-      "Ein Neubau-Wohngebäude in Wipperfürth (Bahnstraße 16) zeigt den typischen SiGeKo-Ablauf von der Auftragserteilung bis zur laufenden Ausführungskoordination – dokumentiert in einem Projektverlauf mit Meilensteinen und Leistungsstatus.",
-      "Projektdaten: Auftrag per E-Mail Anfang März 2026, Honorar 5.200 € netto (Zusatzleistungen 85 €/h), Bauleitung durch ein Kölner Sachverständigenbüro, Bauherr über Verwaltungsgesellschaft. Vereinbart: SiGe-Plan nach BaustellV und bis zu acht Baustellenbegehungen (ca. monatlich).",
-      "Erste Meilensteine: SiGe-Plan Version 1.0 erstellt, Baustellenordnung entworfen, SiGe-Plan-Aushang vorbereitet, Checkliste Erstbegehung durchgeführt, Begehungsbericht Nr. 1 dokumentiert. Status nach Projektstart: eine von acht Begehungen abgeschlossen – normaler Rhythmus für den Rohbauanfang.",
+      "Ein Neubau-Wohngebäude in NRW zeigt den typischen SiGeKo-Ablauf von der Auftragserteilung bis zur laufenden Ausführungskoordination – dokumentiert in einem Projektverlauf mit Meilensteinen und Leistungsstatus.",
+      "Projektdaten (anonymisiert): schriftliche Beauftragung, Pauschalhonorar für den Standardumfang, Bauleitung durch ein externes Planungsbüro, Bauherr über Projektgesellschaft. Vereinbart: SiGe-Plan nach BaustellV und eine festgelegte Anzahl Baustellenbegehungen im Ausführungszeitraum (typisch ca. monatlich).",
+      "Erste Meilensteine: SiGe-Plan Version 1.0 erstellt, Baustellenordnung entworfen, SiGe-Plan-Aushang vorbereitet, Checkliste Erstbegehung durchgeführt, Begehungsbericht Nr. 1 dokumentiert. Status nach Projektstart: erste Begehung abgeschlossen – normaler Rhythmus für den Rohbauanfang.",
       "Was Bauherren daraus lernen können: SiGeKo ist kein Einmal-PDF, sondern ein Prozess mit Versionierung. Der Projektverlauf macht für alle Beteiligten transparent, was erledigt ist und was als Nächstes ansteht (Vorankündigung, Unterweisungen, Übergaben Rohbau/Ausbau).",
       "Abgrenzung Honorar: Die Pauschale deckt den vereinbarten Standardumfang; Mehrleistungen (zusätzliche Begehungen, Sondergutachten, erweiterte GBU) werden separat abgerechnet – im Vertrag vorab klären verhindert Streit.",
       "Vergleichbare Strukturen setzen wir für Neubauten und Umbauten in Köln und NRW um. Kostenorientierung: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] und [Link: /wissen/blog/sigeko-koeln-kosten]. Ratgeber: [Link: /wissen/ratgeber/sigeko-baustelle].",
@@ -625,10 +625,10 @@ export const blogPosts: BlogPost[] = [
     slug: "sigeko-dacharbeiten-absturz-bestand-koeln",
     title: "SiGeKo bei Dacharbeiten im Bestand – Absturz, Feuerlöscher, Klimageräte (Köln)",
     excerpt:
-      "Begehung und Besprechungsbericht zu Dach-/Klimawartung: ASR A2.1, ASR A2.2 und GBU-Vorbereitung – anonymisiert aus SiGeKo-Mandat Toyotaallee Köln.",
+      "Begehung und Besprechungsbericht zu Dach-/Klimawartung: ASR A2.1, ASR A2.2 und GBU-Vorbereitung – anonymisiert aus einem SiGeKo-Mandat in Köln.",
     date: "2026-05-25",
     content: [
-      "Nicht jede SiGeKo-Aufgabe ist Großbaustelle mit Abbruch. In Köln (Toyotaallee) ging es um SiGeKo-Begleitung bei Arbeiten im Bestand – Schwerpunkt Dachbereiche, Klimageräte, Absturzgefahren und Erstausstattung mit Feuerlöschern entlang Fluchtwege.",
+      "Nicht jede SiGeKo-Aufgabe ist Großbaustelle mit Abbruch. In einem Kölner Gewerbeobjekt ging es um SiGeKo-Begleitung bei Arbeiten im Bestand – Schwerpunkt Dachbereiche, Klimageräte, Absturzgefahren und Erstausstattung mit Feuerlöschern entlang Fluchtwege.",
       "Begehungsbericht und Besprechungsbericht dokumentierten: Gefahrenbereich Absturz nach ASR A2.1 (2,0-m-Regel als Orientierung), Absturzsicherung bei Dach-/Wartungsarbeiten, Feuerlöscher-Ausstattung und Löschmittelbedarf nach ASR A2.2 – stets objektspezifisch über Gefährdungsbeurteilung und Fachplanung festzulegen.",
       "SiGeKo-Aufgabe hier: Organisation und Dokumentation vorbereiten, Schnittstellen zwischen Facility, ausführenden Firmen und Betrieb klären, Feststellungen für die übergeordnete GBU des Betriebs bzw. das Bauvorhaben aufbereiten. Nicht die Rolle des ausführenden Unternehmers ersetzen.",
       "Typisches Muster im Bestand: Mehrere Dienstleister, kurze Einsatzzeiten, unklare Zuständigkeit für temporäre Absturzsicherung. Der SiGeKo schafft mit Begehung und schriftlicher Nachverfolgung Klarheit – bevor die BG fragt.",
@@ -640,10 +640,10 @@ export const blogPosts: BlogPost[] = [
     slug: "sigeko-innenausbau-bestand-leistungsumfang",
     title: "SiGeKo bei Innenausbau im Bestand – Leistungsumfang und Honorar (Praxis)",
     excerpt:
-      "SiGe-Plan, Begehungen, Einweisungen bei Umbaumaßnahme: Was ein SiGeKo-Angebot für Bestandsprojekte enthalten sollte – anonymisiert aus Telekom-/Business-Umfeld.",
+      "SiGe-Plan, Begehungen, Einweisungen bei Umbaumaßnahme: Was ein SiGeKo-Angebot für Bestandsprojekte enthalten sollte – anonymisiert aus einem Business-Umbau in Köln.",
     date: "2026-05-25",
     content: [
-      "Umbaumaßnahmen im Bestand (mehrere Gewerke, laufender Betrieb in der Nähe) lösen dieselbe SiGeKo-Pflicht aus wie Neubauten – sobald Beschäftigte mehrerer Arbeitgeber nacheinander oder gleichzeitig tätig werden. Ein Angebot für ein Business-Umbauvorhaben (Netz-/Telekommunikationsumfeld, Köln) zeigt einen praxisnahen Leistungskatalog nach RAB 30.",
+      "Umbaumaßnahmen im Bestand (mehrere Gewerke, laufender Betrieb in der Nähe) lösen dieselbe SiGeKo-Pflicht aus wie Neubauten – sobald Beschäftigte mehrerer Arbeitgeber nacheinander oder gleichzeitig tätig werden. Ein Angebot für ein Business-Umbauvorhaben in Köln zeigt einen praxisnahen Leistungskatalog nach RAB 30.",
       "Typischer Leistungsumfang: SiGeKo-Vorbereitung und Koordination (Unterlagenprüfung, Abstimmung Bauzeitenplan, SiGe-Plan, mehrere Abstimmungstermine vor Ort oder remote), Begehungen in der Ausführungsphase, projektbezogene Einweisungen, Dokumentation und Nachverfolgung vereinbarter Maßnahmen.",
       "Honorarlogik: Orientierung an üblichen Strukturen für Innenausbau mit Gewerke-Mix – nicht pauschal „pro Quadratmeter“, sondern nach Schnittstellenanzahl, Betriebszeiten und Zugangsbeschränkungen. Transparentes Leistungsverzeichnis im Angebot erleichtert Vergleiche und verhindert Scope-Creep.",
       "Besonderheit Bestand: Abstimmung mit Facility, Brandschutz des Gebäudes, evtl. Denkmalschutz oder Mieteranforderungen. Der SiGe-Plan muss temporäre Maßnahmen (Staub, Absperrungen, Fluchtwege) beschreiben, die nach Ende der Maßnahme wieder entfallen.",
@@ -655,15 +655,15 @@ export const blogPosts: BlogPost[] = [
     slug: "sigeko-koeln-kosten",
     title: "SiGeKo in Köln – Honorare, Kostenfaktoren und Leistungsumfang",
     excerpt:
-      "Was kostet SiGeKo in Köln und NRW? Honorarmodelle, Einflussfaktoren und Praxisbeispiele aus Neubau, Hotelumbau und Bestand – transparent erklärt.",
+      "Was kostet SiGeKo in Köln und NRW? Honorarmodelle, Einflussfaktoren und typische Projektgrößen – ohne vertrauliche Einzeldaten.",
     date: "2026-05-25",
     content: [
       "SiGeKo-Leistungen sind nicht wie Standard-LVs austauschbar – der Aufwand hängt von Komplexität, Risiko, Gewerkeanzahl und urbanem Umfeld ab. Bauherren in Köln sollten früh Budget für Vorplanung und Ausführungskoordination einplanen.",
       "Übliche Honorarmodelle: Stundensätze mit Obergrenze (Cap), Pauschalen pro Projektphase (Vorplanung vs. Ausführung), Monatspauschalen bei Dauerbaustellen oder Pakete für kleinere Vorhaben. Entscheidend ist ein klar definierter Leistungsumfang im Vertrag – nicht nur der Nettopreis.",
       "Einflussfaktoren in der Praxis: Anzahl gleichzeitiger Gewerke, Anteil besonders gefährlicher Arbeiten (Anhang II BaustellV), Abbruch vs. Neubau, Nachbarschaft und Verkehr (Köln innerstädtisch), Zusatzleistungen wie übergeordnete GBU, Prüfung von Gewerke-GBUs, Sonderbegehungen.",
-      "Orientierungswerte aus Mandaten (anonymisiert): Neubau Wohngebäude NRW ca. 5.200 € netto Pauschale inkl. SiGe-Plan und acht Begehungen; komplexe Hotelumbauten mit Zusatz-GBU und intensivem Abbruch deutlich darüber; Bestands-/Innenausbau nach Gewerke-Mix und Bauzeitenplan kalkuliert.",
+      "Orientierungswerte (generisch, nicht mandatsbezogen): kleinere Neubauten in NRW oft im mittleren vierstelligen Nettobereich inkl. SiGe-Plan und vereinbarter Begehungszahl; komplexe innerstädtische Umbauten mit Zusatz-GBU und intensivem Abbruch deutlich darüber; Bestands-/Innenausbau nach Gewerke-Mix und Bauzeitenplan.",
       "ROI: Ein belastbarer SiGe-Plan und dokumentierte Begehungen reduzieren BG-Anhalten, Nacharbeiten und Haftungsstreit – das rechtfertigt das Honorar gegenüber vermeintlich günstigen „Nur-Plan“-Angeboten ohne Koordination vor Ort.",
-      "Health and Safety+ erstellt transparente SiGeKo-Angebote für Köln und NRW. Rechner: [Link: /wissen/rechner] · Ausführlich: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] · Fallbeispiele: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wipperfuerth] · [Link: /kontakt].",
+      "Health and Safety+ erstellt transparente SiGeKo-Angebote für Köln und NRW. Rechner: [Link: /wissen/rechner] · Ausführlich: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] · Ablauf: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw] · [Link: /kontakt].",
     ],
   },
 ];

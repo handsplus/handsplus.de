@@ -161,8 +161,8 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Fallstränge aus Beratungsprojekten in Köln und NRW",
         "paragraphs": [
           "Unsere Mandate zeigen wiederkehrende Muster – und konkrete Lösungen. In einer KiTa-Küche in Köln führte die ergonomische Begehung zu belastbaren GBU-Ergänzungen (Spülbereich, LMM, Kinderessbereich) statt generischer Floskeln – siehe [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
-          "Beim Start externer FaSi-Betreuung (z. B. HVAC-Niederlassung Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Voll-GBU-Neuerstellung: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
-          "Logistikstandorte mit ca. 80 Beschäftigten profitieren von Jahrespauschalen mit ASA, integrierter Begehung und strukturierten Einarbeitungsunterweisungen – Ablauf im ersten Vertragsjahr: [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf].",
+          "Beim Start externer FaSi-Betreuung (z. B. technischer Dienstleister in Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Voll-GBU-Neuerstellung: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
+          "Mittelgroße Logistikstandorte profitieren von Jahrespauschalen mit ASA, integrierter Begehung und strukturierten Einarbeitungsunterweisungen – Ablauf im ersten Vertragsjahr: [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf].",
           "SiFa-Jahresberichte nach DGUV Vorschrift 2 müssen Begehungen, Unterweisungen, Evakuierungsübungen und Einzelfragen (z. B. Handhubwagen-Prüfpflicht, psychische Belastung) nachvollziehbar bündeln: [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein] und [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit].",
           "ASA-Sitzungen bei Sozialträgern verbinden GBU Küche, psychische GBU und Bildschirmarbeitsplätze – gute Protokolle mit Status und Verantwortlichen verhindern Insellösungen: [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz].",
           "Brandschutz und Arbeitsschutz bleiben gekoppelt: Evakuierungsübungen, Unterweisungen und GBU-Review gehören in einen Rhythmus – nicht in getrennte Ordner ohne Priorisierung."
@@ -457,7 +457,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Besonders gefährliche Arbeiten",
         "paragraphs": [
           "Tätigkeiten nach Anhang II erfordern erhöhte Aufmerksamkeit: Abstimmung mit den ausführenden Firmen, Unterweisungen und oft zusätzliche technische Schutzmaßnahmen. Bauherren sollten frühzeitig klären, welche Gewerke welche Sonderregeln auslösen.",
-          "Handlungshilfen zu Anhang II und Bauherrenpflichten: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln] (Absturz/Seitenschutz) und [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko]."
+          "Handlungshilfen zu Anhang II und Bauherrenpflichten: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln] (Absturz/Seitenschutz) und [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko]."
         ]
       },
       {
@@ -471,7 +471,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Baustellenbegehungen und behördliche Erwartungen",
         "paragraphs": [
           "Begehungen dokumentieren Mängel, Maßnahmen und Verantwortliche – nicht nur für BGUV/IFA-Themen, sondern auch für Brandschutz temporärer Anlagen. NRW-Behörden erwarten nachvollziehbare Nachweise und kurzfristige Sanierung sicherheitsrelevanter Abweichungen.",
-          "In der Praxis zählen fotodokumentierte Begehungsberichte mit Nachverfolgung offener Punkte – etwa Absturzsicherung in der Abbruchphase: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln]. H&S+ führt Begehungen zielorientiert durch und übersetzt Ergebnisse in umsetzbare Maßnahmenpläne ohne Überorganisation."
+          "In der Praxis zählen fotodokumentierte Begehungsberichte mit Nachverfolgung offener Punkte – etwa Absturzsicherung in der Abbruchphase: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln]. H&S+ führt Begehungen zielorientiert durch und übersetzt Ergebnisse in umsetzbare Maßnahmenpläne ohne Überorganisation."
         ]
       },
       {
@@ -484,10 +484,10 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Baustellen-Erfahrungen aus Köln",
         "paragraphs": [
-          "Hotelumbau Köln (Abbruchphase): Wiederkehrendes Thema Seitenschutz – Begehungen dokumentieren Verbesserungen und verbleibende Mängel mit Fotos: [Link: /wissen/blog/sigeko-begehung-seitenschutz-hotelumbau-koeln].",
+          "Innerstädtischer Umbau Köln (Abbruchphase): Wiederkehrendes Thema Seitenschutz – Begehungen dokumentieren Verbesserungen und verbleibende Mängel mit Fotos: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln].",
           "Gleiches Projekt – Rauchen auf der Baustelle vs. § 5 ArbStättV: übergeordnete GBU, Baustellenordnung und ausgewiesene Raucherstellen statt pauschaler „Fassade offen“-Argumente: [Link: /wissen/blog/rauchen-baustelle-arbstattv-sigeko].",
-          "Schnittstellen-GBU bei Glasatrium, Innenhof und Dritt-Infrastruktur – Abgrenzung SiGeKo-GBU und Gewerke-GBU: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt].",
-          "Neubau Wohngebäude NRW: SiGe-Plan v1.0, Baustellenordnung, Projektverlauf mit acht Begehungen – Ablauf ab Auftrag: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wipperfuerth].",
+          "Schnittstellen-GBU bei mehreren Gewerken und fremder Infrastruktur – Abgrenzung SiGeKo-GBU und Gewerke-GBU: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt].",
+          "Neubau Wohngebäude NRW: SiGe-Plan, Baustellenordnung, Projektverlauf mit Begehungsrhythmus – Ablauf ab Auftrag: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw].",
           "Bestand Köln (Dach/Klima): Absturz nach ASR A2.1, Feuerlöscher/Fluchtwege – SiGeKo-Begehung im laufenden Betrieb: [Link: /wissen/blog/sigeko-dacharbeiten-absturz-bestand-koeln].",
           "Innenausbau Bestand: Leistungskatalog und Honorarlogik aus Angebot (SiGe-Plan, Begehungen, Einweisungen): [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang]. Honorar-Orientierung Köln: [Link: /wissen/blog/sigeko-koeln-kosten]."
         ]
