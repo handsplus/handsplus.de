@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { faqItems } from "@/content/faq";
 import { pageMetadata } from "@/lib/metadata";
+import { ContentText } from "@/lib/contentLinks";
 
 export const metadata = pageMetadata({
   path: "/wissen/faq",
@@ -85,7 +86,9 @@ export default function WissenFaqPage() {
                     </span>
                   </summary>
                   <div className="border-t border-slate-200 bg-white px-5 py-4">
-                    <p className="text-slate-600 leading-relaxed">{item.answer}</p>
+                    <p className="text-slate-600 leading-relaxed">
+                      <ContentText text={item.answer} />
+                    </p>
                   </div>
                 </details>
               ))}

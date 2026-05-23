@@ -60,6 +60,21 @@ export function parseContentSegments(text: string): Segment[] {
         external: isExternal(href),
         label: explicitLabel,
       });
+    } else if (/^\/[a-z0-9\-/#?=&%.]*$/i.test(href)) {
+      // Defensiv: interne Pfade immer als Link (verhindert sichtbares [Link:]-Rohtext)
+      segments.push({
+        type: "link",
+        href,
+        external: false,
+        label: explicitLabel,
+      });
+    } else if (isExternal(href)) {
+      segments.push({
+        type: "link",
+        href,
+        external: true,
+        label: explicitLabel,
+      });
     } else {
       segments.push({ type: "text", value: match[0] });
     }
