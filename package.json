@@ -19,6 +19,7 @@
     "build": "node scripts/run-next.js build",
     "start": "node scripts/run-next.js start -p 3002",
     "lint": "node scripts/run-next.js lint",
+    "qa:de": "node scripts/qa-de-rechtschreibung.mjs",
     "lighthouse": "npx --yes lighthouse http://localhost:3001 --output=json --output=html --output-path=./lighthouse-report --only-categories=performance,accessibility,best-practices,seo --chrome-flags=\"--headless --no-sandbox\"",
     "lighthouse:prod": "npx --yes lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.report.json --only-categories=performance,accessibility,best-practices,seo --chrome-flags=\"--headless --no-sandbox --disable-gpu\"",
     "lighthouse:report": "node scripts/lighthouse-report-to-pdf.js",
