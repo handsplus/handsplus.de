@@ -5,7 +5,7 @@ import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 
 export const metadata = pageMetadata({
   path: "/wissen/ratgeber",
-  title: "Ratgeber Arbeitsschutz, Brandschutz & SiGeKo | H&S+ Köln NRW",
+  title: "Ratgeber Arbeitsschutz, Brandschutz & SiGeKo Köln NRW",
   description:
     "Umfassende Ratgeber zu Arbeitsschutz im Unternehmen, betrieblichem Brandschutz, SiGeKo, Gefährdungsbeurteilung, BauO NRW und Elektrosicherheit – Praxiswissen für Köln und NRW.",
   keywords: [

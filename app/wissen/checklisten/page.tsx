@@ -3,7 +3,7 @@ import { ChecklistenContent } from "@/components/ChecklistenContent";
 
 export const metadata = pageMetadata({
   path: "/wissen/checklisten",
-  title: "Checklisten – Arbeitssicherheit, Brandschutz, SiGeKo | H&S+",
+  title: "Checklisten – Arbeitssicherheit, Brandschutz, SiGeKo",
   description: "Selbstbewertung: Checklisten für Gefährdungsbeurteilung, Brandschutz und SiGeKo – praxisnah von H&S+.",
   keywords: ["Checklisten Arbeitsschutz", "Gefährdungsbeurteilung", "Brandschutz Checkliste", "SiGeKo", "Selbstbewertung"],
 });

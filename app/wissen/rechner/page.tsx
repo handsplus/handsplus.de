@@ -3,7 +3,7 @@ import { RechnerContent } from "@/components/RechnerContent";
 
 export const metadata = pageMetadata({
   path: "/wissen/rechner",
-  title: "Rechner: Brandschutzhelfer (ASR A2.2) & SiGeKo-Honorar | H&S+",
+  title: "Rechner: Brandschutzhelfer (ASR A2.2) & SiGeKo-Honorar",
   description: "Brandschutzhelfer-Anzahl nach ASR A2.2, SiGeKo-Honorar-Orientierung – nützliche Rechner für die Praxis.",
   keywords: ["Brandschutzhelfer Rechner", "ASR A2.2", "SiGeKo Honorar", "Rechner Arbeitsschutz"],
 });

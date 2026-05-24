@@ -7,7 +7,7 @@ import { serviceIcons } from "@/lib/serviceIcons";
 
 export const metadata = pageMetadata({
   path: "/",
-  title: "Arbeitsschutz & Brandschutz Köln | H&S+",
+  title: "Arbeitsschutz & Brandschutz Köln",
   description: "Arbeitsschutz, Brandschutz und Managementsysteme in Köln – Fachkraft für Arbeitssicherheit, Brandschutzbeauftragter, SiGeKo. Kostenlose Erstberatung.",
   keywords: ["Arbeitsschutz Köln", "Brandschutz Köln", "Fachkraft für Arbeitssicherheit", "Brandschutzbeauftragter", "Brandschutz Sachverständiger", "SiGeKo", "Health and Safety Plus"],
 });

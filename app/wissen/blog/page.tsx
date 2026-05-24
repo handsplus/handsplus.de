@@ -4,7 +4,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   path: "/wissen/blog",
-  title: "Blog – Arbeitsschutz & Brandschutz | H&S+",
+  title: "Blog – Arbeitsschutz & Brandschutz",
   description: "Praxisnahe Beiträge zu Arbeitsschutz, Brandschutz, SiGeKo und betrieblicher Sicherheit – von H&S+ in Köln.",
   keywords: ["Blog Arbeitsschutz", "Blog Brandschutz", "Fachartikel SiGeKo", "Wissen Arbeitssicherheit"],
 });

@@ -7,12 +7,11 @@ import { ClusterRelatedPosts } from "@/components/ClusterRelatedPosts";
 import { PillarGuideBanner } from "@/components/PillarGuideBanner";
 import { ContentText } from "@/lib/contentLinks";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
+import { BASE_URL, pageMetadata } from "@/lib/metadata";
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
-
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 export async function generateMetadata({
   params,
@@ -21,29 +20,13 @@ export async function generateMetadata({
 }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
-  const title = `${post.title} | Blog | H&S+`;
-  const description = post.excerpt.slice(0, 160);
-  const url = `${BASE_URL}/wissen/blog/${post.slug}`;
-  return {
-    title,
-    description,
-    alternates: { canonical: url },
-    openGraph: {
-      title,
-      description,
-      url,
-      type: "article",
-      publishedTime: post.date,
-      locale: "de_DE",
-      siteName: "H&S+ Health and Safety +",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-    robots: { index: true, follow: true },
-  };
+  return pageMetadata({
+    path: `/wissen/blog/${post.slug}`,
+    title: `${post.title} | Blog`,
+    description: post.excerpt,
+    openGraphType: "article",
+    publishedTime: post.date,
+  });
 }
 
 function formatDate(iso: string) {

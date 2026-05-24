@@ -5,7 +5,7 @@ import { ContentText } from "@/lib/contentLinks";
 
 export const metadata = pageMetadata({
   path: "/wissen/faq",
-  title: "FAQ – Häufige Fragen zu Arbeitsschutz, Brandschutz & SiGeKo | H&S+",
+  title: "FAQ – Häufige Fragen zu Arbeitsschutz, Brandschutz & SiGeKo",
   description: "Häufige Fragen zu Fachkraft für Arbeitssicherheit, Gefährdungsbeurteilung, SiGeKo, Brandschutzbeauftragtem, Elektroprüfung und Betreuung in Köln. Klare Antworten von H&S+.",
   keywords: [
     "FAQ Arbeitsschutz",

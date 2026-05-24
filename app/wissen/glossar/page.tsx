@@ -6,7 +6,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
 
 export const metadata = pageMetadata({
   path: "/wissen/glossar",
-  title: "Glossar: Arbeitssicherheit, Brandschutz, SiGeKo (FaSi, BSB, GBU, ASiG, DGUV, VEFK) | H&S+",
+  title: "Glossar: Arbeitssicherheit, Brandschutz, SiGeKo (FaSi, BSB, GBU, ASiG, DGUV, VEFK)",
   description: "Wichtige Begriffe aus Arbeitssicherheit, Brandschutz und SiGeKo – kurz erklärt.",
   keywords: ["Glossar Arbeitsschutz", "Arbeitsschutzgesetz", "ArbSchG", "Brandschutz Begriffe", "SiGeKo", "FaSi", "BSB", "DGUV", "VEFK", "ASiG"],
 });

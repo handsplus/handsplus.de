@@ -32,7 +32,7 @@ const featuredBlogSlugs = [
 
 export const metadata = pageMetadata({
   path: "/wissen",
-  title: "Wissen & Ressourcen – FAQ, Checklisten, Glossar, Rechner | H&S+",
+  title: "Wissen & Ressourcen – FAQ, Checklisten, Glossar, Rechner",
   description: "Checklisten, FAQ, Glossar, Rechner und Schulungstermine – alles auf einen Blick. Wissen zu Arbeitsschutz, Brandschutz und SiGeKo.",
   keywords: ["Wissen Arbeitsschutz", "FAQ Brandschutz", "Blog SiGeKo", "Checklisten", "Glossar", "Rechner ASR A2.2", "SiGeKo Honorar"],
 });
