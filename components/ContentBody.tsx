@@ -12,11 +12,11 @@ export function ContentBody({ sections }: { sections: RatgeberSection[] }) {
   return (
     <>
       {sections.map((section, idx) => (
-        <section key={idx}>
+        <section key={idx} className={idx > 0 ? "mt-12 sm:mt-14" : undefined}>
           {section.h2 && (
             <h2
               id={headingId(section.h2)}
-              className="text-xl sm:text-2xl font-semibold text-slate-900 mt-10 first:mt-0 scroll-mt-24"
+              className="text-xl sm:text-2xl font-semibold text-slate-900 scroll-mt-24"
             >
               {section.h2}
             </h2>

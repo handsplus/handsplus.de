@@ -217,9 +217,9 @@ export const ratgeberPosts: RatgeberPost[] = [
   {
     "slug": "brandschutz-betrieb",
     "title": "Betrieblicher Brandschutz – Organisation, Pflichten und Praxis für Betriebe",
-    "excerpt": "Betrieblicher Brandschutz schützt Menschen, Sachwerte und Produktionsprozesse – und ist zugleich ein Kernelement der organisationalen Resilienz. Anders als punktuelle Brandschutzprojekte beim Bau nach…",
+    "excerpt": "Betrieblicher Brandschutz in NRW: BSO nach DIN 14096, Prüffristen, Alarm und Evakuierung, BSB und Brandschutzhelfer – mit Praxis aus Begehungen und Audits. Ratgeber von Health and Safety+.",
     "titleTag": "Betrieblicher Brandschutz Pflichten Köln NRW | handsplus.de",
-    "metaDescription": "Betrieblicher Brandschutz in Köln und NRW: Brandschutzbeauftragte, Evakuierung, Unterweisung, Brandmeldeanlagen. Ratgeber von Health and Safety+ (H&S+).",
+    "metaDescription": "Betrieblicher Brandschutz Köln & NRW: BSO DIN 14096, Prüffristen BMA/Löscher, Alarmplan DGUV 205-033, BSB, Evakuierung. Praxis-Ratgeber von H&S+.",
     "servicePath": "/brandschutz",
     "tag": "Ratgeber Brandschutz",
     "sections": [
@@ -232,14 +232,59 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Normative Einordnung und Unternehmenspflichten",
         "paragraphs": [
-          "Maßgeblich sind unter anderem Arbeitsstättenverordnung, DGUV-Informationen und brandschutzrechtliche Anforderungen je nach Gebäudeklasse und Nutzung. Der Arbeitgeber hat sicherzustellen, dass Brandschutz organisatorisch verankert ist – von der Bestellung von Brandschutzhelfern über Evakuierungspläne bis zur Abstimmung mit externen Dienstleistern.",
-          "Ein häufiges Risiko ist die Diskrepanz zwischen genehmigten Brandschutzunterlagen und späteren Umbauten ohne Nachführung. Jede relevante Änderung von Nutzung, Personenzahl oder Technik erfordert Überprüfung von Rettungswegen, Brandschutztüren und Brandmelderzonierung."
-        ]
+          "Betrieblicher Brandschutz ist kein isoliertes Thema neben dem Arbeitsschutz, sondern Teil der Pflicht nach § 3 ArbSchG: Gefahren für Leben und Gesundheit müssen durch wirksame, auf den Betrieb zugeschnittene Maßnahmen vermieden werden. Für die Arbeitsstätte konkretisieren das die Arbeitsstättenverordnung (ArbStättV) und die Technischen Regeln für Arbeitsstätten – insbesondere ASR A2.2 (Maßnahmen gegen Brände) und ASR A2.3 (Fluchtwege, Notausgänge, Flucht und Rettung). Ergänzend strukturieren DGUV-Informationen die Organisation: DGUV Information 205-003 für Brandschutzbeauftragte, DGUV 205-023 für Brandschutzhelfer und DGUV 205-033 für Alarmierung und Evakuierung.",
+          "Die Brandschutzordnung nach DIN 14096 (Teil A für alle Beschäftigten, Teil B für brandschutzrelevante Tätigkeiten, Teil C für Führungs- und Einsatzkräfte) ist das zentrale betriebliche Regelwerk – unabhängig davon, ob parallel ein genehmigtes Brandschutzkonzept nach BauO NRW existiert. Bauordnung und Betrieb müssen zusammenpassen: Was im BSK für die Genehmigung nachgewiesen wurde, gilt im Alltag nur, wenn BSO, Pläne und technische Anlagen zum IST-Zustand geführt werden.",
+          "Überwachungsbedürftige Anlagen – vor allem Brandmeldeanlagen – unterliegen der Betriebssicherheitsverordnung (BetrSichV) mit Prüfpflichten durch befugte Personen bzw. Fachbetriebe; in NRW kommen landesspezifische Vorgaben der Prüfverordnung hinzu. Versicherer und anerkannte Regeln des Sachversicherers (VdS) setzen in der Praxis oft strengere Intervalle als das Mindestgesetz – das sollte der Prüfplan des Betriebs von vornherein berücksichtigen.",
+          "Wann ein Brandschutzbeauftragter (BSB) sinnvoll oder faktisch unverzichtbar ist, hängt von Brandgefährdung, Gebäudekomplexität und Personenaufkommen ab – nicht allein von der Mitarbeiterzahl. Orientierung bietet die Gefährdungsbeurteilung (Brandgefahr) und DGUV 205-003: bei erhöhtem Risiko, BMA, Versammlungsstätten-Nutzung oder mehreren Standorten ist eine schriftliche Bestellung mit klaren Aufgaben und Weisungsfreiheit gegenüber der Linie üblich. Brandschutzhelfer nach ASR A2.2 ergänzen die Organisation; ihre Anzahl richtet sich nach Fläche, Etagen und Schichtmodell (Orientierung: Anteil der Beschäftigten mit abgeschlossener Ausbildung nach DGUV 205-023).",
+          "Ein häufiges Compliance-Risiko ist die Lücke zwischen genehmigten Unterlagen und Betriebsrealität: Büroumbauten ohne BMA-Nachführung, zusätzliche Lagerzonen in Fluren, gekeilte Brandschutztüren oder Leihpersonal ohne Unterweisung. Jede wesentliche Änderung von Nutzung, Personenzahl, Technik oder Organisation sollte einen dokumentierten Abgleich auslösen – mindestens Rettungswege, Feuerschutzabschlüsse, Brandmelderzonierung und BSO Teil C. Vertiefung zur BSO-Struktur folgt in einem eigenen Kapitel; zur Bauordnung siehe [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz]."
+        ],
+        "table": {
+          "headers": [
+            "Regelwerk",
+            "Betriebliche Wirkung",
+            "Typische Nachweise"
+          ],
+          "rows": [
+            [
+              "ArbSchG / ArbStättV",
+              "Pflicht zu wirksamem Brandschutz in der Arbeitsstätte",
+              "GBU Brandgefahr, Unterweisungslisten"
+            ],
+            [
+              "ASR A2.2 / A2.3",
+              "Brandschutzhelfer, Fluchtwege, Löscher, Notbeleuchtung",
+              "Einsatzpläne, Prüfplaketten, Begehungsprotokolle"
+            ],
+            [
+              "DIN 14096 (BSO)",
+              "Teil A/B/C, Fortschreibung ca. alle 2 Jahre",
+              "Freigegebene Version, Aushang Teil A"
+            ],
+            [
+              "DGUV 205-003",
+              "Aufgaben BSB, Übungen, Behörden/Versicherer",
+              "Bestellungsschreiben, Jahresprogramm"
+            ],
+            [
+              "BetrSichV / DIN 14675",
+              "BMA-Wartung und Störungsmanagement",
+              "Wartungsbuch, Inspektionsprotokolle"
+            ],
+            [
+              "BauO NRW / BSK",
+              "Bauliche Anforderungen, Genehmigung",
+              "Konzept, Pläne – Abgleich mit Betrieb"
+            ]
+          ]
+        }
       },
       {
         "h2": "Rollen im Brandschutz – Überblick",
         "paragraphs": [
-          "Rollen dürfen sich nicht überschneiden ohne klare Absprachen: Wenn Facility extern ist, müssen Eskalationspfade für kritische Mängel vertraglich fixiert sein. Interne Koordinatoren sollten feste Ansprechpartner bei Alarmierung benennen."
+          "Wirksamer betrieblicher Brandschutz scheitert selten an fehlenden Vorschriften, sondern an unklaren Zuständigkeiten: Wer alarmiert, wer schließt die BMA-Zentrale, wer führt die Evakuierung, wer beauftragt die Türwartung? Jede Funktion braucht einen benannten Inhaber, schriftliche Vertretungsregeln und – bei externem Facility – vertragliche Reaktionszeiten für kritische Mängel (z. B. defekte Feststellanlage, gekeilte Brandschutztür, BMA-Störung). Ohne SLA bleiben Mängel in Tickets hängen, während der Betrieb formal „organisiert“ wirkt.",
+          "Der Brandschutzbeauftragte (BSB) ist die zentrale beratende Rolle – nicht die Feuerwehr vor Ort. Nach DGUV Information 205-003 unterstützt er den Arbeitgeber bei der Planung, Überwachung und Weiterentwicklung des Brandschutzes: Erstellung und Fortschreibung der BSO (DIN 14096), Brandschutzbegehungen, Organisation von Übungen, Prüfung der Wirksamkeit von Maßnahmen, Abstimmung mit Behörden, Feuerwehr und Versicherern sowie Schulung von Brandschutzhelfern und Führungskräften. Die Bestellung erfolgt schriftlich, mit Weisungsfreiheit gegenüber der operativen Linie und direkter Anbindung an die Geschäftsführung. Qualifikation: typischerweise ca. 64 Unterrichtseinheiten nach vfdb-Richtlinie 12-09/01; Fortbildung etwa 16 UE alle drei Jahre. Ob ein BSB Pflicht oder faktisch unverzichtbar ist, ergibt sich aus Brandgefährdung, BMA, Nutzungsart und Objektgröße – nicht aus einer starren Mitarbeiterzahl. Details: [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten].",
+          "Brandschutzhelfer nach ASR A2.2 ergänzen den BSB im operativen Ernstfall: Evakuierung unterstützen, Löschgeräte nur im Rahmen der Ausbildung nutzen, keine heroischen Löschversuche bei übermäßiger Gefahr. Ihre Anzahl orientiert sich an Beschäftigtenzahl, Etagen, Schichten und Sondergefährdungen – in der Praxis oft etwa 5–10 % der Belegschaft, in Kleinstbetrieben mindestens eine qualifizierte Person pro relevantem Bereich oder Schicht. Ausbildung nach DGUV 205-023, Fortbildung alle 3–5 Jahre, praktische Übung etwa alle vier Jahre. Vertiefung: [Link: /wissen/blog/asr-a2-2-brandschutzhelfer].",
+          "In größeren Objekten kommen weitere Rollen hinzu: Evakuierungshelfer für Personen mit eingeschränkter Mobilität (Planung nach DGUV 205-033), feste Ansprechpartner für die Brandmeldezentrale bzw. Leitstelle (intern oder extern), Werkschutz oder Sicherheitsdienst für Zutritt und Sammelstellen, Facility für technische Instandhaltung. Die Fachkraft für Arbeitssicherheit ([Link: /wissen/ratgeber/arbeitsschutz-unternehmen]) und der Betriebsarzt sind keine Brandschutzersatzrollen, aber wichtige Partner – etwa bei Heißarbeit, Gefahrstoffen, Evakuierung von Verletzten und ASA-Themen. Die Geschäftsführung bleibt verantwortlich für Ressourcen, Priorisierung und die Umsetzung von Maßnahmen aus Begehungen und Audits."
         ],
         "table": {
           "headers": [
@@ -250,124 +295,438 @@ export const ratgeberPosts: RatgeberPost[] = [
           "rows": [
             [
               "Brandschutzbeauftragte/r",
-              "Beratung und Überwachung der Brandschutzorganisation",
-              "Qualifikation nach ASR A2.2, Einbindung in ASA wo erforderlich"
+              "BSO, Begehungen, Übungen, Pläne, Behörde/Versicherer, BSH-Koordination",
+              "DGUV 205-003 / vfdb 12-09 (ca. 64 UE); Fortbildung ca. 16 UE/3 Jahre; schriftliche Bestellung"
             ],
             [
               "Brandschutzhelfer",
-              "Erste Intervention und Unterstützung der Feuerwehr",
-              "Schulung gemäß Rahmenplan, regelmäßige Übung"
+              "Evakuierung, erste Löschversuche im Rahmen der Ausbildung",
+              "DGUV 205-023; Fortbildung 3–5 Jahre; Übung ca. alle 4 Jahre"
+            ],
+            [
+              "Evakuierungshelfer",
+              "Räumung von Personen mit Behinderung / eingeschränkter Mobilität",
+              "Schulung nach DGUV 205-033; Einsatz in Übungen und im Ernstfall"
+            ],
+            [
+              "Alarmierung / Leitstelle",
+              "BMA-Annahme, Feuerwehr informieren, interne Meldekette",
+              "Geschulte Vertretung; Notfallkarte; Probealarm-Protokoll"
+            ],
+            [
+              "Fachkraft für Arbeitssicherheit",
+              "GBU, ASA, Schnittstelle Arbeitsschutz–Brandschutz",
+              "DGUV Vorschrift 2; gemeinsame Begehungsthemen"
             ],
             [
               "Objekt-/Facility Management",
-              "Instandhaltung von Türen, BMA, Löscher",
-              "Mängelmanagement, Schlüsselzonen, Nachweise"
+              "Türen, BMA, Löscher, RWA, Notbeleuchtung, Mängelbehebung",
+              "SLA für kritische Mängel; Prüfbücher; Schlüssel- und Zonenlogik"
+            ],
+            [
+              "Werkschutz / Sicherheitsdienst",
+              "Zutritt, Patrouille, Unterstützung Sammelstellen",
+              "Kenntnis BSO Teil C; Funk-/Eskalationsplan"
             ],
             [
               "Geschäftsführung",
-              "Ressourcen und Priorisierung",
-              "Freigaben für Investitionen in Brandschutztechnik"
+              "Ressourcen, Freigaben, Umsetzung Maßnahmenlisten",
+              "Jahresziele Brandschutz; Teilnahme an Übungen (Vorbildfunktion)"
             ]
           ]
-        }
+        },
+        "list": [
+          "BSB-Aufgabenfeld Organisation: BSO, Alarm- und Fluchtwegpläne, Unterweisungen, Übungsprogramm",
+          "BSB-Aufgabenfeld Technik: Wirksamkeit von BMA, Löschern, Feuerschutzabschlüssen, Abschottungen bewerten",
+          "BSB-Aufgabenfeld Schnittstellen: Behörde, Feuerwehr, Versicherer, Sondernutzungen (Veranstaltungen, Heißarbeit)",
+          "Keine Doppelrollen ohne Regel: z. B. BSB sollte nicht allein BMA-Störungen bearbeiten und gleichzeitig bewerten"
+        ]
       },
       {
-        "h2": "Brandschutzordnung und Evakuierung",
+        "h2": "BSO nach DIN 14096 – Aufbau und Fortschreibung",
         "paragraphs": [
-          "Die Brandschutzordnung beschreibt alarmierende Personen, Kommunikationswege und besondere Regeln für gefährdete Bereiche. Sie ist auf die reale Gebäudegeometrie und Schichtmodelle abzustimmen – nicht auf theoretische Idealfälle.",
-          "Evakuierungsübungen sollten variantenreich sein (Teilstörungen, Treppenhaus gesperrt, Sprachbarrieren). In Großstädten wie Köln sind auch externe Störungen wie Baustellen oder gesperrte Zufahrten mit einzuplanen. Verknüpfen Sie Übungen mit Erste Hilfe und SiGeKo-Themen auf Baustellen ([Link: /wissen/ratgeber/sigeko-baustelle])."
+          "Die Brandschutzordnung (BSO) nach DIN 14096:2014 ist das betriebliche Regelwerk für Brandverhütung und Verhalten im Brandfall. Sie steht neben – nicht statt – genehmigten brandschutztechnischen Nachweisen (Brandschutzkonzept, BauO NRW): Was im BSK für die Baugenehmigung festgelegt ist, gilt nur, wenn BSO, Flucht- und Rettungspläne sowie technische Anlagen zum tatsächlichen Betrieb passen. Der Arbeitgeber trägt die Verantwortung; erstellt und fortgeschrieben wird die BSO in der Regel durch den BSB, mit Freigabe der Geschäftsführung und dokumentierter Versionsnummer.",
+          "DIN 14096 gliedert in drei Teile mit unterschiedlicher Zielgruppe und Verteilung. Teil A ist der Kurz-Aushang für alle Personen im Gebäude (auch Besucher, Lieferanten, Leiharbeit). Teil B enthält die vollständigen Verhaltens- und Präventionsregeln für Beschäftigte und bildet die inhaltliche Basis der jährlichen Brandschutzunterweisung nach § 12 ArbSchG. Teil C ist vertraulich oder zumindest nur für Einsatzkräfte: Brandschutzbeauftragter, Brandschutzhelfer, Facility, Leitstelle, Führungskräfte – mit Alarmplan, Schlüsselordnung, technischen Details und Übungsvorgaben. Vertiefung der Einzelteile: [Link: /wissen/blog/brandschutzordnung-din-14096].",
+          "Teil A muss ohne Vorwissen verständlich sein: Verhalten bei Entdeckung eines Brandes (Alarm auslösen, keine Gefährdung, Türen schließen wo sinnvoll), Notruf 112, interne Alarmnummer, Sammelplatz(e) mit Plan, Hinweis auf Rauchverbot und Verbot, Aufzüge im Brandfall zu nutzen. Üblich ist DIN-A4-Format an Fluchtwegen und Eingängen; in mehrsprachigen Betrieben sind die Kernbotschaften in den vor Ort gesprochenen Sprachen zu führen. Sinnvoll ist die Kombination mit Erste-Hilfe-Kurzinformation auf dem Flucht- und Rettungsplan – einheitliche Symbole nach ASR A1.3/ASR A2.3 vermeiden Widersprüche zwischen Plänen und Aushang.",
+          "Teil B regelt die Brandverhütung im Arbeitsalltag: durchgängiges Rauchverbot in Gefahrenbereichen, Heißarbeit nur mit Freigabe nach DGUV Regel 100-500 (Feuerwache, Nachkontrolle), ortsveränderliche elektrische Betriebsmittel nur mit gültiger Prüfplakette, freihaltende Rettungswege und Fluchttüren, Lagerung brennbarer Stoffe nur in definierten Zonen, Dekoration und Werbemittel mindestens schwerentflammbar (B1) sofern nicht vollständig verboten. Für Veranstaltungen, Filmaufnahmen mit Zusatzbeleuchtung oder temporäre Nutzungen muss Teil B eine Meldepflicht an den BSB vorsehen – ohne abgestimmten Sonderablauf keine Genehmigung „nebenbei“ über Facility.",
+          "Teil C ist das operative Handbuch: Namen und Vertretungen (BSB, Brandschutzhelfer pro Schicht/Gebäude, Leitstelle, Werkschutz), Alarmablauf Schritt für Schritt (wer nimmt BMA-Meldung an, wann Feuerwehr 112, wann Gebäudealarm, wer Evakuierung freigibt), Sammelstellen und Nachrollen, Szenarien für ausgefallene BMA, gesperrtes Treppenhaus oder Veranstaltungs-Hochbelegung, Regeln für Personen mit eingeschränkter Mobilität (Evakuierungshelfer, Aufenthaltsbereiche), technische Kurzdaten (BMA-Zonen, Feststellanlagen, RWA, Sprinkler, CO₂-Löscher nur nach DGUV 205-034). Schlüssel- und Zutrittslogik für Feuerwehr und Technik gehört hierher, nicht in Teil B.",
+          "Fortschreibung: DIN 14096 und DGUV 205-003 sehen eine systematische Überprüfung mindestens alle zwei Jahre vor; zusätzlich ist die BSO unverzüglich anzupassen bei wesentlichen Änderungen (siehe Liste unten). Nach jeder Fortschreibung: Unterweisung relevanter Beschäftigter auf geänderte Teil-B-Inhalte, Einweisung der in Teil C genannten Rollen, Abgleich mit Flucht- und Rettungsplänen. Räumungsübungen nach ASR A2.3 sind in vielen Objekten jährlich üblich; spätestens im Abstand von fünf Jahren ist eine Übung mit realitätsnaher Störung (z. B. blockierter Rettungsweg) zu dokumentieren.",
+          "In komplexen Standorten – mehrere Gebäude, Tiefgarage, Versammlungsstätte mit hohem Personenaufkommen, Mischmieter – lohnt sich eine BSO-Struktur nach Gebäudeteilen mit gemeinsamem Teil A pro Eingang und gebäudespezifischem Teil C. Typische Konfliktfelder aus der Praxis: Clean-Desk-Flächen versus Notbeleuchtung und Kennzeichnung, offene Küchenzonen in Büroflächen, Akku- und Ladebereiche für Flurförderzeuge oder E-Fahrzeuge, CO₂-Löscher in Serverräumen (nur mit dokumentierter Einsatzart und Zutrittssperre nach Löschversuch). Diese Punkte gehören explizit in Teil B/C, nicht nur in die Gefährdungsbeurteilung."
         ],
+        "table": {
+          "headers": [
+            "Teil",
+            "Zielgruppe",
+            "Form",
+            "Pflichtinhalt (Auszug)"
+          ],
+          "rows": [
+            [
+              "A",
+              "Alle im Gebäude",
+              "Aushang, gut sichtbar",
+              "Brandfall-Verhalten, 112, interne Alarmierung, Sammelplatz"
+            ],
+            [
+              "B",
+              "Beschäftigte",
+              "Schriftlich / digital, versioniert",
+              "Rauchverbot, Heißarbeit, Rettungswege, Löschmittel, Unterweisungsgrundlage"
+            ],
+            [
+              "C",
+              "Einsatzkräfte, Führung",
+              "Zugangsbeschränkt",
+              "Alarmplan, Rollen, BMA/RWA, Übungen, Schlüssel, Sonderszenarien"
+            ]
+          ]
+        },
         "list": [
-          "Klare Alarmierungsketten inklusive Probealarm-Protokollen",
-          "Beschriftung und Beleuchtung von Rettungswegen mit Fotodokumentation",
-          "Pflichten von Fremdfirmen und Lieferanten beim Wareneingang",
-          "Nachbereitung mit Lessons Learned und Maßnahmenliste"
+          "Sofortige BSO-Anpassung bei baulichen oder nutzungsbezogenen Änderungen",
+          "Nach Umbau von Fluren, Türen, Brandabschnitten oder BMA-Zonen",
+          "Bei neuer oder geänderter Heißarbeit-Organisation",
+          "Wenn Personenaufkommen dauerhaft steigt (z. B. Veranstaltung, neue Schicht)",
+          "Nach Wechsel von BSB, Leitstelle oder wesentlichen Brandschutzhelfern",
+          "Bei neuen Gefahrstoff-Lagerzonen oder Ladeinfrastruktur für Batterien",
+          "Nach relevanten Vorfällen (Beinahe-Brand, Probealarm mit Mängeln)",
+          "Wenn Versicherer oder Behörde Auflagen formulieren"
+        ]
+      },
+      {
+        "h2": "Alarm und Evakuierung – Meldekette, Räumung, Übungen",
+        "paragraphs": [
+          "BSO Teil A sagt jedem, was im Brandfall zu tun ist – der Alarm- und Evakuierungsplan nach DGUV Information 205-033 regelt, wer organisatorisch handelt. Bei Brandmeldeanlagen und größeren Arbeitsstätten ist ein dokumentiertes Konzept Pflicht: Alarmstufen, Meldekette, Rollen mit Vertretung, Sammelstellen, Schnittstelle BMA/RWA/Sprachalarm, Verhalten bei Gefahrstoff-Leckagen und Vorgehen für mobilitätseingeschränkte Personen. Ohne dieses Dokument bleiben Etagenpläne und Handfeuermelder isolierte Bausteine.",
+          "Dokumente trennen, Inhalte verknüpfen: Der Alarmplan (Rollen, Telefonketten, Alarmarten) liegt in BSO Teil C und wird an Leitstelle, Werkschutz und Facility verteilt. Die Räumungsorganisation benennt Etagenbeauftragte, Zonen und Rückmeldelogik („alle Etagen geräumt“). Flucht- und Rettungspläne nach ASR A2.3 (grün = Weg, rot = Löscher/Melder, „Sie sind hier“) hängen je Etage aus. Der Feuerwehrplan aus dem Brandschutzkonzept (Zufahrt, Hydranten, Schlüsseldepot) ist für Einsatzkräfte – muss mit internem Schlüsselkonzept übereinstimmen. Vertiefung Pläne: [Link: /wissen/blog/flucht-und-rettungsplan-erstellen].",
+          "Meldekette im Ernstfall – minimal, aber vollständig: (1) Brand entdecken oder BMA meldet – unverzüglich interner Alarm (Handfeuermelder, BMZ, definierte Notrufnummer), (2) bei Bedarf oder automatischer Aufschaltung Notruf 112 / Feuerwehr, (3) akustische Gebäudealarmierung und Räumungsfreigabe durch definierte Rolle (nicht jeder Vorgesetzte eigenmächtig), (4) Etagenbeauftragte und Brandschutzhelfer kontrollieren Zonen, Rückmeldung an Koordination (Leitstelle/BSB), (5) Sammelstellen betreuen, Nachrollen starten, (6) Übergabe an Feuerwehr an vereinbartem Punkt. Jede Stufe braucht eine Stellvertretung und eine Regel für Nacht/Wochenende.",
+          "BMA-Schnittstelle im Alarmplan beschreiben – nicht nur Telefonlisten: Was passiert bei Melderauslösung (automatische Weiterleitung, Gebäudegong, SAA-Durchsage)? Wer hat Zugang zur BMZ, wer darf rückstellen? Wie sind RWA, Sprinklervoralarm und Aufzugs-Rückruf ins Brandfallkonzept eingebunden? Typischer Audit-Mangel: Wartungsbuch der BMA ist aktuell, aber Alarmplan erwähnt RWA oder Leitstelle nicht – nach jeder technischen Änderung beide Dokumente anpassen.",
+          "Alarmarten und Reaktion unterscheiden: Brandalarm BMA/Handfeuermelder → sofortige Räumung, keine Aufzugsnutzung, Türen im Fluchtweg nicht verriegeln. Hausalarm (manuell) → Räumung auf Anweisung, ggf. ohne automatische Feuerwehraufahrt. Gefahrstoff-/Gasalarm → Szenario aus TRGS 800 (Windrichtung, Sammelstelle außerhalb Gefahrenbereich). Technikalarm RWA/Sprinkler → Facility und BSB, ggf. Teilräumung. Personenschaden → 112 Rettungsdienst parallel zu Brandschutzregeln. Übung → wie Ernstfall, aber vorher gekennzeichnet (sonst Panik und falsche 112-Meldungen).",
+          "Mobilitätseingeschränkte Personen: pauschale „Rettet euch selbst“-Regeln reichen nicht. Personal-Notfallpläne (mit Betroffenen und Schwerbehindertenvertretung), Evakuierungshelfer nach DGUV 205-033, ggf. EvacChair oder sicherer Aufenthaltsbereich im Treppenraum mit Freigabe durch Feuerwehr – vorher in Übungen erproben, nicht erst im Brandfall. Power-Napping-Räume, barrierefreie Toiletten und Besucherbereiche in die Etagen-Kontrolllisten aufnehmen.",
+          "Räumungsübungen prüfen das Gesamtsystem: In größeren Verwaltungs- und Produktionsobjekten jährliche Vollübung mit Protokoll (Zeiten, Vollständigkeit, Störungen); spätestens alle fünf Jahre Übung mit realer Einschränkung (gesperrtes Treppenhaus, ausgefallene Durchsage). Unangekündigte Übungen erhöhen den Erkenntnisgewinn, erfordern aber Abstimmung mit Versicherer/Feuerwehr und klare Nachkommunikation – sonst werden echte Alarme ignoriert. Nach jeder Übung: Maßnahmenliste mit Verantwortlichen und Terminen; Fotodokumentation der Fluchtwegkennzeichnung bei Mängeln. Baustellen: Übergabe an SiGeKo ([Link: /wissen/ratgeber/sigeko-baustelle]).",
+          "Probealarm BMA: nur mit Freigabe BSB/Leitung, Abstimmung Wartungsfirma und – je nach Aufschaltung – Feuerwehr/Leitstelle. Protokoll mit Datum, ausgelöster Meldergruppe, Reaktionszeiten, Mängeln (fehlende Durchsage, Tür offen geblieben). Fremdfirmen und Lieferanten am Wareneingang: Einweisung auf Meldekette und Sammelstelle bei Erstbesuch, Aushang in Fremdsprachen wo nötig. In Multi-Gebäude-Standorten separate Alarmmatrizen (welches Gebäude räumt welches mit) verhindern, dass ein Melder im Gebäude A unkontrolliert Gebäude B leert."
+        ],
+        "table": {
+          "headers": [
+            "Alarmart",
+            "Auslösung",
+            "Sofortmaßnahme"
+          ],
+          "rows": [
+            [
+              "Brandalarm BMA/HFM",
+              "Melder, Handfeuermelder",
+              "Räumen, 112 wenn vorgesehen, BMZ besetzen"
+            ],
+            [
+              "Hausalarm",
+              "Werkschutz, Leitung, BMZ",
+              "Räumung auf Anweisung, Koordination dokumentieren"
+            ],
+            [
+              "Gefahrstoff / Gas",
+              "SABA, Leckagemelder",
+              "Szenario TRGS 800, Wind, Sammelstelle außerhalb Zone"
+            ],
+            [
+              "Technikalarm",
+              "RWA, Sprinkler, Druckwächter",
+              "Facility/BSB, ggf. Teilräumung, FW informieren"
+            ],
+            [
+              "Übung",
+              "Geplant, angekündigt",
+              "Voller Ablauf, Auswertung mit Maßnahmenliste"
+            ]
+          ]
+        },
+        "list": [
+          "Alarmplan-Review: alle Alarmstufen und Stellvertretungen aktuell?",
+          "112, interne Notrufe und Leitstelle in einem Stand (Version/Datum)?",
+          "Sammelstelle identisch in Text, Etagenplan und Übungsprotokoll?",
+          "BMA: RWA, Aufzug, SAA und Rückstellung im Plan beschrieben?",
+          "Etagenpläne nach letztem Umbau ausgehängt (Foto-Nachweis)?",
+          "Letzte Räumungsübung dokumentiert, Mängel mit Termin nachverfolgt?",
+          "Probealarm: Abstimmung FW/Versicherer, Protokoll ohne offene Punkte?",
+          "Personal-Notfallpläne für mobilitätseingeschränkte Personen vorhanden?"
+        ]
+      },
+      {
+        "h2": "Prüffristen und Wartung – was wann geprüft werden muss",
+        "paragraphs": [
+          "Technischer Brandschutz versagt im Ernstfall oft an überfälliger Wartung – nicht an fehlenden Plänen. Verbindlich sind Herstellervorgaben, BetrSichV für überwachungsbedürftige Anlagen (insbesondere BMA), landesrechtliche Prüfverordnung (in NRW: PrüfVO), ASR A2.2/A2.3 sowie objektspezifische Vorgaben aus BSK und BSO Teil C. Versicherer und VdS-Regeln sind häufig strenger als das gesetzliche Minimum – der Betriebs-Prüfplan muss den strengsten Maßstab abbilden, nicht den kürzesten.",
+          "Grundregel für die Praxis: Ist eine fachgerechte Prüfung oder Wartung überfällig, gilt die Anlage bis zur Nachholung nicht als betriebssicher. Der BSB dokumentiert Überfälligkeit, informiert die Leitung und veranlasst unverzüglich die Beauftragung – bei BMA-Störungen oder ausgefallener RWA-Kopplung zusätzlich organisatorische Brandwacht oder Nutzungseinschränkung prüfen. Monatliche Sichtkontrollen (Löscher, Notbeleuchtung, Türen ohne Keil) ersetzen keine Sachprüfung, sind aber für Audits und Versicherer unverzichtbar.",
+          "Brandmeldeanlagen: Wartung mindestens einmal jährlich durch anerkannten Errichter/Wartungsbetrieb nach DIN 14675; bei großen oder versicherungsrelevanten Anlagen zusätzlich quartalsweise Inspektion. Prüfumfang: Melder, Zentrale, Übertragungswege, Stromversorgung, Alarmierung, Kopplung RWA/Sprinkler. Störungen im Störbuch erfassen, Ursache beheben lassen – keine dauerhafte „Störungsquittierung“ ohne Ticket an die Wartungsfirma.",
+          "Handfeuerlöscher (ABC, Schaum, Fettbrand, CO₂): sachkundige Prüfung alle zwei Jahre nach DIN EN 3-7 durch Fachbetrieb (Plakette, Prüfbuch). CO₂-Löscher zusätzlich Dichtheit/Masse; Einsatz nur nach DGUV 205-034 – Prüfintervall entbindet nicht von Einsatzregeln. Zwischen den Fachprüfungen: vollständige Sichtprüf bei jeder Brandschutzbegehung (Plakette lesbar, Zugang frei, keine Beschädigung). Drucklöscher: Herstellerangaben zu Druckprüfung/Austausch (oft im 12-Jahres-Rhythmus) im Anlagenverzeichnis führen.",
+          "Feuerschutzabschlüsse (Türen, Tore, Klappen): jährliche Funktionsprüfung nach DIN 18095 – Schließen, Dichtheit, Feststellanlage, bei Toren Endlagen und Auslösetaste. Änderungen an Beschlägen oder Verglasung nur im Rahmen der Zulassung (DIBt/abZ, EN 16034) – sonst Entzug der Konformität. Abschottungen und Brandschotts: jährliche Begehung, nach jeder Durchdringung (Kabel, Rohre) Nachweis der fachgerechten Ausführung nach MLAR/abZ.",
+          "Organisatorische Fristen gehören in denselben Kalender: BSO-Fortschreibung zwei Jahre, Brandschutzbegehung mindestens jährlich, Unterweisung jährlich, BSH-Fortbildung drei bis fünf Jahre, BSH-Übung etwa alle vier Jahre, Räumungsübung in größeren Betrieben jährlich. Ein Prüfplan entsteht aus der Anlagenliste (BSK/BSO Teil C), wird mit Verantwortlichen und Fachfirmen terminiert und im ASA oder mit der Geschäftsführung jährlich auf Überfälligkeiten geprüft."
+        ],
+        "table": {
+          "headers": [
+            "Anlage / Maßnahme",
+            "Intervall",
+            "Norm / Durchführung",
+            "Nachweis"
+          ],
+          "rows": [
+            [
+              "Brandmeldeanlage (BMA)",
+              "1×/Jahr Wartung; ggf. quartalsweise Inspektion",
+              "DIN 14675, VdS 2091; Errichter/Wartungsfirma",
+              "Wartungsbuch, Protokoll"
+            ],
+            [
+              "Handfeuerlöscher (ABC/Schaum)",
+              "2 Jahre sachkundig; monatlich Sichtprüf",
+              "DIN EN 3-7; Fachbetrieb / BSB-Begehung",
+              "Plakette, Prüfbuch"
+            ],
+            [
+              "CO₂-Feuerlöscher",
+              "2 Jahre sachkundig",
+              "EN 3-7/3-8; Einsatz DGUV 205-034",
+              "Plakette, Einsatzanweisung"
+            ],
+            [
+              "Brandschutz-/Rauchschutztüren",
+              "1×/Jahr Funktionsprüf",
+              "DIN 18095; Fachfirma",
+              "Prüfbuch"
+            ],
+            [
+              "Brandschutzklappen / -tore",
+              "1×/Jahr",
+              "DIN 14677, 18095, EN 16034",
+              "Protokoll"
+            ],
+            [
+              "RWA / Entrauchung",
+              "1×/Jahr inkl. BMA-Kopplung",
+              "DIN 18232; Fachfirma",
+              "Protokoll"
+            ],
+            [
+              "Notbeleuchtung / Antipanik",
+              "Monatlich Kurztest; 1×/Jahr Volltest",
+              "ASR A2.3, EN 50172",
+              "Prüfbuch"
+            ],
+            [
+              "Brandschotts / Abschottungen",
+              "1×/Jahr Begehung; nach Eingriff",
+              "MLAR, abZ; BSB/Fachfirma",
+              "Begehungsprotokoll"
+            ],
+            [
+              "BSO",
+              "2 Jahre; sofort bei Änderung",
+              "DIN 14096; BSB",
+              "Version, GF-Freigabe"
+            ],
+            [
+              "Brandschutzbegehung",
+              "Min. 1×/Jahr",
+              "DGUV 205-003; BSB",
+              "Maßnahmenliste"
+            ],
+            [
+              "Räumungsübung",
+              "1×/Jahr (große Objekte)",
+              "DGUV 205-033, ASR A2.3",
+              "Übungsprotokoll"
+            ],
+            [
+              "Brandschutzunterweisung",
+              "1×/Jahr",
+              "§ 12 ArbSchG; BSO Teil B",
+              "Teilnehmerliste"
+            ],
+            [
+              "BSH Fortbildung / Übung",
+              "3–5 Jahre / ca. 4 Jahre",
+              "DGUV 205-023",
+              "Zertifikat, Protokoll"
+            ],
+            [
+              "Li-Ion-Ladeinfrastruktur",
+              "Jährlich (versichererabhängig)",
+              "VdS 3885 analog; Fachbetrieb",
+              "Prüfbericht"
+            ],
+            [
+              "Ortsveränderliche Elektro",
+              "12–24 Monate",
+              "DGUV V3; Elektrofachkraft",
+              "Prüfplakette"
+            ]
+          ]
+        },
+        "list": [
+          "Anlagenverzeichnis aus BSK und BSO Teil C erstellen",
+          "Versicherer- und Herstellervorgaben mit gesetzlichen Fristen abgleichen",
+          "Termine mit Verantwortlichen und Wartungsverträgen verknüpfen",
+          "Überfälligkeit eskalieren: BSB → Leitung → ggf. Nutzung einschränken",
+          "Prüfbücher zentral führen (digital oder Ordner mit Index)",
+          "Jährlich im ASA: Status aller überfälligen Prüfungen"
         ]
       },
       {
         "h2": "Technische Maßnahmen: BMA, Löscher, Abschottungen",
         "paragraphs": [
-          "Brandmeldeanlagen erfordern Wartung durch qualifizierte Fachbetriebe und klare Zuständigkeiten für Störungen. Handfeuerlöscher sind ortsgerecht zu platzieren und zu prüfen; Schulungen müssen realitätsnah sein (richtiges Löschen vs. Evakuierung).",
-          "Brandschutztüren werden oft durch Keilstücke oder nachrangige Umbauten außer Kraft gesetzt – ein wiederkehrendes Audit-Thema. Facility sollte Kennzeichnungen und Selbstschließern nachhalten."
+          "Technischer Brandschutz ist nur so gut wie Störungsmanagement und Zonenlogik. Die Brandmeldeanlage muss zum Grundriss passen: Jede Trennwand, jeder Bürocontainer und jede neue Lagerzone braucht eine Bewertung der Melder und der Alarmierungsfolge – sonst räumt der Probealarm das falsche Gebäude oder niemanden. Störmeldungen in der BMZ sind bis zur Behebung offene Risiken; der BSB eskaliert überfällige Tickets, die Wartungsfirma liefert Ursachenanalyse, nicht nur Quittierung.",
+          "Handfeuerlöscher: Typ und Menge nach Brandgefahr (ABC, Schaum, Fettbrandküche, CO₂ in Elektroraum). CO₂-Löscher erstickungsgefährlich – Einsatz nur nach DGUV 205-034 (Einsatzart, Zutrittssperre, kein alleiniges O₂-Messen). Fettbrand in Großküchen: kein Wasserstrahl, passende Löschmittel und Schulung der Brandschutzhelfer. Wandhydranten nur dort, wo Ausstattung und Betrieb sie vorsehen – Nutzung in Unterweisung und BSO Teil B.",
+          "Feuerschutzabschlüsse: Selbstschließend ohne Keil, Feststellanlage funktionsfähig, jährliche Prüfung. Beschläge, Verglasung oder Antriebe dürfen nur geändert werden, wenn die Zulassung (DIBt/abZ, EN 16034) es erlaubt – sonst ist der Abschluss im Brandfall wirkungslos. Brandschutzklappen und -tore: monatliche Sichtkontrolle in größeren Objekten (Schließung per Auslösetaste), jährlich fachlich. RWA und Entrauchung immer mit BMA-Testfahrt koppeln.",
+          "Abschottungen und Kabeldurchführungen: Jede nachträgliche Bohrung ohne dokumentierte Schottung ist ein klassischer Befund aus Begehungen in Industrie und Verwaltung – Kennzeichnung der Schottung (Feuerwiderstandsklasse), Fotodokumentation, Nachkontrolle nach vier Wochen. Sprinkler und Löschanlagen: Versicherervorgaben beachten; Auslösung ohne klare Meldekette führt zu Fehlalarm oder verspäteter Räumung."
         ]
       },
       {
         "h2": "Gefahrstoffe, Lagerung und thermische Risiken",
         "paragraphs": [
-          "Brennbare Flüssigkeiten und Lose Ware erfordern zonale Konzepte und Abstände zu Heizungen. Das Gefahrstoffmanagement unterstützt Substitution und technische Entzündungsschutzmaßnahmen – siehe [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe].",
-          "Elektrische Brandlasten aus Ladestationen oder Alterstechnik sollten im Kontext der [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3] betrachtet werden."
+          "Brennbare Flüssigkeiten, Gase und Staubexpositionen verlangen Zonierung: Lager getrennt von Rettungswegen, Abstände zu Zündquellen, Lüftung und Leckage-Szenarien im Alarmplan (TRGS 800). Betriebsanweisungen und Unterweisung müssen zum Lagerort passen – nicht nur das Gefahrstoffverzeichnis in der Verwaltung. Substitution und kleinere Gebinde reduzieren Brandlast in Büros und Werkstätten.",
+          "Lose Ware und Verpackung in Fluren sind ein wiederkehrender Befund: Sie verengen wirksame Rettungswegbreiten und erhöhen die Ausbreitungsgeschwindigkeit. Regalprüfung nach DIN EN 15635 und brandschutzliche Begehung gehören zusammen – kippende Regale blockieren Türen genauso wie Palettenstapel.",
+          "Lithium-Ionen-Batterien (Stapler, E-Fahrzeuge, E-Bikes, defekte Geräte): Thermal Runaway ist schwer löschbar – Kühlung mit Wasser in ausreichender Menge, Quarantäne defekter Zellen, Ladebereiche nach VdS 3885 analog (Abstand, Lüftung, keine brennbaren Lager neben Ladestation). DGUV 205-041 und TRBS 3151 ergänzen die GBU. Vertiefung: [Link: /wissen/blog/brandschutz-lithium-ionen-batterien]. Elektrobrandlasten und Prüfplaketten: [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3]."
         ]
       },
       {
         "h2": "Integration mit Arbeitsschutz und DGUV",
         "paragraphs": [
-          "Brandschutz und Arbeitssicherheit teilen Schnittstellen bei Unterweisungen, ASA und Haftungsfragen. Doppelte Schulungen lassen sich intelligent bündeln, wenn Lernziele klar getrennt dokumentiert sind.",
-          "Regale und Fluchtwegbreiten sind sowohl arbeitssicherheits- als auch brandschutzrelevant (Regalprüfung nach DIN EN 15635)."
+          "Brandschutz und Arbeitssicherheit sind im ArbSchG verankert, werden aber oft in getrennten Ordnern geführt. Die Fachkraft für Arbeitssicherheit und der BSB sollten gemeinsame Begehungsthemen definieren: Fluchtwege, Heißarbeit, PSA, Regalstabilität, Elektro, Gefahrstoffe – ein Protokoll mit zwei Bewertungsspalten (Arbeitsschutz / Brandschutz) vermeidet Doppelarbeit.",
+          "Unterweisungen bündeln, Lernziele trennen: Jährliche Brandschutzunterweisung (BSO Teil B) und Arbeitsschutzunterweisung können in einem Termin stattfinden, wenn Inhalte und Teilnehmerlisten getrennt dokumentiert werden. ASA-Tagesordnung: überfällige Prüfungen BMA/Löscher, offene Maßnahmen aus Übungen, Status BSO-Fortschreibung.",
+          "Heißarbeit, Auftragsarbeit, Leiharbeit und Werkverträge: Brandschutzregeln müssen in Einführungen und Werkvertrags-Checklisten stehen – wer Heißarbeit ausführt, braucht Freigabe; wer das Gebäude betritt, braucht Meldekette und Sammelstelle. Vorbeugender Brandschutz im Überblick: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen]."
         ]
       },
       {
         "h2": "Nachweise und Audits",
         "paragraphs": [
-          "Versicherer und große Kunden fordern zunehmend strukturierte Nachweise: Prüfbücher BMA/Löscher, Fotos von Brandschutztüren, Schulungslisten und Evakuierungsprotokolle. Ein digitales Dokumentenmanagement mit klaren Versionen reduziert Stress vor Audits.",
-          "Behördenorientierte Kommunikation bleibt sachlich und auf den IST-Zustand fokussiert – Papier ohne Umsetzung schadet der Glaubwürdigkeit."
-        ]
+          "Audits scheitern selten an fehlendem Wissen, sondern an fehlender Kette: Maßnahme → Verantwortlicher → Frist → Nachweis. Mindestbestand für einen belastbaren Brandschutzordner: aktuelle BSO (Version/Datum/Freigabe), Alarm- und Evakuierungsplan, Fluchtwegpläne je Etage, Bestellung BSB, Liste Brandschutzhelfer mit Zertifikaten, BMA-Wartungsbuch und letztes Wartungsprotokoll, Prüfbücher Löscher/Türen/RWA, Unterweisungslisten (12 Monate), Übungsprotokolle, Brandschutzbegehungen mit offener Maßnahlenliste, Störkarten bis Abschluss.",
+          "Digitales FM-System oder Indexordner mit eindeutiger Benennung (YYYYMMDD_Thema). Fotos bei Brandschutztüren und Schotts: Datum und Ort im Dateinamen. Vor Versicherer- oder Kundenaudit: Stichprobe – ist die Maßnahme aus dem letzten Protokoll wirklich umgesetzt oder nur „geplant“? Behörden und Feuerwehr: sachliche IST-Beschreibung, keine Schönfärbung – abweichende Nutzung offenlegen und Sanierungsplan benennen.",
+          "Nach Brand oder Beinahe-Brand: Ereignisprotokoll, BMA-Ausdruck, Zeugen, Fotos, Maßnahmen zur Wiederholungsvermeidung; BSO und Alarmplan prüfen, ob Regelungen greifen oder nur auf Papier stehen."
+        ],
+        "table": {
+          "headers": [
+            "Dokument",
+            "Typische Prüffrage im Audit",
+            "Aktualisierung"
+          ],
+          "rows": [
+            [
+              "BSO Teil A/B/C",
+              "Stimmt Aushang mit aktuellem Teil A?",
+              "2 Jahre / bei Änderung"
+            ],
+            [
+              "Alarmplan",
+              "Sind Leitstelle und RWA beschrieben?",
+              "Bei Personal-/BMA-Änderung"
+            ],
+            [
+              "BMA-Wartungsbuch",
+              "Letzte Wartung < 12 Monate?",
+              "Nach jeder Wartung"
+            ],
+            [
+              "Feuerlöscher",
+              "Plakette 2-Jahres-Prüfung gültig?",
+              "Nach Prüfung"
+            ],
+            [
+              "Übungsprotokoll",
+              "Mängel mit Frist und Verantwortlichem?",
+              "Nach jeder Übung"
+            ]
+          ]
+        }
       },
       {
         "h2": "Handlungsempfehlungen für NRW-Betriebe",
         "paragraphs": [
-          "Prüfen Sie Verträge mit externem Facility auf SLA für kritische Brandschutzmängel. Binden Sie Betriebsrat und Personal ein, damit Übungen nicht an Schichtkonflikten scheitern.",
-          "H&S+ unterstützt bei Bestandsaufnahmen in Köln/Umland und bei der Konzeption wirksamer Unterweisungen – von Kleinbetrieben bis zu mehrstufigen Produktionsnetzen."
+          "In NRW gelten Landesbauordnung und PrüfVO zusätzlich zu bundesrechtlichen Pflichten – Betriebe in genehmigungspflichtigen Gebäuden müssen bauliche Auflagen und betriebliche BSO synchron halten. Bei Nutzungsänderungen oder Umbauten früh klären, ob bauordnungsrechtliche Nachweise nötig sind ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz]).",
+          "Facility-Verträge: SLA für kritische Mängel (Brandschutztür, BMA-Störung, Notbeleuchtung) mit Reaktionszeit in Stunden, nicht Wochen. Betriebsrat und Schwerbehindertenvertretung bei Übungen, Personal-Notfallplänen und Schichtplanung einbinden – sonst scheitern Evakuierungsübungen organisatorisch.",
+          "Köln und Rheinland: hohe Bautätigkeit bedeutet temporäre Sperrungen von Zufahrten und Rettungswegen durch Nachbarbaustellen – BSB und Facility tauschen Bauinformationen aus, Fluchtwegpläne und Sammelstellen vorübergehend anpassen. Kommunale Feuerwehr und ggf. Stützpunktfeuerwehr vor großen Übungen informieren; Hydranten und Zufahrten im Feuerwehrplan aktuell halten.",
+          "KMU ohne BMA: Fokus auf Löscher, Fluchtwege, Unterweisung, dokumentierte Begehung durch FaSi/externen BSB – Qualität über Dokumentenmenge. Konzerne mit mehreren Standorten: einheitliche Mindeststandards, lokale BSO-Teile C je Objekt."
         ]
       },
       {
         "h2": "Praxisbeispiele aus dem Rheinland",
         "paragraphs": [
-          "Alte Gewerbehallen mit gemischter Nutzung zeigen häufig Nachrüstbedarf bei BMA-Zonenplänen: kleine Büroumbauten ohne Nachführung der Brandmelder führen zu Alarm-Chaos bei Probealarmen.",
-          "Retail-Standorte mit hoher Fluktuation profitieren von mikromodularen Unterweisungen (15 Minuten) direkt an der Kasse oder im Lager – kombiniert mit Bildsprache.",
-          "Großküchen benötigen gekoppelte Schulungen zu Fettbrand und Evakuierung – hier sind Brandschutzhelfer und Erste Hilfe eng zu synchronisieren.",
-          "Projekte mit hohem Leihpersonal sollten Einweisungen als Gate definieren: kein Zugang zur Produktion ohne dokumentierte Unterweisung am ersten Tag.",
-          "Digitale twins von Rettungswegen helfen Facility und externen Rettungskräften – vor allem wenn temporäre Absperrungen durch Nachbar-Baustellen entstehen."
+          "Verwaltungscampus (Mehrgebäude, BMA, Versammlungsbereich) – Herausforderung: Brandschotts nach Umbau ohne Kennzeichnung, offene Maßnahmen aus Vorbegehungen, Tiefgarage separat zu prüfen. Maßnahme: mehrteilige Begehung nach Gebäudeteilen, Störkarten bis Abschluss, Abgleich Zonenplan mit IST-Grundriss vor Probealarm. Ergebnis: keine Freigabe des Probealarms ohne aktualisierte Etagenpläne.",
+          "Industriestandort Versorgung/Wasserwerk – Herausforderung: Feuerlöscher in Nebenräumen fehlen oder sind unzugänglich; Kabeldurchführungen ohne Schottung; Brandlasten in Technikräumen. Maßnahme: FL-Nachrüstung nach ASR A2.3, Schottungen mit MLAR-Nachweis, Entrümpelung mit Frist und Elektrotechnik-Verantwortlichem. Ergebnis: wiederkehrende Punkte im jährlichen Prüfplan.",
+          "Sozialgebäude mit Lagerhalle – Herausforderung: private Heizgeräte ohne Abstimmung; Mängel am Begehungstag spontan behoben, aber nicht protokolliert. Maßnahme: Teil B verschärfen, Fixes im Protokoll nachtragen, Restfristen. Ergebnis: auditfähige Dokumentation.",
+          "Büroumbau in Bestandshalle – Herausforderung: Container im Flur ohne BMA-Nachführung, Probealarm löst falsche Zone aus. Maßnahme: Errichter, Zonenplan und BSO Teil C, dann Übung. Ergebnis: koordinierte Räumung.",
+          "Einzelhandel mit hoher Fluktuation – Herausforderung: veraltete Unterweisungslisten. Maßnahme: Mikromodule am ersten Tag, Piktogramme Teil A, Quartalsstichprobe. Ergebnis: Nachweis auch bei Leiharbeit.",
+          "Großküche – Herausforderung: Fettbrand und Evakuierung. Maßnahme: Fettbrandlöscher, kein Wasser in Fettpfannen, gemeinsame Übung BSH und Erste Hilfe. Ergebnis: klare Rollen im Brandfall."
+        ]
+      },
+      {
+        "h3": "Vertiefung im Blog-Cluster",
+        "list": [
+          "BSO Struktur: [Link: /wissen/blog/brandschutzordnung-din-14096]",
+          "Brandschutzbeauftragter: [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten]",
+          "Brandschutzhelfer: [Link: /wissen/blog/asr-a2-2-brandschutzhelfer]",
+          "Flucht- und Rettungspläne: [Link: /wissen/blog/flucht-und-rettungsplan-erstellen]",
+          "Vorbeugender Brandschutz: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen]",
+          "Li-Ion-Batterien: [Link: /wissen/blog/brandschutz-lithium-ionen-batterien]",
+          "Betriebliches Konzept vs. Genehmigung: [Link: /wissen/blog/brandschutzkonzept-erstellen]"
         ]
       },
       {
         "h3": "Checkliste vor Ort",
         "list": [
-          "Brandschutztüren schließen korrekt und sind frei von Feststellern",
-          "Rettungszeichen bei eingeschalteter Beleuchtung lesbar",
-          "Brandmelderzonenplan entspricht Umbauten der letzten 24 Monate",
-          "Brandschutzhelfer pro Schicht nachweislich eingeteilt",
-          "Externe Dienstleister kennen Sammelpunkte und Meldekette"
+          "Brandschutztüren: schließen, keine Keile, Feststellanlage ohne Störung",
+          "Rettungszeichen und Notbeleuchtung bei Netzbetrieb lesbar",
+          "Flur frei (Regale, Paletten, Mülltonnen)",
+          "BMA-Zonenplan = Grundriss der letzten 24 Monate",
+          "Handfeuerlöscher: Plakette, freier Zugang, Typ passt zur Gefahr",
+          "Brandschutzhelfer je Schicht benannt und erreichbar",
+          "Sammelstelle auf Plan = Sammelstelle im Alarmplan",
+          "Offene Störkarten BMA/Notlicht mit Frist",
+          "Schottungen/Kabeldurchbrüche ohne offene Bohrung",
+          "Fremdfirmen: Einweisung Meldekette dokumentiert"
         ]
       }
     ],
     "faq": [
       {
         "question": "Brauchen wir immer einen Brandschutzbeauftragten?",
-        "answer": "Das hängt von Betriebsgröße, Nutzung und Brandschutzrecht ab. Orientieren Sie sich an ASR und Objektmerkmalen und dokumentieren Sie die Entscheidung."
+        "answer": "Nein – aber bei BMA, Versammlungsstätten-Nutzung, mehreren Gebäuden, erhöhter Brandgefahr oder Versichererauflage ist eine schriftliche Bestellung mit DGUV-205-003-Qualifikation üblich. Die Entscheidung sollte aus der GBU (Brandgefahr) folgen und dokumentiert werden, nicht aus dem Wunsch, eine Rolle zu sparen. Externe BSB sind in KMU wirtschaftlich und fachlich oft sinnvoll."
       },
       {
         "question": "Wie oft sind Evakuierungsübungen nötig?",
-        "answer": "Mindestanforderungen richten sich nach Nutzung und Gefährdung; jährliche Übungen sind in vielen Objekten üblich, Hochrisiko-Nutzungen erfordern häufiger."
+        "answer": "Nach DGUV 205-033 und ASR A2.3 regelmäßig, in größeren Betrieben praktisch jährlich mit Protokoll. Spätestens alle fünf Jahre eine Übung mit Störung (gesperrtes Treppenhaus, ausgefallene Durchsage). Probealarm BMA nur abgestimmt mit Wartungsfirma und ggf. Feuerwehr – siehe Kapitel Alarm und Evakuierung."
       },
       {
         "question": "Was tun bei dauerhafter Überbelegung?",
-        "answer": "Überbelegung kann Rettungswege gefährden und zeitliche Folgen für BMA/Feuerschutz haben – Kapazitäten müssen brandschutzrechtlich abgesichert sein."
+        "answer": "Überbelegung kann Rettungswege und zulässige Personenzahl nach BauO/BSK überschreiten. Kurzfristig: keine Veranstaltung ohne Freigabe, Personenbegrenzung, zusätzliche Aufsicht. Mittelfristig: bauordnungsrechtliche Klärung, Anpassung BSO und Fluchtwegkonzept – nicht dauerhaft „über Vorschriften“ arbeiten."
       },
       {
-        "question": "Wer wartet BMA?",
-        "answer": "Qualifizierte Fachbetriebe nach den jeweiligen Produkt- und Normenvorgaben; der Betreiber bleibt für Organisation und Dokumentation verantwortlich."
+        "question": "Wer wartet die BMA und wie oft?",
+        "answer": "Wartung mindestens einmal jährlich durch qualifizierten Fachbetrieb nach DIN 14675; bei großen Anlagen oft quartalsweise Inspektion. Der Betreiber organisiert Termine, Störungsmanagement und Wartungsbuch – die Wartung selbst führt er nicht aus. Überfällige Wartung = erhöhtes Risiko bei Versicherung und Aufsicht."
       },
       {
-        "question": "Wie verknüpfen wir SiGeKo?",
-        "answer": "Baustellenbezogene Brandschutzübergaben und Koordinationspflichten beschreiben wir unter [Link: /wissen/ratgeber/sigeko-baustelle]."
+        "question": "Muss die BSO alle zwei Jahre fortgeschrieben werden?",
+        "answer": "Ja, DIN 14096 und DGUV 205-003 sehen eine systematische Überprüfung mindestens alle zwei Jahre vor. Zusätzlich sofort bei Umbau, BMA-Änderung, Personalwechsel in Schlüsselrollen oder nach Brand/Übung mit relevanten Mängeln. Version mit Datum und Freigabe durch die Leitung."
       },
       {
-        "question": "Was ist bei Garagen zu beachten?",
-        "answer": "Besondere Belüftungs- und Brandschutzanforderungen – siehe [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze (BauO)]."
+        "question": "Darf jeder einen CO₂-Feuerlöscher einsetzen?",
+        "answer": "Nur nach Unterweisung nach DGUV 205-034 und nur in der vorgesehenen Einsatzart (im Raum, durch Türspalt, von außen). CO₂ erstickt – in kleinen Räumen lebensgefährlich. Nach Einsatz Raum sperren, nicht allein auf Sauerstoffmessung verlassen. Prüfintervall zwei Jahre ersetzt keine Einsatzregel."
       },
       {
-        "question": "Unterstützt H&S+ auch Unterweisungen?",
-        "answer": "Ja, modular und branchenspezifisch – gerne mit Medien und Übungsanteilen."
+        "question": "Was ist der Unterschied zwischen BSO und Fluchtwegplan?",
+        "answer": "Die BSO regelt Verhalten und Organisation (Teil A/B/C). Der Flucht- und Rettungsplan nach ASR A2.3 zeigt grafisch Fluchtwege, Notausgänge, Löscher (grün/rot) und „Sie sind hier“. Beide müssen inhaltlich übereinstimmen; Änderungen immer an beiden Stellen pflegen."
+      },
+      {
+        "question": "Wie verknüpfen wir SiGeKo auf der Baustelle?",
+        "answer": "Baustellen verändern Rettungswege, Heißarbeit und temporäre BMA-Abschaltungen. Übergabeprotokolle zwischen SiGeKo und BSB/Facility, Brandschutz in SiGe-Plan und Baustellenbegehung – Details unter [Link: /wissen/ratgeber/sigeko-baustelle]."
+      },
+      {
+        "question": "Was ist bei Garagen und Tiefgaragen zu beachten?",
+        "answer": "Besondere Lüftung, Entrauchung, Abstände, ggf. VdS 3885 bei E-Mobilität. Bauordnung: [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze]. Betrieblich: BMA, keine Lagerung brennbarer Stoffe, klare Räumung Tiefgarage in BSO Teil C."
+      },
+      {
+        "question": "Li-Ion-Ladestation für Stapler – was ist Pflicht?",
+        "answer": "Gefährdungsbeurteilung mit Thermal-Runaway-Szenario, Abstände, Lüftung, Löschkonzept (Kühlung), Quarantäne defekter Batterien, jährliche Prüfung je Versicherer. Analog VdS 3885 in Ladezonen. Vertiefung: [Link: /wissen/blog/brandschutz-lithium-ionen-batterien]."
+      },
+      {
+        "question": "Unterstützt H&S+ bei Umsetzung in Köln und NRW?",
+        "answer": "Ja: BSB-Rolle, BSO, Begehungen, Übungen, Alarmpläne, Schulung Brandschutzhelfer und Abstimmung mit FaSi – modular von KMU bis Campus. Erstgespräch zur Bestandsaufnahme über [Link: /kontakt]."
       }
     ]
   },
