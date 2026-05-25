@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { faqItems } from "@/content/faq";
+import { faqItems, faqCategoryOrder } from "@/content/faq";
 import { pageMetadata } from "@/lib/metadata";
 import { ContentText } from "@/lib/contentLinks";
 
@@ -70,28 +70,49 @@ export default function WissenFaqPage() {
               Übersicht der Fragen und Antworten
             </h2>
 
-            <div className="space-y-2">
-              {faqItems.map((item) => (
-                <details
-                  key={item.id}
-                  id={item.id}
-                  className="group rounded-lg border border-slate-200 bg-slate-50/50 overflow-hidden"
-                >
-                  <summary className="flex items-center justify-between gap-4 cursor-pointer list-none py-3.5 px-5 text-left text-base font-semibold text-slate-900 hover:bg-slate-100/80 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-inset [&::-webkit-details-marker]:hidden">
-                    <span>{item.question}</span>
-                    <span className="shrink-0 text-slate-400 transition-transform group-open:rotate-180" aria-hidden>
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </span>
-                  </summary>
-                  <div className="border-t border-slate-200 bg-white px-5 py-4">
-                    <p className="text-slate-600 leading-relaxed">
-                      <ContentText text={item.answer} />
-                    </p>
+            <div className="space-y-10">
+              {faqCategoryOrder.map(({ key, label }) => {
+                const items = faqItems.filter((item) => (item.category ?? "allgemein") === key);
+                if (items.length === 0) return null;
+                return (
+                  <div key={key}>
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500 mb-3">
+                      {label}
+                    </h3>
+                    <div className="space-y-2">
+                      {items.map((item) => (
+                        <details
+                          key={item.id}
+                          id={item.id}
+                          className="group rounded-lg border border-slate-200 bg-slate-50/50 overflow-hidden"
+                        >
+                          <summary className="flex items-center justify-between gap-4 cursor-pointer list-none py-3.5 px-5 text-left text-base font-semibold text-slate-900 hover:bg-slate-100/80 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-inset [&::-webkit-details-marker]:hidden">
+                            <span>{item.question}</span>
+                            <span
+                              className="shrink-0 text-slate-400 transition-transform group-open:rotate-180"
+                              aria-hidden
+                            >
+                              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M19 9l-7 7-7-7"
+                                />
+                              </svg>
+                            </span>
+                          </summary>
+                          <div className="border-t border-slate-200 bg-white px-5 py-4">
+                            <p className="text-slate-600 leading-relaxed">
+                              <ContentText text={item.answer} />
+                            </p>
+                          </div>
+                        </details>
+                      ))}
+                    </div>
                   </div>
-                </details>
-              ))}
+                );
+              })}
             </div>
           </section>
 
@@ -106,7 +127,7 @@ export default function WissenFaqPage() {
               href="/kontakt"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
             >
-              Kostenlose Erstberatung anfordern
+              Erstberatung anfragen
             </Link>
           </div>
         </div>
