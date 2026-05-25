@@ -2,13 +2,22 @@ import Link from "next/link";
 import Image from "next/image";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
-import { ServiceRatgeberTeaser } from "@/components/ServiceRatgeberTeaser";
+import { ServiceWissenLinks } from "@/components/ServiceWissenLinks";
 
 export const metadata = pageMetadata({
   path: "/arbeitsschutz",
-  title: "Arbeitsschutz Köln – Externe Fachkraft für Arbeitssicherheit",
-  description: "Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz gemäß ASiG und DGUV Vorschrift 2. Gefährdungsbeurteilungen, technische Prüfungen, Schulungen.",
-  keywords: ["Arbeitsschutz Köln", "Fachkraft für Arbeitssicherheit", "DGUV Vorschrift 2", "Gefährdungsbeurteilung", "ASiG"],
+  title: "Arbeitsschutz Köln NRW – Externe Fachkraft für Arbeitssicherheit",
+  description:
+    "Externe Fachkraft für Arbeitssicherheit in Köln und NRW: Betreuung nach ASiG und DGUV Vorschrift 2, Gefährdungsbeurteilungen, Begehungen, ASA, Unterweisungen und Prüfkoordination – aus einer Hand mit Brandschutz und SiGeKo.",
+  keywords: [
+    "Arbeitsschutz Köln",
+    "Fachkraft für Arbeitssicherheit",
+    "externe Fachkraft für Arbeitssicherheit",
+    "DGUV Vorschrift 2",
+    "Gefährdungsbeurteilung",
+    "ASiG",
+    "Arbeitsschutz NRW",
+  ],
   openGraphImage: "/Arbeitsschutz.jpeg",
 });
 
@@ -17,13 +26,13 @@ function ArbeitsschutzJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Arbeitsschutz – Externe Fachkraft für Arbeitssicherheit in Köln",
+    name: "Arbeitsschutz – Externe Fachkraft für Arbeitssicherheit in Köln und NRW",
     description:
-      "Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz gemäß ASiG und DGUV Vorschrift 2 inklusive Gefährdungsbeurteilungen, technischen Prüfungen und Schulungen.",
+      "Externe Fachkraft für Arbeitssicherheit: Grund- und betriebsspezifische Betreuung nach ASiG und DGUV Vorschrift 2, Gefährdungsbeurteilungen, Begehungen, Arbeitsschutzausschuss, Unterweisungen und Prüfkoordination in Köln und NRW.",
     url,
     areaServed: {
       "@type": "AdministrativeArea",
-      name: "Köln und Umgebung",
+      name: "Köln und Nordrhein-Westfalen",
     },
     provider: {
       "@type": "Organization",
@@ -42,69 +51,107 @@ function ArbeitsschutzJsonLd() {
   );
 }
 
-const sections = [
+const serviceBlocks = [
   {
-    title: "ASA-Sitzung & Unterweisung",
+    title: "Fachkraft für Arbeitssicherheit – Betreuung nach ASiG und DGUV Vorschrift 2",
+    intro:
+      "Als externe Fachkraft für Arbeitssicherheit übernehmen wir die sicherheitstechnische Betreuung nach schriftlicher Bestellung – Grund- und Zusatzbetreuung nach DGUV Vorschrift 2, mit Begehungen und nachvollziehbarer Dokumentation.",
     items: [
-      "Leitung und Organisation von ASA-Sitzungen",
-      "Unterweisung/Information von Führungskräften und Mitarbeitern zu Betreiberpflichten und Übertragung von Pflichten im Arbeits- und Gesundheitsschutz",
+      "Bestellung, Betreuungsplan, Ist-Zustandserfassung und SiFa-Jahresbericht",
+      "Arbeitsschutzausschuss, Pflichtenübertragung, Abstimmung mit Betriebsarzt und Betriebsrat",
+      "Jahrespauschale oder modulare Betreuung – transparent nach Leistungsumfang",
+    ],
+    links: [
+      { href: "/wissen/ratgeber/arbeitsschutz-unternehmen", label: "Ratgeber Arbeitsschutz im Unternehmen" },
+      { href: "/wissen/blog/externe-fachkraft-arbeitssicherheit-koeln", label: "Blog: Externe Fachkraft Köln" },
+      { href: "/wissen/blog/dguv-vorschrift-2", label: "Blog: DGUV Vorschrift 2" },
     ],
   },
   {
-    title: "Erstellung von Gefährdungsbeurteilungen",
+    title: "Gefährdungsbeurteilung",
+    intro:
+      "Die Gefährdungsbeurteilung steuert Maßnahmen, Unterweisungen und Investitionen. Wir erstellen und fortschreiben sie tätigkeits- und standortbezogen – mit Begehung, nicht als Textbaustein.",
     items: [
-      "Tätigkeitsbezogene Gefährdungsbeurteilung (ArbSchG)",
-      "Gefährdungsbeurteilung (ArbStättV), bezogen auf Arbeitsstätten und Arbeitsplatz",
-      "Gefährdungsbeurteilung von Maschinen und Anlagen nach Betriebssicherheitsverordnung (BetrSichV)",
-      "Gefährdungsbeurteilung nach Gefahrstoffverordnung (GefStoffV)",
-      "Gefährdungsbeurteilung psychischer Belastungen (ArbSchG)",
-      "Gefährdungsbeurteilung Mutterschutz nach Mutterschutzgesetz",
+      "Arbeitsplätze, Maschinen, Gefahrstoffe, psychische Belastung, Mutterschutz",
+      "Homeoffice, Fremdfirmen und Baustellen-Schnittstellen",
+      "Maßnahmen mit Verantwortlichen, Fristen und Nachkontrolle",
+    ],
+    links: [
+      { href: "/wissen/ratgeber/gefaehrdungsbeurteilung", label: "Ratgeber Gefährdungsbeurteilung" },
+      { href: "/wissen/blog/gefaehrdungsbeurteilung-ablauf", label: "Blog: Ablauf Gefährdungsbeurteilung" },
     ],
   },
   {
-    title: "Technische Prüfungen",
+    title: "Unterweisungen und Arbeitsschutzausschuss",
+    intro:
+      "Unterweisungen aus der Gefährdungsbeurteilung – dokumentiert und nachvollziehbar. ASA-Sitzungen bereiten wir vor und protokollieren mit Maßnahmenstatus.",
     items: [
-      "Prüfung elektrischer Betriebsmittel gemäß DGUV Vorschrift 3",
-      "Regalinspektion nach DIN EN 15635 und BetrSichV",
-      "Prüfung von Leitern und Tritten nach BetrSichV",
+      "Erst-, Wiederholungs- und anlassbezogene Unterweisungen",
+      "ASA: Vorbereitung, Moderation, Protokoll",
+      "Schulung von Sicherheitsbeauftragten und Führungskräften",
     ],
-  },
-  {
-    title: "Beratung und Unterstützung",
-    items: [
-      "Bei der Umsetzung von gesetzlichen Anforderungen zum Arbeitsschutz",
-      "Zum Aufbau einer betrieblichen Arbeitsschutzorganisation",
-      "Zum betrieblichen Gefahrstoffmanagement",
-      "Bei der Durchführung von Gefährdungsbeurteilungen (ArbSchG, DGUV-Vorschrift 1, BetrSichV, GefStoffV, ArbStättV, BioStoffV, usw.)",
-      "Bei Projekten hinsichtlich Einhaltung gesetzlicher Anforderungen",
+    links: [
+      { href: "/wissen/blog/unterweisung-arbeitsschutz-fristen", label: "Blog: Unterweisung Fristen" },
+      { href: "/schulungen", label: "Leistung Schulungen" },
     ],
   },
   {
     title: "Begehungen und Dokumentation",
+    intro:
+      "Betriebsbegehungen mit Maßnahmenplan und Nachverfolgung – Vorbereitung auf BG und Gewerbeaufsicht mit konsistenter Dokumentation.",
     items: [
-      "Erstellung erforderlicher Dokumentation zum Arbeitsschutz",
-      "Erstellung von Präsenz- und Onlineunterweisungen",
-      "Unterstützung bei Behördenkontakten und bei der Erfüllung behördlicher Auflagen",
-      "Erstellung von Arbeits- und Betriebsanweisungen",
-      "Betriebsbegehungen und Beratung bei der Umsetzung von Maßnahmen zum Arbeits- und Gesundheitsschutz",
-      "Erstellung der Begehungsprotokolle",
+      "Sicherheitsbegehungen und Arbeits-/Betriebsanweisungen",
+      "Gefahrstoffmanagement und Ersthelfer-Organisation",
+      "Unterstützung bei Auflagen und behördlichen Nachweisen",
+    ],
+    links: [
+      { href: "/wissen/blog/sifa-jahresbericht-was-gehoert-rein", label: "Blog: SiFa-Jahresbericht" },
+      { href: "/wissen/blog/akteure-arbeitsschutz", label: "Blog: Akteure im Arbeitsschutz" },
+    ],
+  },
+  {
+    title: "Technische Prüfungen – Koordination",
+    intro:
+      "Wir koordinieren Prüfkalender und Inventar für Elektro, Regale und Arbeitsmittel – die Prüfung selbst erfolgt durch befähigte Personen bzw. Prüfdienstleister.",
+    items: [
+      "DGUV Vorschrift 3, Regalinspektion, Leitern und Hubwagen",
+      "Verknüpfung mit Gefährdungsbeurteilung und Jahresbegehung",
+    ],
+    links: [
+      { href: "/elektrosicherheit", label: "Leistung Elektrosicherheit" },
+      { href: "/wissen/ratgeber/elektrosicherheit-dguv-v3", label: "Ratgeber Elektrosicherheit" },
+    ],
+  },
+];
+
+const anlaesse = [
+  {
+    label: "KMU und Mittelstand",
+    items: [
+      "Externe Fachkraft statt interne Vollzeit",
+      "Gefährdungsbeurteilung und Unterweisungen auf einen Stand",
+    ],
+  },
+  {
+    label: "Handwerk, Technik, Logistik",
+    items: [
+      "Gefahrstoffe, Maschinen, Baustellen-Schnittstellen",
+      "Prüfkalender DGUV V3 und BetrSichV",
+    ],
+  },
+  {
+    label: "Sozialwirtschaft und Verwaltung",
+    items: [
+      "KiTa, Ergonomie, psychische Belastung",
+      "Mehrere Standorte und Trägerstrukturen",
     ],
   },
 ];
 
 const highlights = [
-  "Individuelle Beratung – Wir helfen Ihnen, gesetzliche Anforderungen leicht umzusetzen.",
-  "Gefährdungsbeurteilungen – Präzise Analyse potenzieller Risiken und effektive Maßnahmen.",
-  "Technische Prüfungen – DGUV Vorschrift 3, Betriebssicherheitsverordnung – wir kümmern uns darum.",
-  "Schulungen & Unterweisungen – Wissen für Ihre Mitarbeitenden, verständlich und praxisnah.",
-  "Dokumentation & Behördenkommunikation – Rechtssichere Nachweise, lückenlose Aufbereitung.",
-];
-
-const whyUs = [
-  "Fachkundige Betreuung.",
-  "Maßgeschneiderte Lösungen, abgestimmt auf Ihre betrieblichen Abläufe.",
-  "Verlässliche Unterstützung, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
-  "Klarheit und Sicherheit in allen Fragen des Arbeitsschutzes.",
+  "Betreuung nach DGUV Vorschrift 2 – mit Begehung, nicht nur auf dem Papier",
+  "Gefährdungsbeurteilung, ASA, Unterweisungen und SiFa-Jahresbericht aus einer Hand",
+  "Brandschutz, SiGeKo und Elektrosicherheit – ein Ansprechpartner in Köln und NRW",
 ];
 
 export default function ArbeitsschutzPage() {
@@ -115,7 +162,7 @@ export default function ArbeitsschutzPage() {
       <section className="relative h-80 sm:h-96 lg:h-[28rem] w-full">
         <Image
           src="/Arbeitsschutz.jpeg"
-          alt="Arbeitsschutz – Fachkraft für Arbeitssicherheit"
+          alt="Arbeitsschutz – externe Fachkraft für Arbeitssicherheit in Köln und NRW"
           fill
           sizes="100vw"
           className="object-cover"
@@ -129,7 +176,8 @@ export default function ArbeitsschutzPage() {
               Arbeitsschutz
             </h1>
             <p className="mt-3 text-lg sm:text-xl text-white/90 max-w-3xl">
-              Grundbetreuung und betriebsspezifische Betreuung gemäß ASiG und DGUV&nbsp;Vorschrift&nbsp;2
+              Externe Fachkraft für Arbeitssicherheit – Grund- und Zusatzbetreuung nach ASiG und DGUV&nbsp;Vorschrift&nbsp;2
+              in Köln und NRW
             </p>
             <Link
               href="/kontakt"
@@ -145,57 +193,117 @@ export default function ArbeitsschutzPage() {
       </section>
 
       <div className="py-16 sm:py-20 lg:py-24">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        <div className="space-y-12">
-          {sections.map((sec) => (
-            <section key={sec.title}>
-              <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">{sec.title}</h2>
-              <ul className="list-disc pl-6 space-y-2 text-slate-600">
-                {sec.items.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </section>
-          ))}
-        </div>
-
-        <section className="mt-16 p-6 sm:p-8 rounded-xl bg-slate-50">
-          <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">Arbeitsschutz mit System – Verlässliche Betreuung für Ihr Unternehmen</h2>
-          <p className="text-slate-600 mb-6">
-            Arbeitsschutz ist eine zentrale Verantwortung jedes Unternehmens. Mit der richtigen Betreuung werden komplexe gesetzliche Anforderungen übersichtlich und gut umsetzbar. Wir unterstützen Sie von der Gefährdungsbeurteilung bis zu technischen Prüfungen – rechtssicher, praxisnah und passend zu Ihren Abläufen.
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-lg text-slate-700 leading-relaxed max-w-3xl">
+            Health and Safety+ übernimmt in Köln und NRW die{" "}
+            <strong className="font-semibold text-slate-900">externe Fachkraft für Arbeitssicherheit</strong> – Grund-
+            und Zusatzbetreuung nach ASiG und DGUV Vorschrift 2. Von Gefährdungsbeurteilung und Begehungen bis ASA und
+            Unterweisungen – abgestimmt mit{" "}
+            <Link href="/brandschutz" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
+              Brandschutz
+            </Link>
+            ,{" "}
+            <Link href="/sigeko" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
+              SiGeKo
+            </Link>{" "}
+            und{" "}
+            <Link
+              href="/elektrosicherheit"
+              className="text-primary-800 hover:text-primary-900 underline underline-offset-2"
+            >
+              Elektrosicherheit
+            </Link>{" "}
+            aus einer Hand.
           </p>
-          <ul className="space-y-2 text-slate-600 mb-6">
-            {highlights.map((h) => (
-              <li key={h} className="flex gap-2">
-                <span className="text-primary-500 shrink-0">✔</span>
-                {h}
-              </li>
-            ))}
-          </ul>
-          <p className="text-slate-700 font-medium mb-2">Warum mit uns?</p>
-          <ul className="space-y-2 text-slate-600">
-            {whyUs.map((w) => (
-              <li key={w} className="flex gap-2">
-                <span className="text-primary-500 shrink-0">✔</span>
-                {w}
-              </li>
-            ))}
-          </ul>
-        </section>
 
-        <ServiceRatgeberTeaser ratgeberSlug="arbeitsschutz-unternehmen" />
+          <div className="mt-14 space-y-14">
+            {serviceBlocks.map((block) => (
+              <section key={block.title}>
+                <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">{block.title}</h2>
+                <p className="mt-4 text-slate-600 leading-relaxed">{block.intro}</p>
+                <ul className="mt-5 list-disc pl-6 space-y-2 text-slate-600">
+                  {block.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+                {block.links.length > 0 && (
+                  <ul className="mt-5 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-6">
+                    {block.links.map((l) => (
+                      <li key={l.href}>
+                        <Link
+                          href={l.href}
+                          className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            ))}
+          </div>
 
-        <div className="mt-12 pt-10 border-t border-slate-200 text-center">
-          <p className="text-slate-600 mb-4">Haben Sie Fragen oder benötigen ein individuelles Angebot?</p>
-          <Link
-            href="/kontakt"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
-          >
-            Kostenlose Erstberatung anfragen
-          </Link>
+          <section className="mt-14">
+            <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">Typische Anlässe</h2>
+            <div className="mt-6 grid gap-8 sm:grid-cols-3">
+              {anlaesse.map((group) => (
+                <div key={group.label}>
+                  <p className="text-sm font-semibold text-slate-900">{group.label}</p>
+                  <ul className="mt-3 list-disc pl-5 space-y-1.5 text-slate-600 text-sm">
+                    {group.items.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-14 p-6 sm:p-8 rounded-xl border border-slate-200">
+            <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">
+              Arbeitsschutz mit System – für Köln und NRW
+            </h2>
+            <p className="mt-3 text-slate-600 text-sm leading-relaxed">
+              Auf Wunsch auch{" "}
+              <Link href="/managementsysteme" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
+                ISO 45001 und Managementsysteme
+              </Link>{" "}
+              – auf Basis einer lebendigen Gefährdungsbeurteilung.
+            </p>
+            <ul className="mt-6 space-y-3 text-slate-600">
+              {highlights.map((h) => (
+                <li key={h} className="flex gap-3">
+                  <span className="text-primary-600 shrink-0 font-semibold" aria-hidden>
+                    ✓
+                  </span>
+                  {h}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <ServiceWissenLinks
+            ratgeberSlugs={["arbeitsschutz-unternehmen", "gefaehrdungsbeurteilung"]}
+            blogSlugs={[
+              "externe-fachkraft-arbeitssicherheit-koeln",
+              "arbeitsschutzgesetz-arbschg-uebersicht",
+              "pflichtuebertragung-arbeitsschutz",
+            ]}
+          />
+
+          <div className="mt-14 pt-10 border-t border-slate-200 text-center">
+            <p className="text-slate-600 mb-4">
+              Wir klären in der Erstberatung Betreuungsumfang, Stand der Gefährdungsbeurteilung und Prioritäten – unverbindlich.
+            </p>
+            <Link
+              href="/kontakt"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
+            >
+              Erstberatung anfragen
+            </Link>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );

@@ -202,21 +202,15 @@ export default function BrandschutzPage() {
       <div className="py-16 sm:py-20 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-lg text-slate-700 leading-relaxed max-w-3xl">
-            Brandschutz endet nicht mit der Baugenehmigung. Health and Safety+ begleitet Unternehmen, Bauherren und
-            Betreiber in Köln und NRW in zwei verbundenen Phasen:{" "}
+            Health and Safety+ begleitet Unternehmen, Bauherren und Betreiber in Köln und NRW beim Brandschutz –{" "}
+            <strong className="font-semibold text-slate-900">von der Baugenehmigung bis zum laufenden Betrieb</strong>.
+            Wir erstellen{" "}
             <strong className="font-semibold text-slate-900">
               brandschutztechnische Konzepte, Stellungnahmen und Bewertungen nach Bauordnung
             </strong>{" "}
-            (inkl. Sonderbau und Nutzungsänderung) sowie{" "}
-            <strong className="font-semibold text-slate-900">betrieblichen Brandschutz</strong> mit Brandschutzordnung
-            (BSO), Brandschutzbeauftragtem, Prüfungen und Schulungen. Was genehmigt wurde, muss im Alltag stimmen – wir
-            halten
-            beide Seiten zusammen.
-          </p>
-          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl">
-            Grundbetreuung und betriebsspezifische Betreuung orientieren sich an DGUV Vorschrift 2 und DGUV Information
-            205-003; brandschutztechnische Stellungnahmen und Bewertungen nach BauO NRW gehören ebenfalls zu unserem
-            Leistungsspektrum.
+            (Sonderbau, Nutzungsänderung) und übernehmen den{" "}
+            <strong className="font-semibold text-slate-900">betrieblichen Brandschutz</strong> mit Brandschutzordnung,
+            Brandschutzbeauftragtem, Prüfungen und Schulungen – aus einer Hand.
           </p>
 
           <div className="mt-14 space-y-14">

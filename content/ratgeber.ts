@@ -36,29 +36,29 @@ export const ratgeberPosts: RatgeberPost[] = [
   {
     "slug": "arbeitsschutz-unternehmen",
     "title": "Arbeitsschutz im Unternehmen – Pflichten, Organisation und Praxis in NRW",
-    "excerpt": "Arbeitsschutz ist für Geschäftsführung und Führungskräfte kein Nebenschauplatz, sondern eine Kernaufgabe mit direkter Auswirkung auf Produktivität, Qualität und Reputation. Wer Beschäftigte einstellt,…",
+    "excerpt": "Arbeitsschutz für Unternehmen in Köln und NRW: Pflichten nach ArbSchG, Rollen, GBU, Unterweisung, ASA und Prüfungen – praxisnah mit Fallsträngen aus der Beratung.",
     "titleTag": "Arbeitsschutz Unternehmen Pflichten Köln NRW | handsplus.de",
-    "metaDescription": "Arbeitsschutz für Unternehmen in Köln und NRW: ArbSchG, ASiG, FaSi, GBU, Unterweisung, ASA. Praxisratgeber von Health and Safety+ (H&S+).",
+    "metaDescription": "Arbeitsschutz für Unternehmen in Köln und NRW: ArbSchG, ASiG, Fachkraft für Arbeitssicherheit, GBU, Unterweisung, ASA. Praxisratgeber von Health and Safety+ (H&S+).",
     "servicePath": "/arbeitsschutz",
     "tag": "Ratgeber Arbeitsschutz",
     "sections": [
       {
         "paragraphs": [
           "Arbeitsschutz ist für Geschäftsführung und Führungskräfte kein Nebenschauplatz, sondern eine Kernaufgabe mit direkter Auswirkung auf Produktivität, Qualität und Reputation. Wer Beschäftigte einstellt, organisiert Arbeitsabläufe und verantwortet Investitionen, muss nach ArbSchG wirksame Maßnahmen zum Schutz von Leben und Gesundheit sicherstellen. Der vorliegende Ratgeber ordnet die wichtigsten Pflichten aus ArbSchG und ASiG, aus BetrSichV, GefStoffV und den DGUV-Vorschriften für mittelständische und große Betriebe im Rheinland ein – mit besonderem Fokus auf die typischen Branchen Köln und Umgebung.",
-          "Health and Safety+ (handsplus.de) begleitet Arbeitgeber als externe Fachkraft für Arbeitssicherheit und im organisatorischen Brandschutz modular: von der ersten Bestandsaufnahme über wiederkehrende ASA-Vorbereitung bis zur Koordination technischer Prüfungen. Die folgenden Abschnitte zeigen, wie Sie Organisation, Dokumentation und Kultur so ausrichten, dass Arbeitsschutz nicht bei Ordnern stehen bleibt, sondern im Betriebsalltag spürbar wird. Vertiefende Hinweise finden Sie auch in unserem Ratgeber zur [Link: /wissen/ratgeber/gefaehrdungsbeurteilung] und zu [Link: /wissen/ratgeber/brandschutz-betrieb]."
+          "Health and Safety+ (handsplus.de) begleitet Arbeitgeber als externe Fachkraft für Arbeitssicherheit und im organisatorischen Brandschutz modular: von der ersten Bestandsaufnahme über wiederkehrende ASA-Vorbereitung bis zur Koordination technischer Prüfungen. Die folgenden Abschnitte zeigen, wie Sie Organisation, Dokumentation und Kultur so ausrichten, dass Arbeitsschutz nicht bei Ordnern stehen bleibt, sondern im Betriebsalltag spürbar wird. Vertiefend: [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
         ]
       },
       {
         "h2": "Rechtliche Grundlage: ArbSchG und Bausteine der Regelwerke",
         "paragraphs": [
           "Das Arbeitsschutzgesetz verpflichtet den Arbeitgeber, alle zumutbaren Maßnahmen zu ergreifen, um Gefahren für Beschäftigte zu vermeiden. Das ist ein offener Pflichtenkatalog: Konkretisierung erfolgt durch Verordnungen, technische Regeln und die Vorschriften der Berufsgenossenschaften. Die Arbeitssicherheitsgesetzgebung (ASiG) ergänzt diese Pflichten durch die Einbindung von Betriebsarzt und Fachkraft für Arbeitssicherheit, sobald gesetzliche Schwellen oder die Gefährdungslage dies erfordern.",
-          "Praktisch bedeutet das ein Managementystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung, Unterweisung und wirksame Unterweisungskultur. Behörden der Gewerbeaufsicht und die Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Wer in Köln oder NRW investiert, sollte frühzeitig klären, welche externen Partner für FaSi, Brandschutz und [Link: /wissen/ratgeber/sigeko-baustelle] sinnvoll eingebunden werden."
+          "Praktisch bedeutet das ein Managementsystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit], verständliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und nachvollziehbare Nachweise. Gewerbeaufsicht und Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Wer in Köln oder NRW investiert, sollte früh klären, welche Partner für Arbeitssicherheit, Brandschutz und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] sinnvoll eingebunden werden."
         ]
       },
       {
         "h2": "Rollen und Verantwortlichkeiten im Betrieb",
         "paragraphs": [
-          "Klare Zuständigkeiten sind der Schlüssel: Ohne benannte Verantwortliche für Maschinensicherheit, Gefahrstoffmanagement oder Mobile Arbeit bleiben Maßnahmen in der Schwebe. In mittelständischen Strukturen werden diese Rollen häufig kombiniert – dann müssen Zeitbudgets und Qualifikationen realistisch bemessen sein. [Link: /wissen/blog/arbeitsschutzberatung-unternehmen] beschreibt kompakte Modelle für KMU."
+          "Klare Zuständigkeiten sind der Schlüssel: Ohne benannte Verantwortliche für Maschinensicherheit, Gefahrstoffmanagement oder mobile Arbeit bleiben Maßnahmen in der Schwebe. Bei mehr als 20 Beschäftigten kommen Sicherheitsbeauftragte (§ 22 SGB VII) und der Arbeitsschutzausschuss (ASiG § 11) hinzu – Teilzeit zählt anteilig. Führungskräfte können Arbeitsschutzpflichten nach § 13 ArbSchG übernehmen – nur schriftlich und mit Kontrolle ([Link: /wissen/blog/pflichtuebertragung-arbeitsschutz|Pflichtenübertragung]). In KMU werden Rollen oft kombiniert – dann müssen Zeitbudget und Qualifikation realistisch sein. Überblick: [Link: /wissen/blog/akteure-arbeitsschutz|Akteure im Arbeitsschutz]."
         ],
         "table": {
           "headers": [
@@ -70,7 +70,7 @@ export const ratgeberPosts: RatgeberPost[] = [
             [
               "Geschäftsführung",
               "Ressourcen, Grundsatzentscheidungen, Haftungsprävention",
-              "FaSi, Betriebsarzt, ASA, Investitionsplanung"
+              "Fachkraft für Arbeitssicherheit, Betriebsarzt, ASA, Investitionsplanung"
             ],
             [
               "Führungskräfte",
@@ -78,19 +78,24 @@ export const ratgeberPosts: RatgeberPost[] = [
               "HR, Betriebsrat, QS, Instandhaltung"
             ],
             [
-              "FaSi",
+              "Fachkraft für Arbeitssicherheit",
               "Beratung, Mitwirkung GBU, Begehungen, ASA-Vorbereitung",
               "Technik, Einkauf, externe Prüfstellen"
             ],
             [
               "Betriebsarzt",
               "Arbeitsmedizinische Prävention, Vorsorge, Mitwirkung GBU",
-              "Personalrat, Datenschutz, FaSi"
+              "Personalrat, Datenschutz, Fachkraft für Arbeitssicherheit"
+            ],
+            [
+              "Sicherheitsbeauftragte",
+              "Früherkennung, Sensibilisierung, Ansprechpartner vor Ort",
+              "Fachkraft für Arbeitssicherheit, Führung, ASA"
             ],
             [
               "BR / ASA",
               "Mitbestimmung und Arbeitsschutzausschuss gemäß Rahmenbedingungen",
-              "Geschäftsführung, FaSi, Brandschutzbeauftragte"
+              "Geschäftsführung, Fachkraft für Arbeitssicherheit, Brandschutzbeauftragte"
             ]
           ]
         }
@@ -99,7 +104,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Gefährdungsbeurteilung als Steuerungsinstrument",
         "paragraphs": [
           "Die dokumentierte Gefährdungsbeurteilung (GBU) beschreibt für Arbeitsbereiche und Tätigkeiten die relevanten Gefährdungen, bewertet Risiken und definiert Prioritäten für Schutzmaßnahmen nach dem STOP-Prinzip. Psychische Belastung, Gefahrstoffe, ergonomische Aspekte und Homeoffice sind seit Jahren eigenständige Bewertungsfelder und dürfen nicht vernachlässigt werden.",
-          "Die GBU ist kein Archivprojekt: Änderungen von Technologie, Personalstand oder Lieferketten erfordern Aktualisierung. Nach Belastungsereignissen oder Beinahe-Unfällen ist eine Revision zwingend sinnvoll. Für Übergaben oder neue Standorte lohnt sich ein strukturiertes Audit mit klarem Maßnahmenplan – siehe auch [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz]."
+          "Die GBU ist kein Archivprojekt: Änderungen von Technologie, Personalstand oder Lieferketten erfordern Aktualisierung. Nach Belastungsereignissen oder Beinahe-Unfällen ist eine Revision zwingend. Für Übergaben oder neue Standorte lohnt sich ein strukturiertes Audit mit Maßnahmenplan – methodisch: [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber], psychische Belastung: [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz|psychische GBU], Ablauf kompakt: [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU in sechs Schritten]."
         ],
         "list": [
           "Erfassung der Ist-Situation mit Bildern, Messwerten und Beobachtungen aus der Praxis",
@@ -112,21 +117,21 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Unterweisungen dokumentieren und wirksam gestalten",
         "paragraphs": [
           "Pflichtunterweisungen müssen verständlich sein, auf konkrete Arbeitsplätze bezogen und wiederholt werden. Die Dokumentation soll Datum, Inhalte, Teilnehmende und die unterweisende Person umfassen; digitale Nachweise sind zulässig, wenn Revisionssicherheit gewährleistet ist. Einheitliche Schulungsfolien ohne Bezug zur Hallenlogistik oder zu den eingesetzten Chemikalien genügen revisorenseitig selten.",
-          "In Großstätten wie Köln mit heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Kombinieren Sie Unterweisung zu Brandschutz mit jährlichen Übungen und verknüpfen Sie Erste Hilfe mit realistischen Szenarien. Details zu Erste-Hilfe-Organisation finden Sie unter Erste-Hilfe-Organisation im Betrieb."
+          "In Großstätten wie Köln mit heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Brandschutzunterweisung und Evakuierungsübung gehören zusammen; Erste Hilfe mit realistischen Szenarien am Arbeitsplatz. Pflicht und Dokumentation: [Link: /wissen/blog/unterweisung-arbeitssicherheit-pflicht|Unterweisung Arbeitssicherheit], Fristen: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Fristen und Nachweise]."
         ]
       },
       {
-        "h2": "ASA-Sitzung und betriebsärztliche Mitwirkung",
+        "h2": "Arbeitsschutzausschuss (ASA) nach ASiG § 11",
         "paragraphs": [
-          "Der Arbeitsschutzausschuss (ASA) ist dort ein zentrales Steuerungsforum, wo gesetzliche Voraussetzungen erfüllt sind. In der Sitzung werden Unfälle, Beinahe-Ereignisse, Maßnahmenstände und geplante Änderungen diskutiert – immer mit Blick auf Umsetzbarkeit und Budget.",
-          "Der Betriebsarzt berät zu Arbeitsgestaltung und Prävention und wirkt bei GBU und Unterweisungen mit. Die Einbindungspflicht richtet sich nach Beschäftigtenzahl und Gefährdungsklassen; eine belastbare Übersicht liefert [Link: /wissen/blog/dguv-vorschrift-2]. Für den formalen Ablauf der ASA empfehlen wir die Orientierung an [Link: /wissen/blog/akteure-arbeitsschutz]."
+          "Nach ASiG § 11 bildet der Arbeitgeber in Betrieben mit mehr als 20 Beschäftigten einen Arbeitsschutzausschuss. Teilzeit zählt anteilig (bis 20 Stunden/Woche mit 0,5, bis 30 Stunden mit 0,75). Der ASA besteht aus Arbeitgeber oder Beauftragtem, zwei vom Betriebsrat bestimmten Betriebsratsmitgliedern, Betriebsärzten, Fachkräften für Arbeitssicherheit und Sicherheitsbeauftragten nach § 22 SGB VII. Seine Aufgabe ist die Beratung zu Arbeitsschutz und Unfallverhütung; er tagt mindestens vierteljährlich.",
+          "In der Sitzung werden typischerweise Unfälle, Beinahe-Ereignisse, Maßnahmenstände und geplante Änderungen besprochen – mit Blick auf Umsetzbarkeit und Budget. Der Betriebsarzt berät zu Arbeitsgestaltung und Prävention und wirkt bei Gefährdungsbeurteilung und Unterweisungen mit. Details zu Rollen: [Link: /wissen/blog/akteure-arbeitsschutz|Akteure im Arbeitsschutz], Betreuungsumfang: [Link: /wissen/blog/dguv-vorschrift-2|DGUV Vorschrift 2]."
         ]
       },
       {
         "h2": "Technische Prüfungen und Betriebssicherheit",
         "paragraphs": [
           "Unter BetrSichV fallen zahlreiche Arbeitsmittel und Anlagenteile – von Regalen über ortsveränderliche Elektrogeräte bis zu Drucksystemen. Die Koordination von Prüfterminen, Nachverfolgung von Mängeln und Freigaben gehört zur operativen Arbeitssicherheit. Elektrische Anlagen und Geräte unterliegen ergänzend der DGUV Vorschrift 3; siehe den Ratgeber [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3].",
-          "Regalanlagen sollten nach DIN EN 15635 instand gehalten und wiederkehrend geprüft werden (Regalprüfung nach DIN EN 15635); Leitern und Trittsteige unterliegen eigenen Anforderungen (Leitern und Trittsteige (Betriebssicherheitsverordnung)). Wer Prüfungen bündelt, reduziert Stillstände und erhöht Transparenz gegenüber internen Audits."
+          "Regalanlagen nach DIN EN 15635 und Leitern/Trittsteige nach BetrSichV gehören in die GBU und in einen gebündelten Prüfkalender – neben DGUV V3 und ggf. Druckgeräten. Wer Prüfungen bündelt, reduziert Stillstände und erhöht Transparenz bei BG- und Kundenaudits."
         ]
       },
       {
@@ -146,22 +151,22 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Behörden, Bußgelder und die Rolle guter Nachweise",
         "paragraphs": [
-          "Nachlässige Arbeitssicherheit kann Bußgelder, Betriebsbeschränkungen und Imageschäden nach sich ziehen. Nachweise wie aktualisierte GBU, Maßnahmenpläne und Schulungslisten sind die erste Verteidigungslinie, wenn ein Vorfall extern untersucht wird.",
-          "Investieren Sie frühzeitig in einen konsistenten Datenstand – auch digitale Tools sind möglich, sofern Zugriffsrechte und Aufbewahrungsfristen sauber geregelt sind. Wir unterstützen bei der Harmonisierung von Arbeitssicherheit und Brandschutz, damit keine Doppelarbeit entsteht."
+          "Nachlässige Arbeitssicherheit kann Bußgelder, Betriebsbeschränkungen und strafrechtliche Folgen nach sich ziehen – Überblick: [Link: /wissen/blog/strafen-arbeitsschutz|Strafen und Haftung]. Aktualisierte GBU, Maßnahmenpläne mit Fristen und Unterweisungslisten sind die erste Verteidigungslinie bei externer Untersuchung.",
+          "Ein konsistenter Datenstand hilft – digital oder analog, mit klaren Zugriffsrechten und Aufbewahrungsfristen. H&S+ harmonisiert Arbeitssicherheit und Brandschutz, damit keine Doppelarbeit und keine Lücken an Schnittstellen entstehen."
         ]
       },
       {
         "h2": "Arbeitssicherheit in Köln und NRW – lokaler Kontext",
         "paragraphs": [
           "Das Rheinland verbindet klassisches Handwerk, Chemie- und Logistikstandorte, Forschungseinrichtungen und kreative Dienstleister. Hochhausbebauung, Verkehrsaufkommen und Hochwasserprojekte prägen lokale Risiken (Evakuierung, Rettungswege, Notstrom). Diese Gegebenheiten sollten in GBU und Brandschutzunterlagen explizit adressiert sein.",
-          "H&S+ unterstützt mit Vor-Ort-Terminen in Köln und der Region, pragmatischen Checklisten und klaren Prioritätenlisten – ohne theoretische Überfrachtung. [Link: /kontakt] Kostenlose Erstberatung für Abgrenzung der Leistungen."
+          "H&S+ unterstützt mit Vor-Ort-Terminen in Köln und der Region, pragmatischen Checklisten und priorisierten Maßnahmenlisten – ohne theoretische Überfrachtung. [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|Externe Fachkraft für Arbeitssicherheit Köln] · [Link: /kontakt|Kostenlose Erstberatung]."
         ]
       },
       {
         "h2": "Fallstränge aus Beratungsprojekten in Köln und NRW",
         "paragraphs": [
           "Unsere Mandate zeigen wiederkehrende Muster – und konkrete Lösungen. In einer KiTa-Küche in Köln führte die ergonomische Begehung zu belastbaren GBU-Ergänzungen (Spülbereich, LMM, Kinderessbereich) statt generischer Floskeln – siehe [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
-          "Beim Start externer FaSi-Betreuung (z. B. technischer Dienstleister in Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Voll-GBU-Neuerstellung: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
+          "Beim Start externer Betreuung durch die Fachkraft für Arbeitssicherheit (z. B. technischer Dienstleister in Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Voll-GBU-Neuerstellung: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
           "Mittelgroße Logistikstandorte profitieren von Jahrespauschalen mit ASA, integrierter Begehung und strukturierten Einarbeitungsunterweisungen – Ablauf im ersten Vertragsjahr: [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf].",
           "SiFa-Jahresberichte nach DGUV Vorschrift 2 müssen Begehungen, Unterweisungen, Evakuierungsübungen und Einzelfragen (z. B. Handhubwagen-Prüfpflicht, psychische Belastung) nachvollziehbar bündeln: [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein] und [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit].",
           "ASA-Sitzungen bei Sozialträgern verbinden GBU Küche, psychische GBU und Bildschirmarbeitsplätze – gute Protokolle mit Status und Verantwortlichen verhindern Insellösungen: [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz].",
@@ -181,12 +186,12 @@ export const ratgeberPosts: RatgeberPost[] = [
     ],
     "faq": [
       {
-        "question": "Ab wann ist eine externe FaSi obligatorisch?",
-        "answer": "Das richtet sich nach DGUV Vorschrift 2 und der Betriebssituation (Mitarbeitende, Branche, Gefährdung). Viele KMUs beauftragen externe FaSi, sobald intern keine Kapazität für sichere Umsetzung besteht."
+        "question": "Ab wann ist eine externe Fachkraft für Arbeitssicherheit sinnvoll?",
+        "answer": "Nach [Link: /wissen/blog/dguv-vorschrift-2|DGUV Vorschrift 2] und Betriebssituation (Beschäftigte, Branche, Gefährdung). Viele KMUs beauftragen extern, sobald intern keine Kapazität oder Qualifikation für sichere Umsetzung besteht – [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|schriftliche Bestellung]."
       },
       {
         "question": "Wie oft sollten Unterweisungen wiederholt werden?",
-        "answer": "Nach gesetzlichen Mindestanforderungen und immer dann, wenn sich Arbeitsmittel, Arbeitsabläufe oder Stoffe ändern. Jährliche Refreshers sind für Brandschutz und Erste Hilfe üblich."
+        "answer": "Mindestens jährlich nach § 12 ArbSchG, vor erster Tätigkeit und bei Änderungen von Mitteln, Stoffen oder Gefährdungslage. Details: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung Fristen]."
       },
       {
         "question": "Was unterscheidet Arbeitsschutz von Brandschutz?",
@@ -194,7 +199,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Welche Rolle spielt der ASA?",
-        "answer": "Der ASA bündelt Information und Mitwirkung von Geschäftsführung, FaSi, Betriebsarzt und Betriebsrat – so werden Maßnahmen transparent priorisiert."
+        "answer": "Nach ASiG § 11 berät der Arbeitsschutzausschuss zu Arbeitsschutz und Unfallverhütung und tagt mindestens vierteljährlich. Er setzt sich aus Arbeitgeber/Beauftragtem, zwei Betriebsratsmitgliedern, Betriebsärzten, Fachkraft für Arbeitssicherheit und Sicherheitsbeauftragten zusammen – Pflicht ab mehr als 20 Beschäftigten (Teilzeit anteilig)."
       },
       {
         "question": "Brauchen wir eine eigene Arbeitsschutzsoftware?",
@@ -210,7 +215,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Wo erhalten wir Unterstützung in Köln?",
-        "answer": "Health and Safety+ begleitet Arbeitgeber modular bei FaSi-Aufgaben, ASA und Prüfkoordination – [Link: /kontakt]."
+        "answer": "Health and Safety+ begleitet Arbeitgeber modular als Fachkraft für Arbeitssicherheit – ASA, GBU und Prüfkoordination – [Link: /kontakt]."
       }
     ]
   },
@@ -283,7 +288,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "paragraphs": [
           "Wirksamer betrieblicher Brandschutz scheitert selten an fehlenden Vorschriften, sondern an unklaren Zuständigkeiten: Wer alarmiert, wer schließt die BMA-Zentrale, wer führt die Evakuierung, wer beauftragt die Türwartung? Jede Funktion braucht einen benannten Inhaber, schriftliche Vertretungsregeln und – bei externem Facility – vertragliche Reaktionszeiten für kritische Mängel (z. B. defekte Feststellanlage, gekeilte Brandschutztür, BMA-Störung). Ohne SLA bleiben Mängel in Tickets hängen, während der Betrieb formal „organisiert“ wirkt.",
           "Der Brandschutzbeauftragte (BSB) ist die zentrale beratende Rolle – nicht die Feuerwehr vor Ort. Nach DGUV Information 205-003 unterstützt er den Arbeitgeber bei der Planung, Überwachung und Weiterentwicklung des Brandschutzes: Erstellung und Fortschreibung der BSO (DIN 14096), Brandschutzbegehungen, Organisation von Übungen, Prüfung der Wirksamkeit von Maßnahmen, Abstimmung mit Behörden, Feuerwehr und Versicherern sowie Schulung von Brandschutzhelfern und Führungskräften. Die Bestellung erfolgt schriftlich, mit Weisungsfreiheit gegenüber der operativen Linie und direkter Anbindung an die Geschäftsführung. Qualifikation: typischerweise ca. 64 Unterrichtseinheiten nach vfdb-Richtlinie 12-09/01; Fortbildung etwa 16 UE alle drei Jahre. Ob ein BSB Pflicht oder faktisch unverzichtbar ist, ergibt sich aus Brandgefährdung, BMA, Nutzungsart und Objektgröße – nicht aus einer starren Mitarbeiterzahl. Details: [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten].",
-          "Brandschutzhelfer nach ASR A2.2 ergänzen den BSB im operativen Ernstfall: Evakuierung unterstützen, Löschgeräte nur im Rahmen der Ausbildung nutzen, keine heroischen Löschversuche bei übermäßiger Gefahr. Ihre Anzahl orientiert sich an Beschäftigtenzahl, Etagen, Schichten und Sondergefährdungen – in der Praxis oft etwa 5–10 % der Belegschaft, in Kleinstbetrieben mindestens eine qualifizierte Person pro relevantem Bereich oder Schicht. Ausbildung nach DGUV 205-023, Fortbildung alle 3–5 Jahre, praktische Übung etwa alle vier Jahre. Vertiefung: [Link: /wissen/blog/asr-a2-2-brandschutzhelfer].",
+          "Brandschutzhelfer nach ASR A2.2 ergänzen den BSB im operativen Ernstfall: Evakuierung unterstützen, Entstehungsbrände nur im Rahmen der Ausbildung bekämpfen. Die Anzahl ergibt sich aus der Gefährdungsbeurteilung – in der Regel 5 % der Beschäftigten (ASR A2.2 Abs. 7.3). Ausbildung nach DGUV 205-023: mindestens 2 UE Theorie plus Löschübung (insgesamt meist etwa 3–4 UE). Wiederholung der fachkundigen Unterweisung mit Übung typischerweise alle 2–5 Jahre, festgelegt in der GBU. Vertiefung: [Link: /wissen/blog/asr-a2-2-brandschutzhelfer].",
           "In größeren Objekten kommen weitere Rollen hinzu: Evakuierungshelfer für Personen mit eingeschränkter Mobilität (Planung nach DGUV 205-033), feste Ansprechpartner für die Brandmeldezentrale bzw. Leitstelle (intern oder extern), Werkschutz oder Sicherheitsdienst für Zutritt und Sammelstellen, Facility für technische Instandhaltung. Die Fachkraft für Arbeitssicherheit ([Link: /wissen/ratgeber/arbeitsschutz-unternehmen]) und der Betriebsarzt sind keine Brandschutzersatzrollen, aber wichtige Partner – etwa bei Heißarbeit, Gefahrstoffen, Evakuierung von Verletzten und ASA-Themen. Die Geschäftsführung bleibt verantwortlich für Ressourcen, Priorisierung und die Umsetzung von Maßnahmen aus Begehungen und Audits."
         ],
         "table": {
@@ -301,7 +306,7 @@ export const ratgeberPosts: RatgeberPost[] = [
             [
               "Brandschutzhelfer",
               "Evakuierung, erste Löschversuche im Rahmen der Ausbildung",
-              "DGUV 205-023; Fortbildung 3–5 Jahre; Übung ca. alle 4 Jahre"
+              "DGUV 205-023; Wiederholung Unterweisung mit Übung 2–5 Jahre (GBU)"
             ],
             [
               "Evakuierungshelfer",
@@ -457,7 +462,7 @@ export const ratgeberPosts: RatgeberPost[] = [
           "Brandmeldeanlagen: Wartung mindestens einmal jährlich durch anerkannten Errichter/Wartungsbetrieb nach DIN 14675; bei großen oder versicherungsrelevanten Anlagen zusätzlich quartalsweise Inspektion. Prüfumfang: Melder, Zentrale, Übertragungswege, Stromversorgung, Alarmierung, Kopplung RWA/Sprinkler. Störungen im Störbuch erfassen, Ursache beheben lassen – keine dauerhafte „Störungsquittierung“ ohne Ticket an die Wartungsfirma.",
           "Handfeuerlöscher (ABC, Schaum, Fettbrand, CO₂): sachkundige Prüfung alle zwei Jahre nach DIN EN 3-7 durch Fachbetrieb (Plakette, Prüfbuch). CO₂-Löscher zusätzlich Dichtheit/Masse; Einsatz nur nach DGUV 205-034 – Prüfintervall entbindet nicht von Einsatzregeln. Zwischen den Fachprüfungen: vollständige Sichtprüf bei jeder Brandschutzbegehung (Plakette lesbar, Zugang frei, keine Beschädigung). Drucklöscher: Herstellerangaben zu Druckprüfung/Austausch (oft im 12-Jahres-Rhythmus) im Anlagenverzeichnis führen.",
           "Feuerschutzabschlüsse (Türen, Tore, Klappen): jährliche Funktionsprüfung nach DIN 18095 – Schließen, Dichtheit, Feststellanlage, bei Toren Endlagen und Auslösetaste. Änderungen an Beschlägen oder Verglasung nur im Rahmen der Zulassung (DIBt/abZ, EN 16034) – sonst Entzug der Konformität. Abschottungen und Brandschotts: jährliche Begehung, nach jeder Durchdringung (Kabel, Rohre) Nachweis der fachgerechten Ausführung nach MLAR/abZ.",
-          "Organisatorische Fristen gehören in denselben Kalender: BSO-Fortschreibung zwei Jahre, Brandschutzbegehung mindestens jährlich, Unterweisung jährlich, BSH-Fortbildung drei bis fünf Jahre, BSH-Übung etwa alle vier Jahre, Räumungsübung in größeren Betrieben jährlich. Ein Prüfplan entsteht aus der Anlagenliste (BSK/BSO Teil C), wird mit Verantwortlichen und Fachfirmen terminiert und im ASA oder mit der Geschäftsführung jährlich auf Überfälligkeiten geprüft."
+          "Organisatorische Fristen gehören in denselben Kalender: BSO-Fortschreibung zwei Jahre, Brandschutzbegehung mindestens jährlich, Unterweisung jährlich, Wiederholung der Brandschutzhelfer-Ausbildung mit Löschübung nach GBU (ASR A2.2: typisch 2–5 Jahre), Räumungsübung in größeren Betrieben jährlich. Ein Prüfplan entsteht aus der Anlagenliste (BSK/BSO Teil C), wird mit Verantwortlichen und Fachfirmen terminiert und im ASA oder mit der Geschäftsführung jährlich auf Überfälligkeiten geprüft."
         ],
         "table": {
           "headers": [
@@ -733,7 +738,7 @@ export const ratgeberPosts: RatgeberPost[] = [
   {
     "slug": "sigeko-baustelle",
     "title": "SiGeKo auf der Baustelle – Koordination, Dokumentation und Pflichten nach BaustellV",
-    "excerpt": "Die Koordinierung von Baustellen nach BaustellV reduziert Schnittstellenrisiken zwischen Bauherren, Planung und ausführenden Gewerken. Der SiGeKo-Koordinator strukturiert Informationen so, dass Beschä…",
+    "excerpt": "SiGeKo nach BaustellV für Köln und NRW: Pflichten des Bauherrn, SiGe-Plan, Vorankündigung, Übergaben und Begehungen – praxisnah mit Fallsträngen aus Bauprojekten.",
     "titleTag": "SiGeKo Baustelle Köln NRW BaustellV | handsplus.de",
     "metaDescription": "SiGeKo für Baustellen in Köln und NRW: Koordinator nach §§ 3–4 BaustellV, Übergaben, Vorankündigung, SiGeKo-Plan. Ratgeber von Health and Safety+.",
     "servicePath": "/sigeko",
@@ -742,7 +747,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Die Koordinierung von Baustellen nach BaustellV reduziert Schnittstellenrisiken zwischen Bauherren, Planung und ausführenden Gewerken. Der SiGeKo-Koordinator strukturiert Informationen so, dass Beschäftigte vorhersehbare, sichere Arbeitsbedingungen vorfinden – nicht improvisierte Übergaben und Informationslücken.",
-          "Health and Safety+ begleitet Bauherren und ausführende Unternehmen in Köln und NRW bei der Erstellung und Aktualisierung des SiGeKo-Plans, bei Vorankündigungen und Übergaben zwischen Phasen. Die folgenden Ausführungen verknüpfen organisatorische Pflichten mit praktischen Werkzeugen – ergänzend zu [Link: /wissen/ratgeber/arbeitsschutz-unternehmen] und [Link: /wissen/ratgeber/brandschutz-betrieb]."
+          "Health and Safety+ begleitet Bauherren und ausführende Unternehmen in Köln und NRW bei SiGe-Plan, Vorankündigung und dokumentierten Übergaben. Die folgenden Abschnitte verknüpfen BaustellV-Pflichten mit praktischen Werkzeugen – ergänzend zu [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz]. Pflicht-Check: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo-Pflicht?]."
         ]
       },
       {
@@ -805,8 +810,9 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Vorankündigung und Informationsflüsse",
         "paragraphs": [
-          "Die Vorankündigung strukturiert Informationspflichten gegenüber Betrieben und Behörden – sie ist kein Formalismus, sondern der Startpunkt eines durchgängigen Informationsflusses. Fehler hier führen später zu Behinderungen oder gefährlichen Parallelarbeiten.",
-          "Details zum praktischen Vorgehen siehe SiGeKo-Vorankündigung und Behördenablauf. In Ballungsräumen wie Köln sind Genehmigungen und Verkehrsführungen häufig kritische Pfade der Vorplanung."
+          "Die Vorankündigung (BaustellV) informiert Betriebe und Behörden über Beginn, Dauer, Ansprechpartner und wesentliche Gefährdungen – Startpunkt des Informationsflusses, kein Formalismus. Fehler hier führen zu Parallelarbeiten ohne Einweisung oder zu Konflikten mit Aufsicht.",
+          "Inhaltlich gehören dazu: SiGe-Plan in der aktuellen Version, Baustellenordnung, Ansprechpartner SiGeKo, Regelungen zu Zutritt, Logistik und Notfall. In Köln sind Genehmigungen, Verkehrsführung und Nachbarschaft oft kritische Pfade – früh mit Planung und Bauleitung abstimmen.",
+          "Nachgelagert: projektbezogene Einweisungen dokumentieren (Datum, Gewerk, Themen) – Nachweis bei BG-Begehung. Honorar und Leistungsumfang im Vertrag: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung]."
         ]
       },
       {
@@ -829,8 +835,8 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Kooperation mit Arbeitssicherheit und Elektro",
         "paragraphs": [
-          "Baustellenstrom und ortsveränderliche Geräte unterliegen DGUV V3 ([Link: /wissen/ratgeber/elektrosicherheit-dguv-v3]). Kurzschlüsse und fehlerhafte Verlängerungen gehören zu häufigen Ursachen von Vorällen – der SiGeKo-Koordinator sollte kritische Elektrozonen kennzeichnen.",
-          "Regale und Baustellenlogistik sind ebenfalls mit Arbeitssicherheit zu koppeln (Regalprüfung nach DIN EN 15635)."
+          "Baustellenstrom, Kabeltrommeln und mobile Werkzeuge unterliegen [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3|DGUV Vorschrift 3] – im SiGe-Plan Elektrozonen, FI-Schutz und Prüfrhythmus kennzeichnen. Kurzschlüsse und improvisierte Verlängerungen sind häufige Unfallursachen.",
+          "Regale, Hebezeuge und Absturzsicherung gehören in die Schnittstelle zu [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitssicherheit] (BetrSichV, GBU) – nicht nur im Gewerke-Ordner."
         ]
       },
       {
@@ -843,8 +849,9 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "SiGeKo in Köln – lokale Besonderheiten",
         "paragraphs": [
-          "Enge Baugrundstücke, hoher Fußgängerverkehr und gleichzeitige Baumaßnahmen erfordern klare Logistik- und Verkehrskonzepte. Nachbarschaftsbetroffenheit sollte im SiGeKo-Plan explizit adressiert sein.",
-          "Wir kennen die Praxis regionaler Auftraggeber und unterstützen von kleinen Umbauten bis Großprojekten modular."
+          "Enge Grundstücke, Fußgängerverkehr und parallele Baustellen erfordern klare Logistik, Verkehrsführung und Nachbarschaftskommunikation im SiGe-Plan – nicht nur im Bautagebuch.",
+          "Typisch: Abbruch in Bestand mit Seitenschutz und urbaner Logistik; Innenausbau bei laufendem Betrieb; Dach/Klima mit Absturz nach ASR A2.1. Fallstränge im Kapitel „Baustellen-Erfahrungen“ unten.",
+          "H&S+ unterstützt modular – von Einfamilienhaus-Neubau bis innerstädtischer Sanierung. [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln] · [Link: /kontakt|Erstberatung]."
         ]
       },
       {
@@ -872,15 +879,15 @@ export const ratgeberPosts: RatgeberPost[] = [
     "faq": [
       {
         "question": "Ab welcher Projektgröße braucht es einen Koordinator?",
-        "answer": "Das richtet sich nach BaustellV und Projektmerkmalen – nicht nur nach Budget. Im Zweifel früh klären."
+        "answer": "Nach BaustellV bei mehreren Arbeitgebern auf der Baustelle oder bei besonders gefährlichen Arbeiten (Anhang II) – unabhängig vom Budget. Orientierung: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|SiGeKo-Pflicht]."
       },
       {
         "question": "Kann der Koordinator extern sein?",
-        "answer": "Ja, qualifizierte externe Koordinatoren werden häufig über Fachbüros oder spezialisierte Dienstleister beauftragt."
+        "answer": "Ja – häufig FaSi oder Ingenieurbüro mit RAB-30-Qualifikation. Vertraglich: Planungs- und Ausführungsphase, Begehungszahl, Erreichbarkeit bei akuten Mängeln."
       },
       {
         "question": "Wie oft aktualisieren wir den SiGeKo-Plan?",
-        "answer": "Bei wesentlichen Änderungen von Gewerken, Zeitplan oder Risiken – mindestens phasenbezogen."
+        "answer": "Bei Gewerke-, Zeitplan- oder Risikoänderung; mindestens phasenbezogen (Rohbau/Ausbau). Aushang und digitale Version müssen übereinstimmen."
       },
       {
         "question": "Was gehört in Übergabeprotokolle?",
@@ -896,14 +903,18 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Wie dokumentieren wir Unterweisungen?",
-        "answer": "Themen, Datum, Teilnehmer und Ort festhalten; bei Fremdfirmen zusätzlich Einweisungsnachweise archivieren."
+        "answer": "Themen, Datum, Teilnehmer und Ort festhalten; bei Fremdfirmen Einweisungsnachweise archivieren. Anlehnung: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung Fristen]."
+      },
+      {
+        "question": "Ersetzt SiGeKo die Gewerke-GBU?",
+        "answer": "Nein. SiGeKo koordiniert das Zusammenwirken; jedes ausführende Unternehmen bleibt für seine GBU und Beschäftigten verantwortlich. Schnittstellen: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|GBU Schnittstellen]."
       }
     ]
   },
   {
     "slug": "gefaehrdungsbeurteilung",
     "title": "Gefährdungsbeurteilung – Methode, Dokumentation und Aktualisierung für Betriebe",
-    "excerpt": "Die Gefährdungsbeurteilung ist das zentrale Instrument des Arbeitsschutzrechts: Sie verpflichtet Arbeitgeber, alle relevanten Gefährdungen zu ermitteln, zu bewerten und wirksame Schutzmaßnahmen festzu…",
+    "excerpt": "Gefährdungsbeurteilung (GBU) für Betriebe in Köln und NRW: sechs Schritte, STOP-Prinzip, psychische Belastung, Gefahrstoffe, Dokumentation und typische Fehler – praxisnah erklärt.",
     "titleTag": "Gefährdungsbeurteilung GBU Methode Köln NRW | handsplus.de",
     "metaDescription": "Gefährdungsbeurteilung (GBU) für Arbeitgeber in Köln und NRW: STOP-Prinzip, Psychische Belastung, Gefahrstoffe, Dokumentation. Ratgeber von Health and Safety+.",
     "servicePath": "/arbeitsschutz",
@@ -912,20 +923,21 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Die Gefährdungsbeurteilung ist das zentrale Instrument des Arbeitsschutzrechts: Sie verpflichtet Arbeitgeber, alle relevanten Gefährdungen zu ermitteln, zu bewerten und wirksame Schutzmaßnahmen festzulegen. Ohne belastbare GBU fehlt die Grundlage für Unterweisungen, Investitionsentscheidungen und ASA-Themen – Revisionssicherheit wird dann fragil.",
-          "Der Ratgeber beschreibt ein umsetzbares Vorgehen für Büro- und Produktionsumfelder im Rheinland und zeigt, wie Sie GBU mit bestehenden Managementsystemen synchronisieren. Vertiefungen zu Stoffen und Unterweisungen verlinken auf [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen]."
+          "Der Ratgeber beschreibt ein umsetzbares Vorgehen für Büro- und Produktionsumfelder im Rheinland und zeigt, wie Sie GBU mit ISO 45001 oder bestehenden Auditzyklen synchronisieren. Vertiefend: [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen Gefahrstoffe] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz im Unternehmen]."
         ]
       },
       {
         "h2": "Rechtliche Pflicht und organisatorischer Rahmen",
         "paragraphs": [
-          "Die Pflicht zur GBU erstreckt sich auf alle Arbeitsbereiche und Tätigkeiten mit hinreichendem Bezug zum Arbeitgeber – einschließlich mobiler Arbeit und Fremdstunden in Kundenobjekten, soweit der Arbeitgeber Einfluss hat.",
-          "Die Dokumentation muss nachvollziehbar sein: Wer hat bewertet, welche Methode wurde genutzt, welche Maßnahmen wurden beschlossen und bis wann werden sie umgesetzt?"
+          "§ 5 ArbSchG verpflichtet den Arbeitgeber, Gefährdungen zu ermitteln und zu beurteilen sowie wirksame Schutzmaßnahmen festzulegen, umzusetzen und auf Wirksamkeit zu prüfen. Das gilt für alle Arbeitsbereiche – einschließlich Homeoffice, Zeitarbeit und Tätigkeiten bei Kunden oder auf Baustellen, soweit der Arbeitgeber Einfluss hat.",
+          "Besonders schutzbedürftige Gruppen brauchen eigene Bewertungsbausteine: Jugendliche (JArbSchG), Schwangere und Stillende ([Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Mutterschutz]), Menschen mit Behinderung. Die vorausschauende Beurteilung nach § 10 MuSchG ist Teil der allgemeinen GBU.",
+          "Die Dokumentation muss nachvollziehbar sein: Bewerter, Methode, Maßnahmen mit Verantwortlichem und Frist, Wirksamkeitskontrolle. Ohne diese Struktur fehlt die Grundlage für [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und ASA-Themen."
         ]
       },
       {
         "h2": "Ablaufmodell in sechs Schritten",
         "paragraphs": [
-          "Die Bewertung soll konsistent sein – eine einfache Risikomatrix genügt vielen Betrieben, wenn Sie Graustufen und Begründungen dokumentieren. Wichtiger als akademische Präzision ist die Transparenz für spätere Audits."
+          "Die Bewertung soll konsistent sein – eine einfache Risikomatrix genügt vielen Betrieben, wenn Graustufen und Begründungen dokumentiert sind. Wichtiger als akademische Präzision ist Transparenz für BG, Gewerbeaufsicht und Kundenaudits. Kompakter Blog-Ablauf: [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU erstellen]."
         ],
         "table": {
           "headers": [
@@ -998,21 +1010,24 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Brandschutz und Bau",
         "paragraphs": [
-          "Gebäudebezogene GBU sollten mit brandschutzrechtlichen Anforderungen korrespondieren – etwa bei Nutzungsänderungen oder Lagern brennbarer Güter. Für Bauvorhaben ergänzt BaustellV die GBU ([Link: /wissen/ratgeber/sigeko-baustelle])."
+          "Brandgefahr gehört in die GBU: Zündquellen, brennbare Stoffe, Personenaufkommen, Rettungswege im IST-Zustand. Ergebnis: Bedarf an BSO, Brandschutzhelfern oder Brandschutzbeauftragtem – abgestimmt mit [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz].",
+          "Bei Nutzungsänderungen, Lagerzonen in Fluren oder Umbauten: GBU und genehmigungsrechtliche Unterlagen synchron halten ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO NRW]). Auf Baustellen ergänzt BaustellV die Bewertung – Schnittstellen über [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo]."
         ]
       },
       {
         "h2": "Dokumentation, ASA und Audits",
         "paragraphs": [
-          "ASA-Protokolle sollten GBU-Aktualisierungen referenzieren und Fortschritte bei Maßnahmen zeigen. Audits externer Kunden prüfen häufig nur Stichproben – Konsistenz über Bereiche hinweg ist entscheidend.",
-          "H&S+ unterstützt bei Moderation von GBU-Workshops und bei der Harmonisierung mehrerer Standorte in NRW."
+          "ASA-Protokolle sollten GBU-Aktualisierungen, offene Maßnahmen und Wirksamkeitskontrollen referenzieren – nicht nur Unfallstatistik. Der [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht] bündelt GBU-Stand, Begehungen und Unterweisungen für die Geschäftsführung.",
+          "Externe Audits (Kunden, ISO 45001) arbeiten mit Stichproben – Konsistenz über Bereiche und Standorte ist entscheidend. H&S+ moderiert GBU-Workshops und harmonisiert Corporate Standards mit lokalen Annexes in NRW."
         ]
       },
       {
         "h2": "Häufige Fehler und wie Sie sie vermeiden",
         "paragraphs": [
-          "Generische Textbausteine ohne Bezug zum Standort fallen bei Behördenbesuchen auf. Vermeiden Sie Copy-Paste ohne Validierung vor Ort.",
-          "Maßnahmen ohne Budget und Termine bleiben Papier – priorisieren Sie nach Risiko und Umsetzbarkeit."
+          "Generische Textbausteine ohne Begehung fallen bei Behördenbesuchen auf – jedes Kapitel braucht IST-Bezug (Fotos, Messwerte, Beobachtung).",
+          "Maßnahmen ohne Verantwortlichen, Budget und Termin bleiben Papier – priorisieren nach Risiko und Umsetzbarkeit im ASA.",
+          "Psychische GBU fehlt oder ist nur ein Satz – das ist seit 2013 keine Option mehr.",
+          "GBU und Unterweisungsnachweise widersprechen sich (neue Chemikalie, alte Unterweisungsliste) – Versionen verknüpfen."
         ]
       },
       {
@@ -1039,27 +1054,27 @@ export const ratgeberPosts: RatgeberPost[] = [
     "faq": [
       {
         "question": "Wie oft ist eine Aktualisierung nötig?",
-        "answer": "Bei wesentlichen Änderungen der Arbeitsbedingungen und zusätzlich nach gravierenden Vorfällen; eine jährliche Plausibilitätsprüfung ist empfehlenswert."
+        "answer": "Bei wesentlichen Änderungen, nach Unfällen/Beinahe-Unfällen und mindestens jährlich als Plausibilitätsprüfung. Nach neuen Maschinen, Stoffen oder Organisationsänderungen ist eine Revision Pflicht."
       },
       {
         "question": "Reicht eine Gesamt-GBU?",
-        "answer": "Oft ja für kleine Betriebe; größere Standorte sollten modular nach Bereichen gliedern."
+        "answer": "Für Kleinstbetriebe oft ja; ab mehreren Bereichen, Standorten oder Schichten modular nach Produktion, Lager, Verwaltung, Außendienst gliedern."
       },
       {
         "question": "Wer unterzeichnet die GBU?",
-        "answer": "Verantwortliche Fachkräfte dokumentieren den Stand; die Geschäftsführung sollte Kenntnis und Freigabe dokumentieren."
+        "answer": "Fachkraft für Arbeitssicherheit oder fachkundige Person dokumentiert fachlich; Geschäftsführung bestätigt Kenntnis und stellt Umsetzungsressourcen bereit – nicht nur „zur Kenntnis“ ohne Konsequenz."
       },
       {
         "question": "Was ist mit Leiharbeit?",
-        "answer": "Der Entleiher trägt Arbeitsschutzpflichten – GBU muss Zeitarbeit explizit berücksichtigen."
+        "answer": "Der Entleiher trägt die Arbeitsschutzpflicht – GBU und Unterweisung müssen Zeitarbeit, Leiharbeit und Einarbeitung explizit abbilden."
       },
       {
         "question": "Brauchen wir externe Hilfe?",
-        "answer": "Externe FaSi kann Moderation und Methodensicherheit liefern – besonders bei komplexen Standorten."
+        "answer": "Bei komplexen Standorten, psychischer GBU oder Erstaufbau lohnt eine externe Fachkraft für Arbeitssicherheit für Moderation und Methodensicherheit – [Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung]."
       },
       {
         "question": "Wie verknüpfen wir GBU und ISO 45001?",
-        "answer": "Ordnen Sie GBU als operative Risikoquelle im OH&S-Management zu und pflegen Sie gemeinsame Kennzahlen."
+        "answer": "GBU als operative Risikoquelle im OH&S-Management; gemeinsame Kennzahlen (Unfälle, offene Maßnahmen, Review-Termine) – siehe [Link: /wissen/blog/iso-45001-arbeitsschutzmanagementsystem|ISO 45001]."
       },
       {
         "question": "Was tun bei mehreren Standorten?",
@@ -1229,7 +1244,7 @@ export const ratgeberPosts: RatgeberPost[] = [
   {
     "slug": "elektrosicherheit-dguv-v3",
     "title": "Elektrosicherheit nach DGUV Vorschrift 3 – Prüfungen, Organisation und Haftung",
-    "excerpt": "Elektrische Gefährdungen gehören zu den häufigsten Ursachen schwerer Arbeitsunfälle – oft durch beschädigte Leitungen, fehlerhafte Verlängerungsketten oder nicht qualifizierte Instandsetzung. Die DGUV…",
+    "excerpt": "DGUV Vorschrift 3 für Betriebe in Köln und NRW: Prüfpflichten, ortsveränderliche Geräte, Baustrom, Dokumentation und typische Mängel – organisatorisch und rechtlich eingeordnet.",
     "titleTag": "DGUV V3 Elektro Prüfung Köln NRW | handsplus.de",
     "metaDescription": "DGUV V3 für Betriebe in Köln und NRW: wiederkehrende Prüfungen, ortsveränderliche Geräte, Dokumentation und häufige Mängel – Ratgeber von Health and Safety+.",
     "servicePath": "/elektrosicherheit",
@@ -1238,20 +1253,21 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Elektrische Gefährdungen gehören zu den häufigsten Ursachen schwerer Arbeitsunfälle – oft durch beschädigte Leitungen, fehlerhafte Verlängerungsketten oder nicht qualifizierte Instandsetzung. Die DGUV Vorschrift 3 (bisherige BGV A3) strukturiert wiederkehrende Prüfungen festinstallierter Anlagen und ortsveränderlicher Geräte sowie organisatorische Pflichten der Arbeitgeber.",
-          "Der Ratgeber richtet sich an Betriebsführung, Facility und Arbeitssicherheit in NRW und zeigt, wie Sie Prüfpfade bündeln und mit anderen Compliance-Themen verzahnen ([Link: /wissen/ratgeber/arbeitsschutz-unternehmen], [Link: /wissen/ratgeber/brandschutz-betrieb])."
+          "Der Ratgeber richtet sich an Betriebsführung, Facility und Arbeitssicherheit in NRW: Prüfpfade bündeln, mit GBU und Brandschutz verzahnen. Vertiefend: [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV V3 Blog] · [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz] · [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz]."
         ]
       },
       {
         "h2": "Geltungsbereich und Grundbegriffe",
         "paragraphs": [
-          "Festinstallierte elektrische Anlagen und ortsveränderliche Geräte unterliegen Prüfpflichten mit festgelegten Intervallen – konkretisiert durch DGUV-Informationen und fabrikantenvorgaben. Nicht geprüfte Geräte dürfen nicht betrieben werden, wenn die Prüffrist überschritten ist.",
-          "Zu unterscheiden sind auch elektrische Anlagen in explosionsgefährdeten Bereichen – dort gelten verschärfte Regeln."
+          "DGUV Vorschrift 3 (ehem. BGV A3) gilt für elektrische Anlagen und ortsveränderliche Betriebsmittel – vom Bürogerät bis zur Baustromverteilung. Prüfintervalle ergeben sich aus Gerätetyp, Umgebung und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU]; Orientierung: Büro oft 24 Monate, Werkstatt/Baustelle 6–12 Monate, ortsfest typisch 48 Monate.",
+          "Überschrittene Frist = Gerät stilllegen bis zur Nachprüfung. Explosionsgefährdete Bereiche und Arbeiten unter Spannung unterliegen zusätzlichen Regeln (BetrSichV, Fachkunde Elektrofachkraft)."
         ]
       },
       {
         "h2": "Organisation und Verantwortlichkeiten",
         "paragraphs": [
-          "Die Geschäftsführung bleibt verantwortlich, auch wenn externe Elektriker beauftragt sind – Eskalationspfade bei roten Prüfungen müssen klar sein."
+          "Die Geschäftsführung bleibt verantwortlich – auch bei externen Prüfdienstleistern. Die Fachkraft für Arbeitssicherheit koordiniert Prüfkalender, GBU-Abschnitt Elektro und Schnittstellen zu Facility – siehe [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Bestellung].",
+          "Bei rot (Prüfung nicht bestanden): sofortige Stilllegung, Kennzeichnung, Ticket mit Verantwortlichem – keine Nutzung bis zur Nachprüfung."
         ],
         "table": {
           "headers": [
@@ -1291,8 +1307,8 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Ortsveränderliche Geräte und Baustellen",
         "paragraphs": [
-          "Baustromverteiler, Kabeltrommeln und mobile Werkzeuge unterliegen verschärfter Beanspruchung. Auf Baustellen ergänzt BaustellV die Organisation ([Link: /wissen/ratgeber/sigeko-baustelle]).",
-          "Wasser, Staub und mechanische Belastung erhöhen Risiken – definieren Sie Pflichten für Fremdfirmen schriftlich."
+          "Baustromverteiler, Kabeltrommeln und mobile Werkzeuge sind stark beansprucht – kürzere Prüfintervalle und tägliche Sichtkontrolle durch Nutzer vor Einsatz.",
+          "Auf Baustellen ergänzt [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] die Organisation: Elektrozonen im SiGe-Plan, FI-Schutz, schriftliche Regeln für Fremdfirmen. Wasser, Staub und mechanische Schäden gehören in die GBU."
         ]
       },
       {
@@ -1304,13 +1320,14 @@ export const ratgeberPosts: RatgeberPost[] = [
           "Wareneingang: Prüfetikett oder Sofortprüfung koordinieren",
           "Leasing-Rückläufer erneut einpflegen",
           "Gebrauchtmaschinen kritisch prüfen",
-          "Patlite und Steuerungen nach Softwareupdates validieren"
+          "Steuerungen und Anlagensoftware nach Updates auf sicherheitsrelevante Parameter prüfen"
         ]
       },
       {
         "h2": "Integration mit Brandschutz und Erste Hilfe",
         "paragraphs": [
-          "Elektrische Brände erfordern spezifische Löschkonzepte und Schulungen der Brandschutzhelfer. Koordinieren Sie mit dem betrieblichen Brandschutz ([Link: /wissen/ratgeber/brandschutz-betrieb])."
+          "Elektrische Entstehungsbrände und Ladebereiche (z. B. Li-Ion) gehören in GBU und Brandschutzordnung – Löschmittelwahl und Verhalten der [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer] abstimmen.",
+          "Koordination mit [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz] und [Link: /wissen/blog/brandschutz-lithium-ionen-batterien|Li-Ion-Brandschutz], wo Ladezonen im Betrieb liegen."
         ]
       },
       {
@@ -1329,8 +1346,8 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Elektrosicherheit in Köln und NRW – Service von H&S+",
         "paragraphs": [
-          "Wir koordinieren Prüftermine, harmonisieren Inventare mit Arbeitssicherheit und unterstützen bei der GBU für elektrische Gefährdungen. Für Kleinbetriebe bündeln wir DGUV V3 mit anderen BetrSichV-Themen wie Leitern (Leitern und Trittsteige (Betriebssicherheitsverordnung)).",
-          "Kontaktieren Sie uns für eine transparente Planung – [Link: /kontakt]."
+          "H&S+ koordiniert Prüftermine, harmonisiert Inventare mit Arbeitssicherheit und GBU-Abschnitt Elektro. Kleinbetriebe bündeln DGUV V3 mit Regal-, Leiter- und Maschinenprüfungen in einem Jahresrhythmus.",
+          "[Link: /kontakt|Erstberatung] zur transparenten Prüfplanung."
         ]
       },
       {
@@ -1358,15 +1375,15 @@ export const ratgeberPosts: RatgeberPost[] = [
     "faq": [
       {
         "question": "Wer darf DGUV-V3-Prüfungen durchführen?",
-        "answer": "Elektrofachkräfte mit entsprechender Qualifikation gemäß DGUV-Informationen."
+        "answer": "Befähigte Personen nach BetrSichV/TRBS 1203 – in der Praxis Elektrofachkräfte oder anerkannte Prüfdienstleister. Qualifikation im Auftrag dokumentieren."
       },
       {
         "question": "Wie oft sind Geräte zu prüfen?",
-        "answer": "Nach Gerätetyp und Umgebung – Intervaller sind tabellarisch festgelegt; überschrittene Fristen bedeuten Stilllegung bis zur Nachprüfung."
+        "answer": "Nach Gerätetyp und Umgebung in der GBU festlegen (z. B. Büro 24 Monate, Baustelle 6 Monate). Überschrittene Frist = Stilllegung. Details: [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV V3 Blog]."
       },
       {
         "question": "Gilt das auch im Homeoffice?",
-        "answer": "Wenn der Arbeitgeber Arbeitsmittel stellt, sind klare Regeln und gegebenenfalls Prüfungen zu definieren ([Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz])."
+        "answer": "Stellt der Arbeitgeber Geräte, gelten Prüf- und Nutzungsregeln – in der GBU Homeoffice abbilden, nicht nur in der IT-Richtlinie."
       },
       {
         "question": "Was bei gemieteten Räumen?",
@@ -1382,7 +1399,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Unterstützt H&S+ bei Organisation?",
-        "answer": "Ja – Koordination und Schnittstellen zu anderen Prüfungen ([Link: /kontakt])."
+        "answer": "Ja – Prüfkalender, Inventar, GBU Elektro und Abstimmung mit SiGeKo auf Baustellen ([Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo]). [Link: /kontakt|Kontakt]."
       }
     ]
   }

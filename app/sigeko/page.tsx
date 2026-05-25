@@ -73,7 +73,7 @@ const serviceBlocks = [
   {
     title: "Ausführung – Koordination, Begehungen, Übergaben",
     intro:
-      "In der Ausführungsphase koordiniert der SiGeKo die Sicherheitsmaßnahmen der Unternehmen vor Ort. Er ersetzt keine Gewerke-Verantwortung – er macht Schnittstellen sichtbar, dokumentiert Mängel mit Verantwortlichen und Fristen und moderiert Übergaben zwischen Bauabschnitten.",
+      "In der Ausführungsphase koordinieren wir die Sicherheitsmaßnahmen der Unternehmen vor Ort: Schnittstellen sichtbar machen, Mängel mit Verantwortlichen und Fristen dokumentieren, Übergaben zwischen Bauabschnitten moderieren.",
     items: [
       "Baustellenbegehungen mit Fotos, Priorisierung und Nachverfolgung offener Punkte",
       "Projektbezogene Sicherheitseinweisungen und Abstimmung mit Bauleitung",
@@ -84,7 +84,7 @@ const serviceBlocks = [
     ],
     links: [
       { href: "/wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln", label: "Blog: Begehung Abbruch/Seitenschutz" },
-      { href: "/wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt", label: "Blog: GBU bei Schnittstellen" },
+      { href: "/wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt", label: "Blog: Gefährdungsbeurteilung bei Schnittstellen" },
       { href: "/wissen/blog/rauchen-baustelle-arbstattv-sigeko", label: "Blog: Rauchen auf der Baustelle" },
     ],
   },
@@ -112,7 +112,7 @@ const serviceBlocks = [
     items: [
       "Angebot mit Leistungsverzeichnis (Plan, Begehungen, Einweisungen, Dokumentation)",
       "Pauschalen pro Phase oder Monatspauschale bei Dauerbaustellen",
-      "Zusatzleistungen: erweiterte GBU, Prüfung Gewerke-GBUs, Sonderbegehungen",
+      "Zusatzleistungen: erweiterte Gefährdungsbeurteilung, Prüfung gewerkespezifischer Beurteilungen, Sonderbegehungen",
       "Honorar-Rechner zur groben Orientierung auf der Wissen-Seite",
     ],
     links: [
@@ -152,11 +152,9 @@ const anlaesse = [
 ];
 
 const highlights = [
-  "Zwei Phasen nach BaustellV: Vorplanung mit SiGe-Plan und Ausführungskoordination vor Ort",
-  "Dokumentierte Begehungen mit Verantwortlichen, Fristen und Wirksamkeitskontrolle",
-  "Schnittstellen zu Fachkraft für Arbeitssicherheit, Brandschutz und Elektrosicherheit",
-  "Praxis aus innerstädtischen Projekten in Köln – Abbruch, Umbau, Neubau, Bestand",
-  "Transparente Angebote nach Leistungsumfang – kein anonymes „Nur-Plan“-Paket",
+  "Vorplanung mit SiGe-Plan und Ausführungskoordination nach BaustellV",
+  "Begehungen, Einweisungen und Übergaben – dokumentiert mit Verantwortlichen und Fristen",
+  "Arbeitsschutz, Brandschutz und Elektrosicherheit – ein Ansprechpartner in Köln und NRW",
 ];
 
 export default function SiGeKoPage() {
@@ -200,21 +198,28 @@ export default function SiGeKoPage() {
       <div className="py-16 sm:py-20 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-lg text-slate-700 leading-relaxed max-w-3xl">
-            Auf Baustellen mit mehreren Arbeitgebern koordiniert der{" "}
+            Health and Safety+ übernimmt in Köln und NRW die{" "}
             <strong className="font-semibold text-slate-900">
-              Sicherheits- und Gesundheitsschutzkoordinator (SiGeKo)
+              Sicherheits- und Gesundheitsschutzkoordination (SiGeKo)
             </strong>{" "}
-            nach Baustellenverordnung das Zusammenwirken der Gewerke. Health and Safety+ begleitet Bauherren und
-            ausführende Unternehmen in Köln und NRW in zwei Phasen:{" "}
-            <strong className="font-semibold text-slate-900">Vorplanung mit SiGe-Plan</strong> und{" "}
-            <strong className="font-semibold text-slate-900">Ausführungskoordination</strong> mit Begehungen,
-            Einweisungen und Übergaben. Der Bauherr bleibt verantwortlich – wir sorgen für nachvollziehbare Dokumentation
-            und wirksame Schnittstellen.
-          </p>
-          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl">
-            Qualifikation und Vorgehen orientieren sich an den Regeln zum Arbeitsschutz auf Baustellen (RAB 30). Wo
-            Baustelle und Betrieb zusammentreffen, stimmen wir uns mit Fachkraft für Arbeitssicherheit, Brandschutz und
-            Elektrosicherheit ab.
+            nach Baustellenverordnung –{" "}
+            <strong className="font-semibold text-slate-900">von der Vorplanung bis zur Ausführung auf der Baustelle</strong>.
+            SiGe-Plan, Vorankündigung, Begehungen, Einweisungen und Übergaben nach RAB 30 – abgestimmt mit{" "}
+            <Link href="/arbeitsschutz" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
+              Arbeitsschutz
+            </Link>
+            ,{" "}
+            <Link href="/brandschutz" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
+              Brandschutz
+            </Link>{" "}
+            und{" "}
+            <Link
+              href="/elektrosicherheit"
+              className="text-primary-800 hover:text-primary-900 underline underline-offset-2"
+            >
+              Elektrosicherheit
+            </Link>{" "}
+            aus einer Hand.
           </p>
 
           <div className="mt-14 space-y-14">
@@ -261,16 +266,6 @@ export default function SiGeKoPage() {
             </div>
           </section>
 
-          <section className="mt-14 p-6 sm:p-8 rounded-xl bg-slate-50">
-            <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">Aus einer Hand</h2>
-            <p className="mt-4 text-slate-600 leading-relaxed">
-              <strong className="font-medium text-slate-800">Health and Safety+</strong> verbindet SiGeKo mit
-              Fachkraft für Arbeitssicherheit nach DGUV Vorschrift 2, betrieblichem Brandschutz (Brandschutzordnung,
-              Brandschutzbeauftragter) und Elektrosicherheit nach DGUV V3 – ein Ansprechpartner für Baustelle und
-              späteren Betrieb in Köln und NRW.
-            </p>
-          </section>
-
           <section className="mt-14 p-6 sm:p-8 rounded-xl border border-slate-200">
             <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">
               SiGeKo mit System – für Köln und NRW
@@ -306,7 +301,7 @@ export default function SiGeKoPage() {
               href="/kontakt"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors"
             >
-              Kostenlose Erstberatung anfragen
+              Erstberatung anfragen
             </Link>
           </div>
         </div>
