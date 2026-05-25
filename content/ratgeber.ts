@@ -748,7 +748,9 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Pflichtenkreis nach BaustellV – wer macht was?",
         "paragraphs": [
-          "Die Pflichten sind nicht delegierbar im Sinne einer Haftungsfreiheit: Selbst wenn externe Koordinatoren beauftragt sind, bleibt der Bauherr für strukturelle Vorgaben verantwortlich. Klare Vertragswerke und Änderungsmanagement sind daher zentral."
+          "Die Pflichten sind nicht delegierbar im Sinne einer Haftungsfreiheit: Selbst wenn externe Koordinatoren beauftragt sind, bleibt der Bauherr für strukturelle Vorgaben verantwortlich. Klare Vertragswerke und Änderungsmanagement sind daher zentral.",
+          "Der SiGeKo unterstützt und koordiniert – er übernimmt keine Verantwortung für die Ausführung einzelner Gewerke. Ausführende Unternehmen bleiben für ihre Beschäftigten, Arbeitsmittel und betrieblichen Gefährdungsbeurteilungen zuständig. Der SiGe-Plan macht Schnittstellen sichtbar, damit niemand im Grauen arbeitet.",
+          "Parallel zur BaustellV gilt bei mehreren Unternehmen auf einem Arbeitsplatz die Pflicht zur Zusammenarbeit nach ArbSchG: Information über Schnittstellen, Abstimmung der Schutzmaßnahmen, bei gegenseitiger Gefährdung eine abstimmende Person, bei besonderen Gefahren Weisungsbefugnis. Das ergänzt die SiGeKo-Rolle, ersetzt sie nicht."
         ],
         "table": {
           "headers": [
@@ -789,7 +791,9 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "SiGeKo-Plan – Struktur und Nutzen",
         "paragraphs": [
           "Der SiGeKo-Plan beschreibt baustellenspezifische Risiken und Maßnahmen, abstimmt Besonderheiten wie Kranbetrieb, Tiefbau oder Gleisbau und verknüpft Unterweisungsbedarf. Ein guter Plan ist kurz, aber präzise – mit Bezug zu Gewerkeketten und Zeitachsen.",
-          "Versionierung ist entscheidend: Änderungen durch Planungsupdates oder Bauablauf müssen nachvollziehbar sein. Vertiefung liefert [Link: /wissen/blog/sigeko-kosten-honorar-orientierung] sowie unsere Übersicht zu [Link: /wissen/blog/sigeko-koeln-kosten]."
+          "Sinnvolle Gliederung: Projekt- und Beteiligtenübersicht, Lageplan mit Gefahrenbereichen, Verkehrs- und Rettungswege auf der Baustelle, Logistik und Kranstellplätze, Sozial- und Sanitärräume, Liste besonders gefährlicher Arbeiten (Anhang II), Zuordnung Verantwortlichkeiten, Regelungen zu Fremdfirmen und Übergaben, Notfall- und Erste-Hilfe-Orientierung.",
+          "Versionierung ist entscheidend: Änderungen durch Planungsupdates, Kranumstellung oder neue Gewerke führen zu Plan 1.1, 1.2 usw. mit Änderungsvermerk und Datum. Der Aushang auf der Baustelle zeigt immer die aktuelle Version und Ansprechpartner.",
+          "Vertiefung Honorar und Kosten: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung] und [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln]. Ablauf Neubau: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw|Projektverlauf]."
         ],
         "list": [
           "Projektsteckbrief mit Nutzungsänderungen und Nachbarschaftseinflüssen",
@@ -808,15 +812,18 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Übergaben zwischen Bauabschnitten und Unternehmerübergaben",
         "paragraphs": [
-          "Übergaben dokumentieren den IST-Zustand sicherheitsrelevanter Arbeitsschutzmaßnahmen – vom gesicherten Rand zum freigegebenen Gerüst. Ein standardisiertes Protokoll mit Fotos reduziert Streit und Nacharbeiten.",
-          "Unternehmerübergaben erfordern klare Signaturen und Schulungsnachweise für Folgegewerke – siehe Unternehmerübergaben auf der Baustelle."
+          "Übergaben dokumentieren den IST-Zustand sicherheitsrelevanter Maßnahmen – vom gesicherten Abbruchrand zum freigegebenen Gerüst, von der provisorischen Absicherung zur dauerhaften Lösung. Ein standardisiertes Protokoll mit Fotos, Datum und Unterschriften reduziert Streit und Nacharbeiten.",
+          "Kritische Übergangspunkte: Abbruch → Rohbau, Rohbau → Gerüst/Fassade, Gerüst → Dachdecker, Innenausbau mit laufendem Betrieb. Der SiGeKo moderiert die Übergabe, prüft ob Folgegewerke die Voraussetzungen schriftlich bestätigen.",
+          "Unternehmerübergaben erfordern klare Signaturen, Schulungsnachweise und ggf. Freigabe durch Bauleitung. Offene Punkte aus der Übergabe fließen in die nächste Begehung – nicht in separate E-Mail-Ketten ohne Nachverfolgung."
         ]
       },
       {
         "h2": "Besonders gefährliche Arbeiten",
         "paragraphs": [
-          "Tätigkeiten nach Anhang II erfordern erhöhte Aufmerksamkeit: Abstimmung mit den ausführenden Firmen, Unterweisungen und oft zusätzliche technische Schutzmaßnahmen. Bauherren sollten frühzeitig klären, welche Gewerke welche Sonderregeln auslösen.",
-          "Handlungshilfen zu Anhang II und Bauherrenpflichten: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln] (Absturz/Seitenschutz) und [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko]."
+          "Tätigkeiten nach Anhang II BaustellV erfordern erhöhte Aufmerksamkeit in Planung und Ausführung: frühzeitige Benennung im SiGe-Plan, Abstimmung mit ausführenden Firmen, Unterweisungen, Aufsicht durch geeignete Personen und dokumentierte Maßnahmen. Bauherren sollten vor Rohbau-Start wissen, welche Gewerke welche Anhang-II-Tätigkeiten auslösen.",
+          "Typische Kategorien (Auswahl): Arbeiten mit Absturzgefahr (Dach, Gerüst, Abbruch in Höhe), Gräben/Schächte/Tunnel, Abbruch- und Sprengarbeiten, erhebliche Gefahr durch Gefahr- oder biologische Arbeitsstoffe, Arbeiten nahe Hochspannung, gleichzeitige Arbeiten in großer Höhenlage mit Absturzrisiko für andere.",
+          "Praxis Abbruch und Absturz: Seitenschutz, Abbruchanweisung, statische Bewertung, Aufsichtführender – im Begehungsrhythmus kontrollieren. Fallstrang aus Köln: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|SiGeKo-Begehung Abbruch].",
+          "Pflicht und Qualifikation SiGeKo: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo-Pflicht?]. Schnittstellen-GBU bei mehreren Gewerken: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|GBU Schnittstellen]."
         ]
       },
       {
@@ -877,7 +884,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Was gehört in Übergabeprotokolle?",
-        "answer": "IST-Zustand sicherheitsrelevanter Einrichtungen, offene Mängel, Schulungsnachweise und Signaturen."
+        "answer": "IST-Zustand Absturzsicherung und Verkehrswege, Gerüstfreigaben, offene Mängel mit Verantwortlichen und Terminen, Fotos, Unterschriften – siehe Abschnitt Übergaben. Beispiel Abbruch: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|Begehung Abbruch]."
       },
       {
         "question": "Wie unterstützt H&S+ vor Ort?",

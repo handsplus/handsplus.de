@@ -6,7 +6,7 @@ import { serviceIcons } from "@/lib/serviceIcons";
 const services = [
   { title: "Arbeitsschutz", description: "Grundbetreuung und betriebsspezifische Betreuung im Arbeitsschutz", href: "/arbeitsschutz", image: "/Arbeitsschutz.jpeg" },
   { title: "Brandschutz", description: "Beratung und Unterstützung im baulichen, anlagentechnischen und organisatorischen Brandschutz", href: "/brandschutz", image: "/Brandschutz.jpeg" },
-  { title: "SiGeKo", description: "Sicherheits- und Gesundheitsschutzkoordination", href: "/sigeko", image: "/SiGeko.jpeg" },
+  { title: "SiGeKo", description: "Koordination nach BaustellV: SiGe-Plan, Begehungen und Übergaben auf der Baustelle", href: "/sigeko", image: "/SiGeko.jpeg" },
   { title: "Elektrosicherheit", description: "Elektrosicherheit zum Schutz von Beschäftigten und Unternehmen vor Gefahren durch elektrischen Strom.", href: "/elektrosicherheit", image: "/Elektrosicherheit.jpeg" },
   { title: "Schulungen", description: "Schulungs- und Weiterbildungsangebote, die individuell auf Sie abgestimmt und zeitlich flexibel gestaltet werden – online oder vor Ort.", href: "/schulungen", image: "/Schulungen.jpeg" },
   { title: "Managementsysteme", description: "Einführung, Pflege, Auditierung und Optimierung von Managementsystemen (ISO 9001, ISO 45001, AMS VBG, AMS BAU)", href: "/managementsysteme", image: "/Managementsysteme.jpeg" },
