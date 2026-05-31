@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroMeshBand, heroBackLinkClass } from "@/components/HeroMeshBand";
 import { faqItems, faqCategoryOrder } from "@/content/faq";
 import { pageMetadata } from "@/lib/metadata";
 import { ContentText } from "@/lib/contentLinks";
@@ -44,26 +45,24 @@ export default function WissenFaqPage() {
   return (
     <>
       <FaqJsonLd />
-      <div className="py-16 sm:py-20 lg:py-24">
+      <HeroMeshBand compact>
+        <nav aria-label="Breadcrumb">
+          <Link href="/wissen" className={heroBackLinkClass}>
+            ← Wissen & Ressourcen
+          </Link>
+        </nav>
+        <h1 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight max-w-3xl m-0">
+          Häufige Fragen
+        </h1>
+        <p className="mt-4 text-lg text-white/90 max-w-2xl leading-snug">
+          Die wichtigsten Fragen zu Arbeitsschutz, Brandschutz und SiGeKo – kurz und praxisnah beantwortet.
+        </p>
+      </HeroMeshBand>
+
+      <div className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="mb-8" aria-label="Breadcrumb">
-            <Link
-              href="/wissen"
-              className="text-sm text-primary-800 hover:text-primary-900 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
-            >
-              ← Zurück zu Wissen
-            </Link>
-          </nav>
-
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-            Häufige Fragen
-          </h1>
-          <p className="mt-4 text-lg text-slate-600 max-w-3xl">
-            Die wichtigsten Fragen zu Arbeitsschutz, Brandschutz und SiGeKo – kurz und praxisnah beantwortet.
-          </p>
-
           <section
-            className="mt-10 p-6 sm:p-8 rounded-xl border border-slate-200 bg-white shadow-sm"
+            className="p-6 sm:p-8 rounded-xl border border-slate-200 bg-white shadow-sm"
             aria-labelledby="faq-heading"
           >
             <h2 id="faq-heading" className="sr-only">

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
+import { HeroMeshBand } from "@/components/HeroMeshBand";
 import { pageMetadata } from "@/lib/metadata";
 import { faqItems } from "@/content/faq";
 import { blogPosts } from "@/content/blog";
@@ -37,11 +39,27 @@ export const metadata = pageMetadata({
   keywords: ["Wissen Arbeitsschutz", "FAQ Brandschutz", "Blog SiGeKo", "Checklisten", "Glossar", "Rechner ASR A2.2", "SiGeKo Honorar"],
 });
 
-const resources = [
+const quickLinks = [
+  { label: "FAQ", href: "/wissen/faq" },
+  { label: "Rechner", href: "/wissen/rechner" },
+  { label: "GBU-Check", href: "/wissen/checklisten" },
+  { label: "Erstberatung", href: "/kontakt?thema=Kostenlose+Erstberatung" },
+];
+
+type ResourceCard = {
+  title: string;
+  description: string;
+  href: string;
+  linkLabel: string;
+  icon: ReactNode;
+};
+
+const resourceCards: ResourceCard[] = [
   {
     title: "Ratgeber",
     description: "Umfassende Leitfäden zu Arbeitsschutz, Brandschutz, SiGeKo, Gefährdungsbeurteilung und BauO NRW.",
     href: "/wissen/ratgeber",
+    linkLabel: "Ratgeber entdecken",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -49,9 +67,10 @@ const resources = [
     ),
   },
   {
-    title: "Blog Beiträge",
+    title: "Blogbeiträge",
     description: "Aktuelle Beiträge zu Arbeitssicherheit, Brandschutz und SiGeKo.",
     href: "/wissen/blog",
+    linkLabel: "Blog lesen",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
@@ -62,6 +81,7 @@ const resources = [
     title: "Häufige Fragen (FAQ)",
     description: "Antworten zu Arbeitssicherheit, Brandschutz, SiGeKo und mehr.",
     href: "/wissen/faq",
+    linkLabel: "Antworten lesen",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -72,6 +92,7 @@ const resources = [
     title: "Checklisten & Selbstbewertung",
     description: "Gefährdungsbeurteilung, Brandschutz und SiGeKo im Check.",
     href: "/wissen/checklisten",
+    linkLabel: "Checklisten öffnen",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
@@ -82,9 +103,10 @@ const resources = [
     title: "Glossar",
     description: "Begriffe aus Arbeitssicherheit, Brandschutz und SiGeKo kurz erklärt.",
     href: "/wissen/glossar",
+    linkLabel: "Glossar durchsuchen",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
       </svg>
     ),
   },
@@ -92,181 +114,219 @@ const resources = [
     title: "Rechner",
     description: "Brandschutzhelfer-Anzahl (ASR A2.2), SiGeKo-Honorar-Orientierung.",
     href: "/wissen/rechner",
+    linkLabel: "Rechner nutzen",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
   },
-  {
-    title: "Schulungstermine anfragen",
-    description: "Termine für Schulungen und Unterweisungen individuell auf Anfrage.",
-    href: "/kontakt",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-    ),
-  },
 ];
+
+const cardLinkClass =
+  "block p-6 rounded-xl border border-slate-200 bg-white hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2";
 
 export default function WissenPage() {
   return (
-    <div className="py-16 sm:py-20 lg:py-24">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
+    <>
+      <HeroMeshBand compact>
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight max-w-3xl m-0">
           Wissen & Ressourcen
         </h1>
-        <p className="mt-6 text-lg text-slate-600 max-w-3xl">
+        <p className="mt-4 text-lg text-white/90 max-w-2xl leading-snug">
           Checklisten, FAQ, Glossar, Rechner und Schulungstermine – alles auf einen Blick.
         </p>
-
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {resources.map((item) => (
+        <nav aria-label="Schnellzugriff" className="mt-6 flex flex-wrap gap-2">
+          {quickLinks.map(({ label, href }) => (
             <Link
-              key={item.href}
-              href={item.href}
-              className="block p-6 rounded-xl border border-slate-200 bg-white hover:border-primary-200 hover:shadow-md transition-[border-color,box-shadow] duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+              key={href}
+              href={href}
+              className="inline-flex rounded-full border border-white/40 bg-white/10 px-4 py-1.5 text-sm font-medium text-white/95 backdrop-blur-sm transition-colors hover:bg-white/18 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#256358]"
             >
-              <div className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary-50 text-primary-700 flex items-center justify-center" aria-hidden>
-                  {item.icon}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <h2 className="text-lg font-semibold text-slate-900">{item.title}</h2>
-                  <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                    {item.description}
-                  </p>
-                  <span className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900">
-                    Mehr erfahren
-                    <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </div>
+              {label}
             </Link>
           ))}
-        </div>
+        </nav>
+      </HeroMeshBand>
 
-        {/* Ratgeber-Pillars */}
-        <section className="mt-16 sm:mt-20" aria-labelledby="ratgeber-heading">
-          <h2 id="ratgeber-heading" className="text-2xl font-bold tracking-tight text-slate-900">
-            Ratgeber – Themen im Überblick
-          </h2>
-          <p className="mt-2 text-slate-600">
-            Vertiefende Leitfäden mit Pflichten, Organisation und Praxisbezug für Köln und NRW.
-          </p>
-          <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {ratgeberPosts.map((guide) => (
-              <li key={guide.slug}>
-                <Link
-                  href={`/wissen/ratgeber/${guide.slug}`}
-                  className="block h-full rounded-lg border border-slate-200 bg-white p-5 transition-colors hover:border-primary-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-                >
-                  <span className="text-xs font-semibold uppercase text-primary-700">{guide.tag}</span>
-                  <h3 className="mt-2 font-semibold text-slate-900 line-clamp-2">{guide.title}</h3>
-                  <p className="mt-2 text-sm text-slate-600 line-clamp-2">{guide.excerpt}</p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-4">
-            <Link
-              href="/wissen/ratgeber"
-              className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
-            >
-              Alle Ratgeber ansehen
-            </Link>
-          </p>
-        </section>
-
-        {/* Beliebte FAQ */}
-        <section className="mt-16 sm:mt-20" aria-labelledby="beliebte-faq-heading">
-          <h2 id="beliebte-faq-heading" className="text-2xl font-bold tracking-tight text-slate-900">
-            Beliebte FAQ
-          </h2>
-          <p className="mt-2 text-slate-600">
-            Die wichtigsten Fragen zu Arbeitsschutz, Brandschutz und SiGeKo – direkt zur Antwort.
-          </p>
-          <ul className="mt-6 space-y-3">
-            {featuredFaqIds
-              .map((id) => faqItems.find((item) => item.id === id))
-              .filter(Boolean)
-              .map((item) => (
-                <li key={item!.id}>
-                  <Link
-                    href={`/wissen/faq#${item!.id}`}
-                    className="flex items-start gap-3 rounded-lg border border-slate-200 bg-white p-4 text-left transition-colors hover:border-primary-200 hover:bg-slate-50/50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+      <div className="py-12 sm:py-16 lg:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {resourceCards.map((item) => (
+              <Link key={item.href} href={item.href} className={cardLinkClass}>
+                <div className="flex items-start gap-4">
+                  <span
+                    className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary-50 text-primary-700 flex items-center justify-center"
+                    aria-hidden
                   >
-                    <span className="flex-shrink-0 mt-0.5 text-primary-600" aria-hidden>
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </span>
-                    <span className="font-medium text-slate-900">{item!.question}</span>
-                    <span className="ml-auto flex-shrink-0 text-primary-800">
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {item.icon}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <h2 className="text-lg font-semibold text-slate-900">{item.title}</h2>
+                    <p className="mt-2 text-sm text-slate-600 leading-snug">{item.description}</p>
+                    <span className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900">
+                      {item.linkLabel}
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </span>
-                  </Link>
-                </li>
-              ))}
-          </ul>
-          <p className="mt-4">
-            <Link href="/wissen/faq" className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
-              Alle FAQ ansehen
-            </Link>
-          </p>
-        </section>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
 
-        {/* Empfohlene Blogbeiträge */}
-        <section className="mt-16 sm:mt-20" aria-labelledby="empfohlene-blog-heading">
-          <h2 id="empfohlene-blog-heading" className="text-2xl font-bold tracking-tight text-slate-900">
-            Empfohlene Blogbeiträge
-          </h2>
-          <p className="mt-2 text-slate-600">
-            Aktuelle und oft gesuchte Themen – kompakt und praxisnah.
-          </p>
-          <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {featuredBlogSlugs
-              .map((slug) => blogPosts.find((p) => p.slug === slug))
-              .filter(Boolean)
-              .map((post) => (
-                <li key={post!.slug}>
+          <Link
+            href="/kontakt?thema=Schulungstermine"
+            className={`${cardLinkClass} mt-6 lg:mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6`}
+          >
+            <span
+              className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary-100 text-primary-800 flex items-center justify-center"
+              aria-hidden
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </span>
+            <div className="min-w-0 flex-1">
+              <h2 className="text-lg font-semibold text-slate-900">Schulungstermine anfragen</h2>
+              <p className="mt-1 text-sm text-slate-600 leading-snug">
+                Termine für Schulungen und Unterweisungen individuell auf Anfrage – online oder vor Ort.
+              </p>
+            </div>
+            <span className="inline-flex items-center text-sm font-semibold text-primary-800 sm:shrink-0">
+              Termin anfragen
+              <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </Link>
+
+          {/* Ratgeber-Pillars */}
+          <section className="mt-16 sm:mt-20" aria-labelledby="ratgeber-heading">
+            <h2 id="ratgeber-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+              Ratgeber – Themen im Überblick
+            </h2>
+            <p className="mt-2 text-slate-600">
+              Vertiefende Leitfäden mit Pflichten, Organisation und Praxisbezug für Köln und NRW.
+            </p>
+            <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {ratgeberPosts.map((guide) => (
+                <li key={guide.slug}>
                   <Link
-                    href={`/wissen/blog/${post!.slug}`}
+                    href={`/wissen/ratgeber/${guide.slug}`}
                     className="block h-full rounded-lg border border-slate-200 bg-white p-5 transition-colors hover:border-primary-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                   >
-                    <h3 className="font-semibold text-slate-900">{post!.title}</h3>
-                    <p className="mt-2 text-sm text-slate-600 line-clamp-2">{post!.excerpt}</p>
-                    <span className="mt-3 inline-flex items-center text-sm font-medium text-primary-800">
-                      Weiterlesen
-                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </span>
+                    <span className="text-xs font-semibold uppercase text-primary-700">{guide.tag}</span>
+                    <h3 className="mt-2 font-semibold text-slate-900 line-clamp-2">{guide.title}</h3>
+                    <p className="mt-2 text-sm text-slate-600 line-clamp-2">{guide.excerpt}</p>
                   </Link>
                 </li>
               ))}
-          </ul>
-          <p className="mt-4">
-            <Link href="/wissen/blog" className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
-              Alle Blogbeiträge ansehen
-            </Link>
-          </p>
-        </section>
+            </ul>
+            <p className="mt-4">
+              <Link
+                href="/wissen/ratgeber"
+                className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+              >
+                Alle Ratgeber ansehen
+              </Link>
+            </p>
+          </section>
 
-        <div className="mt-16 sm:mt-20 text-center">
-          <Link
-            href="/kontakt"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-          >
-            Kostenlose Erstberatung anfordern
-          </Link>
+          {/* Beliebte FAQ */}
+          <section className="mt-16 sm:mt-20" aria-labelledby="beliebte-faq-heading">
+            <h2 id="beliebte-faq-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+              Beliebte FAQ
+            </h2>
+            <p className="mt-2 text-slate-600">
+              Die wichtigsten Fragen zu Arbeitsschutz, Brandschutz und SiGeKo – direkt zur Antwort.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {featuredFaqIds
+                .map((id) => faqItems.find((item) => item.id === id))
+                .filter(Boolean)
+                .map((item) => (
+                  <li key={item!.id}>
+                    <Link
+                      href={`/wissen/faq#${item!.id}`}
+                      className="flex items-start gap-3 rounded-lg border border-slate-200 bg-white p-4 text-left transition-colors hover:border-primary-200 hover:bg-slate-50/50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                    >
+                      <span className="flex-shrink-0 mt-0.5 text-primary-600" aria-hidden>
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </span>
+                      <span className="font-medium text-slate-900">{item!.question}</span>
+                      <span className="ml-auto flex-shrink-0 text-primary-800">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+            <p className="mt-4">
+              <Link
+                href="/wissen/faq"
+                className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+              >
+                Alle FAQ ansehen
+              </Link>
+            </p>
+          </section>
+
+          {/* Empfohlene Blogbeiträge */}
+          <section className="mt-16 sm:mt-20" aria-labelledby="empfohlene-blog-heading">
+            <h2 id="empfohlene-blog-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+              Empfohlene Blogbeiträge
+            </h2>
+            <p className="mt-2 text-slate-600">
+              Aktuelle und oft gesuchte Themen – kompakt und praxisnah.
+            </p>
+            <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {featuredBlogSlugs
+                .map((slug) => blogPosts.find((p) => p.slug === slug))
+                .filter(Boolean)
+                .map((post) => (
+                  <li key={post!.slug}>
+                    <Link
+                      href={`/wissen/blog/${post!.slug}`}
+                      className="block h-full rounded-lg border border-slate-200 bg-white p-5 transition-colors hover:border-primary-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                    >
+                      <h3 className="font-semibold text-slate-900">{post!.title}</h3>
+                      <p className="mt-2 text-sm text-slate-600 line-clamp-2">{post!.excerpt}</p>
+                      <span className="mt-3 inline-flex items-center text-sm font-medium text-primary-800">
+                        Weiterlesen
+                        <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+            <p className="mt-4">
+              <Link
+                href="/wissen/blog"
+                className="text-sm font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+              >
+                Alle Blogbeiträge ansehen
+              </Link>
+            </p>
+          </section>
+
+          <div className="mt-16 sm:mt-20 text-center">
+            <Link
+              href="/kontakt"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-medium hover:bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+            >
+              Kostenlose Erstberatung anfordern
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

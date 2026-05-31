@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroMeshBand, heroBackLinkClass } from "@/components/HeroMeshBand";
 import { pageMetadata } from "@/lib/metadata";
 import { ratgeberPosts } from "@/content/ratgeber";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
@@ -20,27 +21,26 @@ export const metadata = pageMetadata({
 
 export default function RatgeberHubPage() {
   return (
-    <div className="py-16 sm:py-20 lg:py-24">
+    <>
       <BreadcrumbJsonLd items={[{ name: "Wissen", path: "/wissen" }, { name: "Ratgeber" }]} />
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="mb-8" aria-label="Breadcrumb">
-          <Link
-            href="/wissen"
-            className="text-sm text-primary-800 hover:text-primary-900 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
-          >
-            ← Zurück zu Wissen & Ressourcen
+      <HeroMeshBand compact>
+        <nav aria-label="Breadcrumb">
+          <Link href="/wissen" className={heroBackLinkClass}>
+            ← Wissen & Ressourcen
           </Link>
         </nav>
-
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
+        <h1 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight max-w-3xl m-0">
           Ratgeber – Arbeitsschutz, Brandschutz & SiGeKo
         </h1>
-        <p className="mt-6 text-lg text-slate-600 max-w-3xl">
+        <p className="mt-4 text-lg text-white/90 max-w-2xl leading-snug">
           Unsere Ratgeber bündeln Pflichten, Organisation und Praxis für Unternehmen in Köln und NRW.
           Sie ergänzen den Blog mit vertiefenden Übersichten zu den wichtigsten Themenfeldern.
         </p>
+      </HeroMeshBand>
 
-        <ul className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="py-12 sm:py-16 lg:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {ratgeberPosts.map((post) => (
             <li key={post.slug}>
               <Link
@@ -71,7 +71,8 @@ export default function RatgeberHubPage() {
             Kostenlose Erstberatung anfordern
           </Link>
         </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
