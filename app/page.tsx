@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ContactStrip } from "@/components/ContactStrip";
+import { GoogleReviewSection } from "@/components/GoogleReviewCards";
+import { googleReviews, GOOGLE_REVIEWS_URL } from "@/content/googleReviews";
 import { pageMetadata } from "@/lib/metadata";
 import { serviceIcons } from "@/lib/serviceIcons";
 
@@ -54,19 +56,33 @@ const services = [
 const partnerItems = [
   {
     title: "Erfahrung",
-    text: "Langjährige Praxis in Brandschutzkonzepten, Brandschutzordnungen und Schulungen – für Gewerbe, Industrie, Büros, Hotels und Immobilien.",
+    text: "Brandschutzkonzepte, GBU, Schulungen und Begehungen – für Gewerbe, Industrie, Büros, Hotels und Baustellen.",
+    href: "/ueber-uns",
+    linkLabel: "Team & Qualifikationen",
   },
   {
     title: "Fachkompetenz",
-    text: "BauO NRW, ArbSchG, ASR A2.2, DGUV und Vorgaben der Feuerversicherer – wir kennen die Regeln und setzen sie verständlich und umsetzbar um.",
+    text: "ArbSchG, ASiG, ASR A2.2, DGUV und BauO NRW – verständlich und umsetzbar für Ihren Betrieb.",
+    href: "/leistungen",
+    linkLabel: "Alle Leistungen",
   },
   {
-    title: "Regionale Verankerung",
-    text: "Köln und Umgebung sind unser Fokus. Wir kennen die örtlichen Behörden, typischen Anforderungen und unterstützen Sie vor Ort.",
+    title: "Regional vor Ort",
+    text: "Persönliche Betreuung in Köln und NRW – mit Kenntnis lokaler Behörden und typischer Anforderungen.",
+    href: "/kontakt",
+    linkLabel: "Kontakt aufnehmen",
   },
 ];
 
+const zielgruppenLinks = [
+  { href: "/arbeitsschutz", label: "Arbeitsschutz" },
+  { href: "/brandschutz", label: "Brandschutz" },
+  { href: "/sigeko", label: "SiGeKo" },
+  { href: "/managementsysteme", label: "Managementsysteme" },
+];
+
 function HomeReviewJsonLd() {
+  const featured = googleReviews.find((r) => r.id === "aykut-torbali")!;
   const data = {
     "@context": "https://schema.org",
     "@type": "Review",
@@ -76,9 +92,8 @@ function HomeReviewJsonLd() {
       name: "Health and Safety +",
     },
     reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Aykut Torbali", jobTitle: "Architekt" },
-    reviewBody:
-      "Wir arbeiten mit Health and Safety+ als Sicherheits- und Gesundheitskoordinator (SiGeKo) zusammen und sind mit der fachkundigen Unterstützung sehr zufrieden. Planung und Umsetzung der Arbeitsschutzmaßnahmen sind vorausschauend und strukturiert, die Kommunikation klar und lösungsorientiert. So entsteht spürbar mehr Sicherheit auf der Baustelle – wir können Health and Safety+ uneingeschränkt empfehlen.",
+    author: { "@type": "Person", name: featured.author, jobTitle: featured.role },
+    reviewBody: featured.quote,
     publisher: { "@type": "Organization", name: "Google" },
   };
   return (
@@ -133,24 +148,102 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Warum professionelle Betreuung unverzichtbar ist – eure Texte */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-slate-50">
+      {/* Warum professionelle Betreuung – scanbar, ohne Hero-Redundanz */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-slate-50" aria-labelledby="warum-heading">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
+          <h2 id="warum-heading" className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
             Warum professionelle Betreuung unverzichtbar ist
           </h2>
-          <p className="mt-4 text-slate-600 font-medium">
+          <p className="mt-4 text-slate-600 font-medium max-w-2xl">
             Rechtssicherheit, Arbeitsschutz und Werterhalt – mit dem richtigen Partner an Ihrer Seite.
           </p>
-          <p className="mt-6 text-slate-600 leading-relaxed max-w-3xl">
-            Wir bieten Ihnen maßgeschneiderte Lösungen und kompetente Betreuung im Bereich Arbeitsschutz, Brandschutz und Managementsysteme. Ob einmalige Projekte oder eine langfristige Zusammenarbeit – wir begleiten Sie von der Gefährdungsbeurteilung über Konzepte bis hin zu technischen Prüfungen. In Köln und Umgebung verbinden wir rechtssichere Dokumentation mit praxisnahen, verständlichen Lösungen.
+          <p className="mt-5 text-slate-600 leading-relaxed max-w-2xl">
+            Von der Gefährdungsbeurteilung über Brandschutzkonzepte bis zu SiGeKo, Prüfungen und
+            Managementsystemen – dokumentiert, verständlich und praxisnah umgesetzt.
           </p>
-          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl">
-            Als Fachkraft für Arbeitssicherheit, Brandschutzbeauftragte und SiGeKo erfüllen wir die Anforderungen von ASiG, DGUV Vorschrift 2, BauO NRW und den Vorgaben der Feuerversicherer. Für Gewerbe, Industrie, Büros, Hotels und Baustellen – von der Gefährdungsbeurteilung über Brandschutzkonzepte bis zu Schulungen und Managementsystemen (ISO 45001, AMS). Alle Leistungen finden Sie übersichtlich auf unserer <Link href="/leistungen" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Leistungsseite</Link>.
+
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+            {partnerItems.map((item) => (
+              <div
+                key={item.title}
+                className="flex flex-col rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
+              >
+                <h3 className="text-lg font-semibold text-primary-900">{item.title}</h3>
+                <p className="mt-3 flex-1 text-sm text-slate-600 leading-relaxed">{item.text}</p>
+                <Link
+                  href={item.href}
+                  className="mt-4 inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-900"
+                >
+                  {item.linkLabel}
+                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-600">
+            {[
+              "Gefährdungsbeurteilung & Konzepte",
+              "Schulungen & Begehungen",
+              "Technische Prüfungen (DGUV)",
+              "Fachkraft · Brandschutz · SiGeKo",
+            ].map((point) => (
+              <li key={point} className="flex items-center gap-2">
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-primary-600" aria-hidden />
+                {point}
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-6 text-xs sm:text-sm text-slate-500">
+            <span className="font-medium text-slate-600">Normkonform u. a.:</span> ASiG · DGUV Vorschrift 2 ·
+            BauO NRW · ISO 45001 · AMS
           </p>
-          <p className="mt-4 text-slate-600 leading-relaxed max-w-3xl">
-            Wir unterstützen Unternehmer, Hausverwaltungen, Architekten und Bauherren in Köln und NRW – ob Sie eine <Link href="/arbeitsschutz" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">betriebliche Arbeitsschutzbetreuung</Link>, einen <Link href="/brandschutz" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Brandschutzbeauftragten</Link>, einen <Link href="/sigeko" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">SiGeKo für die Baustelle</Link> oder Unterstützung bei <Link href="/managementsysteme" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Managementsystemen</Link> benötigen.
+
+          <p className="mt-4 text-sm text-slate-600">
+            Für Unternehmer, Hausverwaltungen, Architekten und Bauherren – gezielt in:
           </p>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {zielgruppenLinks.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="inline-flex rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-800 transition-colors hover:border-primary-200 hover:bg-primary-50 hover:text-primary-900 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4">
+            <Link
+              href="/leistungen"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-800 text-white font-semibold hover:bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 w-full sm:w-auto"
+            >
+              Alle Leistungen ansehen
+              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <p className="text-sm text-slate-600">
+              Mehr Hintergrund in{" "}
+              <Link href="/ueber-uns" className="font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
+                Über uns
+              </Link>
+              ,{" "}
+              <Link href="/wissen/faq" className="font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
+                FAQ
+              </Link>{" "}
+              und{" "}
+              <Link href="/wissen" className="font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2">
+                Wissen
+              </Link>
+              .
+            </p>
+          </div>
         </div>
       </section>
 
@@ -234,60 +327,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ihr Partner – 3 Spalten wie Referenz */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-slate-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-            Ihr Partner für Arbeitsschutz & Brandschutz in Köln
-          </h2>
-          <p className="mt-4 text-slate-600">
-            Erfahrung, Fachkompetenz und regionale Verankerung – dafür steht H&S+.
-          </p>
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-            {partnerItems.map((item) => (
-              <div key={item.title}>
-                <h3 className="text-lg font-semibold text-slate-900">{item.title}</h3>
-                <p className="mt-3 text-slate-600 text-sm leading-relaxed">{item.text}</p>
-              </div>
-            ))}
-          </div>
-          <p className="mt-10 text-slate-600 text-sm leading-relaxed">
-            Mehr über unser Team, unsere Qualifikationen und Zertifizierungen erfahren Sie unter <Link href="/ueber-uns" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Über uns</Link>. Häufige Fragen zu Arbeitsschutz, Brandschutz und SiGeKo beantworten wir in unserem <Link href="/wissen/faq" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">FAQ</Link> und im <Link href="/wissen" className="text-slate-600 hover:text-primary-800 hover:underline underline-offset-2">Wissen-Bereich</Link>.
-          </p>
-        </div>
-      </section>
-
-      {/* Das sagen unsere Kunden – euer Testimonial */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-            Das sagen unsere Kunden
-          </h2>
-          <div className="mt-6 flex items-center gap-2 text-amber-500">
-            <span className="text-xl sm:text-2xl leading-none" aria-hidden>★★★★★</span>
-            <span className="text-slate-700 font-semibold">5,0</span>
-            <span className="text-slate-500 text-sm">(42 Bewertungen)</span>
-          </div>
-          <blockquote className="mt-8 text-base sm:text-lg text-slate-700 leading-relaxed border-l-4 border-primary-500 pl-6" cite="https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl">
-            „Wir arbeiten mit Health and Safety+ als Sicherheits- und Gesundheitskoordinator (SiGeKo) zusammen und sind mit der fachkundigen Unterstützung sehr zufrieden. Planung und Umsetzung der Arbeitsschutzmaßnahmen sind vorausschauend und strukturiert, die Kommunikation klar und lösungsorientiert. So entsteht spürbar mehr Sicherheit auf der Baustelle – wir können Health and Safety+ uneingeschränkt empfehlen.“
-          </blockquote>
-          <footer className="mt-4 text-slate-600">
-            <cite>— Aykut Torbali, Architekt</cite>
-          </footer>
-          <div className="mt-8">
+      <GoogleReviewSection
+        ids={["aykut-torbali", "lena-hassert"]}
+        className="lg:py-24"
+        footerNote={
+          <>
+            <Link
+              href="/ueber-uns"
+              className="font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
+            >
+              Weitere Kundenstimmen auf Über uns
+            </Link>
+            <span className="text-slate-400" aria-hidden>
+              {" "}
+              ·{" "}
+            </span>
             <a
-              href="https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl"
+              href={GOOGLE_REVIEWS_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-primary-800 hover:text-primary-900 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
-              aria-label="Weitere Bewertungen ansehen (öffnet in neuem Tab)"
+              className="font-medium text-primary-800 hover:text-primary-900 underline decoration-primary-200 underline-offset-2"
             >
-              Weitere Bewertungen ansehen
+              Alle Bewertungen auf Google
             </a>
-          </div>
-          <p className="mt-2 text-sm text-slate-500">Bewertungen auf Google für Health and Safety +</p>
-        </div>
-      </section>
+          </>
+        }
+      />
 
       {/* Jetzt kostenlose Erstberatung sichern – CTA wie Referenz */}
       <section className="py-16 sm:py-20 lg:py-24 bg-slate-50">
