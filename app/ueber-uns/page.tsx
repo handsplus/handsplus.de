@@ -162,13 +162,15 @@ export default function UberUnsPage() {
       <section className="relative overflow-hidden pt-12 pb-14 sm:pt-16 sm:pb-16 lg:pt-20 lg:pb-20 text-white">
         <HeroMeshBackground />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight max-w-3xl m-0">
-            Über uns
-          </h1>
-          <p className="mt-6 text-lg max-w-3xl text-white/90 leading-relaxed">
-            Ihr Partner für Arbeitsschutz, Brandschutz, Elektrosicherheit, Managementsysteme und Schulungen – in Köln
-            und NRW.
-          </p>
+          <div className="max-w-3xl space-y-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+              Über uns
+            </h1>
+            <p className="text-lg text-white/90 leading-snug">
+              Ihr Partner für Arbeitsschutz, Brandschutz, Elektrosicherheit, Managementsysteme und Schulungen – in Köln
+              und NRW.
+            </p>
+          </div>
           <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
             <Link
               href="/kontakt"
@@ -186,7 +188,7 @@ export default function UberUnsPage() {
               Unsere Leistungen
             </Link>
           </div>
-          <div className="mt-10 pt-8 border-t border-white/25 max-w-3xl">
+          <div className="mt-10 pt-8 border-t border-white/25">
             <ContactStrip variant="light" />
           </div>
         </div>
