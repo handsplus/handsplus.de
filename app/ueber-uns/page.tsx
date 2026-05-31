@@ -3,6 +3,7 @@ import Image from "next/image";
 import { pageMetadata } from "@/lib/metadata";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 import { ContactStrip } from "@/components/ContactStrip";
+import { HeroMeshBackground } from "@/components/HeroMeshBackground";
 import { GoogleReviewSection } from "@/components/GoogleReviewCards";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://handsplus.de";
@@ -157,13 +158,15 @@ export default function UberUnsPage() {
       <UeberUnsJsonLd />
       <BreadcrumbJsonLd items={[{ name: "Über uns" }]} />
 
-      {/* Hero – ohne data-hero (Critical CSS setzt sonst h1 margin:0 → Label klebt an Überschrift) */}
+      {/* Hero – Mesh-Verlauf wie Startseite (data-hero für Critical CSS) */}
       <section
-        className="relative pt-12 pb-14 sm:pt-16 sm:pb-16 lg:pt-20 lg:pb-20 bg-[#1e4d44] text-white [background:linear-gradient(180deg,#1e4d44_0%,#2d5a4e_50%,#256358_100%)]"
+        data-hero
+        className="relative overflow-hidden pt-12 pb-14 sm:pt-16 sm:pb-16 lg:pt-20 lg:pb-20 text-white"
       >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HeroMeshBackground />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight m-0">
               Über uns
             </h1>
             <p className="text-lg text-white/90 leading-relaxed">
@@ -174,7 +177,7 @@ export default function UberUnsPage() {
           <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
             <Link
               href="/kontakt"
-              className="inline-flex items-center justify-center px-7 py-3.5 rounded-lg font-semibold text-base bg-white text-[#1e4d44] shadow-lg shadow-black/25 transition-[background-color,box-shadow,transform] hover:bg-slate-50 hover:shadow-xl hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#1e4d44] w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-7 py-3.5 rounded-lg font-semibold text-base bg-white text-[#1e4d44] shadow-lg shadow-black/20 transition-[background-color,box-shadow,transform] hover:bg-slate-50 hover:shadow-xl hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#256358] w-full sm:w-auto"
             >
               Kostenlose Erstberatung
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
@@ -183,12 +186,12 @@ export default function UberUnsPage() {
             </Link>
             <Link
               href="/leistungen"
-              className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#256358] w-full sm:w-auto"
             >
               Unsere Leistungen
             </Link>
           </div>
-          <div className="mt-10 pt-8 border-t border-white/25">
+          <div className="mt-10 pt-10 border-t border-white/30">
             <ContactStrip variant="light" />
           </div>
         </div>
