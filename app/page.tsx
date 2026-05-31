@@ -108,9 +108,28 @@ export default function HomePage() {
   return (
     <>
       <HomeReviewJsonLd />
-      {/* Hero – Corporate-Design: farbiger Oberbereich (data-hero für kritisches CSS) */}
-      <section data-hero className="relative pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-24 bg-[#1e4d44] text-white [background:linear-gradient(180deg,#1e4d44_0%,#2d5a4e_50%,#256358_100%)]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero – Mesh-Verlauf (data-hero für kritisches CSS) */}
+      <section
+        data-hero
+        className="relative overflow-hidden pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-24 text-white"
+      >
+        {/* Dekorative Hintergrundebenen – statisch, ohne Animation */}
+        <div className="pointer-events-none absolute inset-0" aria-hidden>
+          <div className="absolute inset-0 bg-[linear-gradient(145deg,#1e4d44_0%,#256358_30%,#3b7564_55%,#5aa88f_80%,#68BCA0_100%)]" />
+          <div className="hero-mesh-accent absolute inset-0 bg-[radial-gradient(ellipse_75%_60%_at_88%_18%,rgba(104,188,160,0.55),transparent_58%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_65%_50%_at_75%_92%,rgba(104,188,160,0.35),transparent_55%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_55%_45%_at_12%_35%,rgba(45,90,78,0.28),transparent_50%)]" />
+          <div className="absolute -top-20 right-[5%] h-96 w-96 rounded-full bg-[#68BCA0]/35 blur-[96px] sm:h-[24rem] sm:w-[24rem]" />
+          <div className="absolute bottom-0 right-[15%] h-64 w-64 rounded-full bg-[#75c3ab]/30 blur-[72px]" />
+          <div
+            className="absolute inset-0 opacity-[0.04] mix-blend-soft-light"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
+            }}
+          />
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight max-w-4xl m-0">
             Arbeitsschutz, Brandschutz und Managementsysteme – Professionelle Beratung und maßgeschneiderte Lösungen
           </h1>
@@ -120,7 +139,7 @@ export default function HomePage() {
           <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
             <Link
               href="/kontakt"
-              className="inline-flex items-center justify-center px-7 py-3.5 rounded-lg font-semibold text-base bg-white text-[#1e4d44] shadow-lg shadow-black/25 transition-[background-color,box-shadow,transform] hover:bg-slate-50 hover:shadow-xl hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#1e4d44] w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-7 py-3.5 rounded-lg font-semibold text-base bg-white text-[#1e4d44] shadow-lg shadow-black/20 transition-[background-color,box-shadow,transform] hover:bg-slate-50 hover:shadow-xl hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#256358] w-full sm:w-auto"
             >
               Angebot anfragen
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
@@ -130,13 +149,13 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/leistungen"
-                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#1e4d44]"
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#256358]"
               >
                 Unsere Leistungen
               </Link>
               <Link
                 href="/kontakt?thema=Kostenlose+Erstberatung"
-                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#1e4d44]"
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-white/50 text-sm font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/60 focus:ring-offset-2 focus:ring-offset-[#256358]"
               >
                 Kostenlose Erstberatung
               </Link>

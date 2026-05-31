@@ -174,9 +174,10 @@ export default function RootLayout({
     "body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;background:#f8fafc;color:#0f172a;min-height:100vh;margin:0;display:flex;flex-direction:column}",
     "main{flex:1;min-height:60vh;background:#fff;color:#1e293b}",
     ".skip-link{position:absolute;top:-3rem;left:.5rem;z-index:100;padding:.5rem 1rem;background:#1e4d44;color:#fff;font-weight:600;border-radius:.25rem;transition:top .2s ease}.skip-link:focus{top:.5rem;outline:2px solid #68BCA0;outline-offset:2px}",
-    "[data-hero]{background:linear-gradient(180deg,#1e4d44 0%,#2d5a4e 50%,#256358 100%);color:#fff;position:relative}",
+    "[data-hero]{background:linear-gradient(145deg,#1e4d44 0%,#256358 30%,#3b7564 55%,#5aa88f 80%,#68BCA0 100%);color:#fff;position:relative;overflow:hidden}",
     "[data-hero] h1{font-size:clamp(1.875rem,4vw,3rem);font-weight:700;letter-spacing:-.025em;max-width:56rem;margin:0}",
     "[data-hero] p{margin-top:1.5rem;font-size:1.125rem;max-width:48rem;color:rgba(255,255,255,.9)}",
+    "[data-hero] .hero-mesh-accent{background:radial-gradient(ellipse 75% 60% at 88% 18%,rgba(104,188,160,.55),transparent 58%)}",
   ].join("");
 
   return (
