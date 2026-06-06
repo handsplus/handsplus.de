@@ -102,6 +102,17 @@ export default function SchulungenPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <section className="mb-12">
             <h2 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4">Arbeitsschutz</h2>
+            <p className="text-slate-600 mb-4">
+              Für allgemeingültige Einstiegs-Unterweisungen im Browser (Grundunterweisung, Brandschutz, Gabelstapler u.&nbsp;a.) – kostenlos und ohne Anmeldung:{" "}
+              <a
+                href="https://arbeitsschutz-nrw.online/themen"
+                className="font-semibold text-primary-800 underline-offset-2 hover:underline"
+                rel="noopener noreferrer"
+              >
+                arbeitsschutz-nrw.online
+              </a>
+              . Für betriebsspezifische Unterweisungen vor Ort oder online planen wir Inhalte individuell mit Ihnen.
+            </p>
             <ul className="list-disc pl-6 space-y-2 text-slate-600">
               {arbeitsschutzTopics.map((item) => (
                 <li key={item}>{item}</li>
