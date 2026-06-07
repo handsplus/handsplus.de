@@ -1,0 +1,35 @@
+---
+description: "Pflicht: Nach jeder inhaltlichen oder Code-Änderung sofort nach C:\\dev\\handsplus.de synchronisieren."
+alwaysApply: true
+---
+
+# Dev-Sync – immer, ohne Nachfrage
+
+## Grundregel
+
+Nach **jeder** abgeschlossenen Bearbeitung in diesem Projekt (Content, Code, Config, Regeln) **sofort** synchronisieren:
+
+- **Quelle:** `c:\Users\akork\OneDrive\H&S+\1. Verwaltung\3. Webseiten\handsplus-Website`
+- **Ziel:** `C:\dev\handsplus.de`
+
+Der Nutzer arbeitet lokal mit **localhost:3002** aus `C:\dev\handsplus.de`. Ohne Sync sieht er veraltete Inhalte.
+
+## Befehl (Standard)
+
+```powershell
+robocopy "c:\Users\akork\OneDrive\H&S+\1. Verwaltung\3. Webseiten\handsplus-Website" "C:\dev\handsplus.de" /E /XD node_modules .next out .git /NFL /NDL /NJH /NJS /NP
+```
+
+- Exit Code 0 oder 1 = erfolgreich (1 = Dateien kopiert)
+- **Nicht** `/MIR` – kein Löschen im Ziel über das hinaus, was robocopy ohnehin spiegelt
+- `node_modules`, `.next`, `out`, `.git` nie kopieren
+
+## Wann syncen
+
+- Nach Änderungen an `content/**`, `app/**`, `components/**`, `lib/**`, `next.config.js`, `.cursor/rules/**`
+- Am **Ende jeder Aufgabe**, bevor die Antwort an den Nutzer geht
+- **Nicht** fragen „Soll ich syncen?“ – einfach tun
+
+## In der Antwort
+
+Kurz bestätigen: „Dev-Sync erledigt.“ – kein langer Absatz nötig.

@@ -269,7 +269,15 @@ export default function ArbeitsschutzPage() {
               <Link href="/managementsysteme" className="text-primary-800 hover:text-primary-900 underline underline-offset-2">
                 ISO 45001 und Managementsysteme
               </Link>{" "}
-              – auf Basis einer lebendigen Gefährdungsbeurteilung.
+              – auf Basis einer lebendigen Gefährdungsbeurteilung. Ausführliche SiFa-Betreuung in Köln:{" "}
+              <a
+                href="https://www.arbeitssicherheit.nrw/fachkraft-fuer-arbeitssicherheit-koeln"
+                className="text-primary-800 hover:text-primary-900 underline underline-offset-2"
+                rel="noopener noreferrer"
+              >
+                arbeitssicherheit.nrw – Fachkraft für Arbeitssicherheit Köln
+              </a>
+              .
             </p>
             <ul className="mt-6 space-y-3 text-slate-600">
               {highlights.map((h) => (

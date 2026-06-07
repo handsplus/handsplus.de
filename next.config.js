@@ -191,6 +191,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/wissen/blog/asr-a5-1-bildschirmarbeitsplaetze",
+        destination: "/wissen/blog/asr-a6-bildschirmarbeit",
+        permanent: true,
+      },
+      {
         source: "/wissen/blog/sigeko-projektverlauf-neubau-wipperfuerth",
         destination: "/wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw",
         permanent: true,

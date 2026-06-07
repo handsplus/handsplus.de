@@ -1,0 +1,47 @@
+---
+description: "Pflicht: Alle Texte lebbar formulieren – verständlich, flüssig, ohne Gesetzes-Wortlawine."
+globs: ["content/**/*.ts", "app/**/*.tsx", "components/**/*.tsx"]
+alwaysApply: true
+---
+
+# Lebbar formulieren – immer Pflicht
+
+Jeder Text für handsplus.de (Blog, Ratgeber, FAQ, UI, Meta) muss **lebbar** sein: so formuliert, dass ein Arbeitgeber, FaSi oder Facility-Manager ihn **in einem Durchgang versteht** – ohne Juristen-Deutsch und ohne Abkürzungsketten.
+
+## Was „lebbar“ bedeutet
+
+- **Sätze zum Vorlesen:** Kurz bis mittel; ein Gedanke pro Satz, wenn das Thema dicht ist.
+- **Erst Sinn, dann Nummer:** Nicht „A3.4 Beleuchtung, A3.5 Temperatur …“ als ganzer Absatz – erst erklären *worum es geht*, dann Beispiele und Regelnummern.
+- **Keine Wortlawinen:** Maximal 2–3 Abkürzungen pro Absatz; beim ersten Mal ausschreiben oder erklären (z. B. „ArbStättV (Arbeitsstättenverordnung)“).
+- **Konkret statt katalogisch:** „Was heißt das für mich?“ vor „Welche Paragraphen?“
+- **Absätze aufteilen:** Lieber drei kurze Absätze als ein Block mit zehn Kommas.
+
+## Verboten
+
+- Gesetzes-Abtippen oder Listen aller ASR/TRGS-Nummern ohne Einordnung
+- Satz aneinanderreihen nur aus Fachbegriffen und Klammern
+- „Ergänzend:“ / „Konkretisiert:“ als Einstieg ohne erklärenden Hauptsatz davor
+- Fachlich korrekt, aber **unlesbar** – Korrektheit ersetzt nicht Verständlichkeit
+
+## Megabrain + lebbar
+
+- Hub = Orientierung in **Alltagssprache**, Spokes = Vertiefung – beide lebbar.
+- Rechtsverweise und Links bleiben; der Leser soll verstehen *warum* der Link relevant ist.
+
+## Schnellcheck vor Abgabe
+
+1. Kann ich den Absatz laut vorlesen, ohne stecken zu bleiben?
+2. Versteht jemand ohne Jura-Studium die Kernaussage?
+3. Ist klar, was der Leser **tun** soll (beurteilen, begehen, unterweisen …)?
+
+Wenn nein → umformulieren, Absätze teilen, Fachbegriffe erklären.
+
+## Beispiel
+
+```text
+❌ Schlecht:
+„Ergänzend: ASR V3 Gefährdungsbeurteilung, ASR V3a Barrierefreiheit; Gefahrstoffe über GefStoffV/TRGS, nicht als eigene ASR-Reihe.“
+
+✅ Lebbar:
+„Neben A1 bis A6 gibt es Querschnittsregeln – etwa ASR V3 zur Gefährdungsbeurteilung. Gefahrstoffe regeln Sie nicht über ASR, sondern über GefStoffV und TRGS. Dazu haben wir einen eigenen Artikel zu Betriebsanweisungen.“
+```

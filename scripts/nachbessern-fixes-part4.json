@@ -1,0 +1,207 @@
+{
+  "ist-zustandserfassung-externe-fasi": {
+    "vorbereitung": "Vor Vertragsstart sollten vorhandene GBU, Unterweisungsnachweise, Prüfkalender und offene Mängel aus der Vorgängerbetreuung erfasst sein – sonst fehlt die Basis für Betreuungsplan und Prioritätenliste.",
+    "faq": [
+      {
+        "q": "Warum Ist-Zustandserfassung vor externer SiFa?",
+        "a": "Ohne IST-Analyse sind Betreuungsumfang, Arbeitszeit und Maßnahmenplan unscharf – Risiko für Unter- oder Überbetreuung und Lücken bei der ersten BG-Begehung."
+      },
+      {
+        "q": "Was wird erfasst?",
+        "a": "GBU-Stand, Begehungsprotokolle, Unterweisungen, Prüffristen, Unfälle, ASA-Protokolle, offene Maßnahmen, Betriebsstruktur und Gefährdungsschwerpunkte."
+      },
+      {
+        "q": "Typische Lücken?",
+        "a": "Vertrag startet ohne Begehung, alte GBU ungeprüft übernommen, fehlende Abstimmung mit Betriebsarzt, keine Priorisierung der ersten 90 Tage."
+      },
+      {
+        "q": "Nächster Schritt?",
+        "a": "[Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf|Erstes Vertragsjahr], [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Bestellung] und [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2]."
+      }
+    ]
+  },
+  "pruefpflicht-handhubwagen-arbeitssicherheit": {
+    "faq": [
+      {
+        "q": "Unterliegen Handhubwagen der Prüfpflicht?",
+        "a": "Ja – als Arbeitsmittel nach BetrSichV und TRBS 1201. Prüfung vor Inbetriebnahme und wiederkehrend nach Gefährdungsbeurteilung, oft jährlich."
+      },
+      {
+        "q": "Was wird geprüft?",
+        "a": "Bremsen, Räder, Gabeln, Hydraulik, Kennzeichnung Traglast, Ergonomie – dokumentiert mit Prüfplakette und Protokoll."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Keine wiederkehrende Prüfung, überladene Wagen, defekte Bremsen, fehlende Unterweisung, nicht in GBU erfasst – in Logistikbetrieben in NRW häufig."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV], [Link: /wissen/blog/trbs-einfach-erklaert|TRBS] und [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU]."
+      }
+    ]
+  },
+  "externe-fasi-erstes-vertragsjahr-ablauf": {
+    "faq": [
+      {
+        "q": "Wie strukturiert man das erste SiFa-Jahr?",
+        "a": "Monat 1–3: Ist-Erfassung, Bestellung, Betreuungsplan, erste Begehung. Monat 4–9: GBU-Fortschreibung, Unterweisungen, Maßnahmen umsetzen. Monat 10–12: Jahresbericht, ASA, Plan Folgejahr."
+      },
+      {
+        "q": "Was hat Priorität?",
+        "a": "Akute Mängel (Absturz, Elektro, Gefahrstoffe), fehlende GBU, abgelaufene Prüfungen, Unterweisungslücken – vor Formalprojekten."
+      },
+      {
+        "q": "Typische Fehler?",
+        "a": "Jahresbericht ohne vorherige Begehungen, GBU-Flut ohne Umsetzung, keine Einbindung Geschäftsführung, ASA terminiert aber nicht vorbereitet."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung], [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|Jahresbericht] und [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|externe SiFa Köln]."
+      }
+    ]
+  },
+  "asa-sitzung-praxis-kita-arbeitsschutz": {
+    "vorbereitung": "Vor der ASA-Sitzung sollten Unfallstatistik, offene Maßnahmen aus Begehungen, geplante Umbauten und Unterweisungsstand vorbereitet sein – ohne Tagesordnung und Protokoll erfüllt der ASA nicht seine Beratungsfunktion.",
+    "faq": [
+      {
+        "q": "Wann braucht eine KiTa einen ASA?",
+        "a": "Ab mehr als 20 Beschäftigten nach ASiG § 11 – in Trägerstrukturen Zählung über alle Einrichtungen prüfen, Teilzeitregeln beachten."
+      },
+      {
+        "q": "Typische ASA-Themen in KiTa?",
+        "a": "Infektionsschutz, ergonomische Küche, Spielplatz-Sicherheit, psychische Belastung, Brandschutz, Dokumentation von Beinahe-Ereignissen."
+      },
+      {
+        "q": "Was gehört ins Protokoll?",
+        "a": "Teilnehmer, Tagesordnung, Beschlüsse, Verantwortliche, Fristen, Nachverfolgung offener Punkte – mindestens vierteljährlich."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/akteure-arbeitsschutz|Akteure], [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung|KiTa-Küche GBU] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber]."
+      }
+    ]
+  },
+  "sigeko-begehung-seitenschutz-abbruch-koeln": {
+    "faq": [
+      {
+        "q": "Warum Seitenschutz bei Abbruch in Köln?",
+        "a": "Enge innerstädtische Grundstücke, Nachbarschaft, Anhang II Nr. 1 BaustellV – Absturz und herabfallende Teile müssen im SiGe-Plan mit Maßnahmen und Verantwortlichen stehen."
+      },
+      {
+        "q": "Was prüft der SiGeKo?",
+        "a": "Seitenschutz, Verbau, Absturzsicherung, Einweisung Gewerke, Schnittstellen Abbruch/Rohbau, Dokumentation im SiGe-Plan und Begehungsprotokoll."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Seitenschutz erst nach Beanstandung, fehlende Einweisung Subunternehmer, Plan nicht fortgeschrieben bei Lageänderung, keine Übergabe an Rohbau."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/baustellv-anhang-ii-gefaehrliche-arbeiten|Anhang II], [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub] und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber]."
+      }
+    ]
+  },
+  "rauchen-baustelle-arbstattv-sigeko": {
+    "vorbereitung": "Auf Baustellen muss das Rauchverbot in SiGe-Plan, Baustellenordnung und Unterweisung verankert sein – neben brennbaren Stoffen und Heißarbeit. Fehlende Durchsetzung ist ein Standard-Befund bei Begehungen in Köln und NRW.",
+    "faq": [
+      {
+        "q": "Ist Rauchen auf der Baustelle verboten?",
+        "a": "In der Regel ja – Brandgefahr durch brennbare Materialien, Heißarbeit und oft eingeschränkte Fluchtwege. Regel in Baustellenordnung und SiGe-Plan, Unterweisung aller Gewerke."
+      },
+      {
+        "q": "Was sagt die ArbStättV?",
+        "a": "Rauchverbot wo Brand- oder Explosionsgefahr – auf Baustellen faktisch fast immer. Raucherzonen nur mit dokumentierter Freigabe und Abstand zu Brandlast."
+      },
+      {
+        "q": "Rolle des SiGeKo?",
+        "a": "Regel in Baustellenordnung, Einweisung, Begehung, Durchsetzung mit Bauleitung – siehe [Link: /wissen/blog/baustellv-sigeko-koordination-aufgaben|SiGeKo-Aufgaben]."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Rauchen in Lagerzonen, keine ausgewiesene Raucherzone, Regel nicht in Einweisung, Zigaretten in Gerüstbereich."
+      }
+    ]
+  },
+  "gbu-schnittstelle-mehrere-gewerke-bauprojekt": {
+    "faq": [
+      {
+        "q": "Wer macht GBU bei mehreren Gewerken?",
+        "a": "Jeder Arbeitgeber für seine Beschäftigten – plus Koordination nach § 8 ArbSchG und SiGeKo nach BaustellV. SiGe-Plan verknüpft Schnittstellenrisiken."
+      },
+      {
+        "q": "Was sind typische Schnittstellen?",
+        "a": "Absturz beim Gewerkewechsel, gemeinsame Stromversorgung, Staub/Lärm für Nachbargewerke, Kranfahrten, Gefahrstoffe – schriftlich abstimmen."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Jede GBU nur intern, keine Information an Nachunternehmer, SiGe-Plan ohne Gewerke-Matrix, Leiharbeit ohne Entleiher-Unterweisung."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/arbschg-mehrere-arbeitgeber-zusammenarbeit|§ 8 ArbSchG], [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV] und [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU-Ablauf]."
+      }
+    ]
+  },
+  "sigeko-projektverlauf-neubau-wohngebaeude-nrw": {
+    "faq": [
+      {
+        "q": "Braucht ein EFH-Neubau in NRW einen SiGeKo?",
+        "a": "Ja, wenn mehrere Gewerke nacheinander oder gleichzeitig tätig sind – typisch ab zweitem Gewerk, unabhängig von Bausumme."
+      },
+      {
+        "q": "Typischer Projektverlauf?",
+        "a": "Planung: SiGe-Plan vor Baustart. Rohbau: Einweisungen, Begehungen Absturz. Ausbau: Übergabeprotokolle, Anpassung Plan. Abnahme: Unterlagen für Betrieb."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "SiGeKo erst ab Rohbau, Dachdecker nicht im Plan, keine Einweisung Elektro, fehlende Dokumentation Übergabe Rohbau/Innenausbau."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|SiGeKo-Pflicht], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar] und [Link: /wissen/blog/baustellv-vorankuendigung-sige-plan|Vorankündigung]."
+      }
+    ]
+  },
+  "sigeko-dacharbeiten-absturz-bestand-koeln": {
+    "vorbereitung": "Bei Dacharbeiten im Bestand in Köln sind Absturzsicherung, Witterungsregeln und Schnittstelle Gerüst/Dach im SiGe-Plan vor Erstbetritt des Gewerks festzulegen – Anhang II Nr. 1 greift oft auch unter 7 m über Gerüstkante.",
+    "faq": [
+      {
+        "q": "Welche Risiken bei Dacharbeiten im Bestand?",
+        "a": "Absturz, durchfallende Decken, Nachbarschaft, alte Statik, gleichzeitige Innenarbeiten – im SiGe-Plan mit Verantwortlichen und Maßnahmen."
+      },
+      {
+        "q": "Anhang II bei Dach unter 7 m?",
+        "a": "Nr. 1 formal ab 7 m – dennoch Absturzschutz nach ArbSchG/DGUV V38 und im SiGe-Plan abbilden, besonders an Dachkante und Lichtschacht."
+      },
+      {
+        "q": "Typische Mängel in Köln?",
+        "a": "Keine Fanglinie, Gerüstübergang undicht, Arbeit bei Sturm ohne Regel, Einweisung Dachdecker fehlt, Plan veraltet nach Kranumstellung."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/baustellv-anhang-ii-gefaehrliche-arbeiten|Anhang II], [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|Begehung Abbruch] und [Link: /wissen/blog/dguv-vorschrift-38-bauarbeiten|DGUV V38]."
+      }
+    ]
+  },
+  "sigeko-innenausbau-bestand-leistungsumfang": {
+    "vorbereitung": "Beim Innenausbau im Bestand sollten Staub, Lärm, Heißarbeit und gemeinsame Fluchtwege mit laufendem Betrieb im SiGe-Plan stehen – vor Beginn des ersten Gewerks einweisen und dokumentieren.",
+    "faq": [
+      {
+        "q": "Was umfasst SiGeKo-Leistung beim Innenausbau?",
+        "a": "SiGe-Plan, Einweisungen aller Gewerke, Begehungen, Koordination bei Lageänderung, Übergabeprotokolle, Fortschreibung bei neuen Subunternehmern."
+      },
+      {
+        "q": "Besonderheiten Bestand?",
+        "a": "Laufender Betrieb, Asbest/Altlasten prüfen, Staubschutz, Brandschutz temporärer Trennwände, gemeinsame Rettungswege mit Nutzern."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Honorar nur Planung ohne Ausführung, keine Begehungen, Lösemittel ohne Lüftungskonzept (Anhang II Nr. 2), fehlende Abstimmung Facility."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar], [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|GBU-Schnittstellen] und [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber]."
+      }
+    ]
+  }
+}

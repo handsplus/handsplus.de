@@ -73,6 +73,7 @@ const serviceBlocks = [
     ],
     links: [
       { href: "/wissen/ratgeber/bauordnung-nrw-brandschutz", label: "Ratgeber BauO NRW Brandschutz" },
+      { href: "/wissen/blog/bhkg-nrw-einfach-erklaert", label: "Blog BHKG NRW einfach erklärt" },
       { href: "/wissen/blog/brandschutzkonzept-erstellen", label: "Blog: Brandschutzkonzept erstellen" },
       { href: "https://brandschutzkoeln.com/ratgeber", label: "Vertiefung Genehmigung und Köln (brandschutzkoeln.com)" },
     ],
@@ -91,6 +92,7 @@ const serviceBlocks = [
     ],
     links: [
       { href: "/wissen/ratgeber/brandschutz-betrieb", label: "Ratgeber betrieblicher Brandschutz" },
+      { href: "/wissen/blog/bhkg-nrw-einfach-erklaert", label: "Blog BHKG NRW einfach erklärt" },
       { href: "/wissen/blog/brandschutzordnung-din-14096", label: "Blog: BSO nach DIN 14096" },
       { href: "/wissen/blog/brandschutzbeauftragter-aufgaben-pflichten", label: "Blog: Brandschutzbeauftragter" },
       { href: "/wissen/blog/flucht-und-rettungsplan-erstellen", label: "Blog: Flucht- und Rettungsplan" },
@@ -287,6 +289,7 @@ export default function BrandschutzPage() {
           <ServiceWissenLinks
             ratgeberSlugs={["brandschutz-betrieb", "bauordnung-nrw-brandschutz"]}
             blogSlugs={[
+              "bhkg-nrw-einfach-erklaert",
               "brandschutzkonzept-erstellen",
               "brandschutzordnung-din-14096",
               "brandschutzbeauftragter-aufgaben-pflichten",

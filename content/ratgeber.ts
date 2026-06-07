@@ -44,15 +44,15 @@ export const ratgeberPosts: RatgeberPost[] = [
     "sections": [
       {
         "paragraphs": [
-          "Health and Safety+ begleitet Unternehmen in Köln und NRW beim Arbeitsschutz – als externe Fachkraft für Arbeitssicherheit nach ASiG und DGUV Vorschrift 2, abgestimmt mit betrieblichem Brandschutz und SiGeKo auf Baustellen. Der Ratgeber ordnet Pflichten aus ArbSchG, BetrSichV, GefStoffV und den DGUV-Vorschriften für KMU und Mittelstand im Rheinland ein.",
-          "Im Fokus: klare Rollen, belastbare Gefährdungsbeurteilungen, dokumentierte Unterweisungen, strukturierter Arbeitsschutzausschuss und gebündelte technische Prüfungen – mit Fallsträngen aus der Beratung. Vertiefend: [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
+          "Health and Safety+ begleitet Unternehmen beim Arbeitsschutz – als externe Fachkraft für Arbeitssicherheit nach ASiG und DGUV Vorschrift 2, abgestimmt mit betrieblichem Brandschutz und SiGeKo auf Baustellen. Der Ratgeber ordnet Pflichten aus ArbSchG, BetrSichV, GefStoffV und den DGUV-Vorschriften für KMU und Mittelstand ein.",
+          "Im Fokus: klare Rollen, belastbare Gefährdungsbeurteilungen, dokumentierte Unterweisungen, strukturierter Arbeitsschutzausschuss und gebündelte technische Prüfungen – mit Fallsträngen aus der Beratung. Vertiefend: [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV einfach erklärt], [Link: /wissen/blog/asr-einfach-erklaert|ASR einfach erklärt], [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
         ]
       },
       {
         "h2": "Rechtliche Grundlage: ArbSchG und Bausteine der Regelwerke",
         "paragraphs": [
           "Das Arbeitsschutzgesetz verpflichtet den Arbeitgeber, alle zumutbaren Maßnahmen zu ergreifen, um Gefahren für Beschäftigte zu vermeiden. Das ist ein offener Pflichtenkatalog: Konkretisierung erfolgt durch Verordnungen, technische Regeln und die Vorschriften der Berufsgenossenschaften. Die Arbeitssicherheitsgesetzgebung (ASiG) ergänzt diese Pflichten durch die Einbindung von Betriebsarzt und Fachkraft für Arbeitssicherheit, sobald gesetzliche Schwellen oder die Gefährdungslage dies erfordern.",
-          "Praktisch bedeutet das ein Managementsystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit], verständliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und nachvollziehbare Nachweise. Gewerbeaufsicht und Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Wer in Köln oder NRW investiert, sollte früh klären, welche Partner für Arbeitssicherheit, Brandschutz und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] sinnvoll eingebunden werden."
+          "Praktisch bedeutet das ein Managementsystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit], verständliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und nachvollziehbare Nachweise. Gewerbeaufsicht und Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Früh klären, welche Partner für Arbeitssicherheit, Brandschutz und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] sinnvoll eingebunden werden – spart Doppelarbeit an Schnittstellen."
         ]
       },
       {
@@ -117,7 +117,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Unterweisungen dokumentieren und wirksam gestalten",
         "paragraphs": [
           "Pflichtunterweisungen müssen verständlich sein, auf konkrete Arbeitsplätze bezogen und wiederholt werden. Die Dokumentation soll Datum, Inhalte, Teilnehmende und die unterweisende Person umfassen; digitale Nachweise sind zulässig, wenn Revisionssicherheit gewährleistet ist. Einheitliche Schulungsfolien ohne Bezug zur Hallenlogistik oder zu den eingesetzten Chemikalien genügen revisorenseitig selten.",
-          "In Großstätten wie Köln mit heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Brandschutzunterweisung und Evakuierungsübung gehören zusammen; Erste Hilfe mit realistischen Szenarien am Arbeitsplatz. Pflicht und Dokumentation: [Link: /wissen/blog/unterweisung-arbeitssicherheit-pflicht|Unterweisung Arbeitssicherheit], Fristen: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Fristen und Nachweise]."
+          "Bei heterogenen Teams sollten Sprache, Medien und Praxisanteile zur Zielgruppe passen. Brandschutzunterweisung und Evakuierungsübung gehören zusammen; Erste Hilfe mit realistischen Szenarien am Arbeitsplatz. Pflicht und Dokumentation: [Link: /wissen/blog/unterweisung-arbeitssicherheit-pflicht|Unterweisung Arbeitssicherheit], Fristen: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Fristen und Nachweise]."
         ]
       },
       {
@@ -130,22 +130,21 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Technische Prüfungen und Betriebssicherheit",
         "paragraphs": [
-          "Unter BetrSichV fallen zahlreiche Arbeitsmittel und Anlagenteile – von Regalen über ortsveränderliche Elektrogeräte bis zu Drucksystemen. Die Koordination von Prüfterminen, Nachverfolgung von Mängeln und Freigaben gehört zur operativen Arbeitssicherheit. Elektrische Anlagen und Geräte unterliegen ergänzend der DGUV Vorschrift 3; siehe den Ratgeber [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3].",
+          "Unter BetrSichV fallen zahlreiche Arbeitsmittel und Anlagenteile – von Regalen über ortsveränderliche Elektrogeräte bis zu Drucksystemen. Die Koordination von Prüfterminen, Nachverfolgung von Mängeln und Freigaben gehört zur operativen Arbeitssicherheit. Übersicht DGUV-Regelwerk: [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV einfach erklärt]. BetrSichV und TRBS: [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV einfach erklärt], [Link: /wissen/blog/trbs-einfach-erklaert|TRBS einfach erklärt]. Elektrische Anlagen und Geräte unterliegen ergänzend der DGUV Vorschrift 3; siehe den Ratgeber [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3].",
           "Regalanlagen nach DIN EN 15635 und Leitern/Trittsteige nach BetrSichV gehören in die Gefährdungsbeurteilung und in einen gebündelten Prüfkalender – neben DGUV V3 und ggf. Druckgeräten. Wer Prüfungen bündelt, reduziert Stillstände und erhöht Transparenz bei BG- und Kundenaudits."
         ]
       },
       {
         "h2": "Gefahrstoffmanagement und Dokumentationspflichten",
         "paragraphs": [
-          "Das sichere Arbeiten mit Chemikalien erfordert REACH-/CLP-konforme Informationsketten, exponierte relevante Stoffe und wirksame Schutzmaßnahmen. Das Gefahrstoffverzeichnis ist mehr als eine Liste – es unterstützt die Substitution und die Unterweisung. Aufbau und Pflege beschreiben wir unter [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe].",
+          "Das sichere Arbeiten mit Chemikalien erfordert REACH-/CLP-konforme Informationsketten, exponierte relevante Stoffe und wirksame Schutzmaßnahmen. Das Gefahrstoffverzeichnis ist mehr als eine Liste – es unterstützt die Substitution und die Unterweisung. Einstieg GefStoffV und TRGS: [Link: /wissen/blog/trgs-einfach-erklaert|TRGS einfach erklärt]. Betriebsanweisungen: [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen für Gefahrstoffe].",
           "Abstimmungen mit dem Brandschutz sind bei brennbaren Stoffen und Lagerzonen zwingend – siehe [Link: /wissen/ratgeber/brandschutz-betrieb]. Für Bauprojekte gelten zusätzlich SiGeKo- und Bauherrpflichten ([Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko])."
         ]
       },
       {
         "h2": "Baustellenbezug und Koordination mit SiGeKo",
         "paragraphs": [
-          "Unternehmen mit eigenem Bau- oder Montagesektor müssen Schnittstellen zwischen Betriebsstätte und Baustelle definieren. Hier wirken Baustellenkoordinatoren nach BaustellV, Unterauftragnehmer und interne EHS-Funktionen zusammen. Grundlagen liefern wir im Ratgeber [Link: /wissen/ratgeber/sigeko-baustelle] sowie in den Blogbeiträgen zu Vorankündigung, Übergaben und besonders gefährlichen Arbeiten.",
-          "In Ballungsräumen wie Köln sind Logistik, Nachbarschaft und zeitliche Fenster oft kritisch – eine realistische Risikoabschätzung und klare Kommunikation mit der Polizei oder der Stadt können Konflikte vermeiden."
+          "Unternehmen mit eigenem Bau- oder Montagesektor müssen Schnittstellen zwischen Betriebsstätte und Baustelle definieren. Hier wirken Baustellenkoordinatoren nach BaustellV, Unterauftragnehmer und interne EHS-Funktionen zusammen. Grundlagen liefern wir im Ratgeber [Link: /wissen/ratgeber/sigeko-baustelle] sowie in den Blogbeiträgen zu Vorankündigung, Übergaben und besonders gefährlichen Arbeiten."
         ]
       },
       {
@@ -156,17 +155,17 @@ export const ratgeberPosts: RatgeberPost[] = [
         ]
       },
       {
-        "h2": "Arbeitssicherheit in Köln und NRW – lokaler Kontext",
+        "h2": "Regionaler Kontext – NRW und Rheinland",
         "paragraphs": [
-          "Das Rheinland verbindet klassisches Handwerk, Chemie- und Logistikstandorte, Forschungseinrichtungen und kreative Dienstleister. Hochhausbebauung, Verkehrsaufkommen und Hochwasserprojekte prägen lokale Risiken (Evakuierung, Rettungswege, Notstrom). Diese Gegebenheiten sollten in Gefährdungsbeurteilung und Brandschutzunterlagen explizit adressiert sein.",
-          "H&S+ unterstützt mit Vor-Ort-Terminen in Köln und der Region, pragmatischen Checklisten und priorisierten Maßnahmenlisten – ohne theoretische Überfrachtung. [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|Externe Fachkraft für Arbeitssicherheit Köln] · [Link: /kontakt|Kostenlose Erstberatung]."
+          "In NRW prägen Handwerk, Chemie- und Logistikstandorte, Forschung und Dienstleistung das Gefährdungsprofil – dazu kommen in Ballungsräumen enge Baustellenlogistik, Hochhaus-Evakuierung und Themen wie Notstrom oder Hochwasser in Gefährdungsbeurteilung und Brandschutzunterlagen.",
+          "Health and Safety+ unterstützt vor Ort in Köln und der Region mit pragmatischen Checklisten und priorisierten Maßnahmenlisten – ohne theoretische Überfrachtung. [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|Externe Fachkraft für Arbeitssicherheit] · [Link: /kontakt|Kostenlose Erstberatung]."
         ]
       },
       {
-        "h2": "Fallstränge aus Beratungsprojekten in Köln und NRW",
+        "h2": "Fallstränge aus Beratungsprojekten",
         "paragraphs": [
-          "Unsere Mandate zeigen wiederkehrende Muster – und konkrete Lösungen. In einer KiTa-Küche in Köln führte die ergonomische Begehung zu belastbaren Ergänzungen der Gefährdungsbeurteilung (Spülbereich, LMM, Kinderessbereich) statt generischer Floskeln – siehe [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
-          "Beim Start externer Betreuung durch die Fachkraft für Arbeitssicherheit (z. B. technischer Dienstleister in Köln) beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Neuerstellung aller Gefährdungsbeurteilungen: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
+          "Unsere Mandate zeigen wiederkehrende Muster – und konkrete Lösungen. In einer KiTa-Küche führte die ergonomische Begehung zu belastbaren Ergänzungen der Gefährdungsbeurteilung (Spülbereich, LMM, Kinderessbereich) statt generischer Floskeln – siehe [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung].",
+          "Beim Start externer Betreuung durch die Fachkraft für Arbeitssicherheit beginnt alles mit Ist-Zustandserfassung und Betreuungsplan im ersten Jahr – nicht mit sofortiger Neuerstellung aller Gefährdungsbeurteilungen: [Link: /wissen/blog/ist-zustandserfassung-externe-fasi].",
           "Mittelgroße Logistikstandorte profitieren von Jahrespauschalen mit ASA, integrierter Begehung und strukturierten Einarbeitungsunterweisungen – Ablauf im ersten Vertragsjahr: [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf].",
           "Der SiFa-Jahresbericht nach DGUV Vorschrift 2 muss Begehungen, Unterweisungen, Evakuierungsübungen und Einzelfragen (z. B. Handhubwagen-Prüfpflicht, psychische Belastung) nachvollziehbar bündeln: [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein] und [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit].",
           "ASA-Sitzungen bei Sozialträgern verbinden Küche, psychische Belastung und Bildschirmarbeitsplätze – gute Protokolle mit Status und Verantwortlichen verhindern Insellösungen: [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz].",
@@ -230,8 +229,8 @@ export const ratgeberPosts: RatgeberPost[] = [
     "sections": [
       {
         "paragraphs": [
-          "Betrieblicher Brandschutz schützt Menschen, Sachwerte und Produktionsprozesse – und ist zugleich ein Kernelement der organisationalen Resilienz. Anders als punktuelle Brandschutzprojekte beim Bau nach BauO NRW ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz]) geht es hier um den laufenden Betrieb: Brandschutzordnungen, Unterweisungen, Brandschutzbeauftragte und die Vernetzung mit Arbeitssicherheit und Gebäudemanagement.",
-          "In Köln und NRW treffen wir häufig heterogene Standorte: ältere Gewerbearchitektur neben moderner Logistik, gemischte Nutzungen und hohe Personalfluktuation. Das erfordert pragmatische Programme, die Beschäftigte wirklich erreichen und gleichzeitig vor Aufsichtsbehörden und Versicherern bestehen. Health and Safety+ begleitet bei Rollendefinition, Übungen und der Harmonisierung von Betriebsanweisungen."
+          "Betrieblicher Brandschutz schützt Menschen, Sachwerte und Produktionsprozesse – und ist zugleich ein Kernelement der organisationalen Resilienz. Anders als punktuelle Brandschutzprojekte beim Bau nach BauO NRW ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz]) geht es hier um den laufenden Betrieb: Brandschutzordnungen, Unterweisungen, Brandschutzbeauftragte und die Vernetzung mit Arbeitssicherheit und Gebäudemanagement. Der öffentliche Brandschutz nach [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|BHKG NRW] (Brandverhütungsschau, Feuerwehr, Leitstelle) ergänzt diese Ebene – nicht ersetzt.",
+          "Heterogene Standorte – ältere Gewerbearchitektur neben moderner Logistik, gemischte Nutzungen, hohe Personalfluktuation – brauchen Programme, die Beschäftigte erreichen und vor Aufsichtsbehörden sowie Versicherern bestehen. Health and Safety+ begleitet bei Rollendefinition, Übungen und der Harmonisierung von Betriebsanweisungen."
         ]
       },
       {
@@ -457,7 +456,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Prüffristen und Wartung – was wann geprüft werden muss",
         "paragraphs": [
-          "Technischer Brandschutz versagt im Ernstfall oft an überfälliger Wartung – nicht an fehlenden Plänen. Verbindlich sind Herstellervorgaben, BetrSichV für überwachungsbedürftige Anlagen (insbesondere BMA), landesrechtliche Prüfverordnung (in NRW: PrüfVO), ASR A2.2/A2.3 sowie objektspezifische Vorgaben aus BSK und BSO Teil C. Versicherer und VdS-Regeln sind häufig strenger als das gesetzliche Minimum – der Betriebs-Prüfplan muss den strengsten Maßstab abbilden, nicht den kürzesten.",
+          "Technischer Brandschutz versagt im Ernstfall oft an überfälliger Wartung – nicht an fehlenden Plänen. Verbindlich sind Herstellervorgaben, BetrSichV für überwachungsbedürftige Anlagen (insbesondere BMA), landesrechtliche Prüfverordnung (in NRW: [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO NRW]), ASR A2.2/A2.3 sowie objektspezifische Vorgaben aus BSK und BSO Teil C. Versicherer und VdS-Regeln sind häufig strenger als das gesetzliche Minimum – der Betriebs-Prüfplan muss den strengsten Maßstab abbilden, nicht den kürzesten.",
           "Grundregel für die Praxis: Ist eine fachgerechte Prüfung oder Wartung überfällig, gilt die Anlage bis zur Nachholung nicht als betriebssicher. Der BSB dokumentiert Überfälligkeit, informiert die Leitung und veranlasst unverzüglich die Beauftragung – bei BMA-Störungen oder ausgefallener RWA-Kopplung zusätzlich organisatorische Brandwacht oder Nutzungseinschränkung prüfen. Monatliche Sichtkontrollen (Löscher, Notbeleuchtung, Türen ohne Keil) ersetzen keine Sachprüfung, sind aber für Audits und Versicherer unverzichtbar.",
           "Brandmeldeanlagen: Wartung mindestens einmal jährlich durch anerkannten Errichter/Wartungsbetrieb nach DIN 14675; bei großen oder versicherungsrelevanten Anlagen zusätzlich quartalsweise Inspektion. Prüfumfang: Melder, Zentrale, Übertragungswege, Stromversorgung, Alarmierung, Kopplung RWA/Sprinkler. Störungen im Störbuch erfassen, Ursache beheben lassen – keine dauerhafte „Störungsquittierung“ ohne Ticket an die Wartungsfirma.",
           "Handfeuerlöscher (ABC, Schaum, Fettbrand, CO₂): sachkundige Prüfung alle zwei Jahre nach DIN EN 3-7 durch Fachbetrieb (Plakette, Prüfbuch). CO₂-Löscher zusätzlich Dichtheit/Masse; Einsatz nur nach DGUV 205-034 – Prüfintervall entbindet nicht von Einsatzregeln. Zwischen den Fachprüfungen: vollständige Sichtprüf bei jeder Brandschutzbegehung (Plakette lesbar, Zugang frei, keine Beschädigung). Drucklöscher: Herstellerangaben zu Druckprüfung/Austausch (oft im 12-Jahres-Rhythmus) im Anlagenverzeichnis führen.",
@@ -641,16 +640,16 @@ export const ratgeberPosts: RatgeberPost[] = [
         }
       },
       {
-        "h2": "Handlungsempfehlungen für NRW-Betriebe",
+        "h2": "Landesrecht NRW und Besonderheiten vor Ort",
         "paragraphs": [
           "In NRW gelten Landesbauordnung und PrüfVO zusätzlich zu bundesrechtlichen Pflichten – Betriebe in genehmigungspflichtigen Gebäuden müssen bauliche Auflagen und betriebliche BSO synchron halten. Bei Nutzungsänderungen oder Umbauten früh klären, ob bauordnungsrechtliche Nachweise nötig sind ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz]).",
           "Facility-Verträge: SLA für kritische Mängel (Brandschutztür, BMA-Störung, Notbeleuchtung) mit Reaktionszeit in Stunden, nicht Wochen. Betriebsrat und Schwerbehindertenvertretung bei Übungen, Personal-Notfallplänen und Schichtplanung einbinden – sonst scheitern Evakuierungsübungen organisatorisch.",
-          "Köln und Rheinland: hohe Bautätigkeit bedeutet temporäre Sperrungen von Zufahrten und Rettungswegen durch Nachbarbaustellen – BSB und Facility tauschen Bauinformationen aus, Fluchtwegpläne und Sammelstellen vorübergehend anpassen. Kommunale Feuerwehr und ggf. Stützpunktfeuerwehr vor großen Übungen informieren; Hydranten und Zufahrten im Feuerwehrplan aktuell halten.",
+          "In dicht bebauten Ballungsräumen (u. a. Köln und Rheinland) können Nachbarbaustellen Zufahrten und Rettungswege vorübergehend beeinträchtigen – BSB und Facility sollten Bauinformationen austauschen und Fluchtwegpläne sowie Sammelstellen bei Bedarf anpassen. Vor großen Übungen Feuerwehr informieren; Hydranten und Zufahrten im Feuerwehrplan aktuell halten.",
           "KMU ohne BMA: Fokus auf Löscher, Fluchtwege, Unterweisung, dokumentierte Begehung durch FaSi/externen BSB – Qualität über Dokumentenmenge. Konzerne mit mehreren Standorten: einheitliche Mindeststandards, lokale BSO-Teile C je Objekt."
         ]
       },
       {
-        "h2": "Praxisbeispiele aus dem Rheinland",
+        "h2": "Praxisbeispiele aus der Beratung",
         "paragraphs": [
           "Verwaltungscampus (Mehrgebäude, BMA, Versammlungsbereich) – Herausforderung: Brandschotts nach Umbau ohne Kennzeichnung, offene Maßnahmen aus Vorbegehungen, Tiefgarage separat zu prüfen. Maßnahme: mehrteilige Begehung nach Gebäudeteilen, Störkarten bis Abschluss, Abgleich Zonenplan mit IST-Grundriss vor Probealarm. Ergebnis: keine Freigabe des Probealarms ohne aktualisierte Etagenpläne.",
           "Industriestandort Versorgung/Wasserwerk – Herausforderung: Feuerlöscher in Nebenräumen fehlen oder sind unzugänglich; Kabeldurchführungen ohne Schottung; Brandlasten in Technikräumen. Maßnahme: FL-Nachrüstung nach ASR A2.3, Schottungen mit MLAR-Nachweis, Entrümpelung mit Frist und Elektrotechnik-Verantwortlichem. Ergebnis: wiederkehrende Punkte im jährlichen Prüfplan.",
@@ -747,7 +746,8 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Die Koordinierung von Baustellen nach BaustellV reduziert Schnittstellenrisiken zwischen Bauherren, Planung und ausführenden Gewerken. Der SiGeKo-Koordinator strukturiert Informationen so, dass Beschäftigte vorhersehbare, sichere Arbeitsbedingungen vorfinden – nicht improvisierte Übergaben und Informationslücken.",
-          "Health and Safety+ begleitet Bauherren und ausführende Unternehmen in Köln und NRW bei SiGe-Plan, Vorankündigung und dokumentierten Übergaben. Die folgenden Abschnitte verknüpfen BaustellV-Pflichten mit praktischen Werkzeugen – ergänzend zu [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz]. Pflicht-Check: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo-Pflicht?]."
+          "In drei Sätzen: Der Bauherr vergibt und steuert den Koordinator. Der SiGe-Plan macht baustellenspezifische Risiken und Verantwortlichkeiten sichtbar. Jedes ausführende Unternehmen bleibt für seine Gefährdungsbeurteilung und Beschäftigten zuständig – SiGeKo verbindet, ersetzt nicht.",
+          "Health and Safety+ begleitet Bauherren und ausführende Unternehmen in Köln und NRW bei SiGe-Plan, Vorankündigung und dokumentierten Übergaben. Einstieg: [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV einfach erklärt]. Die folgenden Abschnitte verknüpfen BaustellV-Pflichten mit praktischen Werkzeugen – ergänzend zu [Link: /wissen/blog/dguv-vorschrift-38-bauarbeiten|DGUV V38 Bauarbeiten], [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz], [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz] und [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|BHKG NRW]. Pflicht-Check: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo-Pflicht?]."
         ]
       },
       {
@@ -931,14 +931,14 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Rechtliche Pflicht und organisatorischer Rahmen",
         "paragraphs": [
           "§ 5 ArbSchG verpflichtet den Arbeitgeber, Gefährdungen zu ermitteln und zu beurteilen sowie wirksame Schutzmaßnahmen festzulegen, umzusetzen und auf Wirksamkeit zu prüfen. Das gilt für alle Arbeitsbereiche – einschließlich Homeoffice, Zeitarbeit und Tätigkeiten bei Kunden oder auf Baustellen, soweit der Arbeitgeber Einfluss hat.",
-          "Besonders schutzbedürftige Gruppen brauchen eigene Bewertungsbausteine: Jugendliche (JArbSchG), Schwangere und Stillende ([Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|Mutterschutz]), Menschen mit Behinderung. Die vorausschauende Beurteilung nach § 10 MuSchG ist Teil der allgemeinen Gefährdungsbeurteilung.",
+          "Besonders schutzbedürftige Gruppen brauchen eigene Bewertungsbausteine: Jugendliche ([Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG]), Schwangere und Stillende ([Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG], [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Mutterschutz]), Menschen mit Behinderung ([Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|SGB IX]). Die vorausschauende Beurteilung nach § 10 MuSchG ist Teil der allgemeinen Gefährdungsbeurteilung.",
           "Die Dokumentation muss nachvollziehbar sein: Bewerter, Methode, Maßnahmen mit Verantwortlichem und Frist, Wirksamkeitskontrolle. Ohne diese Struktur fehlt die Grundlage für [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und ASA-Themen."
         ]
       },
       {
         "h2": "Ablaufmodell in sechs Schritten",
         "paragraphs": [
-          "§ 5 Abs. 2 ArbSchG verlangt zuerst Ermittlung und Bewertung der Gefährdungen, dann Festlegung und Umsetzung der Maßnahmen sowie Wirksamkeitskontrolle. Fachkraft für Arbeitssicherheit und Betriebsarzt wirken bei Ermittlung und Bewertung mit; Beschäftigte sind nach § 11 ArbSchG zu beteiligen.",
+          "§ 5 Abs. 2 ArbSchG verlangt zuerst Ermittlung und Bewertung der Gefährdungen, dann Festlegung und Umsetzung der Maßnahmen sowie Wirksamkeitskontrolle. Fachkraft für Arbeitssicherheit und Betriebsarzt wirken bei Ermittlung und Bewertung mit; Beschäftigte wirken nach § 16 Abs. 2 mit und haben Vorschlagsrechte nach § 17 ArbSchG – ab 20 Beschäftigten zusätzlich Arbeitsschutzausschuss nach ASiG § 11.",
           "Die Bewertung soll konsistent sein – eine einfache Risikomatrix genügt vielen Betrieben, wenn Graustufen und Begründungen dokumentiert sind. STOP konkret: Substitution vor technischen, organisatorischen und persönlichen Maßnahmen; jede Maßnahme mit Verantwortlichem, Frist und Nachkontrolle.",
           "Vor-Ort-Begehung mit Fotos und Messwerten ist Pflicht für belastbare Ergebnisse – Textbausteine ohne IST-Kenntnis fallen bei BG-Begehungen auf. Kompakter Blog-Ablauf: [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|Gefährdungsbeurteilung erstellen]."
         ],
@@ -999,7 +999,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Gefahrstoffe und Maschinensicherheit",
         "paragraphs": [
           "Chemikalienmanagement verknüpft die Gefährdungsbeurteilung mit REACH/CLP-Informationen, Gefahrstoffverzeichnis und Betriebsanweisungen. Substitution bleibt vorrangig vor persönlichen Schutzmaßnahmen; Lagerzonen und Abzüge dokumentieren.",
-          "Maschinenänderungen lösen eine Aktualisierung der Gefährdungsbeurteilung aus – auch bei Kapazitäts- oder Softwareanpassungen. Verknüpfen Sie mit BetrSichV-Prüfungen. Auch scheinbar einfache Arbeitsmittel wie Handhubwagen gehören in Beurteilung und Prüfplanung – Praxisbeispiel: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit]."
+          "Maschinenänderungen lösen eine Aktualisierung der Gefährdungsbeurteilung aus – auch bei Kapazitäts- oder Softwareanpassungen. Prüfpflichten und befähigte Person ergeben sich aus der [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV] – in der Gefährdungsbeurteilung festhalten, wer prüft, in welchem Intervall und wie Mängel stillgelegt werden. Auch scheinbar einfache Arbeitsmittel wie Handhubwagen gehören in Beurteilung und Prüfplanung – Praxisbeispiel: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit]."
         ]
       },
       {
@@ -1092,7 +1092,7 @@ export const ratgeberPosts: RatgeberPost[] = [
   {
     "slug": "bauordnung-nrw-brandschutz",
     "title": "Bauordnung NRW und Brandschutz – Gebäudeplanung, Nutzung und Betrieb",
-    "excerpt": "Die Landesbauordnung NRW (BauO NRW) strukturiert brandschutztechnische Anforderungen an Gebäude vom Entwurf bis zur Nutzung. Für Bauherren, Betreiber und Planende ist entscheidend, dass genehmigungsfä…",
+    "excerpt": "BauO NRW für Bauherren und Betreiber: Gebäudeklassen, Brandschutzkonzept, Rettungswege und Übergang in den Betrieb – strategischer Überblick mit Verweis auf Vertiefungen und betrieblichen Brandschutz.",
     "titleTag": "BauO NRW Brandschutz Köln NRW Ratgeber | handsplus.de",
     "metaDescription": "Bauordnung NRW & Brandschutz: Überblick für Bauherren und Betreiber. Deep-Dives zu Genehmigung und Köln auf brandschutzkoeln.com – Betrieb auf handsplus.de.",
     "servicePath": "/brandschutz",
@@ -1101,6 +1101,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "paragraphs": [
           "Die Landesbauordnung NRW (BauO NRW) strukturiert brandschutztechnische Anforderungen an Gebäude vom Entwurf bis zur Nutzung. Für Bauherren, Betreiber und Planende ist entscheidend, dass genehmigungsfähige Unterlagen mit späterem Gebäudebetrieb konsistent bleiben – jede nachträgliche Nutzungsänderung kann Rettungswegkonzepte oder Feuerwiderstände neu verhandeln.",
+          "Drei Ebenen nicht verwechseln: (1) Bauordnung und Sonderbauverordnung (SBauV) legen fest, was baulich nachgewiesen werden muss. (2) BauPrüfVO und Prüfingenieur sichern die Genehmigung. (3) Im Betrieb übernehmen BSO, Gefährdungsbeurteilung und – bei technischen Anlagen in Sonderbauten – [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO NRW] sowie die Brandverhütungsschau nach [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|BHKG NRW].",
           "Health and Safety+ liefert hier den strategischen Überblick für NRW. Ausführliche Artikel zu Genehmigung, Nutzungsänderung und Praxisfällen in Köln finden Sie auf [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber] (gleiches Team, anonymisierte Mandate). Für den laufenden Betrieb ergänzt [Link: /wissen/ratgeber/brandschutz-betrieb] die organisatorische Perspektive; zum betrieblichen Konzept siehe [Link: /wissen/blog/brandschutzkonzept-erstellen]."
         ]
       },
@@ -1144,22 +1145,25 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Brandschutzkonzept und Nachweise",
         "paragraphs": [
-          "Komplexe Vorhaben erfordern strukturierte Brandschutzkonzepte, die Planung, Ausführung und spätere Betriebsphase verzahnen. Das Konzept sollte eindeutige Verantwortlichkeiten und Schnittstellen zu SiGeKo beschreiben.",
+          "Komplexe Vorhaben – Sonderbauten, Hochhäuser, Versammlungsstätten, große Logistikhallen – erfordern ein strukturiertes Brandschutzkonzept. Es beschreibt, wie baulicher, anlagentechnischer und organisatorischer Brandschutz zusammenwirken: Brandabschnitte, Entrauchung, BMA, Rettungswege, Feuerwehrzufahrt und spätere Betriebsregeln.",
+          "Das Konzept verzahnt Planung, Ausführung und Betriebsphase. Schnittstellen zu SiGeKo auf der Baustelle ([Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber]) und zur späteren BSO nach DIN 14096 ([Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]) sollten von Anfang an mitgedacht werden – sonst entsteht ein genehmigtes Gebäude, das im Alltag nicht organisiert werden kann.",
           "Betrieblich: [Link: /wissen/blog/brandschutzkonzept-erstellen]. Genehmigung Köln: [Link: https://brandschutzkoeln.com/ratgeber/brandschutzkonzept-wann-noetig|Konzept oder Stellungnahme?]"
         ]
       },
       {
         "h2": "Baustoffe und Feuerwiderstand",
         "paragraphs": [
-          "Brandverhalten von Baustoffen und die Feuerwiderstandsfähigkeit von Bauteilen sind separate, aber zusammenhängende Themenfelder. Die Auswahl falscher Materialien kann Nachweise gefährden und Umbauten verteuern.",
+          "Brandverhalten von Baustoffen (nicht brennbar, schwer entflammbar, normal entflammbar) und Feuerwiderstand von Bauteilen (F30, F60, F90 …) sind getrennte, aber zusammenhängende Themen. Ein Wandaufbau kann schwer entflammbare Bekleidung haben und trotzdem nur 30 Minuten Feuerwiderstand – Planer und Betreiber müssen beides im Blick behalten.",
+          "Falsche Materialwahl oder nachträgliche Durchbrüche ohne abgenommene Abschottung gefährden Genehmigungen und Versicherungsschutz. Jede Änderung an Decken, Wänden oder Leitungsführungen sollte gegen das ursprüngliche Brandschutzkonzept geprüft werden.",
           "Grundlagen zum vorbeugenden Brandschutz: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen]. BauO-Details: [Link: https://brandschutzkoeln.com/ratgeber/umbau-nutzungsaenderung-brandschutz|Umbau und Nutzungsänderung]."
         ]
       },
       {
         "h2": "Rettungswege, Treppen und Flure",
         "paragraphs": [
-          "Erster und zweiter Rettungsweg strukturieren die Entfluchtung – mit klaren Anforderungen an Breiten, Längen und abschottende Bauteile.",
-          "Vertiefungen: [Link: https://brandschutzkoeln.com/ratgeber/flucht-und-rettungswege-bauo-nrw|Flucht- und Rettungswege] und [Link: https://brandschutzkoeln.com/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw|Zweiter Rettungsweg über Dachfenster]."
+          "Erster Rettungsweg führt in der Regel über Treppenräume oder sichere Ausgänge ins Freie. Zweiter Rettungsweg wird ab Personenzahl, Gebäudeklasse und Nutzung Pflicht – oft über einen zweiten Treppenraum, über Dach oder spezielle Rettungswege über Fassade.",
+          "Breiten, Längen, Türen (DIN 18093), Notbeleuchtung und Rauchschutzabschlüsse müssen im IST-Zustand dem genehmigten Konzept entsprechen. Büroumbauten, zusätzliche Trennwände oder Lager in Fluren sind häufige Abweichungen – sie gehören vor Umsetzung in die brandschutzrechtliche Prüfung, nicht erst nach Beschwerden der Feuerwehr.",
+          "Vertiefungen: [Link: https://brandschutzkoeln.com/ratgeber/flucht-und-rettungswege-bauo-nrw|Flucht- und Rettungswege] und [Link: https://brandschutzkoeln.com/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw|Zweiter Rettungsweg über Dachfenster]. Organisatorisch im Betrieb: [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
         ]
       },
       {
@@ -1186,14 +1190,14 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Prüfingenieur Brandschutz und Genehmigungspraxis",
         "paragraphs": [
-          "Der Prüfingenieur Brandschutz begleitet Nachweise in genehmigungspflichtigen Fällen und sichert fachliche Qualität der Brandschutzdokumentation.",
-          "Details: [Link: https://brandschutzkoeln.com/ratgeber/bauantrag-brandschutz-unterlagen-koeln|Bauantrag und Unterlagen-Checkliste Köln]."
+          "Der Prüfingenieur Brandschutz prüft im Auftrag der Bauaufsicht, ob ein Vorhaben mit den Brandschutzvorschriften übereinstimmt – formal geregelt in der BauPrüfVO NRW (Bauvorlagen, Brandschutzkonzept § 9, Prüfaufträge §§ 27–28). Er begleitet genehmigungspflichtige Nachweise und sichert die fachliche Qualität der Dokumentation – nicht zu verwechseln mit Entwurfsverfassung oder betrieblichem Brandschutzbeauftragten.",
+          "Einstieg zur Verordnung: [Link: /wissen/blog/baupruefvo-nrw-einfach-erklaert|Blog BauPrüfVO NRW einfach erklärt]. Köln-Praxis: [Link: https://brandschutzkoeln.com/ratgeber/bauantrag-brandschutz-unterlagen-koeln|Bauantrag und Unterlagen-Checkliste Köln]."
         ]
       },
       {
         "h2": "Betriebsphase und Schnittstellen zum Arbeitsschutz",
         "paragraphs": [
-          "Nach Fertigstellung müssen Betriebsorganisation und Brandschutzordnung zum Gebäude passen – etwa bei geänderter Personenzahl oder neuer Hallennutzung. Genehmigte Rettungswege und BMA-Zonenpläne müssen im IST-Zustand abgebildet sein.",
+          "Nach Fertigstellung müssen Betriebsorganisation und Brandschutzordnung zum Gebäude passen – etwa bei geänderter Personenzahl oder neuer Hallennutzung. Genehmigte Rettungswege und BMA-Zonenpläne müssen im IST-Zustand abgebildet sein. Die Brandverhütungsschau nach BHKG (§ 26) prüft regelmäßig den Betrieb aus Sicht der Gemeinde – Ergebnisse in GBU und BSO einbeziehen ([Link: /wissen/blog/bhkg-nrw-einfach-erklaert|BHKG NRW einfach erklärt]).",
           "Kombinieren Sie bauordnungsrechtliche Nachweise mit Gefährdungsbeurteilung und Unterweisungen ([Link: /wissen/ratgeber/gefaehrdungsbeurteilung]). Betriebliche Umsetzung: [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
         ]
       },
@@ -1264,7 +1268,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Geltungsbereich und Grundbegriffe",
         "paragraphs": [
           "DGUV Vorschrift 3 (ehem. BGV A3) gilt für elektrische Anlagen und ortsveränderliche Betriebsmittel – vom Bürogerät bis zur Baustromverteilung. Prüfintervalle ergeben sich aus Gerätetyp, Umgebung und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung]; Orientierung: Büro oft 24 Monate, Werkstatt/Baustelle 6–12 Monate, ortsfest typisch 48 Monate.",
-          "TRBS 1203 und DIN VDE 0105-100 regeln Qualifikation befähigter Personen und Prüfarten (Sichtprüfung, Schutzleiterwiderstand, Isolationswiderstand, Funktionsprüfung). Überschrittene Frist = Gerät stilllegen bis zur Nachprüfung. Explosionsgefährdete Bereiche und Arbeiten unter Spannung unterliegen zusätzlichen Regeln (BetrSichV, Elektrofachkraft)."
+          "TRBS 1203 und DIN VDE 0105-100 regeln Qualifikation befähigter Personen und Prüfarten (Sichtprüfung, Schutzleiterwiderstand, Isolationswiderstand, Funktionsprüfung). Überschrittene Frist = Gerät stilllegen bis zur Nachprüfung. DGUV V3 gilt für elektrische Betriebsmittel im Arbeitsschutz; in Sonderbauten kann parallel die [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO NRW] greifen – das sind getrennte Pflichten mit unterschiedlichen Prüfern. Arbeitsmittel allgemein ordnet die [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV] ein."
         ]
       },
       {

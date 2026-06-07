@@ -8,10 +8,11 @@ export const metadata = pageMetadata({
   path: "/wissen/ratgeber",
   title: "Ratgeber Arbeitsschutz, Brandschutz & SiGeKo Köln NRW",
   description:
-    "Umfassende Ratgeber zu Arbeitsschutz im Unternehmen, betrieblichem Brandschutz, SiGeKo, Gefährdungsbeurteilung, BauO NRW und Elektrosicherheit – Praxiswissen für Köln und NRW.",
+    "Umfassende Ratgeber zu Arbeitsschutz im Unternehmen, betrieblichem Brandschutz, BHKG NRW, SiGeKo, Gefährdungsbeurteilung, BauO NRW und Elektrosicherheit – Praxiswissen für Köln und NRW.",
   keywords: [
     "Ratgeber Arbeitsschutz",
     "Brandschutz Betrieb",
+    "BHKG NRW",
     "SiGeKo Ratgeber",
     "Gefährdungsbeurteilung",
     "BauO NRW Brandschutz",

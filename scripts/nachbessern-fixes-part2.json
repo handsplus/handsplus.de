@@ -1,0 +1,209 @@
+{
+  "pflichtuebertragung-arbeitsschutz": {
+    "faq": [
+      {
+        "q": "Was darf nach § 13 ArbSchG übertragen werden?",
+        "a": "Einzelne konkrete Aufgaben – z. B. Begehungen, Unterweisungen, GBU-Fortschreibung im Bereich – an zuverlässige, fachkundige Personen. Pauschale Übertragung aller Pflichten ist unzulässig."
+      },
+      {
+        "q": "Entbindet Übertragung den Arbeitgeber?",
+        "a": "Nein – Gesamtverantwortung und Aufsichtspflicht bleiben. Der Arbeitgeber muss Einhaltung überwachen; bei Bußgeld oder Strafverfahren bleibt er adressierbar."
+      },
+      {
+        "q": "Typische Fehler bei Pflichtenübertragung?",
+        "a": "Mündliche Delegation, Empfänger ohne Qualifikation oder Weisungsbefugnis, keine schriftliche Aufgabenbeschreibung, keine Kontrolle durch Leitung – häufig in Köln und NRW."
+      },
+      {
+        "q": "Abgrenzung zur SiFa?",
+        "a": "Die [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] berät sicherheitstechnisch – das ist keine Pflichtenübertragung der Gesamtverantwortung. Siehe [Link: /wissen/blog/akteure-arbeitsschutz|Akteure]."
+      }
+    ]
+  },
+  "brandschutzbeauftragter-aufgaben-pflichten": {
+    "vorbereitung": "Bei Begehungen fällt häufig auf, dass der BSB benannt aber nicht ausreichend freigestellt ist, die [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung] veraltet ist oder Brandschutzhelfer ohne Löschübung geschult wurden. Vor Prüfungen sollten Bestellung, Aufgabenprofil und Begehungsprotokolle nachvollziehbar sein.",
+    "faq": [
+      {
+        "q": "Wann braucht ein Betrieb einen Brandschutzbeauftragten?",
+        "a": "Wenn die Gefährdungsbeurteilung zur Brandgefahr es erfordert – abhängig von Nutzung, Brandlasten, Personenaufkommen und technischen Anlagen, nicht pauschal ab Mitarbeiterzahl."
+      },
+      {
+        "q": "Welche Qualifikation braucht der BSB?",
+        "a": "Ausbildung nach DGUV Information 205-003 / vfdb-Richtlinie 12-09/01 – in der Regel 64 UE plus Abschlussprüfung, Fortbildung 16 UE in drei Jahren."
+      },
+      {
+        "q": "Typische Mängel beim BSB?",
+        "a": "Keine vereinbarte Arbeitszeit, BSO veraltet, keine Evakuierungsübungen, Verwechslung mit Brandschutzhelfer, fehlende Schnittstelle zur SiFa bei Begehungen."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer], [Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Fluchtplan] und [Link: /brandschutz|Leistungen Brandschutz]."
+      }
+    ]
+  },
+  "sigeko-pflicht-wann-braucht-man-sigeko": {
+    "faq": [
+      {
+        "q": "Ab wann ist ein SiGeKo Pflicht?",
+        "a": "Wenn Beschäftigte mehrerer Arbeitgeber gleichzeitig oder nacheinander auf der Baustelle tätig sind – unabhängig vom Bauvolumen, auch beim EFH-Neubau mit mehreren Gewerken."
+      },
+      {
+        "q": "Was löst Anhang II aus?",
+        "a": "Besonders gefährliche Arbeiten wie Absturz über 7 m, Abbruch, Sprengung, Gefahrstoffe – dann erhöhte Anforderungen an SiGe-Plan und Dokumentation, auch ohne Vorankündigung."
+      },
+      {
+        "q": "Typische Fehler bei SiGeKo-Pflicht?",
+        "a": "SiGeKo erst nach Baubeginn, kein SiGe-Plan vor Baustart, keine Versionierung bei Lageänderung, undokumentierte Übergabe Rohbau/Ausbau – in Köln und NRW Standard."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar] und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber]."
+      }
+    ]
+  },
+  "externe-fachkraft-arbeitssicherheit-koeln": {
+    "faq": [
+      {
+        "q": "Wann lohnt sich externe SiFa in Köln?",
+        "a": "Bei fehlender interner Qualifikation, fehlender Vertretung, mehreren Standorten oder wenn neutrale Beratung gegenüber Führungskräften gefordert ist – Betriebsarzt bleibt parallel Pflicht."
+      },
+      {
+        "q": "Was gehört in den Betreuungsvertrag?",
+        "a": "Schriftliche Bestellung, verbindliche Arbeitszeit, Zugangsrechte, Reaktionszeiten, Abgrenzung Mehrleistungen, Vertretungsregelung – siehe [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2]."
+      },
+      {
+        "q": "Typische Mängel bei externer Betreuung?",
+        "a": "Bestellung ohne Arbeitszeit, GBU nur als Vorlage ohne Begehung, Jahresbericht ohne Bezug zu Maßnahmen, keine ASA-Einbindung ab 20 Beschäftigten."
+      },
+      {
+        "q": "Ablauf im ersten Jahr?",
+        "a": "[Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung], Bestellung, GBU, Begehungen – strukturiert in [Link: /wissen/blog/externe-fasi-erstes-vertragsjahr-ablauf|erstem Vertragsjahr]."
+      }
+    ]
+  },
+  "arbeitsschutzberatung-unternehmen": {
+    "vorbereitung": "Bei Prüfungen sollten Maßnahmenplan, Begehungsprotokolle und Unterweisungsnachweise zum gleichen Stand wie die Gefährdungsbeurteilung vorliegen. Widersprüchliche Datenstände sind ein häufiger Befund – die [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] sollte vor Begehungen einen Abgleich durchführen.",
+    "faq": [
+      {
+        "q": "Was umfasst Arbeitsschutzberatung?",
+        "a": "GBU, Begehungen, Maßnahmenplan, Unterweisungen, ASA-Vorbereitung, Betriebsanweisungen, Jahresbericht – die SiFa berät, die Geschäftsführung entscheidet und setzt um."
+      },
+      {
+        "q": "Ersetzt Beratung die Arbeitgeberpflicht?",
+        "a": "Nein – Verantwortung für Maßnahmen, Budget und Fristen bleibt bei der Leitung. SiFa hat in der Regel keine Weisungsbefugnis über Führungskräfte."
+      },
+      {
+        "q": "Nutzen über Pflichterfüllung?",
+        "a": "Weniger Unfälle, geringeres [Link: /wissen/blog/strafen-arbeitsschutz|Bußgeldrisiko], bessere Vorbereitung auf BG-Begehungen, Nachweise für [Link: /wissen/blog/iso-45001-arbeitsschutzmanagementsystem|ISO 45001]."
+      },
+      {
+        "q": "Für KMU in Köln und NRW?",
+        "a": "Modulare Betreuung aus einer Hand – Arbeitsschutz, [Link: /brandschutz|Brandschutz], bei Bedarf [Link: /sigeko|SiGeKo]. Auswahl: [Link: /wissen/blog/arbeitsschutz-dienstleister-nrw|Dienstleister NRW]."
+      }
+    ]
+  },
+  "sicherheitsbeauftragte-schulung-koeln": {
+    "vorbereitung": "Vor Prüfungen sollten schriftliche Bestellungen, Schulungsnachweise und ein dokumentierter Meldeweg für SiBe-Mängel vorliegen. SiBe ersetzen weder SiFa noch die [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung aller Beschäftigten].",
+    "faq": [
+      {
+        "q": "Ab wann SiBe bestellen?",
+        "a": "Nach § 22 SGB VII in Betrieben mit regelmäßig mehr als 20 Beschäftigten – genaue Anzahl nach DGUV V1 und Betriebsstruktur."
+      },
+      {
+        "q": "Was lernen SiBe in der Schulung?",
+        "a": "ArbSchG-Grundlagen, Rolle und Grenzen, Gefahrenerkennung, Brandschutz- und Erste-Hilfe-Grundlagen, Zusammenarbeit mit SiFa – nicht Weisungsbefugnis."
+      },
+      {
+        "q": "Abgrenzung zu Brandschutzhelfer?",
+        "a": "SiBe-Schulung ist nicht [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer-Ausbildung] und nicht die allgemeine Unterweisung nach § 12 ArbSchG."
+      },
+      {
+        "q": "Typische Mängel in Köln?",
+        "a": "SiBe benannt ohne Schulung, keine Einbindung in ASA, gemeldete Mängel ohne Follow-up, generische Folien statt betriebsspezifischer Beispiele."
+      }
+    ]
+  },
+  "arbeitsschutz-dienstleister-nrw": {
+    "vorbereitung": "Bei der Anbieterwahl sollten Qualifikationsnachweis, schriftliche Bestellung, verbindliche Arbeitszeit und ein Beispiel-Jahresbericht vorliegen – undifferenzierte Pauschalen ohne Ist-Analyse sind ein Warnsignal.",
+    "faq": [
+      {
+        "q": "Worauf bei Dienstleister-Auswahl achten?",
+        "a": "Befähigung nach DGUV V2, Branchenerfahrung, Referenzprojekte, Leistungsspektrum (GBU, Begehung, ASA, optional Brandschutz/SiGeKo), vertragliche Arbeitszeit."
+      },
+      {
+        "q": "Was muss im Vertrag stehen?",
+        "a": "Arbeitszeit, Zugangsrechte, Reaktionszeiten, Mehrleistungen, Kündigung, Vertretung – ohne Arbeitszeit ist Betreuung bei Prüfungen nicht nachweisbar."
+      },
+      {
+        "q": "Warnsignale bei Angeboten?",
+        "a": "Keine schriftliche Bestellung, Copy-Paste-GBU ohne Begehung, Unterweisungen ohne Nachweis, Preis ohne Ist-Zustandserfassung."
+      },
+      {
+        "q": "Regional Köln/NRW?",
+        "a": "Kurze Wege für Begehungen, Kenntnis der BG- und Gewerbeaufsichtspraxis im Land – [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|externe SiFa Köln]."
+      }
+    ]
+  },
+  "unterweisung-arbeitssicherheit-pflicht": {
+    "vorbereitung": "Vor BG-Begehungen sollten Unterweisungsmatrix, aktuelle Nachweise und Bezug zur GBU-Version geprüft werden. Lücken entstehen typischerweise, wenn die Unterweisung älter als ein Jahr ist, die GBU aber kürzlich geändert wurde.",
+    "faq": [
+      {
+        "q": "Wer muss unterweisen?",
+        "a": "Der Arbeitgeber nach § 12 ArbSchG – ausreichend, verständlich, während der Arbeitszeit. SiFa und Betriebsarzt wirken bei Inhalt und Durchführung mit."
+      },
+      {
+        "q": "Welche Anlässe lösen Unterweisung aus?",
+        "a": "Einstellung, Verfahrensänderung, neue Arbeitsmittel, Unfälle, geänderte GBU – plus regelmäßige Wiederholung, in NRW meist jährlich."
+      },
+      {
+        "q": "Leiharbeit – wer unterweist?",
+        "a": "Der Entleiher nach § 12 Abs. 2 ArbSchG vor Tätigkeitsbeginn; der Verleiher stellt sicher, dass unterwiesen wurde."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Fristen und Dokumentation] und [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen Gefahrstoffe]."
+      }
+    ]
+  },
+  "brandschutzordnung-din-14096": {
+    "vorbereitung": "Bei Begehungen prüfen Sie, ob BSO Teil A sichtbar hängt, Teil B arbeitsplatzbezogen ist und Fluchtpläne zum IST-Zustand passen. Nach Umbauten oder neuen Ladezonen muss die BSO fortgeschrieben werden.",
+    "faq": [
+      {
+        "q": "Was regelt DIN 14096?",
+        "a": "Brandschutzordnung in drei Teilen: A (Allgemeines), B (Verhalten im Brandfall), C (für Feuerwehr). Pflicht zur Erstellung ergibt sich aus Gefährdungsbeurteilung und ArbStättV."
+      },
+      {
+        "q": "Wer erstellt die BSO?",
+        "a": "In der Regel der [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragte] mit SiFa – abgestimmt auf Objekt, Nutzung und Alarmkonzept."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Generische Vorlage ohne Objektbezug, veraltete Fluchtpläne, fehlende Unterweisung zu Teil B, BMA-Konzept widerspricht BSO – in Köln und NRW häufig."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Flucht- und Rettungsplan], [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer] und [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber Brandschutz]."
+      }
+    ]
+  },
+  "brandschutzschulungen-unternehmen": {
+    "vorbereitung": "Vor Prüfungen sollten jährliche Brandschutzunterweisung aller Beschäftigten nachweisbar sein und die fachkundige Brandschutzhelfer-Schulung mit Löschübung getrennt dokumentiert werden – beides ist nicht dasselbe.",
+    "faq": [
+      {
+        "q": "Welche Brandschutzschulungen braucht ein Betrieb?",
+        "a": "Jährliche Unterweisung aller Beschäftigten (BSO Teil B) plus fachkundige Ausbildung der [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer] nach ASR A2.2/DGUV 205-023."
+      },
+      {
+        "q": "Was muss die allgemeine Unterweisung enthalten?",
+        "a": "Alarmierung, Verhalten bei Brand, Fluchtwege, Sammelstelle, Meldeweg – betriebsspezifisch, nicht nur ABC-Löscher-Theorie."
+      },
+      {
+        "q": "Evakuierungsübung – wie oft?",
+        "a": "Aus Gefährdungsbeurteilung – bei Versammlungsstätten und komplexen Objekten häufiger. Protokoll mit Mängeln und Nachkontrolle."
+      },
+      {
+        "q": "Typische Mängel in NRW?",
+        "a": "Einmalige Schulung vor Jahren, keine Übung, BSH ohne Löschpraxis, Unterweisung nur per E-Mail ohne Verständnischeck."
+      }
+    ]
+  }
+}

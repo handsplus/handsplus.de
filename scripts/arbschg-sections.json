@@ -1,0 +1,81 @@
+{
+  "source": "c:/Users/akork/OneDrive/H&S+/4. Gesetze-Vorschriften/02_Empfohlen_Arbeitsschutz_Personal/09_ArbSchG.html",
+  "standSnippet": "09_ArbSchG &zwnj; Gesetz über die Durchführung von Maßnahmen des Arbeitsschutzes zur Verbesserung der Sicherheit und des Gesundheitsschutzes der Beschäftigten bei der Arbeit (Arbeitsschutzgesetz - Arb",
+  "sectionCount": 13,
+  "sections": [
+    {
+      "paragraph": "6",
+      "title": "Abs. 1 tritt am 21.8.1997 in Kraft. &zwnj; Erster Abschnitt Allgemeine Vorschrif"
+    },
+    {
+      "paragraph": "7",
+      "title": "und 11 des Soldatengesetzes bleiben unberührt. &zwnj;"
+    },
+    {
+      "paragraph": "22",
+      "title": "des Siebten Buches Sozialgesetzbuch mitteilen. &zwnj;"
+    },
+    {
+      "paragraph": "19",
+      "title": "Rechtsakte der Europäischen Gemeinschaften und zwischenstaatliche Vereinbarungen"
+    },
+    {
+      "paragraph": "2",
+      "title": "Abs. 3 genannte Personen zu regeln. &zwnj;"
+    },
+    {
+      "paragraph": "4a",
+      "title": "Absatz 5 Satz 1 des Aufenthaltsgesetzes, eine Erlaubnis oder Berechtigung nach"
+    },
+    {
+      "paragraph": "284",
+      "title": "Absatz 1 des Dritten Buches Sozialgesetzbuch, Verstöße gegen die Mitwirkungspfli"
+    },
+    {
+      "paragraph": "25",
+      "title": "Abs. 2 des Siebten Buches Sozialgesetzbuch bis zu einem bestimmten Zeitpunkt mit"
+    },
+    {
+      "paragraph": "25",
+      "title": "Bußgeldvorschriften Ordnungswidrig handelt, wer vorsätzlich oder fahrlässig eine"
+    },
+    {
+      "paragraph": "18",
+      "title": "Abs. 1 oder"
+    },
+    {
+      "paragraph": "22",
+      "title": "Abs. 3 oder b) als Beschäftigter einer vollziehbaren Anordnung nach"
+    },
+    {
+      "paragraph": "26",
+      "title": "Strafvorschriften Mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe wird"
+    },
+    {
+      "paragraph": "25",
+      "title": "Abs. 1 Nr. 2 Buchstabe a bezeichnete Handlung beharrlich wiederholt oder durch e"
+    }
+  ],
+  "blogCoverage": {
+    "hub": "arbeitsschutzgesetz-arbschg-uebersicht",
+    "spokes": {
+      "5": "gefaehrdungsbeurteilung-ablauf",
+      "6": "gefaehrdungsbeurteilung-ablauf",
+      "8": "arbschg-mehrere-arbeitgeber-zusammenarbeit",
+      "10": "arbschg-erste-hilfe-notfallmassnahmen",
+      "12": "unterweisung-arbeitsschutz-fristen",
+      "13": "pflichtuebertragung-arbeitsschutz",
+      "21": "arbschg-gewerbeaufsicht-begehung-nrw",
+      "22": "arbschg-gewerbeaufsicht-begehung-nrw",
+      "25": "strafen-arbeitsschutz",
+      "26": "strafen-arbeitsschutz"
+    }
+  },
+  "uncovered": [
+    "7",
+    "19",
+    "4a",
+    "284",
+    "18"
+  ]
+}

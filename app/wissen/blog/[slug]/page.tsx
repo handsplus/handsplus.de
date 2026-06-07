@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { getPostBySlug, blogPosts } from "@/content/blog";
 import { getPillarSlugForBlog, getRelatedBlogSlugs } from "@/content/blogClusters";
 import { BlogBauordnungKoelnTeaser } from "@/components/BlogBauordnungKoelnTeaser";
+import { BlogFaqSection } from "@/components/BlogFaqSection";
+import { BlogTableOfContents } from "@/components/BlogTableOfContents";
 import { ClusterRelatedPosts } from "@/components/ClusterRelatedPosts";
 import { PillarGuideBanner } from "@/components/PillarGuideBanner";
 import { ContentText } from "@/lib/contentLinks";
@@ -20,10 +22,12 @@ export async function generateMetadata({
 }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const keywords = extractBlogKeywords(post.title, post.excerpt);
   return pageMetadata({
     path: `/wissen/blog/${post.slug}`,
     title: `${post.title} | Blog`,
     description: post.excerpt,
+    keywords,
     openGraphType: "article",
     publishedTime: post.date,
   });
@@ -32,6 +36,59 @@ export async function generateMetadata({
 function formatDate(iso: string) {
   const d = new Date(iso);
   return d.toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" });
+}
+
+function blogHeadingId(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9äöüß]+/gi, "-")
+    .replace(/^-|-$/g, "");
+}
+
+const BLOG_H2_PREFIX = "H2::";
+
+const STOP_WORDS = new Set([
+  "für",
+  "und",
+  "der",
+  "die",
+  "das",
+  "mit",
+  "nach",
+  "einfach",
+  "erklärt",
+  "blog",
+  "sowie",
+  "oder",
+  "beim",
+  "eine",
+  "einer",
+  "eines",
+  "über",
+  "alle",
+  "was",
+  "wie",
+  "wann",
+  "pflichten",
+  "praxis",
+  "praxisnah",
+  "betriebe",
+]);
+
+function extractBlogKeywords(title: string, excerpt: string): string[] {
+  const raw = `${title} ${excerpt}`.toLowerCase();
+  const tokens = raw.match(/[a-zäöüß0-9§]+/gi) ?? [];
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const t of tokens) {
+    if (t.length < 4 || STOP_WORDS.has(t) || seen.has(t)) continue;
+    seen.add(t);
+    out.push(t);
+    if (out.length >= 10) break;
+  }
+  if (!out.includes("köln")) out.push("Köln");
+  if (!out.includes("nrw")) out.push("NRW");
+  return out.slice(0, 12);
 }
 
 export default async function BlogPostPage({
@@ -44,6 +101,9 @@ export default async function BlogPostPage({
 
   const pillarSlug = getPillarSlugForBlog(post.slug);
   const url = `${BASE_URL}/wissen/blog/${post.slug}`;
+  const h2Headings = post.content
+    .filter((b) => b.startsWith(BLOG_H2_PREFIX))
+    .map((b) => b.slice(BLOG_H2_PREFIX.length));
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -98,13 +158,31 @@ export default async function BlogPostPage({
           </h1>
           {pillarSlug && <PillarGuideBanner pillarSlug={pillarSlug} />}
           <BlogBauordnungKoelnTeaser slug={post.slug} />
+          {h2Headings.length >= 2 && <BlogTableOfContents headings={h2Headings} />}
           <div className="mt-8 space-y-6 text-slate-600 leading-relaxed">
-            {post.content.map((paragraph, i) => (
-              <p key={i}>
-                <ContentText text={paragraph} />
-              </p>
-            ))}
+            {post.content.map((block, i) => {
+              if (block.startsWith(BLOG_H2_PREFIX)) {
+                const h2 = block.slice(BLOG_H2_PREFIX.length);
+                return (
+                  <h2
+                    key={i}
+                    id={blogHeadingId(h2)}
+                    className="text-xl sm:text-2xl font-semibold text-slate-900 scroll-mt-24"
+                  >
+                    {h2}
+                  </h2>
+                );
+              }
+              return (
+                <p key={i}>
+                  <ContentText text={block} />
+                </p>
+              );
+            })}
           </div>
+          {post.faq && post.faq.length > 0 && (
+            <BlogFaqSection faq={post.faq} pageUrl={url} />
+          )}
         </article>
 
         <ClusterRelatedPosts slugs={getRelatedBlogSlugs(post.slug, 4)} />

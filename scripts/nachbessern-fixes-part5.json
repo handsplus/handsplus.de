@@ -1,0 +1,153 @@
+{
+  "sigeko-koeln-kosten": {
+    "vorbereitung": "Für ein vergleichbares SiGeKo-Angebot in Köln sollten Bauzeit, Gewerkeanzahl, Anhang-II-Anteil und Begehungsrhythmus schriftlich beschrieben sein – innerstädtische Logistik und Abbruchphasen gehören in die Kalkulation, nicht auf die Schlussrechnung.",
+    "faq": [
+      { "q": "Was treibt SiGeKo-Kosten in Köln?", "a": "Enge Grundstücke, Abbruch, parallele Gewerke, lange Bauzeit, Anhang-II-Arbeiten, häufige Begehungen und Nachbarschaftsabstimmung – deutlich mehr Aufwand als EFH-Neubau am Stadtrand." },
+      { "q": "Welche Vertragsmodelle?", "a": "Pauschale je Phase, Monatspauschale bei Dauerbaustelle, Stundensätze mit Obergrenze – verbindliche Mengen für Begehungen und Einweisungen festhalten." },
+      { "q": "Typische Kostfallen?", "a": "Angebot nur SiGe-Plan, keine Ausführungsphase, Mehrleistungen ungeregelt, zu wenig eingeplante Begehungen bei wechselnden Subunternehmern." },
+      { "q": "Wo Orientierung?", "a": "[Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/rechner|Rechner] und [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub]." }
+    ]
+  },
+  "bauordnung-nrw-einfach-erklaert": {
+    "vorbereitung": "Vor Genehmigung oder Nutzungsänderung sollten Bauherr und Planer klären, welche brandschutzrechtlichen Anforderungen der BauO NRW für das Vorhaben gelten und ob Sonderbauvorschriften greifen – nicht erst bei der Bauaufsicht.",
+    "faq": [
+      { "q": "Was regelt die BauO NRW?", "a": "Landesbauordnung für bauliche Anlagen: Genehmigung, Nutzung, Abstandsflächen, brandschutztechnische Anforderungen, Sonderbauten – Grundlage für Brandschutznachweis." },
+      { "q": "Zusammenhang mit betrieblichem Brandschutz?", "a": "BauO = Planung/Genehmigung. Nach Eröffnung: [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|betrieblicher Brandschutz] nach ArbStättV – beide Ebenen abstimmen." },
+      { "q": "Typische Fehler?", "a": "Nutzerwechsel ohne brandschutztechnische Prüfung, Umbau ohne Genehmigung, Konzept und IST-Betrieb widersprechen sich." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO Brandschutz], [Link: /wissen/blog/brandschutzkonzept-erstellen|Brandschutzkonzept] und [Link: /wissen/blog/sonderbauverordnung-teil-7-schlussvorschriften|SBauVO]." }
+    ]
+  },
+  "sonderbauverordnung-teil-7-schlussvorschriften": {
+    "vorbereitung": "Bei Sonderbauten in NRW sollten Übergangsvorschriften, Zuständigkeiten und Verweisungen zur BauO NRW vor Projektstart geklärt sein – Änderungen betreffen oft Genehmigungsverfahren und Nachweispflichten.",
+    "faq": [
+      { "q": "Was regelt SBauVO Teil 7 NRW?", "a": "Schlussvorschriften der Sonderbauverordnung NRW: Übergangsregelungen, Inkrafttreten, Verweisungen – ergänzt BauO NRW bei Sonderbauten wie Versammlungsstätten, Krankenhäuser, Hochhäuser." },
+      { "q": "Warum relevant für Betreiber?", "a": "Sonderbau-Pflichten betreffen Genehmigung, brandschutztechnische Nachweise und laufende Betriebsauflagen – Schnittstelle zu [Link: /wissen/blog/brandschutzkonzept-erstellen|Brandschutzkonzept]." },
+      { "q": "Typische Mängel?", "a": "Sonderbau-Status ignoriert, veraltete Nachweise nach Umbau, fehlende Abstimmung Sachverständiger und BSB nach Eröffnung." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|BauO NRW], [Link: /wissen/blog/brandschutz-sachverstaendiger-koeln|Sachverständiger Köln] und [Link: /brandschutz|Leistungen]." }
+    ]
+  },
+  "bma-leitstelle-bhkg-nrw": {
+    "vorbereitung": "Betreiber sollten vor Prüfungen klären, ob BMA an die richtige Leitstelle aufgeschaltet ist, Wartungsverträge aktuell sind und Evakuierungsorganisation zur Alarmkette passt – Störungen dürfen nicht dauerhaft quittiert werden.",
+    "faq": [
+      { "q": "Was regelt BHKG in NRW?", "a": "Brand- und Katastrophenschutzgesetz NRW – u. a. Organisation Feuerwehr, Leitstellen, Zusammenarbeit mit Betreibern bei BMA und Gefahrenabwehr." },
+      { "q": "Was muss der Betreiber tun?", "a": "BMA fachgerecht planen, warten, Leitstellenanschluss sicherstellen, Störungsmanagement, Übungen, Schnittstelle zum [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|BSB]." },
+      { "q": "Typische Mängel?", "a": "BMA-Störung dauerhaft, falscher Leitstellenanschluss nach Umbau, Wartung überfällig, BSO widerspricht Alarmkonzept." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz], [Link: /wissen/blog/brandschutzordnung-din-14096|BSO] und [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber]." }
+    ]
+  },
+  "asr-a3-7-laerm-arbeitsplatz": {
+    "vorbereitung": "Bei Lärmbegehungen sollten Lärmkarte, Gehörschutz-Konzept und technische Maßnahmen in der GBU verankert sein. Messprotokolle und Unterweisung zum Tragen von Gehörschutz müssen nachvollziehbar sein.",
+    "faq": [
+      { "q": "Was regelt ASR A3.7?", "a": "Lärm am Arbeitsplatz – Lärmminderung an der Quelle, technische und organisatorische Maßnahmen, Gehörschutz wenn Lärmpegel nicht ausreichend reduziert werden kann." },
+      { "q": "Ab wann Gehörschutz?", "a": "Wenn Lärmpegel trotz Minderungsmaßnahmen oberhalb der Beurteilungspegel liegt – in GBU dokumentieren, PSA-BV beachten, Unterweisung und Tragepflicht." },
+      { "q": "Typische Mängel in NRW?", "a": "Keine Lärmmessung, Gehörschutz ausgelegt aber nicht getragen, keine Unterweisung, fehlende Wartung schallgedämpfter Anlagen." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/asr-einfach-erklaert|ASR-Hub], [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU] und [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung]." }
+    ]
+  },
+  "asr-a4-3-erste-hilfe-arbeitsstaette": {
+    "vorbereitung": "Vor Prüfungen sollten Ersthelfer benannt und geschult, Erste-Hilfe-Material erreichbar und Notfallorganisation in der GBU dokumentiert sein – abgestimmt mit § 10 ArbSchG und DGUV V1.",
+    "faq": [
+      { "q": "Was regelt ASR A4.3?", "a": "Erste Hilfe in Arbeitsstätten – Ausstattung, Erreichbarkeit, Anzahl und Qualifikation der Ersthelfer nach Beschäftigtenzahl und besonderen Gefahren." },
+      { "q": "Wie viele Ersthelfer?", "a": "Nach DGUV V1 und ASR A4.3 – abhängig von Beschäftigtenzahl und Gefährdung (Gefahrstoffe, Alleinarbeit). In GBU begründen." },
+      { "q": "Typische Mängel?", "a": "Ersthelfer benannt aber Schulung abgelaufen, Kasten unvollständig, Defi ohne geschulte Personen, kein Augenspülbecken bei Gefahrstoffen." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/arbschg-erste-hilfe-notfallmassnahmen|§ 10 ArbSchG Notfall], [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|ArbSchG-Hub] und [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV]." }
+    ]
+  },
+  "trgs-einfach-erklaert": {
+    "vorbereitung": "Im Betrieb sollten Gefahrstoffverzeichnis, GBU, Betriebsanweisungen und Lagerkonzept nach TRGS 400/800 zusammenpassen – nicht nur Sicherheitsdatenblätter in der Mappe.",
+    "faq": [
+      { "q": "Was sind TRGS?", "a": "Technische Regeln für Gefahrstoffe – konkretisieren GefStoffV zu Lagerung, Kennzeichnung, Messung, Schutzmaßnahmen. Verbindlich über ArbSchG und GefStoffV." },
+      { "q": "Welche TRGS sind im Betrieb zentral?", "a": "TRGS 400 (Gefährdungsbeurteilung), 500 (Schutzmaßnahmen), 555 (Unterweisung), 800 (Lager) – je nach Stoffe und Prozesse weitere." },
+      { "q": "Typische Mängel in Köln/NRW?", "a": "SDS ohne Betriebsanweisung, Lager ohne TRGS 800, fehlende Gefahrstoffkataster, Unterweisung ohne Stoffbezug." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen], [Link: /wissen/blog/brandschutz-brennbare-stoffe|brennbare Stoffe] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU]." }
+    ]
+  },
+  "trbs-einfach-erklaert": {
+    "vorbereitung": "Für Arbeitsmittel und Anlagen sollten Prüffristen, Betriebsanweisungen und GBU-Einträge zu TRBS 1111 und 1201 konsistent sein – fehlende wiederkehrende Prüfung ist ein Top-Befund bei BG-Begehungen.",
+    "faq": [
+      { "q": "Was sind TRBS?", "a": "Technische Regeln für Betriebssicherheit – konkretisieren BetrSichV zu Arbeitsmitteln, Anlagen, Prüfungen, Instandhaltung, Benutzung." },
+      { "q": "Welche TRBS sind häufig relevant?", "a": "TRBS 1111 (Allgemeines), 1201 (Prüfung), 1151 (Benutzung) – plus branchenspezifische Regeln zu Hebezeugen, Druck, Maschinen." },
+      { "q": "Typische Mängel?", "a": "Keine Prüfplakette, Inbetriebnahme ohne Prüfung, Mängel nicht gesperrt, TRBS nicht in GBU und Unterweisung verknüpft." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV], [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit|Handhubwagen] und [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV-Hub]." }
+    ]
+  },
+  "dguv-vorschriften-einfach-erklaert": {
+    "vorbereitung": "Arbeitgeber sollten wissen, welche DGUV-Vorschriften für ihre Branche gelten – mindestens V1, V2, branchenspezifische Regeln und Informationsblätter – und diese in GBU und Betreuungsplan verknüpfen.",
+    "faq": [
+      { "q": "Was sind DGUV Vorschriften?", "a": "Unfallverhütungsvorschriften der DGUV – verbindlich über ArbSchG für versicherte Unternehmen. Regeln zu Betrieb, Maschinen, Elektro, Bau, Gesundheit." },
+      { "q": "Welche sind fast überall relevant?", "a": "DGUV V1 (Grundsätze), V2 (SiFa/Betriebsarzt), V3 (Elektro), branchenspezifisch z. B. V38 (Bau), V67 (Flurförderzeuge)." },
+      { "q": "Typische Mängel in NRW?", "a": "Unbekannte Geltung, keine Einbindung in GBU, Prüffristen aus DGUV-Regeln ignoriert, SiFa-Jahresbericht ohne DGUV-Bezug." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/dguv-vorschrift-2|DGUV V2], [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV V3] und [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber]." }
+    ]
+  },
+  "jugendarbeitsschutz-jarbschg-einfach-erklaert": {
+    "vorbereitung": "Bei Beschäftigung Jugendlicher sollten erlaubte Tätigkeiten, Arbeitszeiten, Aushang und halbjährliche Unterweisung vor Arbeitsbeginn geklärt sein – Verstöße werden in NRW geahndet.",
+    "faq": [
+      { "q": "Ab wann gilt JArbSchG?", "a": "Für Jugendliche unter 18 Jahren – ergänzt ArbSchG mit strengeren Grenzen zu Arbeitszeit, verbotenen Arbeiten, Unterweisung und Gesundheitsuntersuchung." },
+      { "q": "Was ist verboten?", "a": "Gefährliche Arbeiten nach Anhang – u. a. bestimmte Maschinen, Gefahrstoffe, Höhenarbeit, schwere Lasten. Details: [Link: /wissen/blog/jarbschg-verbotene-gefaehrliche-arbeiten|Verbotene Arbeiten]." },
+      { "q": "Typische Mängel?", "a": "Jugendliche an Maschine ohne Prüfung, fehlender Aushang, nur jährliche statt halbjährlicher Unterweisung, Arbeitszeit überschritten." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/jarbschg-arbeitszeit-ruhezeiten|Arbeitszeit], [Link: /wissen/blog/jarbschg-unterweisung-aushang-dokumentation|Unterweisung/Aushang] und [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|ArbSchG-Hub]." }
+    ]
+  },
+  "jarbschg-arbeitszeit-ruhezeiten": {
+    "vorbereitung": "Bei Jugendlichen müssen Arbeitszeitnachweise, Pausen und mindestens 12 Stunden Ruhezeit zwischen Schichten kontrollierbar sein – Überstunden und Wochenendarbeit sind stark eingeschränkt.",
+    "faq": [
+      { "q": "Wie lange dürfen Jugendliche arbeiten?", "a": "Grundsätzlich max. 8 Stunden täglich, 40 Stunden wöchentlich – Ausnahmen nur eng begrenzt. Keine Nachtarbeit 20–6 Uhr, Sonn- und Feiertagsarbeit verboten mit wenigen Ausnahmen." },
+      { "q": "Welche Pausen?", "a": "Bei 4,5–6 h mindestens 30 Min, ab 6 h mindestens 60 Min – Arbeitsunterbrechungen über 15 Min zählen nicht als Pause." },
+      { "q": "Typische Mängel in NRW?", "a": "Schichtplan ohne JArbSchG-Check, fehlende Dokumentation, Ruhezeit unter 12 h, Samstagsarbeit ohne Ausnahmetatbestand." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG-Hub], [Link: /wissen/blog/jarbschg-unterweisung-aushang-dokumentation|Dokumentation]." }
+    ]
+  },
+  "jarbschg-verbotene-gefaehrliche-arbeiten": {
+    "bodySub": [
+      { "from": "Typische Fehler:", "to": "Häufig werden Jugendliche ohne Prüfung an Maschinen eingesetzt, Gefahrstofftätigkeiten nicht als verboten erkannt oder Ausnahmen falsch angewendet – das gehört vor jeder Einstellung in eine Checkliste." }
+    ],
+    "faq": [
+      { "q": "Welche Arbeiten sind für Jugendliche verboten?", "a": "Nach JArbSchG und Anhang – u. a. Gefahrstoffe mit CMR, bestimmte Maschinen, Absturzgefahr, schwere körperliche Lasten, alleinige Arbeit in bestimmten Situationen." },
+      { "q": "Gibt es Ausnahmen?", "a": "Für Auszubildende in engen Grenzen und unter Aufsicht – betrieblich und Tätigkeit genau prüfen, dokumentieren, nicht pauschal annehmen, Azubi dürfe alles." },
+      { "q": "Was tun vor Einstellung?", "a": "Tätigkeitsbeschreibung gegen Anhang prüfen, Arbeitsplatz anpassen, Unterweisung, ggf. arbeitsmedizinische Untersuchung nach JArbSchG." },
+      { "q": "Konsequenzen in NRW?", "a": "Bußgelder, Stilllegung, Haftungsrisiko – siehe [Link: /wissen/blog/strafen-arbeitsschutz|Konsequenzen] und [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG-Hub]." }
+    ]
+  },
+  "jarbschg-unterweisung-aushang-dokumentation": {
+    "faq": [
+      { "q": "Wie oft Jugendliche unterweisen?", "a": "Mindestens halbjährlich nach JArbSchG – zusätzlich bei Einstellung, Tätigkeitswechsel und nach Unfällen. Nicht nur jährliche ArbSchG-Unterweisung." },
+      { "q": "Was muss ausgehängt werden?", "a": "Gesetzlicher Aushang zu Jugendarbeitsschutz, erlaubte Arbeitszeiten, verbotene Arbeiten, Ansprechpartner – gut sichtbar, verständlich." },
+      { "q": "Typische Mängel?", "a": "Kein Aushang, Unterweisung nur einmalig, fehlende Dokumentation, Inhalte nicht altersgerecht verständlich." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung ArbSchG], [Link: /wissen/blog/jarbschg-arbeitszeit-ruhezeiten|Arbeitszeit] und [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG-Hub]." }
+    ]
+  },
+  "mutterschutz-muschg-einfach-erklaert": {
+    "vorbereitung": "Arbeitgeber sollten vor Mitteilung einer Schwangerschaft wissen, wo MuSchG-Aushang hängt, wie GBU nach § 10 ausgelöst wird und wer Mutterschutz koordiniert – mit Betriebsarzt und SiFa.",
+    "faq": [
+      { "q": "Was regelt das MuSchG?", "a": "Schutz von Müttern bei Beschäftigung, Schwangerschaft, Stillzeit – Beschäftigungsverbote, Schutzfristen, Arbeitszeitgrenzen, Mitteilungspflichten, GBU nach § 10." },
+      { "q": "Wer ist geschützt?", "a": "Schwangere, Stillende, Wöchnerinnen – auch bei geringer Wochenarbeitszeit und in Ausbildung. Arbeitgeber darf nicht benachteiligen." },
+      { "q": "Typische Mängel in NRW?", "a": "Keine GBU nach Mitteilung, fehlender Aushang, Gefahrstoffe ohne Anpassung, keine Stillmöglichkeit, Schutzfristen missachtet." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Schwangere], [Link: /wissen/blog/muschg-schutzfristen-arbeitszeit|Schutzfristen] und [Link: /wissen/blog/muschg-aushang-mitteilung-dokumentation|Aushang]." }
+    ]
+  },
+  "muschg-schutzfristen-arbeitszeit": {
+    "faq": [
+      { "q": "Was sind Schutzfristen nach MuSchG?", "a": "6 Wochen vor Entbindung (mit Beschäftigungsverbot auf Wunsch) und 8 Wochen danach (absolutes Beschäftigungsverbot, 12 Wochen bei Frühgeburt/Mehrlingen)." },
+      { "q": "Arbeitszeit während Schwangerschaft?", "a": "Max. 8,5 h täglich, 90 h in Doppelwoche – keine Nachtarbeit 20–6 Uhr, kein Sonn- und Feiertagsarbeit ohne Ausnahme, keine Überstunden." },
+      { "q": "Typische Mängel?", "a": "Schutzfristen nicht eingehalten, Heimarbeit ohne Prüfung, Schichtplan ignoriert MuSchG, keine Anpassung nach Mitteilung." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG-Hub], [Link: /wissen/blog/muschg-unzulaessige-taetigkeiten-schutzmasnahmen|Unzulässige Tätigkeiten]." }
+    ]
+  },
+  "muschg-unzulaessige-taetigkeiten-schutzmasnahmen": {
+    "faq": [
+      { "q": "Welche Tätigkeiten sind für Schwangere unzulässig?", "a": "Nach MuSchG und Anhang – u. a. Gefahrstoffe, biologische AG 3/4, schwere Lasten, bestimmte Strahlung, Absturz, alleinige Nachtarbeit, bestimmte Druckluft-/Tauchertätigkeiten." },
+      { "q": "Was sind Schutzmaßnahmen?", "a": "Umgestaltung, Versetzung, technische Schutzmaßnahmen, Beschäftigungsverbot bis wirksam – Abstimmung mit Betriebsarzt, Dokumentation in GBU." },
+      { "q": "Typische Mängel in NRW?", "a": "Tätigkeit ohne GBU fortgesetzt, PSA statt Substitution, fehlende Versetzung, Stillzeit ohne angepassten Arbeitsplatz." },
+      { "q": "Wo vertiefen?", "a": "[Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Schwangere], [Link: /wissen/blog/muschg-schutzfristen-arbeitszeit|Schutzfristen] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber]." }
+    ]
+  },
+  "muschg-aushang-mitteilung-dokumentation": {
+    "faq": [
+      { "q": "Was muss ausgehängt werden (MuSchG)?", "a": "Gesetzlicher Aushang zu Rechten und Pflichten im Mutterschutz – gut sichtbar, aktuelle Fassung, verständlich für alle Beschäftigten." },
+      { "q": "Mitteilungspflicht Schwangerschaft?", "a": "Beschäftigte sollen früh mitteilen – Arbeitgeber leitet unverzüglich GBU und Maßnahmen ein. Diskriminierungsschutz beachten." },
+      { "q": "Was dokumentieren?", "a": "GBU nach § 10, Maßnahmen, Beschäftigungsverbote, Versetzungen, Kenntnisnahme Betriebsarzt – vertraulich, nur befugte Personen." },
+      { "q": "Typische Mängel?", "a": "Kein Aushang, GBU fehlt nach Mitteilung, Information an Vorgesetzte ohne Datenschutz, Schutzmaßnahmen nicht nachverfolgt." }
+    ]
+  }
+}

@@ -20,6 +20,7 @@ const featuredFaqIds = [
 
 /** Empfohlene Blogbeiträge – thematisch stark und suchrelevant */
 const featuredBlogSlugs = [
+  "bauordnung-nrw-einfach-erklaert",
   "dguv-vorschrift-2",
   "asr-a2-2-brandschutzhelfer",
   "bestellung-fachkraft-arbeitssicherheit",

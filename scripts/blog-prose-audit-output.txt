@@ -1,0 +1,518 @@
+﻿=== Blog-Prosa-Audit (100 Beitr├ñge) ===
+
+{ total: 100, gruen: 29, orange: 18, gelb: 46, rot: 7 }
+
+--- Alle Beitr├ñge (Reihenfolge wie in blog.ts) ---
+
+001. [ORANGE] getraenke-am-arbeitsplatz
+     
+     Probleme: Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×Begehungs-Check zu Muss der Arbeitgeber Getr├ñnke zur Verf├╝gung stellen?: Dokumentation und Ma├ƒnahmenÔÇª"
+
+002. [GR├£N] akteure-arbeitsschutz
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+003. [ORANGE] bestellung-fachkraft-arbeitssicherheit
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Typische Fehler: Bestellung nur m├╝ndlich; keine Arbeitszeit im Vertrag; keine ausreichenden ZugangsrÔÇª"
+
+004. [GELB] brandschutz-lithium-ionen-batterien
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische betriebliche Szenarien: Stapler-Batteriewechsel und -lager, Ladeh├ñuschen im Hof, E-Bike-ParÔÇª"
+     ÔåÆ ÔÇ×Vorbeugung ÔÇô Handhabung: Nur Original- oder vom Hersteller freigegebene Ladeger├ñte; keine mechanischÔÇª"
+
+005. [GELB] brandschutz-brennbare-stoffe
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel (anonymisiert): Aceton-Reste im B├╝roregal; Folienrollen im Rettungsweg; offene LacktÔÇª"
+
+006. [GELB] dguv-vorschrift-2
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Qualifikation der Fachkraft f├╝r Arbeitssicherheit: Neben klassischen technischen Fachrichtungen sindÔÇª"
+     ÔåÆ ÔÇ×Typische Umsetzungsfehler nach der Neufassung: alte Betreuungsvertr├ñge ohne Anpassung an 2025; zu weÔÇª"
+
+007. [ORANGE] asr-a2-2-brandschutzhelfer
+     
+     Probleme: Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Ausbildungsinhalte (Mindestumfang nach ASR A2.2 / DGUV 205-023): Brandgefahren und -klassen; betriebÔÇª"
+
+008. [GELB] unterweisung-arbeitsschutz-fristen
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×┬º 12 Abs. 1 ArbSchG verlangt Anweisungen und Erl├ñuterungen, die auf den Arbeitsplatz oder AufgabenbeÔÇª"
+     ÔåÆ ÔÇ×Typische M├ñngel: nur allgemeine HR-Einf├╝hrung ohne fachliche Unterweisung am Arbeitsplatz; fehlende ÔÇª"
+
+009. [GELB] gefaehrdungsbeurteilung-ablauf
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 5 Abs. 2 ArbSchG: Die Beurteilung erfolgt je nach Art der T├ñtigkeiten; bei gleichartigen ArbeitsbeÔÇª"
+     ÔåÆ ÔÇ×Typische M├ñngel: generische Textbausteine ohne Begehung; Ma├ƒnahmen ohne Verantwortliche und Frist; fÔÇª"
+
+010. [GR├£N] sigeko-kosten-honorar-orientierung
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+011. [GELB] brandschutz-sachverstaendiger-koeln
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Pfeil-Liste (ÔåÆ)
+     ÔåÆ ÔÇ×Typische Leistungen eines Brandschutz-Sachverst├ñndigen: Erarbeitung von Brandschutzkonzept und -nachÔÇª"
+     ÔåÆ ÔÇ×Qualifikation und Pr├╝fung: Brandschutznachweise erfordern fundierte Kenntnisse der Bauordnung, TechnÔÇª"
+
+012. [GELB] strafen-arbeitsschutz
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×Typische bu├ƒgeldrelevante M├ñngel in der Praxis: fehlende oder veraltete Gef├ñhrdungsbeurteilung, keinÔÇª"
+     ÔåÆ ÔÇ×Begehungs-Check zu Welche Strafen gibt es im Arbeitsschutz? Bu├ƒgelder, Haftung und Konsequenzen: DokÔÇª"
+
+013. [GELB] pflichtuebertragung-arbeitsschutz
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: Empf├ñnger ohne Qualifikation oder ohne Weisungsbefugnis gegen├╝ber dem Team; keine EÔÇª"
+
+014. [ORANGE] brandschutzbeauftragter-aufgaben-pflichten
+     
+     Probleme: Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Das Aufgabenprofil der DGUV 205-003 umfasst 26 Einzelaufgaben ÔÇô im Bestellungsschreiben werden die bÔÇª"
+
+015. [GELB] baustellv-einfach-erklaert
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×┬º 7 sieht Ordnungswidrigkeiten bei fehlender Vorank├╝ndigung oder fehlendem SiGe-Plan vor ÔÇô Bu├ƒgeld nÔÇª"
+     ÔåÆ ÔÇ×Vor Baustart sollten Bauherren gekl├ñrt haben: Sind mehrere Arbeitgeber beteiligt? Ist ein SiGeKo besÔÇª"
+
+016. [GELB] baustellv-vorankuendigung-sige-plan
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×Beispiel: 8 Besch├ñftigte an 65 Tagen ergeben 520 Personentage ÔÇô Vorank├╝ndigung f├ñllig, auch ohne 20 ÔÇª"
+     ÔåÆ ÔÇ×Vor Baustart sollten Sie gekl├ñrt haben: Ist der Schwellenwert berechnet? Sind die Anhang-I-Angaben vÔÇª"
+
+017. [GR├£N] baustellv-sigeko-koordination-aufgaben
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+018. [ORANGE] baustellv-anhang-ii-gefaehrliche-arbeiten
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 2 Abs. 4 BaustellV gilt, wenn nur ein Arbeitgeber t├ñtig ist, aber Vorank├╝ndigung oder Anhang II grÔÇª"
+     ÔåÆ ÔÇ×┬º 2 Abs. 3 verlangt einen vollst├ñndigen SiGe-Plan, wenn mehrere Arbeitgeber und entweder eine VorankÔÇª"
+
+019. [GELB] sigeko-pflicht-wann-braucht-man-sigeko
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Qualifikation nach RAB 30: baufachliche, arbeitsschutzfachliche und koordinatorspezifische KenntnissÔÇª"
+     ÔåÆ ÔÇ×Typische Fehler: SiGe-Plan ohne Versionierung und ohne Fortschreibung bei Lage├ñnderungen; BegehungenÔÇª"
+
+020. [GELB] externe-fachkraft-arbeitssicherheit-koeln
+     
+     Probleme: Pfeil-Liste (ÔåÆ); Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typischer Ablauf: und Betreuungsplan mit Grund- und Zusatzbausteinen ÔåÆ mit Arbeitszeit, ZugangsrecÔÇª"
+     ÔåÆ ÔÇ×Typische Fehler: Bestellung ohne Arbeitszeit; Gef├ñhrdungsbeurteilung nur als Vorlage ohne Begehung; ÔÇª"
+
+021. [ORANGE] arbeitsschutzberatung-unternehmen
+     
+     Probleme: Pfeil-Liste (ÔåÆ)
+     ÔåÆ ÔÇ×Ablauf: Erstgespr├ñch und Kl├ñrung des Betreuungsbedarfs ÔåÆ Ist-Analyse von Dokumentation, Arbeitspl├ñtzÔÇª"
+
+022. [GR├£N] sicherheitsbeauftragte-schulung-koeln
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+023. [ORANGE] arbeitsschutz-dienstleister-nrw
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Qualifikation pr├╝fen: Nachweis der Bef├ñhigung nach , Berufserfahrung, ideal Branchenkenntnis (LogistÔÇª"
+     ÔåÆ ÔÇ×Typische Warnhinweise: keine schriftliche Bestellung; Copy-Paste-Gef├ñhrdungsbeurteilung ohne BegehunÔÇª"
+
+024. [ORANGE] unterweisung-arbeitssicherheit-pflicht
+     
+     Probleme: Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Pflicht-Anl├ñsse: vor Aufnahme der T├ñtigkeit; bei Ver├ñnderungen von Arbeitsmitteln, Stoffen oder VerfÔÇª"
+
+025. [ROT] arbeitsschutzgesetz-arbschg-uebersicht
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?); Abk├╝rzung ÔÇ×AGÔÇ£ ohne Ausschreibung
+     ÔåÆ ÔÇ×┬º 1 ArbSchG: Sicherheit und Gesundheitsschutz bei der Arbeit sichern und verbessern ÔÇô in allen T├ñtigÔÇª"
+     ÔåÆ ÔÇ×┬º 3 Grundpflichten: Ma├ƒnahmen treffen, auf Wirksamkeit pr├╝fen, Organisation und Mittel bereitstellenÔÇª"
+
+026. [GELB] arbschg-mehrere-arbeitgeber-zusammenarbeit
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Abk├╝rzung ÔÇ×AGÔÇ£ ohne Ausschreibung; Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×┬º 8 Abs. 1: Arbeitgeber arbeiten bei Sicherheit und Gesundheitsschutz zusammen ÔÇô gegenseitige UnterrÔÇª"
+     ÔåÆ ÔÇ×┬º 8 Abs. 2: Der Arbeitgeber muss sich vergewissern, dass fremde Besch├ñftigte in seinem Betrieb angemÔÇª"
+
+027. [GELB] arbschg-erste-hilfe-notfallmassnahmen
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×┬º 10 Abs. 1: Ma├ƒregeln nach Art der Arbeitsst├ñtte und T├ñtigkeiten; auch andere Personen (Besucher, KÔÇª"
+     ÔåÆ ÔÇ×┬º 10 Abs. 2: Benennung von Besch├ñftigten f├╝r Erste Hilfe, Brandbek├ñmpfung und Evakuierung ÔÇô Anzahl, ÔÇª"
+
+028. [ROT] arbschg-gewerbeaufsicht-begehung-nrw
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?); Abk├╝rzung ÔÇ×AGÔÇ£ ohne Ausschreibung
+     ÔåÆ ÔÇ×┬º 21 Abs. 1: Staatliche Aufgabe ÔÇô zust├ñndige Beh├Ârden ├╝berwachen und beraten. Auswahl der Betriebe nÔÇª"
+     ÔåÆ ÔÇ×┬º 21 Abs. 1a (neu ab 2026): Mindestens 5 Prozent der im Land vorhandenen Betriebe m├╝ssen pro KalendeÔÇª"
+
+029. [GR├£N] brandschutzordnung-din-14096
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+030. [GELB] brandschutzschulungen-unternehmen
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Schwachstellen: eine Folie f├╝r alle Standorte; keine Unterweisung von Leiharbeit; BSH-ZertiÔÇª"
+
+031. [ORANGE] gefaehrdungsbeurteilung-schwangere-mutterschutz
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Typische Gef├ñhrdungen: Gefahrstoffe und biologische Arbeitsstoffe (Kita, Pflege, Labor, Reinigung), ÔÇª"
+
+032. [GR├£N] psychische-gefaehrdungsbeurteilung-arbeitsplatz
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+033. [GELB] betriebsanweisungen-gefahrstoffe
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: SDB-Auszug ohne Betriebsbezug; veraltete BA nach Produktwechsel; BA nur in der VerwÔÇª"
+
+034. [GR├£N] flucht-und-rettungsplan-erstellen
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+035. [GELB] dguv-vorschrift-3-elektropruefung
+     
+     Probleme: Semikolon-Kette (ÔëÑ3); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Richtwristen (k├Ânnen in der Gef├ñhrdungsbeurteilung angepasst werden): ortsver├ñnderliche Ger├ñte in B├╝ÔÇª"
+     ÔåÆ ÔÇ×Typische Befunde: abgelaufene Plaketten trotz Nutzung; Verl├ñngerungskabel ohne Pr├╝fung; fehlender PrÔÇª"
+
+036. [ORANGE] iso-45001-arbeitsschutzmanagementsystem
+     
+     Probleme: Pfeil-Liste (ÔåÆ)
+     ÔåÆ ÔÇ×Einf├╝hrung typischerweise: Gap-Analyse gegen ISO 45001 und Ist-Arbeitsschutz ÔåÆ Prozess- und DokumentÔÇª"
+
+037. [GR├£N] brandschutzkonzept-erstellen
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+038. [GELB] vorbeugender-brandschutz-massnahmen
+     
+     Probleme: Pfeil-Liste (ÔåÆ); Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Schnittstelle Bau und Betrieb: Nach Fertigstellung oder Mieterausbau tr├ñgt der Betreiber die Pflege.ÔÇª"
+     ÔåÆ ÔÇ×Typische Schwachstellen aus Begehungen (anonymisiert): BMA wartungsf├ñllig, aber St├Ârung quittiert; FÔÇª"
+
+039. [GR├£N] ergonomie-kueche-kita-gefaehrdungsbeurteilung
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+040. [ORANGE] sifa-jahresbericht-was-gehoert-rein
+     
+     Probleme: Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Inhaltliche Schwerpunkte aus dem Berichtszeitraum: aktuelle Gef├ñhrdungsbeurteilung als Basis; UnfallÔÇª"
+
+041. [GR├£N] ist-zustandserfassung-externe-fasi
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+042. [GR├£N] pruefpflicht-handhubwagen-arbeitssicherheit
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+043. [GR├£N] externe-fasi-erstes-vertragsjahr-ablauf
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+044. [GR├£N] asa-sitzung-praxis-kita-arbeitsschutz
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+045. [GELB] sigeko-begehung-seitenschutz-abbruch-koeln
+     
+     Probleme: Fragenkette statt Flie├ƒtext (ÔëÑ4 ?); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Was der SiGeKo bei Absturzgefahr pr├╝ft: Sind alle Absturzkanten und ├ûffnungen mit Seitenschutz, AbdeÔÇª"
+     ÔåÆ ÔÇ×Typische Feststellungen: unvollst├ñndiger Seitenschutz an Deckenkanten, provisorische Absicherungen oÔÇª"
+
+046. [ORANGE] rauchen-baustelle-arbstattv-sigeko
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 5 ArbSt├ñttV verpflichtet zum Nichtraucherschutz am Arbeitsplatz. Das gilt auch auf Baustellen ÔÇô eiÔÇª"
+
+047. [GELB] gbu-schnittstelle-mehrere-gewerke-bauprojekt
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: Gef├ñhrdungsbeurteilung als Sammelordner f├╝r Sicherheitsdatenbl├ñtter; keine BenennunÔÇª"
+
+048. [GR├£N] sigeko-projektverlauf-neubau-wohngebaeude-nrw
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+049. [GR├£N] sigeko-dacharbeiten-absturz-bestand-koeln
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+050. [ORANGE] sigeko-innenausbau-bestand-leistungsumfang
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Typische Mehrkostenfaktoren in K├Âln: Innenstadtlage, Anlieferung, Nachbarschaft, geteilte Zufahrten,ÔÇª"
+
+051. [GR├£N] sigeko-koeln-kosten
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+052. [GR├£N] bauordnung-nrw-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+053. [GELB] sonderbauverordnung-teil-1-versammlungsstaetten
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 1 SBauV ÔÇô wann gilt Teil 1? Die Vorschriften gelten f├╝r den Bau und Betrieb von Versammlungsst├ñtteÔÇª"
+     ÔåÆ ÔÇ×Besucherzahl ermitteln (┬º 1 Abs. 2): Stehen keine Bauvorlagen zur Verf├╝gung, rechnet man pauschal ÔÇô ÔÇª"
+
+054. [ROT] sonderbauverordnung-teil-2-beherbergungsstaetten
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 47 SBauV ÔÇô Anwendungsbereich: Die Vorschriften des Teils 2 gelten f├╝r Beherbergungsst├ñtten mit mehÔÇª"
+     ÔåÆ ÔÇ×┬º 48 Begriffe und allgemeine Anforderungen: Beherbergungsst├ñtten sind Geb├ñude oder Geb├ñudeteile f├╝r ÔÇª"
+
+055. [ROT] sonderbauverordnung-teil-3-verkaufsstaetten
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 60 Anwendungsbereich: Teil 3 gilt f├╝r jede Verkaufsst├ñtte, deren Verkaufsr├ñume und Ladenstra├ƒen eiÔÇª"
+     ÔåÆ ÔÇ×┬º 61 Begriffe: Verkaufsst├ñtten sind Geb├ñude oder Teile davon, die dem Warenverkauf dienen und mindesÔÇª"
+
+056. [ROT] sonderbauverordnung-teil-4-hochhaeuser
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 92 Anwendungsbereich: Teil 4 regelt besondere Anforderungen und Erleichterungen im Sinne von ┬º 50 ÔÇª"
+     ÔåÆ ÔÇ×┬º 93 Zufahrten und Feuerwehrzugang: F├╝r Einsatz- und Rettungsfahrzeuge sind ausreichende Zu- oder DuÔÇª"
+
+057. [ROT] sonderbauverordnung-teil-5-garagen
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 121 Anwendungsbereich: Teil 5 gilt f├╝r Stellpl├ñtze und Garagen nach BauO NRW. Wo Teil 5 nichts AbwÔÇª"
+     ÔåÆ ÔÇ×┬º 122 Begriffe ÔÇô Grundlage der Planung: Nach Nutzfl├ñche unterscheidet die SBauV Kleingaragen (bis 10ÔÇª"
+
+058. [ROT] sonderbauverordnung-teil-6-elektrische-anlagen
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 143 Anwendungsbereich: Teil 6 gilt f├╝r die Aufstellung von (1) Transformatoren und Schaltanlagen mÔÇª"
+     ÔåÆ ÔÇ×┬º 144 Begriff: Elektrische Betriebsr├ñume sind R├ñume, die ausschlie├ƒlich Einrichtungen nach ┬º 143 aufÔÇª"
+
+059. [ORANGE] sonderbauverordnung-teil-7-schlussvorschriften
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 150 ÔÇô Inkrafttreten: Die SBauV NRW 2018 trat am Tag nach der Verk├╝ndung in Kraft ÔÇô parallel zur . ÔÇª"
+
+060. [ORANGE] bhkg-nrw-einfach-erklaert
+     
+     Probleme: Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×Vier Ebenen im Alltag: Verwechslungen entstehen, wenn Begriffe aus verschiedenen Rechtsbereichen verÔÇª"
+
+061. [ORANGE] brandverhuetungsschau-bhkg-nrw
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Checkliste vor dem Termin: Halten Sie Genehmigung, Brandschutzkonzept und das letzte Schau-ProtokollÔÇª"
+
+062. [ORANGE] bma-leitstelle-bhkg-nrw
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 28 BHKG ÔÇô die einheitliche Leitstelle: Die st├ñndig besetzte Leitstelle f├╝r Brandschutz, HilfeleistÔÇª"
+
+063. [GELB] brandsicherheitswache-bhkg-nrw
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×┬º 27 BHKG ÔÇô wann ist Anzeige n├Âtig? Wenn bei einer Veranstaltung erh├Âhte Brandgefahr besteht und im ÔÇª"
+     ÔåÆ ÔÇ×Typische F├ñlle: Open-Air-Konzerte mit Pyrotechnik, Messen mit Hei├ƒarbeit auf St├ñnden, Sportevents miÔÇª"
+
+064. [GELB] baupruefvo-nrw-einfach-erklaert
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 9 BauPr├╝fVO ÔÇô Brandschutzkonzept: Das Gesetz definiert es als zielorientierte Gesamtbewertung des ÔÇª"
+     ÔåÆ ÔÇ×Typische Fehler in der Praxis: Pr├╝fingenieur Brandschutz erst nach Monaten Planungsarbeit beauftrageÔÇª"
+
+065. [GELB] brandschutzkonzept-paragraph-9-baupruefvo
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: Konzept ohne Nutzerzahl und Evakuierungsgrundz├╝ge; fehlende Feuerwehrplanung; BMA gÔÇª"
+
+066. [GELB] brandschutzkonzept-betrieb-brandverhuetungsschau
+     
+     Probleme: Fragenkette statt Flie├ƒtext (ÔëÑ4 ?); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Was die Schau am Konzept misst ÔÇô und was nicht: Die Schau bewertet nicht, ob das Konzept damals gut ÔÇª"
+     ÔåÆ ÔÇ×Typische Br├╝che in der Kette: Mieterausbauten ohne Abstimmung mit Genehmigung und Konzept. LagerzoneÔÇª"
+
+067. [GELB] pruefvo-nrw-einfach-erklaert
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: Wartungsvertrag mit Errichterfirma ohne Pr├╝fsachverst├ñndigen-Qualifikation; Erstpr├╝ÔÇª"
+
+068. [GELB] wirk-prinzip-pruefung-pruefvo-nrw
+     
+     Probleme: Semikolon-Kette (ÔëÑ3); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Was ÔÇ×bestimmungsgem├ñ├ƒÔÇ£ hei├ƒt: Ma├ƒstab ist nicht die aktuelle Wartungsmeinung der Firma, sondern die ÔÇª"
+     ÔåÆ ÔÇ×Typische M├ñngel aus Wirk-Prinzip-Pr├╝fungen: RWA startet nicht bei Melder in angrenzender Zone; DruckÔÇª"
+
+069. [GELB] bma-pruefung-pruefvo-nrw-fristen
+     
+     Probleme: Semikolon-Kette (ÔëÑ3); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Was der Pr├╝fsachverst├ñndige pr├╝ft ÔÇô ├£berblick: Vollst├ñndigkeit und Funktion der Melder, Handmelder uÔÇª"
+     ÔåÆ ÔÇ×Dokumentation f├╝r Betreiber: F├╝hren Sie f├╝r die BMA mindestens: Datum der letzten Pr├╝fVO-Pr├╝fung undÔÇª"
+
+070. [GELB] sprinkler-rwa-pruefung-pruefvo-nrw
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Fehler: Nur Sprinkler-Inspizient, kein Pr├╝fsachverst├ñndiger RWA; nat├╝rliche RWA seit JahrenÔÇª"
+
+071. [GELB] betrsichv-einfach-erklaert
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×┬º 12 BetrSichV ÔÇô Unterweisung: Besch├ñftigte, die Arbeitsmittel verwenden, m├╝ssen ausreichend und angÔÇª"
+     ÔåÆ ÔÇ×Praxis K├Âln und NRW: Typische Arbeitsmittel in KMU sind Handhubwagen, Regale, Hebezeuge, Druckluft, ÔÇª"
+
+072. [GR├£N] asr-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+073. [ORANGE] asr-a6-bildschirmarbeit
+     
+     Probleme: Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Typische M├ñngel aus Begehungen: Monitor zu hoch oder zu nah, feste St├╝hle ohne Verstellung, Glanz auÔÇª"
+
+074. [GR├£N] asr-a3-7-laerm-arbeitsplatz
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+075. [GR├£N] asr-a2-1-absturz-absturzsicherung
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+076. [GR├£N] asr-a4-3-erste-hilfe-arbeitsstaette
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+077. [GR├£N] trgs-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+078. [GELB] trgs-400-gefaehrdungsbeurteilung-gefahrstoffe
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: GBU aus dem Internet ohne Betriebsbezug; Verzeichnis veraltet; neue Produkte im EinÔÇª"
+
+079. [GELB] trgs-509-510-lagerung-gefahrstoffe
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: Aceton im B├╝roregal; ├╝berf├╝llte Sicherheitsschr├ñnke; unbeschriftete Kanister; LagerÔÇª"
+
+080. [GELB] trgs-528-schweisstechnische-arbeiten
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: Schwei├ƒen ohne Absaugung in geschlossener Halle; fehlende Hei├ƒarbeit-Freigabe; brenÔÇª"
+
+081. [GR├£N] trbs-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+082. [GELB] trbs-1111-gefaehrdungsbeurteilung-arbeitsmittel
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: GBU-Text aus dem Internet ohne Maschinenliste; neue Anlage ohne GBU-Eintrag; Pr├╝fplÔÇª"
+
+083. [GELB] trbs-1201-1203-pruefung-befaehigte-person
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: Pr├╝fung ohne Qualifikationsnachweis; abgelaufene Fristen; Sichtpr├╝fung durch LageriÔÇª"
+
+084. [GELB] trbs-2121-absturz-leitern
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische M├ñngel: Leiter ohne Kennzeichnung und Pr├╝fung; Ger├╝st ohne Aufbauplan; fehlender SeitenschuÔÇª"
+
+085. [GR├£N] dguv-vorschriften-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+086. [GELB] dguv-vorschrift-1-grundsaetze-praevention
+     
+     Probleme: Viele Gedankenstriche (Listenrhythmus); Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×STOP in der Praxis: Substitution ÔÇô z. B. weniger giftiger Reiniger. Technische Ma├ƒnahmen ÔÇô AbsaugungÔÇª"
+     ÔåÆ ÔÇ×Typische M├ñngel: GBU listet nur PSA; Substitution nie gepr├╝ft; Ma├ƒnahmen aus Vorlagen ohne Begehung;ÔÇª"
+
+087. [GELB] dguv-vorschrift-38-bauarbeiten
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3); Viele Gedankenstriche (Listenrhythmus)
+     ÔåÆ ÔÇ×Typische Themen in V38: Planung und Vorbereitung; Sicherheit von Arbeitspl├ñtzen und Verkehrswegen; AÔÇª"
+     ÔåÆ ÔÇ×Vier Ebenen auf der Baustelle: Erstens BaustellV/SiGeKo ÔÇô Koordination, SiGe-Plan, Vorank├╝ndigung. ZÔÇª"
+
+088. [GELB] dguv-vorschrift-67-flurfoerderzeuge
+     
+     Probleme: Semikolon-Kette (ÔëÑ3); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×Pflichten in Kurzform: Geeignete Ger├ñte w├ñhlen; wiederkehrende Pr├╝fung durch bef├ñhigte Person; UnterÔÇª"
+     ÔåÆ ÔÇ×Typische M├ñngel: Stapler ohne g├╝ltige Pr├╝fung; Handhubwagen ohne Wartung; Fu├ƒg├ñnger und Stapler ohneÔÇª"
+
+089. [GR├£N] jugendarbeitsschutz-jarbschg-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+090. [GR├£N] jarbschg-arbeitszeit-ruhezeiten
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+091. [GELB] jarbschg-verbotene-gefaehrliche-arbeiten
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Semikolon-Kette (ÔëÑ3)
+     ÔåÆ ÔÇ×Typische Verbote und Grenzen: Arbeiten mit erheblicher Gef├ñhrdung durch Maschinen, Fahrzeuge oder TiÔÇª"
+     ÔåÆ ÔÇ×Vor der ersten T├ñtigkeit: ├ñrztliche Untersuchung kann erforderlich sein; Unterweisung an Maschinen uÔÇª"
+
+092. [GELB] jarbschg-unterweisung-aushang-dokumentation
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×┬º 29 Unterweisung ├╝ber Gefahren: Vor der ersten T├ñtigkeit und mindestens halbj├ñhrlich wiederholen ÔÇô ÔÇª"
+     ÔåÆ ÔÇ×┬º 47 Gesetz und Aufsichtsbeh├Ârde: Wer regelm├ñ├ƒig mindestens einen Jugendlichen besch├ñftigt, stellt eÔÇª"
+
+093. [GR├£N] mutterschutz-muschg-einfach-erklaert
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+094. [GELB] muschg-schutzfristen-arbeitszeit
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×┬º 3 Schutzfristen: In der Regel sechs Wochen vor der Entbindung und acht Wochen danach darf die FrauÔÇª"
+     ÔåÆ ÔÇ×┬º 4 Mehrarbeit und Ruhezeit: Mehrarbeit ist w├ñhrend Schwangerschaft und Stillzeit verboten. ZwischenÔÇª"
+
+095. [GELB] muschg-unzulaessige-taetigkeiten-schutzmasnahmen
+     
+     Probleme: Stichwort-├£berschrift statt Satz; Viele Gedankenstriche (Listenrhythmus); Paragraph beginnt mit ┬º-Referenz (telegrafisch)
+     ÔåÆ ÔÇ×Typische Gef├ñhrdungen: Gefahrstoffe und biologische Arbeitsstoffe ├╝ber Grenzwerten ÔÇô , . Regelm├ñ├ƒigeÔÇª"
+     ÔåÆ ÔÇ×┬º 13 Rangfolge: Erst Arbeitsbedingungen umgestalten, dann Arbeitsplatzwechsel, erst danach betriebliÔÇª"
+
+096. [GELB] muschg-aushang-mitteilung-dokumentation
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz; Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×┬º 26 Aushang: In jedem Betrieb, in dem Frauen besch├ñftigt sind, muss das MuSchG an geeigneter StelleÔÇª"
+     ÔåÆ ÔÇ×┬º 14 Dokumentation: Ergebnis der Beurteilung, festgelegte Schutzma├ƒnahmen, Mitteilung an die Besch├ñfÔÇª"
+
+097. [GELB] teilhabe-sgb-ix-einfach-erklaert
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Stichwort-├£berschrift statt Satz
+     ÔåÆ ÔÇ×┬º 164 verlangt behinderungsgerechte Gestaltung von Arbeitsst├ñtten, Maschinen, Organisation und ArbeiÔÇª"
+     ÔåÆ ÔÇ×Vertiefung in den Spokes: , , . Health and Safety+ ÔÇô , .ÔÇª"
+
+098. [GR├£N] sgb-ix-beschaeftigungspflicht-ausgleichsabgabe
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+099. [GR├£N] sgb-ix-arbeitsplatz-gestaltung-gbu
+     
+     Ô£ô Durchg├ñngig lesbar, keine auff├ñlligen Stil-Muster.
+
+100. [GELB] sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter
+     
+     Probleme: Paragraph beginnt mit ┬º-Referenz (telegrafisch); Fragenkette statt Flie├ƒtext (ÔëÑ4 ?)
+     ÔåÆ ÔÇ×┬º 177 SGB IX: Mindestens f├╝nf schwerbehinderte Besch├ñftigte, die nicht nur vor├╝bergehend im Betrieb ÔÇª"
+     ÔåÆ ÔÇ×Zusatzurlaub f├╝nf Tage (┬º 208), K├╝ndigungsschutz (┬º 168 ff.), Nachteilsausgleich (┬º 209) ÔÇô HR-SchwerÔÇª"
+

@@ -1,0 +1,205 @@
+{
+  "bestellung-fachkraft-arbeitssicherheit": {
+    "faq": [
+      {
+        "q": "Wann muss eine Fachkraft für Arbeitssicherheit bestellt werden?",
+        "a": "Grundsätzlich jeder Arbeitgeber nach ASiG § 5 – intern oder extern. Umfang richtet sich nach DGUV Vorschrift 2 (Grund- und betriebsspezifische Betreuung). Ausnahmen nur in eng begrenzten Fällen prüfen."
+      },
+      {
+        "q": "Was muss die schriftliche Bestellung enthalten?",
+        "a": "Aufgaben, Betreuungsumfang, Arbeitszeit, Zugang zu Arbeitsstätten und Unterlagen, Qualifikation und Weisungsfreiheit bei sicherheitstechnischer Beratung. Mündliche Bestellungen reichen bei Prüfungen nicht."
+      },
+      {
+        "q": "Gilt das in Köln und NRW?",
+        "a": "Ja – ASiG und DGUV V2 gelten bundesweit. Berufsgenossenschaft und Gewerbeaufsicht in NRW prüfen Bestellung, Betreuungsplan und Jahresbericht betriebsspezifisch."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "Zu [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2], [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|externe Fachkraft Köln] und [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht]."
+      }
+    ]
+  },
+  "brandschutz-lithium-ionen-batterien": {
+    "faq": [
+      {
+        "q": "Welche Betriebe brauchen ein Li-Ion-Löschkonzept?",
+        "a": "Überall, wo Lithium-Ionen-Batterien geladen, gelagert oder repariert werden – Staplerflotten, E-Bikes, Werkzeuge, Wallboxen, PV-Speicher. Die Brandgefahr gehört in die Gefährdungsbeurteilung nach § 5 ArbSchG."
+      },
+      {
+        "q": "Was ist Thermal Runaway und warum reicht CO₂ oft nicht?",
+        "a": "Eine Kettenreaktion in der Zelle mit starker Wärme- und Gasfreisetzung. Der Brand kann stundenlang wieder aufflammen – bei größeren Packs ist Kühlung (Wasser/Wassernebel) oft nötig, nicht kurzes Löschen."
+      },
+      {
+        "q": "Was sind typische Mängel bei Li-Ion-Brandschutz?",
+        "a": "Ladezonen neben brennbaren Lagern, defekte Akkus ohne Quarantäne, fehlende Unterweisung, keine BMA-Abstimmung und Wallboxen ohne Abstimmung mit Brandschutzkonzept – häufig in Köln und NRW bei Begehungen."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragter], [Link: /wissen/blog/brandschutzordnung-din-14096|BSO DIN 14096] und [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]."
+      }
+    ]
+  },
+  "brandschutz-brennbare-stoffe": {
+    "faq": [
+      {
+        "q": "Welche brennbaren Stoffe sind im Betrieb relevant?",
+        "a": "Nicht nur Gefahrstoffe im Regal: Papier, Folien, Lacke, Gase, Holzstaub, Kühlschmiermittel-Dämpfe. Entscheidend ist das Brandverhalten vor Ort – in GBU und [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen] abbilden."
+      },
+      {
+        "q": "Was regelt TRGS 800 für brennbare Stoffe?",
+        "a": "Lagerung, Mengenbegrenzung, Betriebsanweisungen und Schutzmaßnahmen für brennbare Flüssigkeiten und Gase. Brandschutz und Gefahrstoffrecht greifen ineinander – ein Protokoll für beide Spalten bei Begehungen."
+      },
+      {
+        "q": "Typische Mängel in Köln und NRW?",
+        "a": "Aceton im Büroregal, Folien im Rettungsweg, offene Lacktonnen ohne Lüftung, Staubschichten unter Dachsparren und fehlende Heißarbeit-Freigabe neben Lösemittellager."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/trgs-einfach-erklaert|TRGS], [Link: /wissen/blog/brandschutz-lithium-ionen-batterien|Li-Ion-Brandschutz] und [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz]."
+      }
+    ]
+  },
+  "dguv-vorschrift-2": {
+    "faq": [
+      {
+        "q": "Was regelt die DGUV Vorschrift 2?",
+        "a": "Betriebliche Betreuung durch Betriebsärzte und Fachkräfte für Arbeitssicherheit: Grund- und betriebsspezifische Anteile, Betreuungsplan, Bestellung und SiFa-Jahresbericht nach ASiG."
+      },
+      {
+        "q": "Was ändert die Neufassung 2025?",
+        "a": "Klarere Trennung verpflichtender und empfohlener Regelungen, präzisere Definition von Grund- und Zusatzbetreuung, Regelungen zur digitalen Betreuung – Schutzniveau bleibt gleich."
+      },
+      {
+        "q": "Typische Mängel bei DGUV V2-Umsetzung?",
+        "a": "Alte Betreuungsverträge, zu wenig eingeplante SiFa-Zeit, fehlende GBU zu psychischer Belastung, Jahresberichte ohne Bezug zu umgesetzten Maßnahmen – auch in Köln und NRW häufig."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Bestellung SiFa], [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV-Hub] und [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|Jahresbericht]."
+      }
+    ]
+  },
+  "asr-a2-2-brandschutzhelfer": {
+    "faq": [
+      {
+        "q": "Wie viele Brandschutzhelfer braucht ein Betrieb?",
+        "a": "ASR A2.2 verlangt eine ausreichende Anzahl aus der Gefährdungsbeurteilung – in der Regel etwa 5 % der Beschäftigten, bei erhöhter Brandgefahr mehr. Schichtbetrieb und Vertretung einplanen."
+      },
+      {
+        "q": "Wie lange dauert die Ausbildung?",
+        "a": "Nach DGUV Information 205-023 mindestens 2 UE Theorie plus praxisbezogene Löschübung – insgesamt meist drei bis vier UE. Wiederholung alle zwei bis fünf Jahre, anlassbezogen nach Umbauten."
+      },
+      {
+        "q": "Typische Mängel bei Brandschutzhelfern?",
+        "a": "Benannt aber nie geschult, Schulung ohne Löschpraxis, keine Nachtschicht abgedeckt, Verwechslung mit Ersthelfer oder allgemeiner Brandschutzunterweisung aller Beschäftigten."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/brandschutzordnung-din-14096|BSO DIN 14096], [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragter] und [Link: /wissen/blog/asr-einfach-erklaert|ASR-Hub]."
+      }
+    ]
+  },
+  "unterweisung-arbeitsschutz-fristen": {
+    "faq": [
+      {
+        "q": "Wie oft muss unterwiesen werden?",
+        "a": "Bei Einstellung, bei Veränderungen, vor neuen Arbeitsmitteln – und erforderlichenfalls regelmäßig wiederholt. In NRW in der Praxis mindestens jährlich; Auszubildende halbjährlich nach JArbSchG."
+      },
+      {
+        "q": "Was muss dokumentiert werden?",
+        "a": "Datum, Thema, Teilnehmer, unterweisende Person, Bezug zur GBU- oder Betriebsanweisungsversion. Getrennte Nachweise für Arbeitsschutz, Gefahrstoffe und Brandschutz erleichtern Audits."
+      },
+      {
+        "q": "Darf Unterweisung digital erfolgen?",
+        "a": "Ja, wenn Verständnis nachweisbar und Ansprechperson erreichbar ist. Für PSA, Gefahrstoffe und Arbeitsmittel empfiehlt die Arbeitsschutzverwaltung NRW oft Präsenz mit Demonstration am Arbeitsplatz."
+      },
+      {
+        "q": "Typische Mängel in Köln und NRW?",
+        "a": "Unterweisung älter als ein Jahr bei geänderter GBU, nur HR-Einführung statt arbeitsplatzbezogener Unterweisung, fehlende Nachunterweisung nach Umbau, Sprache ohne Verständlichkeit."
+      }
+    ]
+  },
+  "gefaehrdungsbeurteilung-ablauf": {
+    "faq": [
+      {
+        "q": "Wer ist für die Gefährdungsbeurteilung verantwortlich?",
+        "a": "Der Arbeitgeber nach § 5 ArbSchG. Fachlich erstellen und begleiten in der Regel SiFa und Betriebsarzt; Beschäftigte liefern IST-Wissen. Dokumentation ohne Umsetzung erfüllt die Pflicht nicht."
+      },
+      {
+        "q": "Wann muss die GBU fortgeschrieben werden?",
+        "a": "Unverzüglich bei maßgeblichen Änderungen, neuen Arbeitsmitteln, neuen Erkenntnissen, nach Unfällen oder wenn Maßnahmen nicht wirksam sind – ergänzend planmäßiger Review etwa jährlich."
+      },
+      {
+        "q": "Was muss nach § 6 ArbSchG dokumentiert sein?",
+        "a": "Ergebnis der Beurteilung, festgelegte Maßnahmen, Ergebnis der Wirksamkeitsprüfung – mit Bewertungsmethode, Verantwortlichen, Fristen und Version."
+      },
+      {
+        "q": "Typische Mängel bei GBU in NRW?",
+        "a": "Generische Textbausteine ohne Begehung, Maßnahmen ohne Verantwortliche, fehlende psychische Belastung, Widerspruch zwischen GBU und Unterweisungsnachweisen."
+      }
+    ]
+  },
+  "sigeko-kosten-honorar-orientierung": {
+    "vorbereitung": "Bei der Angebotsprüfung sollten Sie klären, ob Vorplanung und Ausführungsphase abgedeckt sind, Begehungen und Einweisungen verbindlich benannt werden und Mehrleistungen bei Lageänderungen geregelt sind. Ein Angebot nur für den SiGe-Plan ohne Koordination deckt die BaustellV-Pflichten in der Regel nicht ab.",
+    "faq": [
+      {
+        "q": "Wovon hängt das SiGeKo-Honorar ab?",
+        "a": "Von Bauzeit, Anzahl Gewerke, Begehungstiefe, Anhang-II-Anteil, Logistik und ob Vorplanung und Ausführung abgedeckt sind – nicht von pauschalem Euro pro Quadratmeter."
+      },
+      {
+        "q": "Was sollte im Leistungsverzeichnis stehen?",
+        "a": "Pauschalen je Phase oder Monatspauschale, verbindliche Mengen (Begehungen, Einweisungen, Planversionen), Mehrleistungsregelung und Reaktionszeiten bei akuten Mängeln."
+      },
+      {
+        "q": "Typische Angebotsmängel?",
+        "a": "SiGe-Plan ohne Ausführungsphase, keine Begehungen, fehlende Vorankündigung, Generalunternehmer-Modell ohne SiGeKo – in Köln und NRW häufig bei innerstädtischen Umbauten."
+      },
+      {
+        "q": "Wo Orientierung finden?",
+        "a": "[Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln] und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber]."
+      }
+    ]
+  },
+  "brandschutz-sachverstaendiger-koeln": {
+    "vorbereitung": "Vor Genehmigung oder Nutzungsänderung sollten Sie klären, ob Sachverständiger und [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragter] getrennt benannt sind, Genehmigungsunterlagen zum IST-Betrieb passen und der betriebliche Brandschutz parallel vorbereitet wird.",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied Sachverständiger und Brandschutzbeauftragter?",
+        "a": "Der Sachverständige erstellt bauordnungsrechtliche Nachweise (Konzept, Nachweis, Stellungnahmen). Der BSB organisiert laufenden betrieblichen Brandschutz nach ArbStättV – beide Rollen ergänzen sich."
+      },
+      {
+        "q": "Wann braucht man einen Brandschutz-Sachverständigen?",
+        "a": "Bei Sonderbauten, Nutzungsänderungen, Abweichungen von Technischen Baubestimmungen, behördlichen Auflagen oder Versichereranforderungen – nicht bei jedem Regelbau."
+      },
+      {
+        "q": "Typische Mängel in Köln?",
+        "a": "Konzept und betriebliche Organisation widersprechen sich, BSB fehlt nach Eröffnung, Genehmigungsunterlagen veraltet bei Umbau, Rollenverwechslung zwischen Sachverständigem und BSB."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/brandschutzkonzept-erstellen|Brandschutzkonzept], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO NRW] und [Link: /brandschutz|Leistungen Brandschutz]."
+      }
+    ]
+  },
+  "strafen-arbeitsschutz": {
+    "vorbereitung": "Vor Prüfungen sollten Gefährdungsbeurteilung, Unterweisungsnachweise und Maßnahmenpläne aktuell sein – das reduziert Bußgeld- und Haftungsrisiken. Die Abstimmung mit [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] und Betriebsarzt gehört dazu.",
+    "faq": [
+      {
+        "q": "Welche Bußgelder drohen im Arbeitsschutz?",
+        "a": "Nach § 25 ArbSchG oft bis 5.000 Euro; bei Zuwiderhandlung gegen vollziehbare Anordnungen bis 30.000 Euro. Spezialgesetze können höhere Obergrenzen haben."
+      },
+      {
+        "q": "Wann wird es strafrechtlich relevant?",
+        "a": "Bei Personenschaden durch Pflichtverletzung können fahrlässige Körperverletzung (§ 229 StGB) oder fahrlässige Tötung (§ 222 StGB) relevant werden – auch für Geschäftsführung."
+      },
+      {
+        "q": "Was verschärft die Bewertung im Schadensfall?",
+        "a": "Fehlende Organisation, keine SiFa, keine Wirksamkeitskontrolle, [Link: /wissen/blog/pflichtuebertragung-arbeitsschutz|Pflichtenübertragung] ohne Aufsicht – Regress der BG möglich."
+      },
+      {
+        "q": "Wie vorbeugen in NRW?",
+        "a": "Systematischer Arbeitsschutz mit SiFa, Betriebsarzt, ASA ab 20 Beschäftigten, Prüfkalender und dokumentierten Unterweisungen – siehe [Link: /wissen/blog/arbschg-gewerbeaufsicht-begehung-nrw|Behörde und Begehung]."
+      }
+    ]
+  }
+}

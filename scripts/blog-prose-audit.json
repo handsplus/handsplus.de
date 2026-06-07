@@ -1,0 +1,911 @@
+{
+  "summary": {
+    "total": 100,
+    "gruen": 100,
+    "orange": 0,
+    "gelb": 0,
+    "rot": 0
+  },
+  "results": [
+    {
+      "slug": "getraenke-am-arbeitsplatz",
+      "title": "",
+      "words": 342,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "akteure-arbeitsschutz",
+      "title": "",
+      "words": 290,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "bestellung-fachkraft-arbeitssicherheit",
+      "title": "",
+      "words": 251,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutz-lithium-ionen-batterien",
+      "title": "",
+      "words": 693,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutz-brennbare-stoffe",
+      "title": "",
+      "words": 495,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschrift-2",
+      "title": "",
+      "words": 327,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-a2-2-brandschutzhelfer",
+      "title": "",
+      "words": 564,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "unterweisung-arbeitsschutz-fristen",
+      "title": "",
+      "words": 459,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "gefaehrdungsbeurteilung-ablauf",
+      "title": "",
+      "words": 447,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-kosten-honorar-orientierung",
+      "title": "",
+      "words": 460,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutz-sachverstaendiger-koeln",
+      "title": "",
+      "words": 467,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "strafen-arbeitsschutz",
+      "title": "",
+      "words": 395,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "pflichtuebertragung-arbeitsschutz",
+      "title": "",
+      "words": 282,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzbeauftragter-aufgaben-pflichten",
+      "title": "",
+      "words": 508,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "baustellv-einfach-erklaert",
+      "title": "",
+      "words": 480,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "baustellv-vorankuendigung-sige-plan",
+      "title": "",
+      "words": 470,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "baustellv-sigeko-koordination-aufgaben",
+      "title": "",
+      "words": 606,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "baustellv-anhang-ii-gefaehrliche-arbeiten",
+      "title": "",
+      "words": 1017,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-pflicht-wann-braucht-man-sigeko",
+      "title": "",
+      "words": 471,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "externe-fachkraft-arbeitssicherheit-koeln",
+      "title": "",
+      "words": 360,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbeitsschutzberatung-unternehmen",
+      "title": "",
+      "words": 313,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sicherheitsbeauftragte-schulung-koeln",
+      "title": "",
+      "words": 237,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbeitsschutz-dienstleister-nrw",
+      "title": "",
+      "words": 182,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "unterweisung-arbeitssicherheit-pflicht",
+      "title": "",
+      "words": 208,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbeitsschutzgesetz-arbschg-uebersicht",
+      "title": "",
+      "words": 549,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbschg-mehrere-arbeitgeber-zusammenarbeit",
+      "title": "",
+      "words": 266,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbschg-erste-hilfe-notfallmassnahmen",
+      "title": "",
+      "words": 227,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "arbschg-gewerbeaufsicht-begehung-nrw",
+      "title": "",
+      "words": 440,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzordnung-din-14096",
+      "title": "",
+      "words": 706,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzschulungen-unternehmen",
+      "title": "",
+      "words": 599,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "gefaehrdungsbeurteilung-schwangere-mutterschutz",
+      "title": "",
+      "words": 353,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "psychische-gefaehrdungsbeurteilung-arbeitsplatz",
+      "title": "",
+      "words": 288,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "betriebsanweisungen-gefahrstoffe",
+      "title": "",
+      "words": 263,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "flucht-und-rettungsplan-erstellen",
+      "title": "",
+      "words": 553,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschrift-3-elektropruefung",
+      "title": "",
+      "words": 347,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "iso-45001-arbeitsschutzmanagementsystem",
+      "title": "",
+      "words": 274,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzkonzept-erstellen",
+      "title": "",
+      "words": 366,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "vorbeugender-brandschutz-massnahmen",
+      "title": "",
+      "words": 536,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "ergonomie-kueche-kita-gefaehrdungsbeurteilung",
+      "title": "",
+      "words": 342,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sifa-jahresbericht-was-gehoert-rein",
+      "title": "",
+      "words": 260,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "ist-zustandserfassung-externe-fasi",
+      "title": "",
+      "words": 257,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "pruefpflicht-handhubwagen-arbeitssicherheit",
+      "title": "",
+      "words": 227,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "externe-fasi-erstes-vertragsjahr-ablauf",
+      "title": "",
+      "words": 225,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asa-sitzung-praxis-kita-arbeitsschutz",
+      "title": "",
+      "words": 238,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-begehung-seitenschutz-abbruch-koeln",
+      "title": "",
+      "words": 504,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "rauchen-baustelle-arbstattv-sigeko",
+      "title": "",
+      "words": 390,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "gbu-schnittstelle-mehrere-gewerke-bauprojekt",
+      "title": "",
+      "words": 353,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-projektverlauf-neubau-wohngebaeude-nrw",
+      "title": "",
+      "words": 295,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-dacharbeiten-absturz-bestand-koeln",
+      "title": "",
+      "words": 304,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-innenausbau-bestand-leistungsumfang",
+      "title": "",
+      "words": 304,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sigeko-koeln-kosten",
+      "title": "",
+      "words": 280,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "bauordnung-nrw-einfach-erklaert",
+      "title": "",
+      "words": 915,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-1-versammlungsstaetten",
+      "title": "",
+      "words": 1058,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-2-beherbergungsstaetten",
+      "title": "",
+      "words": 689,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-3-verkaufsstaetten",
+      "title": "",
+      "words": 493,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-4-hochhaeuser",
+      "title": "",
+      "words": 425,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-5-garagen",
+      "title": "",
+      "words": 386,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-6-elektrische-anlagen",
+      "title": "",
+      "words": 300,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sonderbauverordnung-teil-7-schlussvorschriften",
+      "title": "",
+      "words": 451,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "bhkg-nrw-einfach-erklaert",
+      "title": "",
+      "words": 990,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandverhuetungsschau-bhkg-nrw",
+      "title": "",
+      "words": 902,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "bma-leitstelle-bhkg-nrw",
+      "title": "",
+      "words": 626,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandsicherheitswache-bhkg-nrw",
+      "title": "",
+      "words": 598,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "baupruefvo-nrw-einfach-erklaert",
+      "title": "",
+      "words": 995,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzkonzept-paragraph-9-baupruefvo",
+      "title": "",
+      "words": 891,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "brandschutzkonzept-betrieb-brandverhuetungsschau",
+      "title": "",
+      "words": 1169,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "pruefvo-nrw-einfach-erklaert",
+      "title": "",
+      "words": 1004,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "wirk-prinzip-pruefung-pruefvo-nrw",
+      "title": "",
+      "words": 963,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "bma-pruefung-pruefvo-nrw-fristen",
+      "title": "",
+      "words": 763,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sprinkler-rwa-pruefung-pruefvo-nrw",
+      "title": "",
+      "words": 754,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "betrsichv-einfach-erklaert",
+      "title": "",
+      "words": 526,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-einfach-erklaert",
+      "title": "",
+      "words": 383,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-a6-bildschirmarbeit",
+      "title": "",
+      "words": 352,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-a3-7-laerm-arbeitsplatz",
+      "title": "",
+      "words": 217,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-a2-1-absturz-absturzsicherung",
+      "title": "",
+      "words": 201,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "asr-a4-3-erste-hilfe-arbeitsstaette",
+      "title": "",
+      "words": 236,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trgs-einfach-erklaert",
+      "title": "",
+      "words": 283,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trgs-400-gefaehrdungsbeurteilung-gefahrstoffe",
+      "title": "",
+      "words": 219,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trgs-509-510-lagerung-gefahrstoffe",
+      "title": "",
+      "words": 207,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trgs-528-schweisstechnische-arbeiten",
+      "title": "",
+      "words": 206,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trbs-einfach-erklaert",
+      "title": "",
+      "words": 321,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trbs-1111-gefaehrdungsbeurteilung-arbeitsmittel",
+      "title": "",
+      "words": 232,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trbs-1201-1203-pruefung-befaehigte-person",
+      "title": "",
+      "words": 238,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "trbs-2121-absturz-leitern",
+      "title": "",
+      "words": 246,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschriften-einfach-erklaert",
+      "title": "",
+      "words": 313,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschrift-1-grundsaetze-praevention",
+      "title": "",
+      "words": 223,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschrift-38-bauarbeiten",
+      "title": "",
+      "words": 251,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "dguv-vorschrift-67-flurfoerderzeuge",
+      "title": "",
+      "words": 200,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "jugendarbeitsschutz-jarbschg-einfach-erklaert",
+      "title": "",
+      "words": 293,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "jarbschg-arbeitszeit-ruhezeiten",
+      "title": "",
+      "words": 241,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "jarbschg-verbotene-gefaehrliche-arbeiten",
+      "title": "",
+      "words": 226,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "jarbschg-unterweisung-aushang-dokumentation",
+      "title": "",
+      "words": 201,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "mutterschutz-muschg-einfach-erklaert",
+      "title": "",
+      "words": 235,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "muschg-schutzfristen-arbeitszeit",
+      "title": "",
+      "words": 241,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "muschg-unzulaessige-taetigkeiten-schutzmasnahmen",
+      "title": "",
+      "words": 218,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "muschg-aushang-mitteilung-dokumentation",
+      "title": "",
+      "words": 199,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "teilhabe-sgb-ix-einfach-erklaert",
+      "title": "",
+      "words": 218,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sgb-ix-beschaeftigungspflicht-ausgleichsabgabe",
+      "title": "",
+      "words": 196,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sgb-ix-arbeitsplatz-gestaltung-gbu",
+      "title": "",
+      "words": 175,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    },
+    {
+      "slug": "sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter",
+      "title": "",
+      "words": 265,
+      "severity": "GRÜN",
+      "issueCount": 0,
+      "issueTypes": [],
+      "examples": []
+    }
+  ]
+}

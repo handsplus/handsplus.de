@@ -1,0 +1,403 @@
+=== Vollständiges Lese-Audit (100 Beiträge) ===
+
+{"gut":100,"klein":0,"nachbessern":0}
+
+001. [GUT] ✓ getraenke-am-arbeitsplatz
+     „" (342 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+002. [GUT] ✓ akteure-arbeitsschutz
+     „" (303 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+003. [GUT] ✓ bestellung-fachkraft-arbeitssicherheit
+     „" (251 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+004. [GUT] ✓ brandschutz-lithium-ionen-batterien
+     „" (693 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+005. [GUT] ✓ brandschutz-brennbare-stoffe
+     „" (495 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+006. [GUT] ✓ dguv-vorschrift-2
+     „" (327 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+007. [GUT] ✓ asr-a2-2-brandschutzhelfer
+     „" (576 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+008. [GUT] ✓ unterweisung-arbeitsschutz-fristen
+     „" (459 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+009. [GUT] ✓ gefaehrdungsbeurteilung-ablauf
+     „" (447 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+010. [GUT] ✓ sigeko-kosten-honorar-orientierung
+     „" (481 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+011. [GUT] ✓ brandschutz-sachverstaendiger-koeln
+     „" (467 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+012. [GUT] ✓ strafen-arbeitsschutz
+     „" (395 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+013. [GUT] ✓ pflichtuebertragung-arbeitsschutz
+     „" (282 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+014. [GUT] ✓ brandschutzbeauftragter-aufgaben-pflichten
+     „" (523 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+015. [GUT] ✓ baustellv-einfach-erklaert
+     „" (480 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+016. [GUT] ✓ baustellv-vorankuendigung-sige-plan
+     „" (470 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+017. [GUT] ✓ baustellv-sigeko-koordination-aufgaben
+     „" (606 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+018. [GUT] ✓ baustellv-anhang-ii-gefaehrliche-arbeiten
+     „" (1017 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+019. [GUT] ✓ sigeko-pflicht-wann-braucht-man-sigeko
+     „" (471 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+020. [GUT] ✓ externe-fachkraft-arbeitssicherheit-koeln
+     „" (360 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+021. [GUT] ✓ arbeitsschutzberatung-unternehmen
+     „" (322 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+022. [GUT] ✓ sicherheitsbeauftragte-schulung-koeln
+     „" (237 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+023. [GUT] ✓ arbeitsschutz-dienstleister-nrw
+     „" (182 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+024. [GUT] ✓ unterweisung-arbeitssicherheit-pflicht
+     „" (219 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+025. [GUT] ✓ arbeitsschutzgesetz-arbschg-uebersicht
+     „" (549 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+026. [GUT] ✓ arbschg-mehrere-arbeitgeber-zusammenarbeit
+     „" (266 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+027. [GUT] ✓ arbschg-erste-hilfe-notfallmassnahmen
+     „" (227 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+028. [GUT] ✓ arbschg-gewerbeaufsicht-begehung-nrw
+     „" (440 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+029. [GUT] ✓ brandschutzordnung-din-14096
+     „" (715 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+030. [GUT] ✓ brandschutzschulungen-unternehmen
+     „" (599 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+031. [GUT] ✓ gefaehrdungsbeurteilung-schwangere-mutterschutz
+     „" (367 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+032. [GUT] ✓ psychische-gefaehrdungsbeurteilung-arbeitsplatz
+     „" (297 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+033. [GUT] ✓ betriebsanweisungen-gefahrstoffe
+     „" (263 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+034. [GUT] ✓ flucht-und-rettungsplan-erstellen
+     „" (561 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+035. [GUT] ✓ dguv-vorschrift-3-elektropruefung
+     „" (347 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+036. [GUT] ✓ iso-45001-arbeitsschutzmanagementsystem
+     „" (280 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+037. [GUT] ✓ brandschutzkonzept-erstellen
+     „" (379 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+038. [GUT] ✓ vorbeugender-brandschutz-massnahmen
+     „" (578 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+039. [GUT] ✓ ergonomie-kueche-kita-gefaehrdungsbeurteilung
+     „" (349 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+040. [GUT] ✓ sifa-jahresbericht-was-gehoert-rein
+     „" (271 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+041. [GUT] ✓ ist-zustandserfassung-externe-fasi
+     „" (259 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+042. [GUT] ✓ pruefpflicht-handhubwagen-arbeitssicherheit
+     „" (227 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+043. [GUT] ✓ externe-fasi-erstes-vertragsjahr-ablauf
+     „" (241 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+044. [GUT] ✓ asa-sitzung-praxis-kita-arbeitsschutz
+     „" (244 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+045. [GUT] ✓ sigeko-begehung-seitenschutz-abbruch-koeln
+     „" (509 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+046. [GUT] ✓ rauchen-baustelle-arbstattv-sigeko
+     „" (399 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+047. [GUT] ✓ gbu-schnittstelle-mehrere-gewerke-bauprojekt
+     „" (353 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+048. [GUT] ✓ sigeko-projektverlauf-neubau-wohngebaeude-nrw
+     „" (295 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+049. [GUT] ✓ sigeko-dacharbeiten-absturz-bestand-koeln
+     „" (315 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+050. [GUT] ✓ sigeko-innenausbau-bestand-leistungsumfang
+     „" (309 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+051. [GUT] ✓ sigeko-koeln-kosten
+     „" (289 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+052. [GUT] ✓ bauordnung-nrw-einfach-erklaert
+     „" (924 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+053. [GUT] ✓ sonderbauverordnung-teil-1-versammlungsstaetten
+     „" (1058 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+054. [GUT] ✓ sonderbauverordnung-teil-2-beherbergungsstaetten
+     „" (689 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+055. [GUT] ✓ sonderbauverordnung-teil-3-verkaufsstaetten
+     „" (493 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+056. [GUT] ✓ sonderbauverordnung-teil-4-hochhaeuser
+     „" (425 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+057. [GUT] ✓ sonderbauverordnung-teil-5-garagen
+     „" (386 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+058. [GUT] ✓ sonderbauverordnung-teil-6-elektrische-anlagen
+     „" (300 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+059. [GUT] ✓ sonderbauverordnung-teil-7-schlussvorschriften
+     „" (456 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+060. [GUT] ✓ bhkg-nrw-einfach-erklaert
+     „" (990 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+061. [GUT] ✓ brandverhuetungsschau-bhkg-nrw
+     „" (894 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+062. [GUT] ✓ bma-leitstelle-bhkg-nrw
+     „" (633 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+063. [GUT] ✓ brandsicherheitswache-bhkg-nrw
+     „" (599 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+064. [GUT] ✓ baupruefvo-nrw-einfach-erklaert
+     „" (996 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+065. [GUT] ✓ brandschutzkonzept-paragraph-9-baupruefvo
+     „" (891 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+066. [GUT] ✓ brandschutzkonzept-betrieb-brandverhuetungsschau
+     „" (1173 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+067. [GUT] ✓ pruefvo-nrw-einfach-erklaert
+     „" (1004 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+068. [GUT] ✓ wirk-prinzip-pruefung-pruefvo-nrw
+     „" (963 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+069. [GUT] ✓ bma-pruefung-pruefvo-nrw-fristen
+     „" (763 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+070. [GUT] ✓ sprinkler-rwa-pruefung-pruefvo-nrw
+     „" (759 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+071. [GUT] ✓ betrsichv-einfach-erklaert
+     „" (529 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+072. [GUT] ✓ asr-einfach-erklaert
+     „" (383 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+073. [GUT] ✓ asr-a6-bildschirmarbeit
+     „" (352 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+074. [GUT] ✓ asr-a3-7-laerm-arbeitsplatz
+     „" (219 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+075. [GUT] ✓ asr-a2-1-absturz-absturzsicherung
+     „" (201 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+076. [GUT] ✓ asr-a4-3-erste-hilfe-arbeitsstaette
+     „" (241 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+077. [GUT] ✓ trgs-einfach-erklaert
+     „" (283 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+078. [GUT] ✓ trgs-400-gefaehrdungsbeurteilung-gefahrstoffe
+     „" (219 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+079. [GUT] ✓ trgs-509-510-lagerung-gefahrstoffe
+     „" (207 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+080. [GUT] ✓ trgs-528-schweisstechnische-arbeiten
+     „" (206 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+081. [GUT] ✓ trbs-einfach-erklaert
+     „" (327 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+082. [GUT] ✓ trbs-1111-gefaehrdungsbeurteilung-arbeitsmittel
+     „" (240 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+083. [GUT] ✓ trbs-1201-1203-pruefung-befaehigte-person
+     „" (243 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+084. [GUT] ✓ trbs-2121-absturz-leitern
+     „" (246 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+085. [GUT] ✓ dguv-vorschriften-einfach-erklaert
+     „" (318 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+086. [GUT] ✓ dguv-vorschrift-1-grundsaetze-praevention
+     „" (223 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+087. [GUT] ✓ dguv-vorschrift-38-bauarbeiten
+     „" (251 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+088. [GUT] ✓ dguv-vorschrift-67-flurfoerderzeuge
+     „" (200 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+089. [GUT] ✓ jugendarbeitsschutz-jarbschg-einfach-erklaert
+     „" (294 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+090. [GUT] ✓ jarbschg-arbeitszeit-ruhezeiten
+     „" (242 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+091. [GUT] ✓ jarbschg-verbotene-gefaehrliche-arbeiten
+     „" (232 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+092. [GUT] ✓ jarbschg-unterweisung-aushang-dokumentation
+     „" (201 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+093. [GUT] ✓ mutterschutz-muschg-einfach-erklaert
+     „" (241 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+094. [GUT] ✓ muschg-schutzfristen-arbeitszeit
+     „" (241 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+095. [GUT] ✓ muschg-unzulaessige-taetigkeiten-schutzmasnahmen
+     „" (218 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+096. [GUT] ✓ muschg-aushang-mitteilung-dokumentation
+     „" (199 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+097. [GUT] ✓ teilhabe-sgb-ix-einfach-erklaert
+     „" (218 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+098. [GUT] ✓ sgb-ix-beschaeftigungspflicht-ausgleichsabgabe
+     „" (196 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+099. [GUT] ✓ sgb-ix-arbeitsplatz-gestaltung-gbu
+     „" (247 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.
+
+100. [GUT] ✓ sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter
+     „" (265 Wörter)
+     Lesbar, keine auffälligen Boilerplate-Muster.

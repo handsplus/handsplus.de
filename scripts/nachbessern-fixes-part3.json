@@ -1,0 +1,216 @@
+{
+  "gefaehrdungsbeurteilung-schwangere-mutterschutz": {
+    "vorbereitung": "Bei Begehungen sollte geklärt sein, ob Schwangerschaften früh mitgeteilt werden können, eine arbeitsplatzbezogene GBU nach MuSchG vorliegt und Schutzmaßnahmen umgesetzt sind. Fehlende Kommunikationswege und veraltete Mutterschutz-GBU sind häufige Befunde in Köln und NRW.",
+    "faq": [
+      {
+        "q": "Wann muss der Arbeitgeber bei Schwangerschaft handeln?",
+        "a": "Unverzüglich nach Mitteilung: arbeitsplatzbezogene GBU nach § 10 MuSchG, ggf. Umgestaltung, Versetzung oder Beschäftigungsverbot bis zur Wirksamkeit der Maßnahmen."
+      },
+      {
+        "q": "Was gehört in die Mutterschutz-GBU?",
+        "a": "Physikalische, chemische, biologische und psychische Belastungen, Heben/Tragen, Infektionsrisiken, Strahlung, Arbeitszeiten – abgestimmt mit Betriebsarzt."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Keine GBU nach Mitteilung, generische Vorlage, Gefahrstoffe ohne Substitutionsprüfung, fehlende Kommunikation an Vorgesetzte und SiFa."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG-Hub], [Link: /wissen/blog/muschg-schutzfristen-arbeitszeit|Schutzfristen] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber]."
+      }
+    ]
+  },
+  "psychische-gefaehrdungsbeurteilung-arbeitsplatz": {
+    "vorbereitung": "Vor Prüfungen sollten psychische Belastungsfaktoren in der GBU benannt, Maßnahmen mit Verantwortlichen versehen und Beschäftigte in der [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung] informiert sein. Fehlende psychische GBU ist ein Standard-Befund bei BG-Begehungen in NRW.",
+    "faq": [
+      {
+        "q": "Ist psychische GBU Pflicht?",
+        "a": "Ja – § 5 Abs. 3 Nr. 6 ArbSchG verlangt Beurteilung psychischer Belastung. Sie gehört in die allgemeine GBU oder als eigener Baustein."
+      },
+      {
+        "q": "Welche Faktoren bewerten?",
+        "a": "Arbeitsinhalt, Arbeitsorganisation, Soziales, Arbeitsumgebung, neue Arbeitsformen – Methoden z. B. nach GDA oder BGM-Konzepten, mit Beteiligung der Beschäftigten."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Psychische Belastung fehlt ganz, nur Stichwort ohne Maßnahmen, keine Wirksamkeitskontrolle, keine Verknüpfung mit BGM oder ASA."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU-Ablauf], [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2] (Qualifikation SiFa) und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber]."
+      }
+    ]
+  },
+  "betriebsanweisungen-gefahrstoffe": {
+    "faq": [
+      {
+        "q": "Wann braucht man Betriebsanweisungen für Gefahrstoffe?",
+        "a": "Für jeden Gefahrstoff am Arbeitsplatz nach GefStoffV und TRGS 555 – verständlich, am Arbeitsplatz verfügbar, in Unterweisung eingebunden."
+      },
+      {
+        "q": "Was muss drinstehen?",
+        "a": "Gefahren, Schutzmaßnahmen, Verhalten im Notfall, Erste Hilfe, Entsorgung – abgestimmt auf Lagerort und Tätigkeit, nicht nur Sicherheitsdatenblatt-Kopie."
+      },
+      {
+        "q": "Typische Mängel in Köln und NRW?",
+        "a": "BA nur in der Verwaltung, veraltet nach Prozessänderung, fehlende Sprachversion, kein Bezug zur GBU und Unterweisung."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/trgs-einfach-erklaert|TRGS], [Link: /wissen/blog/brandschutz-brennbare-stoffe|brennbare Stoffe] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU]."
+      }
+    ]
+  },
+  "flucht-und-rettungsplan-erstellen": {
+    "vorbereitung": "Vor Prüfungen sollten Fluchtpläne zum IST-Zustand passen, Rettungswege frei sind und Beschäftigte die Sammelstelle kennen. Nach Umbauten oder Nutzungsänderungen müssen Pläne aktualisiert und in der Unterweisung berücksichtigt werden.",
+    "faq": [
+      {
+        "q": "Wann braucht man Flucht- und Rettungspläne?",
+        "a": "Wenn aus Gefährdungsbeurteilung und Objektgröße/Komplexität erforderlich – ASR A2.3 und [Link: /wissen/blog/brandschutzordnung-din-14096|BSO DIN 14096] konkretisieren."
+      },
+      {
+        "q": "Was muss ein Fluchtplan zeigen?",
+        "a": "Standort, Fluchtwege, Notausgänge, Feuerlöscher, Sammelstelle, Brandmelder – verständlich, gut sichtbar, barrierefrei wo nötig."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Plan veraltet nach Umbau, Rettungsweg blockiert, falsche Orientierung, fehlende Beleuchtung der Notausgänge, keine Übung."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer], [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz] und [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber]."
+      }
+    ]
+  },
+  "dguv-vorschrift-3-elektropruefung": {
+    "faq": [
+      {
+        "q": "Was regelt DGUV Vorschrift 3?",
+        "a": "Prüfung ortsveränderlicher und ortsfester elektrischer Betriebsmittel und Anlagen – Schutz vor elektrischem Schlag und Brand durch defekte Leitungen und Geräte."
+      },
+      {
+        "q": "Wie oft prüfen?",
+        "a": "Nach Gefährdungsbeurteilung und Betriebsmittelart – ortsveränderlich oft jährlich, ortsfest in längeren Intervallen. Prüffristenkalender führen."
+      },
+      {
+        "q": "Wer darf prüfen?",
+        "a": "Elektrofachkraft oder befähigte Person nach DGUV V3 – Ergebnis dokumentieren, Mängel mit Frist und Verantwortlichem nachverfolgen."
+      },
+      {
+        "q": "Typische Mängel in NRW?",
+        "a": "Kein Prüfkalender, fehlende Plaketten, defekte Verlängerungskabel im Dauerbetrieb, Baustellen-Elektro ohne RCD – siehe [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3|Elektrosicherheit]."
+      }
+    ]
+  },
+  "iso-45001-arbeitsschutzmanagementsystem": {
+    "vorbereitung": "Vor Zertifizierungsaudit sollten GBU, Unterweisungen, Begehungsprotokolle und Management-Review auf denselben Datenstand gebracht werden. ISO 45001 ersetzt keine gesetzlichen Pflichten – sie strukturiert deren Nachweis.",
+    "faq": [
+      {
+        "q": "Was ist ISO 45001?",
+        "a": "Norm für Arbeitsschutzmanagementsysteme – PDCA-Zyklus, Führungsverpflichtung, Beteiligung, Risikobeurteilung, Wirksamkeitsprüfung. Freiwillig, nicht Gesetz."
+      },
+      {
+        "q": "Unterschied zu gesetzlichem Arbeitsschutz?",
+        "a": "ISO 45001 baut auf ArbSchG-Pflichten auf und macht Prozesse auditierbar – GBU, Unterweisung und SiFa-Betreuung bleiben Pflicht unabhängig von Zertifikat."
+      },
+      {
+        "q": "Typische Lücken im Audit?",
+        "a": "Dokumentation ohne Umsetzung, keine Beteiligung Beschäftigter, Management-Review ohne Maßnahmen, Widerspruch zwischen ISO-Dokumenten und IST-Begehung."
+      },
+      {
+        "q": "Nutzen für Betriebe in Köln/NRW?",
+        "a": "Strukturierte Nachweise für Ausschreibungen, Versicherer, Konzerne – Synergien mit [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU] und [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht]."
+      }
+    ]
+  },
+  "brandschutzkonzept-erstellen": {
+    "vorbereitung": "Vor Genehmigung oder Behördenprüfung sollten Konzept, Fluchtwege und technische Anlagen konsistent sein und der betriebliche Brandschutz nach Eröffnung vorbereitet sein – Lücke zwischen genehmigter Planung und IST-Betrieb ist ein häufiger Befund.",
+    "faq": [
+      {
+        "q": "Wann braucht man ein Brandschutzkonzept?",
+        "a": "Bei Sonderbauten, Nutzungsänderungen, Abweichungen von Technischen Baubestimmungen, komplexen Objekten – bauordnungsrechtlich, nicht in jedem Regelbau."
+      },
+      {
+        "q": "Was enthält ein Konzept?",
+        "a": "Brandabschnitte, Flucht- und Rettungswege, Feuerwiderstände, technische Anlagen (BMA, RWA, Sprinkler), Löschkonzept – abgestimmt mit BauO NRW."
+      },
+      {
+        "q": "Abgrenzung zum BSB?",
+        "a": "Konzept/Sachverständiger = Planung/Genehmigung. [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|BSB] = laufender Betrieb – beide müssen nach Eröffnung zusammenpassen."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/brandschutz-sachverstaendiger-koeln|Sachverständiger Köln], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO NRW] und [Link: /brandschutz|Leistungen]."
+      }
+    ]
+  },
+  "vorbeugender-brandschutz-massnahmen": {
+    "vorbereitung": "Bei Begehungen prüfen Sie, ob baulicher, anlagentechnischer und organisatorischer vorbeugender Brandschutz zusammen dokumentiert ist – nicht nur Löscher, sondern Brandabschnitte, BMA-Wartung und BSO.",
+    "bodySub": [
+      {
+        "from": "Typische Fehler:",
+        "to": "Häufig fehlen abgestimmte Maßnahmen aus baulichem, anlagentechnischem und organisatorischem vorbeugenden Brandschutz – stattdessen nur Einzellösungen wie Löscher ohne Gesamtkonzept."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was umfasst vorbeugender Brandschutz?",
+        "a": "Baulich (Brandabschnitte, Feuerwiderstand), anlagentechnisch (BMA, RWA, Sprinkler), organisatorisch (BSO, BSH, Begehungen, Unterweisung) – drei Säulen ineinander."
+      },
+      {
+        "q": "Wer ist verantwortlich?",
+        "a": "Arbeitgeber/Betreiber für betrieblichen Brandschutz; Bauherr für bauordnungsrechtlichen Brandschutz bei Neubau/Umbau – Schnittstelle bei Eröffnung klären."
+      },
+      {
+        "q": "Typische Mängel in NRW?",
+        "a": "BMA-Störung quittiert ohne Maßnahme, Rettungswege belegt, Heißarbeit ohne Freigabe, fehlende Wartung technischer Anlagen."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/brandschutz-brennbare-stoffe|brennbare Stoffe], [Link: /wissen/blog/brandschutz-lithium-ionen-batterien|Li-Ion] und [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber]."
+      }
+    ]
+  },
+  "ergonomie-kueche-kita-gefaehrdungsbeurteilung": {
+    "vorbereitung": "In KiTa-Großküchen sollten Heben/Tragen, Hitze, Schnittverletzungen und Rutschgefahr in der GBU stehen und Maßnahmen wie Hubwagen, rutschfeste Matten und Pausenregelungen umgesetzt sein – typische BG-Prüfthemen in NRW.",
+    "faq": [
+      {
+        "q": "Welche Gefährdungen in der KiTa-Küche?",
+        "a": "Heben schwerer Kessel und Lebensmittel, heiße Oberflächen und Dämpfe, scharfe Messer, rutschige Böden, Zeitdruck und enge Arbeitszonen – in GBU erfassen."
+      },
+      {
+        "q": "Was hilft organisatorisch?",
+        "a": "Lieferungen dezentral, Hubwagen statt manuelles Tragen, klare Zuständigkeiten, Unterweisung zu Messern und Hitze, Pausen bei thermischer Belastung."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Keine arbeitsplatzbezogene GBU, generische Vorlage, fehlende Unterweisung, keine ergonomische Begehung mit SiFa und Küchenleitung."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU-Ablauf], [Link: /wissen/blog/getraenke-am-arbeitsplatz|Raumtemperatur ASR A3.5] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Ratgeber]."
+      }
+    ]
+  },
+  "sifa-jahresbericht-was-gehoert-rein": {
+    "vorbereitung": "Vor ASA oder BG-Prüfung sollte der Jahresbericht Bezug zu umgesetzten Maßnahmen haben, offene Punkte benennen und Vorschläge fürs Folgejahr enthalten – reine Formalberichte ohne IST-Bezug gelten als Mangel.",
+    "faq": [
+      {
+        "q": "Ist der SiFa-Jahresbericht Pflicht?",
+        "a": "Ja – § 5 DGUV V2: SiFa erstellt jährlich Bericht für Geschäftsführung mit GBU, Begehungen, Unterweisungen, Unfällen, offenen Maßnahmen."
+      },
+      {
+        "q": "Was muss der Bericht enthalten?",
+        "a": "Stand Arbeitsschutz, durchgeführte und geplante Maßnahmen, Unfallstatistik, ASA-Themen, Verbesserungsvorschläge – Steuerungsinstrument, keine Formalität."
+      },
+      {
+        "q": "Typische Mängel?",
+        "a": "Copy-Paste vom Vorjahr, keine offenen Maßnahmen, fehlender Bezug zu GBU-Version, Geschäftsführung ohne Kenntnisnahme."
+      },
+      {
+        "q": "Wo vertiefen?",
+        "a": "[Link: /wissen/blog/dguv-vorschrift-2|DGUV V2], [Link: /wissen/blog/asa-sitzung-praxis-kita-arbeitsschutz|ASA in der Praxis] und [Link: /wissen/blog/akteure-arbeitsschutz|Akteure]."
+      }
+    ]
+  }
+}

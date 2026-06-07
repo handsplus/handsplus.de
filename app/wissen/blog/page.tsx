@@ -18,7 +18,9 @@ function formatDate(iso: string) {
 const REDIRECTED_BLOG_SLUGS = new Set(["unterweisung-arbeitssicherheit-pflicht"]);
 
 export default function WissenBlogPage() {
-  const visiblePosts = blogPosts.filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug));
+  const visiblePosts = blogPosts
+    .filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug))
+    .sort((a, b) => b.date.localeCompare(a.date));
 
   return (
     <div className="py-16 sm:py-20 lg:py-24">
