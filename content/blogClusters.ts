@@ -227,18 +227,106 @@ export const pillarFeaturedBlogSlugs: Record<string, string[]> = {
   ],
 };
 
+/** Hub-Artikel → kuratierte Vertiefungsartikel (Themen-Reihen). */
+export const topicSeriesByHub: Record<string, string[]> = {
+  "arbeitsschutzgesetz-arbschg-uebersicht": [
+    "gefaehrdungsbeurteilung-ablauf",
+    "unterweisung-arbeitsschutz-fristen",
+    "arbschg-erste-hilfe-notfallmassnahmen",
+    "arbschg-mehrere-arbeitgeber-zusammenarbeit",
+    "arbschg-gewerbeaufsicht-begehung-nrw",
+    "pflichtuebertragung-arbeitsschutz",
+    "akteure-arbeitsschutz",
+    "strafen-arbeitsschutz",
+  ],
+  "baustellv-einfach-erklaert": [
+    "baustellv-vorankuendigung-sige-plan",
+    "baustellv-sigeko-koordination-aufgaben",
+    "baustellv-anhang-ii-gefaehrliche-arbeiten",
+    "sigeko-pflicht-wann-braucht-man-sigeko",
+    "dguv-vorschrift-38-bauarbeiten",
+    "gbu-schnittstelle-mehrere-gewerke-bauprojekt",
+    "sigeko-begehung-seitenschutz-abbruch-koeln",
+  ],
+  "asr-einfach-erklaert": [
+    "asr-a2-1-absturz-absturzsicherung",
+    "asr-a2-2-brandschutzhelfer",
+    "asr-a3-7-laerm-arbeitsplatz",
+    "asr-a4-3-erste-hilfe-arbeitsstaette",
+    "asr-a6-bildschirmarbeit",
+    "flucht-und-rettungsplan-erstellen",
+  ],
+  "trgs-einfach-erklaert": [
+    "trgs-400-gefaehrdungsbeurteilung-gefahrstoffe",
+    "trgs-509-510-lagerung-gefahrstoffe",
+    "trgs-528-schweisstechnische-arbeiten",
+    "betriebsanweisungen-gefahrstoffe",
+  ],
+  "trbs-einfach-erklaert": [
+    "betrsichv-einfach-erklaert",
+    "trbs-1111-gefaehrdungsbeurteilung-arbeitsmittel",
+    "trbs-1201-1203-pruefung-befaehigte-person",
+    "trbs-2121-absturz-leitern",
+    "pruefpflicht-handhubwagen-arbeitssicherheit",
+  ],
+  "dguv-vorschriften-einfach-erklaert": [
+    "dguv-vorschrift-1-grundsaetze-praevention",
+    "dguv-vorschrift-2",
+    "dguv-vorschrift-3-elektropruefung",
+    "dguv-vorschrift-38-bauarbeiten",
+    "dguv-vorschrift-67-flurfoerderzeuge",
+  ],
+  "jugendarbeitsschutz-jarbschg-einfach-erklaert": [
+    "jarbschg-arbeitszeit-ruhezeiten",
+    "jarbschg-unterweisung-aushang-dokumentation",
+    "jarbschg-verbotene-gefaehrliche-arbeiten",
+  ],
+  "mutterschutz-muschg-einfach-erklaert": [
+    "muschg-schutzfristen-arbeitszeit",
+    "muschg-unzulaessige-taetigkeiten-schutzmasnahmen",
+    "muschg-aushang-mitteilung-dokumentation",
+    "gefaehrdungsbeurteilung-schwangere-mutterschutz",
+  ],
+  "teilhabe-sgb-ix-einfach-erklaert": [
+    "sgb-ix-arbeitsplatz-gestaltung-gbu",
+    "sgb-ix-beschaeftigungspflicht-ausgleichsabgabe",
+    "sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter",
+  ],
+};
+
+const spokeToHub: Record<string, string> = Object.fromEntries(
+  Object.entries(topicSeriesByHub).flatMap(([hub, spokes]) =>
+    spokes.map((spoke) => [spoke, hub])
+  )
+);
+
 export function getPillarSlugForBlog(slug: string): string | undefined {
   return blogPillarBySlug[slug];
 }
 
-/** Andere Blog-Beiträge im selben Pillar-Cluster (max. limit, ohne aktuellen Slug). */
+export function getTopicSeriesHub(slug: string): string | undefined {
+  return topicSeriesByHub[slug] ? slug : spokeToHub[slug];
+}
+
+/** Kuratierte Related Posts: Themen-Reihe vor Pillar-Fallback. */
 export function getRelatedBlogSlugs(slug: string, limit = 4): string[] {
+  const hub = getTopicSeriesHub(slug);
+  if (hub) {
+    const spokes = topicSeriesByHub[hub].filter((s) => s !== slug);
+    if (slug === hub) return spokes.slice(0, limit);
+    return [hub, ...spokes.filter((s) => s !== slug)].slice(0, limit);
+  }
   const pillar = blogPillarBySlug[slug];
   if (!pillar) return [];
   return Object.entries(blogPillarBySlug)
     .filter(([s, p]) => p === pillar && s !== slug)
     .map(([s]) => s)
     .slice(0, limit);
+}
+
+export function getRelatedPostsTitle(slug: string): string | undefined {
+  if (getTopicSeriesHub(slug)) return "Weiterführende Artikel in dieser Reihe";
+  return undefined;
 }
 
 /** Blog-Beiträge, die zu einem Ratgeber-Pillar gehören. */

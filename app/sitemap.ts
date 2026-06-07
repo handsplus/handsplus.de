@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((post) => post.slug !== "unterweisung-arbeitssicherheit-pflicht")
     .map((post) => ({
       url: `${baseUrl}/wissen/blog/${post.slug}`,
-      lastModified: new Date(post.date),
+      lastModified: new Date(post.dateModified ?? post.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }));

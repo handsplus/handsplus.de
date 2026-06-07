@@ -10,6 +10,7 @@ export type BlogPost = {
   title: string;
   excerpt: string;
   date: string;
+  dateModified?: string;
   content?: string[];
   faq?: BlogFaqItem[];
 };
@@ -21,6 +22,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Getränke am Arbeitsplatz: Was Arbeitgeber laut Fürsorgepflicht, ArbStättV und ASR A3.5 (Raumtemperatur) bereitstellen müssen – praxisnah für Betriebe in Köln und NRW.",
     date: "2025-04-10",
+    dateModified: "2026-05-26",
     content: [
       "Ausreichend zu trinken unterstützt Konzentration, Leistungsfähigkeit und Gesundheit. Viele Arbeitgeber fragen, ob Getränke am Arbeitsplatz kostenlos bereitgestellt werden müssen – und ab wann das Pflicht ist. Die Antwort hängt von Raumtemperatur, Tätigkeit und Arbeitsort ab, nicht von Kulanz. Das gilt für Betriebe in Köln und NRW genauso wie bundesweit.",
       "H2::Was gilt rechtlich?",
@@ -61,8 +63,9 @@ export const blogPosts: BlogPost[] = [
     slug: "akteure-arbeitsschutz",
     title: "Akteure im Arbeitsschutz – wer kümmert sich um was?",
     excerpt:
-      "Akteure im Arbeitsschutz einfach erklärt: Welche Aufgaben haben Arbeitgeber, Fachkraft für Arbeitssicherheit, … – praxisnah für Betriebe in Köln und NRW.",
+      "Akteure im Arbeitsschutz: Aufgaben von Arbeitgeber, Fachkraft für Arbeitssicherheit, Betriebsarzt, SiBe und Betriebsrat – praxisnah für Köln und NRW.",
     date: "2025-04-17",
+    dateModified: "2026-05-26",
     content: [
       "Wirksamer Arbeitsschutz entsteht nur mit klaren Rollen. Gesetzlich sind Arbeitgeber, Fachkraft für Arbeitssicherheit, Betriebsarzt, Sicherheitsbeauftragte und bei mehr als 20 Beschäftigten der Arbeitsschutzausschuss (ASA, ASiG § 11) zentral – ergänzt durch Spezialbeauftragte je Gefährdung – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -104,8 +107,9 @@ export const blogPosts: BlogPost[] = [
     slug: "bestellung-fachkraft-arbeitssicherheit",
     title: "Bestellung der Fachkraft für Arbeitssicherheit",
     excerpt:
-      "Fachkraft für Arbeitssicherheit bestellen: Welche Pflichten ergeben sich aus ASiG und DGUV Vorschrift 2 und wie … – praxisnah für Betriebe in Köln und NRW.",
+      "Fachkraft für Arbeitssicherheit bestellen: Pflichten nach ASiG und DGUV V2, schriftliche Bestellung, Umfang und Betreuung – praxisnah für Köln und NRW.",
     date: "2025-04-24",
+    dateModified: "2026-05-26",
     content: [
       "Nach ASiG § 5 und DGUV Vorschrift 2 bestellt der Arbeitgeber eine Fachkraft für Arbeitssicherheit – intern oder extern. Ohne schriftliche Bestellung fehlt die nachweisbare Grundlage für die sicherheitstechnische Betreuung – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -144,8 +148,9 @@ export const blogPosts: BlogPost[] = [
     slug: "brandschutz-lithium-ionen-batterien",
     title: "Brandschutz bei Lithium-Ionen-Batterien – Gefahren, Ladezonen und Thermal Runaway",
     excerpt:
-      "Li-Ion-Brandschutz im Betrieb: Thermal Runaway, Ladezonen, Quarantäne kritischer Batterien, Löschkonzept und … – praxisnah für Betriebe in Köln und NRW.",
+      "Li-Ion-Brandschutz im Betrieb: Thermal Runaway, Ladezonen, Quarantäne kritischer Batterien, Löschkonzept und Unterweisung – praxisnah für Köln und NRW.",
     date: "2025-03-18",
+    dateModified: "2026-05-26",
     content: [
       "Lithium-Ionen-Batterien (LIB) sind in Betrieben längst Standard: Staplerflotten, interne E-Fahrzeuge, E-Bikes der Beschäftigten, Messgeräte, Akku-Werkzeuge, mobile IT und zunehmend PV-Speicher. Ihre hohe Energiedichte macht sie effizient – und im Brandfall schwer beherrschbar. Dieser Artikel ordnet die betrieblichen Pflichten ein; der [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] verknüpft Li-Ion mit Gefahrstoffen, Prüffristen und Organisation – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -191,8 +196,9 @@ export const blogPosts: BlogPost[] = [
     slug: "brandschutz-brennbare-stoffe",
     title: "Brandschutz: Brennbare Stoffe – Brandverhalten und Maßnahmen im Betrieb",
     excerpt:
-      "Brennbare Stoffe im Betrieb: Feststoff, Flüssigkeit, Gas und Staub – Brandverhalten, TRGS 800, Lagerung, … – praxisnah für Betriebe in Köln und NRW.",
+      "Brennbare Stoffe im Betrieb: Feststoff, Flüssigkeit, Gas und Staub – Brandverhalten, TRGS 800 und Lagerung – praxisnah für Köln und NRW.",
     date: "2025-03-20",
+    dateModified: "2026-05-26",
     content: [
       "Brennbare Stoffe sind im Betrieb selten nur „ein Gefahrstoff im Regal“ – sie sind Papierstapel, Verpackungsfolien, Lackreste, Gase in Flaschen, Holzstaub in der Halle und Kühlschmiermittel-Dämpfe an der Maschine. Für Brandschutz und Arbeitssicherheit zählt das tatsächliche Brandverhalten vor Ort, nicht nur die Etikette auf dem Gebinde. Einordnung im Gesamtkonzept: [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] und [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -238,6 +244,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV Vorschrift 2 (Neufassung 2025): Grund- und betriebsspezifische Betreuung, Betreuungsplan, Bestellung und Jahresbericht – was Arbeitgeber in NRW umsetzen sollten.",
     date: "2025-03-22",
+    dateModified: "2026-05-26",
     content: [
       "Die DGUV Vorschrift 2 regelt die betriebliche Betreuung durch Betriebsärzte und Fachkräfte für Arbeitssicherheit auf Grundlage des Arbeitssicherheitsgesetzes (ASiG). Die Neufassung von 2025 macht Pflichten, Betreuungsumfang und Dokumentation verständlicher – ohne das Schutzniveau zu senken. Für Arbeitgeber in Köln und NRW ist sie die zentrale Referenz neben der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|schriftlichen Bestellung] der Fachkraft für Arbeitssicherheit.",
       "H2::Was gilt rechtlich?",
@@ -279,8 +286,9 @@ export const blogPosts: BlogPost[] = [
     slug: "asr-a2-2-brandschutzhelfer",
     title: "ASR A2.2 Brandschutzhelfer – Anzahl, Schulung und Pflicht",
     excerpt:
-      "Brandschutzhelfer nach ASR A2.2 und DGUV 205-023: Anzahl (in der Regel 5 %), Mindestdauer der Ausbildung, … – praxisnah für Betriebe in Köln und NRW.",
+      "Brandschutzhelfer nach ASR A2.2 und DGUV 205-023: Anzahl (in der Regel 5 %), Schulungsdauer und Wiederholung – praxisnah für Köln und NRW.",
     date: "2025-05-11",
+    dateModified: "2026-05-26",
     content: [
       "Die ASR A2.2 „Maßnahmen gegen Brände“ verpflichtet Arbeitgeber, eine ausreichende Anzahl von Brandschutzhelfern auszubilden und zu unterweisen. Sie sind die operativen Helfer in den ersten Minuten eines Brandes – nicht der [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragte], der organisiert und berät. Überblick ASR: [Link: /wissen/blog/asr-einfach-erklaert|ASR einfach erklärt]. Rechtlich ergänzen sich ArbStättV, ASR A2.2, die [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung] Teil B und die DGUV Information 205-023 (Ausbildung und Befähigung von Brandschutzhelfern) – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -325,6 +333,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Unterweisung nach § 12 ArbSchG: Pflichten, Anlässe, Inhalte aus der Gefährdungsbeurteilung, Dokumentation und Präsenzanforderungen – praxisnah für Köln und NRW.",
     date: "2025-05-13",
+    dateModified: "2026-05-26",
     content: [
       "Die Unterweisung der Beschäftigten ist nach § 12 ArbSchG eine zentrale Pflicht des Arbeitgebers. Sie leitet sich in erster Linie aus der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] ab: Beschäftigte sollen die am Arbeitsplatz bestehenden Unfall- und Gesundheitsgefahren kennen und sich entsprechend den festgelegten Schutzmaßnahmen verhalten. Die Fachkraft für Arbeitssicherheit und der Betriebsarzt wirken bei Inhalt und Durchführung mit – die Verantwortung für ausreichende und angemessene Unterweisung während der Arbeitszeit bleibt beim Arbeitgeber – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -365,6 +374,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gefährdungsbeurteilung nach § 5 und § 6 ArbSchG: systematischer Ablauf, Mitwirkung, Dokumentation und Fortschreibung – für Betriebe in Köln und NRW.",
     date: "2025-05-15",
+    dateModified: "2026-05-26",
     content: [
       "Nach § 5 ArbSchG hat der Arbeitgeber durch eine Beurteilung der mit der Arbeit verbundenen Gefährdung zu ermitteln, welche Maßnahmen des Arbeitsschutzes erforderlich sind. Die Gefährdungsbeurteilung ist damit die Grundlage für [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen], Betriebsanweisungen, Investitionen und Themen im Arbeitsschutzausschuss. Sie gilt für jeden Betrieb – unabhängig von Branche und Beschäftigtenzahl – und umfasst alle Arbeitsbereiche, für die der Arbeitgeber Einfluss hat (einschließlich Homeoffice, Zeitarbeit und Tätigkeiten bei Kunden) – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -405,6 +415,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SiGeKo-Honorar nach BaustellV: Leistungsumfang, Kalkulationsfaktoren, Vertragsmodelle und typische Angebotsmängel – Orientierung für Bauherren in NRW.",
     date: "2025-05-05",
+    dateModified: "2026-05-26",
     content: [
       "Wer ein Bauvorhaben mit mehreren Unternehmen oder Selbstständigen plant, muss die Sicherheits- und Gesundheitsschutzkoordination (SiGeKo) nach Baustellenverordnung (BaustellV) und Regeln zum Arbeitsschutz auf Baustellen (RAB 30) einplanen. Die Frage nach den Kosten ist berechtigt – seriöse Antworten beginnen beim dokumentierten Leistungsumfang, nicht bei einer pauschalen Angabe pro Quadratmeter Baufläche – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -449,6 +460,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandschutz-Sachverständiger und Brandschutzbeauftragter: Abgrenzung, Aufgaben im Genehmigungsverfahren und betriebliche Organisation in Köln und NRW.",
     date: "2025-04-22",
+    dateModified: "2026-05-26",
     content: [
       "Der Begriff „Brandschutz-Sachverständiger“ wird häufig mit dem [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragten] verwechselt – es sind getrennte Rollen. Der Sachverständige im bauordnungsrechtlichen Sinne erstellt oder prüft Nachweise für die Bauaufsicht: Brandschutzkonzept, Brandschutznachweis, Stellungnahmen bei Abweichungen von Technischen Baubestimmungen, Begleitung von Sonderbauten und Nutzungsänderungen. Der Brandschutzbeauftragte organisiert den laufenden betrieblichen Brandschutz nach ArbStättV und DGUV Information 205-003. Beide können zusammenarbeiten, ersetzen einander nicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -493,6 +505,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Konsequenzen bei Verstößen im Arbeitsschutz: Bußgelder nach § 25 ArbSchG und Verordnungen, Strafrecht, Regress und Aufsicht – Überblick für Arbeitgeber in NRW.",
     date: "2025-05-08",
+    dateModified: "2026-05-26",
     content: [
       "Verstöße gegen Arbeitsschutzpflichten können auf mehreren Ebenen wirken: Ordnungswidrigkeiten mit Geldbuße, strafrechtliche Verfahren bei Personenschäden, zivilrechtliche Ansprüche und Regress der Berufsgenossenschaft, dazu behördliche Auflagen und Betriebsstilllegungen. Für Arbeitgeber und Geschäftsführung ist entscheidend, dass Pflichten nicht nur formal erfüllt, sondern wirksam umgesetzt und nachweisbar dokumentiert werden – beginnend mit der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] und [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -533,8 +546,9 @@ export const blogPosts: BlogPost[] = [
     slug: "pflichtuebertragung-arbeitsschutz",
     title: "Pflichtenübertragung im Arbeitsschutz – rechtssicher delegieren",
     excerpt:
-      "Pflichtenübertragung nach § 13 ArbSchG: Voraussetzungen, schriftliche Form, Aufsichtspflicht des Arbeitgebers und … – praxisnah für Betriebe in Köln und NRW.",
+      "Pflichtenübertragung nach § 13 ArbSchG: Voraussetzungen, Schriftform, Aufsichtspflicht des Arbeitgebers und Abgrenzung zur SiFa – praxisnah für Köln und NRW.",
     date: "2025-03-25",
+    dateModified: "2026-05-26",
     content: [
       "Der Arbeitgeber trägt die Gesamtverantwortung für Sicherheit und Gesundheit der Beschäftigten nach ArbSchG. § 13 ArbSchG erlaubt, einzelne Arbeitsschutzpflichten schriftlich an zuverlässige, fachkundige Personen zu übertragen – typisch Abteilungsleiter, Meister oder Standortleiter. Die Übertragung entbindet nicht: Der Arbeitgeber muss die Einhaltung überwachen und bleibt im Schadensfall adressierbar – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -575,6 +589,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandschutzbeauftragter nach DGUV Information 205-003: Aufgabenprofil, schriftliche Bestellung, Qualifikation und Abgrenzung zu Brandschutzhelfern – für Betriebe in NRW.",
     date: "2025-05-19",
+    dateModified: "2026-05-26",
     content: [
       "Der Brandschutzbeauftragte berät den Arbeitgeber in Fragen des vorbeugenden, abwehrenden und organisatorischen Brandschutzes im Betrieb. Er ersetzt weder die Feuerwehr noch die [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer]: Letztere sind für Entstehungsbrände und Evakuierung im Ernstfall ausgebildet; der Brandschutzbeauftragte plant, koordiniert, begeht und dokumentiert den betrieblichen Brandschutz dauerhaft. Qualifikation, Bestellung und Aufgabenprofil orientieren sich an der DGUV Information 205-003 (Ausbildung nach vfdb-Richtlinie 12-09/01) – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -619,6 +634,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Baustellenverordnung (BaustellV): SiGeKo, SiGe-Plan, Vorankündigung, Anhang II, Bauherrpflichten – praxisnah für Köln und NRW (Stand Dezember 2025).",
     date: "2026-05-26",
+    dateModified: "2026-05-26",
     content: [
       "Neubau, Umbau oder Abbruch: Sobald auf einer Baustelle mehrere Unternehmen tätig sind, greift die Baustellenverordnung (BaustellV). Sie setzt die EU-Baustellenrichtlinie um und ergänzt das [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|ArbSchG] auf zeitlich begrenzten Baustellen. Dieser Artikel ordnet die Pflichten für Bauherren, SiGeKo und ausführende Betriebe – ohne Gesetzestext abzutippen – und richtet sich an Projekte in Köln und NRW.",
       "H2::Was ist eine Baustelle?",
@@ -672,6 +688,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "§ 2 BaustellV: Vorankündigung Anhang I, SiGe-Plan-Pflicht, 30-Tage/20-Beschäftigte-Regel, 500 Personentage – für Bauherren in Köln und NRW.",
     date: "2026-06-02",
+    dateModified: "2026-05-26",
     content: [
       "Bevor die Baustelle eingerichtet wird, regelt § 2 BaustellV drei Dinge: die behördliche Ankündigung, den SiGe-Plan und – in bestimmten Fällen – eine vereinfachte Unterrichtung. Wer als Bauherr den SiGeKo oder Plan erst „später“ einplant, riskiert Bußgelder und chaotische Einweisungen zum Baustart – in Köln, NRW und überall sonst gleichermaßen.",
       "H2::Was gilt rechtlich?",
@@ -726,6 +743,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SiGeKo nach § 3 BaustellV: Koordinator Planung/Ausführung, Bauherrpflicht § 4, RAB 30, Abgrenzung zur Unternehmerverantwortung – für Köln und NRW.",
     date: "2026-06-09",
+    dateModified: "2026-05-26",
     content: [
       "Wenn auf einer Baustelle mehrere Unternehmen gleichzeitig oder nacheinander arbeiten, braucht es einen Sicherheits- und Gesundheitsschutzkoordinator (SiGeKo). Er ist nicht der „Sicherheitsmann“ eines einzelnen Gewerkes, sondern koordiniert das Zusammenwirken aller Beteiligten. § 3 und § 4 der Baustellenverordnung (BaustellV) regeln seine Aufgaben und die Verantwortung des Bauherrn – in Köln, NRW und bundesweit nach den Regeln der Arbeitsgemeinschaft Baustelle (RAB 30).",
       "H2::Was gilt rechtlich?",
@@ -773,6 +791,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Alle 10 Tätigkeiten Anhang II BaustellV: Absturz, Sprengstoff, Hochspannung, Gefahrstoffe – SiGe-Plan-Pflicht, Matrix und Praxis für Bauherren in Köln und NRW.",
     date: "2026-06-16",
+    dateModified: "2026-05-26",
     content: [
       "Dacharbeiten, Abbruch, Sprengungen oder Tiefgaragenbau – viele Baustellen in Köln und NRW lösen Anhang II der Baustellenverordnung aus. Dann reicht im SiGe-Plan kein allgemeiner Hinweis wie „Vorsicht Absturz“: Es sind benannte Tätigkeiten, verantwortliche Gewerke, konkrete Maßnahmen und Nachweise nötig. Stand BaustellV: zuletzt geändert Dezember 2025 (CLP-Anpassung Anhang II). Überblick: [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub].",
       "H2::Wann Anhang II den SiGe-Plan auslöst",
@@ -851,6 +870,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SiGeKo-Pflicht nach BaustellV: wann Koordination Pflicht ist, Anhang II, Planungs- und Ausführungsphase, Bauherrpflichten und typische Fehler – für Bauherren in Köln und NRW.",
     date: "2025-03-27",
+    dateModified: "2026-05-26",
     content: [
       "Die Baustellenverordnung (BaustellV) verpflichtet Bauherren, einen Sicherheits- und Gesundheitsschutzkoordinator (SiGeKo) zu bestellen, wenn auf einer Baustelle Beschäftigte mehrerer Arbeitgeber gleichzeitig oder nacheinander tätig werden. Gesamtüberblick: [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV einfach erklärt]. Die Pflicht hängt nicht vom Bauvolumen ab – auch Einfamilienhaus-Neubau, Innenausbau im Bestand oder innerstädtischer Umbau können betroffen sein – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -896,6 +916,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Externe Fachkraft für Arbeitssicherheit in Köln und NRW: Pflicht nach ASiG, Betreuungsumfang nach DGUV V2, Ablauf, Kosten und Abgrenzung zur internen Betreuung.",
     date: "2025-03-29",
+    dateModified: "2026-05-26",
     content: [
       "Nach ASiG § 5 und [Link: /wissen/blog/dguv-vorschrift-2|DGUV Vorschrift 2] bestellt der Arbeitgeber eine Fachkraft für Arbeitssicherheit – intern oder extern. Die Wahl ist keine Formalität: Ohne schriftliche Bestellung, ausreichende Arbeitszeit und Zugang zu Arbeitsstätten und Unterlagen fehlt bei Begehungen der Berufsgenossenschaft oder Gewerbeaufsicht die Nachweisführung – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -938,6 +959,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Arbeitsschutzberatung durch die Fachkraft für Arbeitssicherheit: Leistungen nach ArbSchG und ASiG, Ablauf, Abgrenzung zur Arbeitgeberverantwortung und Nutzen für Betriebe in Köln und NRW.",
     date: "2025-04-01",
+    dateModified: "2026-05-26",
     content: [
       "Arbeitsschutzberatung verbindet gesetzliche Pflichten nach ArbSchG, ASiG und Unfallverhütungsvorschriften mit betrieblicher Umsetzbarkeit. Die Fachkraft für Arbeitssicherheit berät den Arbeitgeber in sicherheitstechnischen Fragen – sie ersetzt weder die Geschäftsführung noch die Verantwortung für Maßnahmen, Budget und Fristen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -982,6 +1004,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Sicherheitsbeauftragte nach § 22 SGB VII: Bestellung bei mehr als 20 Beschäftigten, Schulungsinhalte, Abgrenzung zur Fachkraft für Arbeitssicherheit und Praxis in Köln/NRW.",
     date: "2025-04-03",
+    dateModified: "2026-05-26",
     content: [
       "Sicherheitsbeauftragte (SiBe) unterstützen den Arbeitgeber bei der Umsetzung des Arbeitsschutzes vor Ort. Nach § 22 SGB VII sind sie in Betrieben mit regelmäßig mehr als 20 Beschäftigten zu bestellen; die genaue Anzahl richtet sich nach DGUV Vorschrift 1 (Betriebsgröße, Gefährdung, Gebäudestruktur, Schichtbetrieb) – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1024,6 +1047,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Arbeitsschutz-Dienstleister in NRW: Qualifikation der Fachkraft für Arbeitssicherheit, Leistungsspektrum, Vertragsinhalte und Warnhinweise bei der Auswahl – für Arbeitgeber in Köln und NRW.",
     date: "2025-04-05",
+    dateModified: "2026-05-26",
     content: [
       "Die Wahl des Arbeitsschutz-Dienstleisters in NRW entscheidet über Qualität der Betreuung, Revisionssicherheit bei BG-Begehungen und im Schadensfall – nicht nur über den Preis. Der Dienstleister handelt als Fachkraft für Arbeitssicherheit im Auftrag des Arbeitgebers; die Gesamtverantwortung bleibt bei der Geschäftsführung.",
       "H2::Was gilt rechtlich?",
@@ -1066,6 +1090,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Unterweisung nach § 12 ArbSchG: Pflichten, Anlässe, Inhalte aus der Gefährdungsbeurteilung, Organisation und Dokumentation – Überblick für Arbeitgeber in Köln und NRW.",
     date: "2025-04-07",
+    dateModified: "2026-05-26",
     content: [
       "Nach § 12 ArbSchG hat der Arbeitgeber Beschäftigte über Arbeitsplatz-Gefahren und Schutzmaßnahmen zu unterweisen – ausreichend, verständlich, während der Arbeitszeit und nachvollziehbar dokumentiert. Die Inhalte leiten sich in erster Linie aus der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] ab – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1107,8 +1132,9 @@ export const blogPosts: BlogPost[] = [
     slug: "arbeitsschutzgesetz-arbschg-uebersicht",
     title: "ArbSchG einfach erklärt – Pflichten für Arbeitgeber in Köln und NRW",
     excerpt:
-      "Arbeitsschutzgesetz (ArbSchG): Präventionsgrundsätze § 4, Gefährdungsbeurteilung § 5, Unterweisung § 12, Notfall § 10, Behörde § 21 – Megabrain-Einstieg für Betriebe in Köln und NRW.",
+      "ArbSchG für Arbeitgeber: Prävention § 4, GBU § 5, Unterweisung § 12, Notfall § 10 und Behörde § 21 – Einstieg für Köln und NRW.",
     date: "2025-04-12",
+    dateModified: "2026-05-26",
     content: [
       "Das Arbeitsschutzgesetz (ArbSchG) ist das zentrale Bundesgesetz für Sicherheit und Gesundheit bei der Arbeit – für nahezu alle Beschäftigungsverhältnisse, unabhängig von Betriebsgröße und Branche. Stand Gesetz: zuletzt geändert Dezember 2025. Dieser Artikel ordnet die Pflichten für Arbeitgeber in Köln, NRW und bundesweit – ohne Gesetzestext abzutippen, aber mit klarem Bezug zur Praxis.",
       "H2::Wer ist betroffen?",
@@ -1166,6 +1192,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mehrere Arbeitgeber auf einem Arbeitsplatz: Pflichten nach § 8 ArbSchG, Information, Abstimmung, Leiharbeit und Baustelle – für Betriebe in Köln und NRW.",
     date: "2026-05-05",
+    dateModified: "2026-05-26",
     content: [
       "Subunternehmer im gleichen Gebäude, Leiharbeit im Werk, mehrere Gewerke auf der Baustelle – sobald Beschäftigte verschiedener Arbeitgeber am selben Ort arbeiten, greift § 8 ArbSchG. In Köln und NRW läuft das parallel zu BaustellV/SiGeKo und DGUV-Regeln – alle Ebenen müssen zusammenpassen.",
       "H2::Was gilt rechtlich?",
@@ -1210,6 +1237,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Notfallorganisation nach § 10 ArbSchG: Ersthelfer, Brandbekämpfung, Evakuierung, Benennung, Verhältnis zur Beschäftigtenzahl – für Betriebe in Köln und NRW.",
     date: "2026-05-12",
+    dateModified: "2026-05-26",
     content: [
       "Unfall, Herzstillstand, Brand, Gasalarm – § 10 ArbSchG verlangt, dass der Arbeitgeber Maßnahmen zur Ersten Hilfe, Brandbekämpfung und Evakuierung trifft – passend zu Arbeitsstätte, Tätigkeiten und Beschäftigtenzahl. In Köln und NRW konkretisiert das die DGUV Vorschrift 1 und [Link: /wissen/blog/asr-a4-3-erste-hilfe-arbeitsstaette|ASR A4.3].",
       "H2::Was gilt rechtlich?",
@@ -1254,6 +1282,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Behördenaufsicht nach ArbSchG: Beratung, Betretensrecht, Anordnungen, 5-Prozent-Mindestbesichtigungsquote ab 2026 – für Betriebe in Köln und NRW.",
     date: "2026-05-19",
+    dateModified: "2026-05-26",
     content: [
       "Gewerbeaufsicht, Berufsgenossenschaft und im Ernstfall auch die Feuerwehr – Arbeitgeber in Köln und NRW werden regelmäßig geprüft. § 21 und § 22 ArbSchG regeln die staatliche Aufsicht und die Befugnisse der Behörde. Die Novelle 2025 verschärft ab 2026 die Besichtigungsintensität spürbar.",
       "H2::Was gilt rechtlich?",
@@ -1296,8 +1325,9 @@ export const blogPosts: BlogPost[] = [
     slug: "brandschutzordnung-din-14096",
     title: "Brandschutzordnung nach DIN 14096 – Teile A, B und C in der Praxis",
     excerpt:
-      "BSO nach DIN 14096: Pflichtinhalte in Teil A, B und C, Abgrenzung zu Alarmplan und Fluchtwegplan, Fortschreibung … – praxisnah für Betriebe in Köln und NRW.",
+      "BSO nach DIN 14096: Pflichtinhalte in Teil A, B und C, Abgrenzung zu Alarm- und Fluchtwegplan sowie Fortschreibung – praxisnah für Köln und NRW.",
     date: "2025-04-14",
+    dateModified: "2026-05-26",
     content: [
       "Die Brandschutzordnung (BSO) nach DIN 14096:2014 ist das zentrale betriebliche Regelwerk für Brandverhütung und Verhalten im Brandfall. Sie ergänzt die Pflichten aus ArbStättV und ASR A2.2/A2.3 und macht für Beschäftigte, Besucher und Einsatzkräfte verbindlich, was im Alltag und im Ernstfall gilt. Eine BSO ersetzt weder das genehmigte Brandschutzkonzept noch den Alarmplan nach DGUV 205-033 – alle Dokumente müssen zum Ist-Zustand des Gebäudes passen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1344,8 +1374,9 @@ export const blogPosts: BlogPost[] = [
     slug: "brandschutzschulungen-unternehmen",
     title: "Brandschutzschulungen im Unternehmen – Pflichten, Arten und Nachweise",
     excerpt:
-      "Brandschutzschulungen: jährliche Unterweisung, BSH-Ausbildung, BSB-Qualifikation, BSO Teil C und Übungen – wer was … – praxisnah für Betriebe in Köln und NRW.",
+      "Brandschutzschulungen: jährliche Unterweisung, BSH-Ausbildung, BSB-Qualifikation, BSO Teil C und Evakuierungsübungen – praxisnah für Köln und NRW.",
     date: "2025-04-16",
+    dateModified: "2026-05-26",
     content: [
       "„Brandschutzschulung“ ist im Alltag ein Sammelbegriff – rechtlich und praktisch sind mehrere Formate zu trennen. Wer alles in einen Vortrag packt, erfüllt oft nur die Hälfte der Pflichten. Grundlage: § 12 ArbSchG (Unterweisung), ArbStättV mit ASR A2.2, DGUV Vorschrift 1 und die betriebliche [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung DIN 14096]. Überblick zur Organisation: [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1391,8 +1422,9 @@ export const blogPosts: BlogPost[] = [
     slug: "gefaehrdungsbeurteilung-schwangere-mutterschutz",
     title: "Gefährdungsbeurteilung für Schwangere – Pflichten nach dem Mutterschutzgesetz",
     excerpt:
-      "Gefährdungsbeurteilung für Schwangere und Stillende nach MuSchG und ArbSchG: vorausschauende und anlassbezogene … – praxisnah für Betriebe in Köln und NRW.",
+      "GBU für Schwangere und Stillende nach MuSchG und ArbSchG: vorausschauend und anlassbezogen beurteilen – praxisnah für Köln und NRW.",
     date: "2025-04-18",
+    dateModified: "2026-05-26",
     content: [
       "Die Mitteilung einer Schwangerschaft oder Stillzeit löst besondere Pflichten aus: Mutterschutzgesetz (MuSchG) und Arbeitsschutzgesetz (ArbSchG) verlangen eine Gefährdungsbeurteilung, die Mutter und Kind schützt – in jedem Betrieb, unabhängig von Größe und Branche. Überblick zum Gesetz: [Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|Mutterschutz MuSchG einfach erklärt] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1437,6 +1469,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Psychische Gefährdungsbeurteilung nach § 5 ArbSchG: Belastungsfaktoren, Methoden, Beteiligung, Maßnahmen und Dokumentation – für alle Betriebe in Köln und NRW.",
     date: "2025-04-20",
+    dateModified: "2026-05-26",
     content: [
       "Psychische Belastung ist seit 2013 ausdrücklicher Bestandteil der Gefährdungsbeurteilung nach § 5 Abs. 3 Nr. 6 ArbSchG – für alle Betriebe, unabhängig von Beschäftigtenzahl. BAuA-Befunde zeigen: Viele Betriebe haben die Umsetzung noch nicht auf Praxisniveau gebracht – während Berufsgenossenschaft und Gewerbeaufsicht das Thema zunehmend gezielt prüfen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1479,6 +1512,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Betriebsanweisungen für Gefahrstoffe nach GefStoffV und TRGS 555: Pflichtinhalte, Aufbau, Zugänglichkeit, Unterweisung und typische Fehler in Betrieben in Köln und NRW.",
     date: "2025-04-26",
+    dateModified: "2026-05-26",
     content: [
       "Betriebsanweisungen (BA) für Gefahrstoffe sind nach § 14 GefStoffV und TRGS 555 die betriebsspezifische Kurzanweisung am Arbeitsplatz – verständlich, aktuell und für die konkrete Tätigkeit. Sie ersetzen nicht das Sicherheitsdatenblatt (SDB), sondern fassen die für Ihren Betrieb relevanten Gefahren und Maßnahmen zusammen. Einordnung in GefStoffV und TRGS: [Link: /wissen/blog/trgs-einfach-erklaert|TRGS einfach erklärt] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1517,8 +1551,9 @@ export const blogPosts: BlogPost[] = [
     slug: "flucht-und-rettungsplan-erstellen",
     title: "Flucht- und Rettungsplan erstellen – Pflicht, Vorschriften und DIN ISO 23601",
     excerpt:
-      "Flucht- und Rettungsplan nach ASR A2.3 und DIN ISO 23601: Pflicht, Inhalt (grün/rot), lagerichtiger Aushang, … – praxisnah für Betriebe in Köln und NRW.",
+      "Flucht- und Rettungsplan nach ASR A2.3 und DIN ISO 23601: Pflicht, Inhalt, lagerichtiger Aushang und Aktualisierung – praxisnah für Köln und NRW.",
     date: "2025-04-28",
+    dateModified: "2026-05-26",
     content: [
       "Der Flucht- und Rettungsplan ist die grafische Orientierung im Brandfall – maßstabsnah, farbig, je Etage oder Gebäudeteil. Er zeigt Fluchtwege, Notausgänge, Sammelstellen-Symbol, Feuerlöscher, Handfeuermelder und Erste-Hilfe-Punkte. Rechtsgrundlagen: ArbStättV mit ASR A2.3 (Fluchtwege, Notausgänge, Fluchtwegpläne, Notbeleuchtung) und ASR A1.3 (Kennzeichnung). ASR-Überblick: [Link: /wissen/blog/asr-einfach-erklaert|ASR einfach erklärt]. Gestaltung nach DIN ISO 23601; Symbole nach DIN EN ISO 7010 – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1566,6 +1601,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV Vorschrift 3: Prüfpflichten für ortsveränderliche und ortsfeste Betriebsmittel, Fristen aus der Gefährdungsbeurteilung, befähigte Person und Dokumentation – für Arbeitgeber in Köln und NRW.",
     date: "2025-04-30",
+    dateModified: "2026-05-26",
     content: [
       "Die DGUV Vorschrift 3 (früher BGV A3) regelt die Prüfung elektrischer Anlagen und Betriebsmittel auf ihren ordnungsgemäßen Zustand. Sie verpflichtet jeden Arbeitgeber, Gefährdungen durch elektrischen Strom zu vermeiden – Stromunfälle, Brandgefahr durch Defekte und Ausfälle sicherheitsrelevanter Anlagen. Die Vorschrift gilt branchenübergreifend; die konkreten Fristen und Prüfumfänge leiten sich aus der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] ab – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1606,8 +1642,9 @@ export const blogPosts: BlogPost[] = [
     slug: "iso-45001-arbeitsschutzmanagementsystem",
     title: "ISO 45001 – Arbeitsschutzmanagementsystem: Anforderungen, Einführung und Vorteile",
     excerpt:
-      "ISO 45001 für Arbeitsschutzmanagement: Anforderungen, Einführung, Verknüpfung mit Gefährdungsbeurteilung und … – praxisnah für Betriebe in Köln und NRW.",
+      "ISO 45001 für Arbeitsschutzmanagement: Anforderungen, Einführung und Verknüpfung mit Gefährdungsbeurteilung und SiFa – praxisnah für Köln und NRW.",
     date: "2025-05-01",
+    dateModified: "2026-05-26",
     content: [
       "ISO 45001:2018 (Nachfolger von OHSAS 18001) definiert Anforderungen an ein Arbeitsschutzmanagementsystem (SGA) – freiwillig, aber in Konzernen, Lieferketten und öffentlichen Ausschreibungen oft verlangt. Sie strukturiert, was der ArbSchG ohnehin fordert, in einen auditierbaren Prozess – ersetzt aber keine gesetzliche Pflichterfüllung ohne lebendige Praxis – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1650,6 +1687,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandschutzkonzept nach BauO NRW: Pflicht, Inhalte (baulich, technisch, organisatorisch), Genehmigungsverfahren und Schnittstelle zum betrieblichen Brandschutz.",
     date: "2025-05-02",
+    dateModified: "2026-05-26",
     content: [
       "Ein Brandschutzkonzept ist ein ganzheitliches Dokument, das bauliche, anlagentechnische und organisatorische Maßnahmen zum Schutz von Personen und Sachwerten vor Brandgefahren beschreibt. Es bildet die zentrale Grundlage für den Brandschutznachweis im Baugenehmigungsverfahren und ist bei Sonderbauten, Gewerbe- und Industriebauten sowie bei Abweichungen von den Technischen Baubestimmungen nach BauO NRW in der Regel erforderlich.",
       "H2::Was gilt rechtlich?",
@@ -1691,8 +1729,9 @@ export const blogPosts: BlogPost[] = [
     slug: "vorbeugender-brandschutz-massnahmen",
     title: "Vorbeugender Brandschutz – Maßnahmen, Pflichten und die drei Säulen",
     excerpt:
-      "Vorbeugender Brandschutz: baulich, anlagentechnisch, organisatorisch – Pflichten im Betrieb, Prüffristen, … – praxisnah für Betriebe in Köln und NRW.",
+      "Vorbeugender Brandschutz: baulich, anlagentechnisch und organisatorisch – Pflichten im Betrieb, Prüffristen und BSO – praxisnah für Köln und NRW.",
     date: "2025-05-03",
+    dateModified: "2026-05-26",
     content: [
       "Vorbeugender Brandschutz umfasst alle Maßnahmen, die Brände verhindern, ihre Ausbreitung begrenzen und eine geordnete Rettung ermöglichen – bevor die Feuerwehr eintrifft. Abwehrender Brandschutz (Feuerwehr, Löscheinsatz) kommt danach. Im Unternehmensalltag sind vor allem anlagentechnischer und organisatorischer Brandschutz aktiv zu pflegen; baulicher Brandschutz ist bei Neubau, Umbau und Nutzungsänderung entscheidend und muss im Betrieb zum IST-Zustand passen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1740,6 +1779,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Ergonomische Gefährdungsbeurteilung in einer KiTa-Küche: Spülbereich, Leitmerkmalmethode, Kinderessbereich und konkrete Maßnahmen nach STOP-Prinzip – anonymisiert aus einem Mandat in Köln.",
     date: "2025-05-04",
+    dateModified: "2026-05-26",
     content: [
       "In einer Köln betreuten Einrichtung eines KiTa-Trägers stand die Fortschreibung der Gefährdungsbeurteilung für den Küchenbereich an. Ziel war eine tätigkeitsbezogene ergonomische Bewertung nach § 5 ArbSchG – nicht ein theoretischer Textbaustein, sondern eine Begehung unter realen Bedingungen mit Beobachtung typischer Arbeitsabläufe: Zubereitung, manuelles Spülen, Ein- und Ausräumen der Spülmaschine, Servieren im Essbereich und Reinigung kindgerechter Möbel.",
       "H2::Was gilt rechtlich?",
@@ -1782,6 +1822,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jahresbericht der Fachkraft für Arbeitssicherheit nach DGUV Vorschrift 2: Inhalte, Struktur und typische Schwerpunkte – anonymisiert aus einem NRW-Mandat.",
     date: "2025-05-06",
+    dateModified: "2026-05-26",
     content: [
       "Viele Geschäftsführungen fragen uns nach dem SiFa-Jahresbericht: Was muss dokumentiert werden, was ist optional – und wann reicht eine schriftliche Zusammenfassung? Ein anonymisierter Fall aus der Betreuung eines mittelständischen Unternehmens in NRW (Handel/Logistik, kleinerer Standort) zeigt eine belastbare Struktur.",
       "H2::Was gilt rechtlich?",
@@ -1823,8 +1864,9 @@ export const blogPosts: BlogPost[] = [
     slug: "ist-zustandserfassung-externe-fasi",
     title: "Ist-Zustandserfassung vor externer Fachkraft für Arbeitssicherheit – Ablauf (Köln)",
     excerpt:
-      "Ist-Zustandserfassung vor Start der Betreuung: Struktur, Dokumentation, ASA und Prioritäten – Grundlage für … – praxisnah für Betriebe in Köln und NRW.",
+      "Ist-Zustandserfassung vor externer SiFa-Betreuung: Struktur, Dokumentation, ASA und Prioritäten – praxisnah für Köln und NRW.",
     date: "2025-05-07",
+    dateModified: "2026-05-26",
     content: [
       "Wer eine externe Fachkraft für Arbeitssicherheit neu beauftragt, sollte nicht mit generischen Vorlagen starten, sondern mit einer strukturierten Ist-Zustandserfassung. Sie ist die Basis für [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|schriftliche Bestellung], Betreuungsplan nach [Link: /wissen/blog/dguv-vorschrift-2|DGUV Vorschrift 2] und realistische Arbeitszeit – ohne Begehung entstehen unrealistische Angebote – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1869,6 +1911,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Handhubwagen regelmäßig prüfen: Was sagt BetrSichV und die Gefährdungsbeurteilung? Orientierung zu Prüfumfang, Fristen und Alltagskontrolle – aus einem NRW-Mandat.",
     date: "2025-05-09",
+    dateModified: "2026-05-26",
     content: [
       "Im Rahmen einer Jahresbetreuung durch die Fachkraft für Arbeitssicherheit in NRW stellte sich die Frage, ob und wie oft Handhubwagen (Gabelhubwagen, Wagen ohne Antrieb) prüfpflichtig sind. Hintergrund: täglicher Einsatz im Lager, unterschiedliche Zustände, keine einheitliche Dokumentation.",
       "H2::Was gilt rechtlich?",
@@ -1909,6 +1952,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jahrespauschale, ASA-Betreuung, integrierte Begehung, Unterweisungen: So strukturieren wir das erste Vertragsjahr externer Arbeitssicherheit – anonymisiert aus einem Kölner Mandat.",
     date: "2025-05-10",
+    dateModified: "2026-05-26",
     content: [
       "Ein mittelgroßer Logistikstandort in Köln suchte eine externe Fachkraft für Arbeitssicherheit mit klarem Leistungsumfang statt reiner Stundenabrechnung. Das Angebot kombinierte Grundbetreuung nach ASiG und DGUV Vorschrift 2 mit festen Bausteinen im ersten Jahr.",
       "H2::Was gilt rechtlich?",
@@ -1951,6 +1995,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Was in einer ASA wirklich besprochen wird: Gefährdungsbeurteilung Küche, psychische Belastung, Bildschirmarbeitsplätze – anonymisiert aus Protokoll eines Kölner Sozialträgers.",
     date: "2025-05-12",
+    dateModified: "2026-05-26",
     content: [
       "Der Arbeitsschutzausschuss (ASA) ist bei mehr als 20 Beschäftigten einzurichten – wird oft theoretisch diskutiert, selten transparent beschrieben. Ein anonymisierter Protokollauszug eines KiTa-Trägers in Köln (Online-Sitzung mit Geschäftsführung, Verwaltung, Kita-Leitung, Betriebsarzt, Fachkraft für Arbeitssicherheit) zeigt typische Schwerpunkte jenseits von Formalien.",
       "H2::Was gilt rechtlich?",
@@ -1991,8 +2036,9 @@ export const blogPosts: BlogPost[] = [
     slug: "sigeko-begehung-seitenschutz-abbruch-koeln",
     title: "SiGeKo-Begehung: Seitenschutz und Absturzsicherung in der Abbruchphase (Köln)",
     excerpt:
-      "Absturzsicherung in der Abbruchphase: Was SiGeKo-Begehungen prüfen, typische Mängel am Seitenschutz und … – praxisnah für Betriebe in Köln und NRW.",
+      "SiGeKo-Begehung in der Abbruchphase: Seitenschutz, Absturzsicherung und typische Mängel am innerstädtischen Umbau in Köln.",
     date: "2025-05-14",
+    dateModified: "2026-05-26",
     content: [
       "In einem innerstädtischen Umbau in Köln (Abbruch- und Rückbauphase, mehrere Gewerke parallel) wurden im Rahmen der SiGeKo-Koordination regelmäßige Baustellenbegehungen durchgeführt. Schwerpunkt war Absturzsicherung und Seitenschutz in den oberen Geschossen – ein klassisches Thema nach Baustellenverordnung mit hoher Unfalltragweite.",
       "H2::Was gilt rechtlich?",
@@ -2040,6 +2086,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Darf auf der Baustelle geraucht werden, solange die Fassade offen ist? SiGeKo-Stellungnahme zu Nichtraucherschutz, übergeordneter Gefährdungsbeurteilung und Raucherstellen – aus einem Kölner Bauprojekt.",
     date: "2025-05-16",
+    dateModified: "2026-05-26",
     content: [
       "Ein häufiger Konflikt auf Baustellen: Der Bauherr möchte grundsätzlich Rauchen zulassen – Argument oft „Fassade noch nicht geschlossen“. In einem innerstädtischen Bauprojekt in Köln wurde diese Frage an den SiGeKo herangetragen. Die Antwort ist rechtlich klarer, als viele erwarten.",
       "H2::Was gilt rechtlich?",
@@ -2086,6 +2133,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Übergeordnete Gefährdungsbeurteilung vs. Gewerke-Gefährdungsbeurteilung: Wie SiGeKo tätigkeitsbezogene Gefährdungsbeurteilungen bei komplexen Schnittstellen erstellt – anonymisiert aus einem Kölner Bauprojekt.",
     date: "2025-05-17",
+    dateModified: "2026-05-26",
     content: [
       "Bei komplexen Umbauten reicht eine allgemeine Baustellen-Gefährdungsbeurteilung oft nicht aus. In einem Kölner Bauprojekt (mehrere Ebenen, Innenhof, Schnittstelle zu fremder Infrastruktur) wurde eine tätigkeitsbezogene Gefährdungsbeurteilung als SiGeKo-Zusatzleistung erstellt und fortgeschrieben – ergänzend zum SiGe-Plan, nicht als Ersatz.",
       "H2::Was gilt rechtlich?",
@@ -2130,6 +2178,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SiGe-Plan, Baustellenordnung und Begehungsrhythmus: So strukturieren wir SiGeKo bei einem Neubau – anonymisiert aus einem Wohnbauprojekt in NRW.",
     date: "2025-05-20",
+    dateModified: "2026-05-26",
     content: [
       "Ein Neubau-Wohngebäude in NRW zeigt den typischen SiGeKo-Ablauf von der Auftragserteilung bis zur laufenden Ausführungskoordination – dokumentiert in einem Projektverlauf mit Meilensteinen und Leistungsstatus, den Bauherren und Bauleitung als Steuerungsinstrument nutzen können.",
       "H2::Was gilt rechtlich?",
@@ -2173,6 +2222,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Begehung und Besprechungsbericht zu Dach-/Klimawartung: ASR A2.1, ASR A2.2 und Vorbereitung der Gefährdungsbeurteilung – anonymisiert aus einem SiGeKo-Mandat in Köln.",
     date: "2025-05-21",
+    dateModified: "2026-05-26",
     content: [
       "Nicht jede SiGeKo-Aufgabe ist Großbaustelle mit Abbruch. In einem Kölner Gewerbeobjekt ging es um SiGeKo-Begleitung bei Arbeiten im Bestand – Schwerpunkt Dachbereiche, Klimageräte auf dem Dach, Absturzgefahren und Erstausstattung mit Feuerlöschern entlang Fluchtwege im laufenden Betrieb.",
       "H2::Was gilt rechtlich?",
@@ -2219,6 +2269,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SiGe-Plan, Begehungen, Einweisungen bei Umbaumaßnahme: Was ein SiGeKo-Angebot für Bestandsprojekte enthalten sollte – anonymisiert aus einem Business-Umbau in Köln.",
     date: "2025-05-22",
+    dateModified: "2026-05-26",
     content: [
       "Umbaumaßnahmen im Bestand – mehrere Gewerke, Betrieb in der Nähe oder teilweise weiter aktiv – lösen dieselbe SiGeKo-Pflicht aus wie Neubauten, sobald Beschäftigte mehrerer Arbeitgeber nacheinander oder gleichzeitig tätig werden. Ein anonymisiertes Angebot für einen Business-Umbau in Köln zeigt einen praxisnahen Leistungskatalog nach RAB 30.",
       "H2::Was gilt rechtlich?",
@@ -2264,6 +2315,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Was kostet SiGeKo in Köln und NRW? Honorarmodelle, Einflussfaktoren und typische Projektgrößen – ohne vertrauliche Einzeldaten.",
     date: "2025-05-23",
+    dateModified: "2026-05-26",
     content: [
       "SiGeKo-Leistungen sind nicht wie Standard-LVs austauschbar – der Aufwand hängt von Komplexität, Risiko, Gewerkeanzahl und urbanem Umfeld ab. Bauherren in Köln sollten früh Budget für Vorplanung und Ausführungskoordination einplanen, sobald klar ist, dass mehrere Gewerke auf der Baustelle zusammenarbeiten.",
       "H2::Was gilt rechtlich?",
@@ -2308,6 +2360,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "BauO NRW 2018 verständlich: Baugenehmigung, verfahrensfreie Vorhaben (§ 62), Abstandsflächen (§ 6), Brandschutz, Solarpflicht (§ 42a), Begrünung (§ 8) und Barrierefreiheit (§ 49) – für Bauherren, Eigentümer und Handwerker in NRW.",
     date: "2025-05-27",
+    dateModified: "2026-05-26",
     content: [
       "Wer in Nordrhein-Westfalen bauen, umbauen oder die Nutzung ändern will, stößt auf die Bauordnung für das Land Nordrhein-Westfalen (Landesbauordnung 2018 – BauO NRW 2018). Sie gilt für bauliche Anlagen, Bauprodukte und – wo das Gesetz es vorsieht – auch für Grundstücke und weitere Einrichtungen. In diesem Beitrag ordnen wir die wichtigsten Pflichten verständlich ein – mit Paragraphenbezug, ohne Juristenlatein. Vertiefung zum Brandschutz: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Was gilt rechtlich?",
@@ -2359,6 +2412,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 1 (§§ 1–46): Anwendungsbereich ab 200 Besuchern, Bauteile, Rettungswege, Großbühnen, Betrieb, Brandschutzordnung und Gastspielprüfbuch – verständlich für Betreiber, Veranstalter und Planer in NRW.",
     date: "2025-06-03",
+    dateModified: "2026-05-26",
     content: [
       "Theater, Konzerte, Messen, Sportevents oder große Gastronomie: Sobald viele Menschen gleichzeitig zusammenkommen, greift in NRW nicht nur die [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|BauO NRW 2018], sondern oft die Sonderbauverordnung NRW (SBauV). Teil 1 regelt Versammlungsstätten in sechs Kapiteln mit 46 Paragraphen – von Anwendungsbereich über Bau- bis Betriebsvorschriften. Dieser Beitrag ordnet Teil 1 verständlich ein; Vertiefung im Pillar: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz]. Weitere SBauV-Teile (Beherbergung, Verkauf, Hochhaus …) behandeln wir in separaten Artikeln.",
       "H2::Was gilt rechtlich?",
@@ -2406,6 +2460,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 2 (§§ 47–59): Hotels, Pensionen und Gästehäuser ab 13 Gastbetten – Rettungswege, Bauteile, Rauchwarnmelder, BMA, Barrierefreiheit und Betrieb in NRW verständlich erklärt.",
     date: "2025-06-10",
+    dateModified: "2026-05-26",
     content: [
       "Hotels, Pensionen, Gästehäuser und größere Unterkünfte: Wer Gäste beherbergt, stößt in NRW neben der [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|BauO NRW 2018] auf die Sonderbauverordnung (SBauV). Teil 2 regelt Beherbergungsstätten in den §§ 47 bis 59 – von der Frage „Ab wann gilt das?“ über baulichen Brandschutz bis zu Rauchwarnmeldern, Brandmeldeanlagen und Betriebspflichten. Ergänzend: [Link: /wissen/blog/sonderbauverordnung-teil-1-versammlungsstaetten|Teil 1 Versammlungsstätten], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Wann gilt Teil 2?",
@@ -2451,6 +2506,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 3 (§§ 60–91): Einkaufszentren, Märkte und große Läden ab 2.000 m² – Brandabschnitte, Ladenstraßen, Rettungswege, Sprinkler, BMA und Betrieb in NRW verständlich erklärt.",
     date: "2025-06-17",
+    dateModified: "2026-05-26",
     content: [
       "Großflächiger Einzelhandel, Einkaufszentren, Baumärkte oder große Filialen: Sobald Verkaufsflächen wachsen, greift in NRW die Sonderbauverordnung (SBauV) Teil 3 – neben der [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|BauO NRW 2018]. Teil 3 umfasst §§ 60 bis 91. Dieser Beitrag ordnet Bau und Betrieb verständlich ein; ergänzend: [Link: /wissen/blog/sonderbauverordnung-teil-1-versammlungsstaetten|Teil 1], [Link: /wissen/blog/sonderbauverordnung-teil-2-beherbergungsstaetten|Teil 2] und [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Wann gilt Teil 3?",
@@ -2495,6 +2551,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 4 (§§ 92–120): Hochhäuser ab BauO-Grenze – Sicherheitstreppenräume, Feuerwehraufzüge, Sprinkler, BMA, Druckbelüftung, Erleichterungen bis 60 m und Betrieb in NRW verständlich erklärt.",
     date: "2025-06-24",
+    dateModified: "2026-05-26",
     content: [
       "Wohn- und Bürotürme, Hotels in Hochhausform oder gemischt genutzte Gebäude: Sobald ein Objekt als Hochhaus gilt, greift in NRW neben der [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|BauO NRW 2018] die Sonderbauverordnung (SBauV) Teil 4 (§§ 92–120). Typischerweise liegt die Fußbodenhöhe des obersten nutzbaren Geschosses mehr als 22 Meter über Gelände. Ergänzend: [Link: /wissen/blog/sonderbauverordnung-teil-3-verkaufsstaetten|Teil 3], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Wann gilt Teil 4?",
@@ -2538,6 +2595,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 5 (§§ 121–142): Kleingaragen, Tiefgaragen und Parkhäuser – Nutzflächen, Rauchabschnitte, Lüftung, CO-Warnanlagen, BMA, Rettungswege und Betrieb in NRW verständlich erklärt.",
     date: "2025-07-01",
+    dateModified: "2026-05-26",
     content: [
       "Tiefgarage unter dem Wohnhaus, Parkhaus im Einkaufszentrum oder Stellplatzanlage auf dem Dach: Sobald Stellplätze und Garagen nach BauO NRW gebaut oder betrieben werden, greift die Sonderbauverordnung (SBauV) Teil 5 (§§ 121–142). Ergänzend: [Link: /wissen/blog/sonderbauverordnung-teil-4-hochhaeuser|Teil 4], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Wann gilt Teil 5?",
@@ -2580,6 +2638,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBauV Teil 6 (§§ 143–149): Elektrische Betriebsräume für Mittelspannung, Notstromaggregate und Batterieanlagen – Anforderungen an Lage, Brandschutz und Lüftung in NRW verständlich erklärt.",
     date: "2025-07-08",
+    dateModified: "2026-05-26",
     content: [
       "Mittelspannungstransformatoren im Keller, zentrale USV-Batterien oder Notstromaggregate für BMA und Sicherheitsbeleuchtung: Sobald solche Anlagen in Gebäuden aufgestellt werden, greift in NRW die Sonderbauverordnung (SBauV) Teil 6 (§§ 143–149). Ergänzend: [Link: /wissen/blog/sonderbauverordnung-teil-5-garagen|Teil 5], [Link: /wissen/ratgeber/elektrosicherheit-dguv-v3|betriebliche Elektrosicherheit], [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Wann gilt Teil 6?",
@@ -2616,8 +2675,9 @@ export const blogPosts: BlogPost[] = [
     slug: "sonderbauverordnung-teil-7-schlussvorschriften",
     title: "Sonderbauverordnung NRW – Teil 7 Schlussvorschriften einfach erklärt",
     excerpt:
-      "SBauV Teil 7 (§ 150): Inkrafttreten, Außerkrafttreten der alten SBauV 2009 und Übergangsvorschriften für … – praxisnah für Betriebe in Köln und NRW.",
+      "SBauV Teil 7 (§ 150): Inkrafttreten, Außerkrafttreten der SBauV 2009 und Übergangsvorschriften – praxisnah für Köln und NRW.",
     date: "2025-07-15",
+    dateModified: "2026-05-26",
     content: [
       "Sieben Teile, über 140 Paragraphen: Die Sonderbauverordnung NRW (SBauV) regelt Sonderbauten von der Versammlungsstätte bis zum elektrischen Betriebsraum. Teil 7 schließt die Verordnung mit § 150 ab – Inkrafttreten, Außerkrafttreten und Übergangsvorschriften. Dieser Artikel erklärt, was das für Genehmigungen, Bestand und laufende Verfahren bedeutet; die inhaltlichen Teile finden Sie in [Link: /wissen/blog/sonderbauverordnung-teil-1-versammlungsstaetten|Teil 1] bis [Link: /wissen/blog/sonderbauverordnung-teil-6-elektrische-anlagen|Teil 6] und im [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Was gilt rechtlich?",
@@ -2664,6 +2724,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "BHKG NRW verständlich: Brandschutz, Hilfeleistung und Katastrophenschutz – wie es mit BauO, SBauV, betrieblichem Brandschutz, Arbeitsschutz und SiGeKo zusammenhängt. Einstieg in die BHKG-Blogserie.",
     date: "2025-07-15",
+    dateModified: "2026-05-26",
     content: [
       "Wer in NRW von Brandschutz spricht, meint oft nur die Bauordnung oder die Feuerwehr. Tatsächlich laufen mehrere Ebenen parallel: baulich und genehmigungsrechtlich über BauO NRW und Sonderbauverordnung, öffentlich über das Gesetz über den Brandschutz, die Hilfeleistung und den Katastrophenschutz (BHKG NRW), betrieblich im Arbeitsschutz über ArbSchG, DGUV und Brandschutzordnung – und auf der Baustelle zusätzlich über BaustellV und SiGeKo. Dieser Artikel ist der Einstieg in unsere BHKG-Serie; er ordnet die Ebenen ein, ohne sie zu vermischen. Vertiefende Einzelthemen folgen in den nächsten Beiträgen zu Brandverhütungsschau, Leitstelle und Brandsicherheitswache.",
       "H2::Was gilt rechtlich?",
@@ -2723,6 +2784,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandverhütungsschau § 26 BHKG NRW: Wer prüft, wie oft (max. 6 Jahre), typische Mängel, Vorbereitung mit BSB/Facility und Überführung in Gefährdungsbeurteilung und Brandschutzordnung – praxisnah für Köln & NRW.",
     date: "2025-07-22",
+    dateModified: "2026-05-26",
     content: [
       "Nach der SBauV-Serie endet die bauliche Einordnung bei § 150 – im laufenden Betrieb kommt eine zweite, oft unterschätzte Prüfebene hinzu: die Brandverhütungsschau nach § 26 BHKG NRW. Sie ist keine Genehmigung und kein Ersatz für betrieblichen Brandschutz, aber der wichtigste Schnittpunkt zwischen Feuerwehr/Gemeinde und Ihrem Gebäudebetrieb. Dieser Artikel erklärt Ablauf, Pflichten und den sauberen Übergang in Gefährdungsbeurteilung und Brandschutzordnung; Überblick zu allen Ebenen: [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|Blog BHKG NRW einfach erklärt].",
       "H2::Was gilt rechtlich?",
@@ -2778,6 +2840,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandmeldeanlage und einheitliche Leitstelle § 28 BHKG NRW: Aufschaltung, Fehlalarme, Wartung, BSO Teil C und Schnittstelle SBauV/BauO – praxisnah für Betreiber in Köln & NRW.",
     date: "2025-07-29",
+    dateModified: "2026-05-26",
     content: [
       "Wer eine Brandmeldeanlage plant oder betreibt, denkt oft nur an Genehmigung und Wartungsvertrag. Entscheidend ist aber die Einsatzkette: Melder melden an die Brandmelderzentrale, diese leitet an die einheitliche Leitstelle weiter, von dort alarmiert die Feuerwehr. Das verbindet bauordnungsrechtliche Technik mit dem BHKG NRW. Dieser Artikel erklärt Pflichten, typische Störungen und die Einbindung in Brandschutzordnung und Betrieb – ergänzend zum [Link: /wissen/blog/brandverhuetungsschau-bhkg-nrw|Blog Brandverhütungsschau] und [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|Blog BHKG NRW einfach erklärt].",
       "H2::Was gilt rechtlich?",
@@ -2825,6 +2888,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandsicherheitswache § 27 BHKG NRW: Anzeige bei Veranstaltungen, Auflagen der Gemeinde, Feuerwehr vs. eigene Kräfte – Verbindung zu SBauV Versammlungsstätten und BSO.",
     date: "2025-08-05",
+    dateModified: "2026-05-26",
     content: [
       "Konzert, Messe, Sportevent oder Firmenfeier mit Pyrotechnik: Sobald viele Menschen zusammenkommen und die Brandgefahr steigt, greift § 27 BHKG NRW – neben Sonderbauverordnung und betrieblicher Brandschutzordnung. Veranstaltungen mit erhöhter Brandgefahr müssen der Gemeinde rechtzeitig angezeigt werden. Dieser Artikel erklärt Pflichten und Ablauf; Überblick: [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|Blog BHKG NRW einfach erklärt], Einsatzkette im Dauerbetrieb: [Link: /wissen/blog/bma-leitstelle-bhkg-nrw|BMA und Leitstelle].",
       "H2::Was gilt rechtlich?",
@@ -2879,6 +2943,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Verordnung über bautechnische Prüfungen (BauPrüfVO): Bauvorlagen §§ 1–20, Nachweise inkl. Brandschutzkonzept § 9, Prüfingenieur Brandschutz §§ 21–28 – verständlich für Bauherren und Planer in NRW.",
     date: "2025-08-12",
+    dateModified: "2026-05-26",
     content: [
       "Wer in NRW ein größeres Bauprojekt genehmigen lassen muss, kennt die Bauordnung und oft auch die Sonderbauverordnung. Weniger bekannt ist die Verordnung über bautechnische Prüfungen – kurz BauPrüfVO. Sie regelt nicht, wie sicher ein Gebäude sein muss (das steht in der BauO NRW), sondern welche Unterlagen Sie einreichen müssen und wer statische und brandschutztechnische Nachweise prüft. Stand der Verordnung: 26. November 2024. Dieser Artikel ist der Einstieg in unsere BauPrüfVO-Serie; vertiefende Übersicht zum baulichen Brandschutz: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz], zur Gesetzeslogik der BauO: [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|Blog BauO NRW einfach erklärt].",
       "H2::Was gilt rechtlich?",
@@ -2930,6 +2995,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "§ 9 BauPrüfVO NRW: Pflichtinhalte des Brandschutzkonzepts bei Sonderbauten, wer es erstellt, Abweichungen mit Ausgleichsmaßnahmen, Prüfingenieur und Übergang in Betrieb – für Bauherren und Planer.",
     date: "2025-08-19",
+    dateModified: "2026-05-26",
     content: [
       "Hotelneubau, Versammlungsstätte, Krankenhaus oder großes Gewerbeobjekt: Sobald ein Vorhaben als Sonderbau gilt, verlangt die BauPrüfVO NRW ein Brandschutzkonzept nach § 9 – nicht nur Skizzen zu Rettungswegen, sondern eine Gesamtbewertung von baulichem und abwehrendem Brandschutz. Dieser Artikel erklärt Pflichtinhalte, Verantwortlichkeiten und typische Fehler; Einstieg in die Serie: [Link: /wissen/blog/baupruefvo-nrw-einfach-erklaert|Blog BauPrüfVO NRW einfach erklärt], Überblick Bauordnung: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
       "H2::Was gilt rechtlich?",
@@ -2982,6 +3048,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brandschutzkonzept § 9 BauPrüfVO, betriebliche Brandschutzordnung und Brandverhütungsschau § 26 BHKG: wie Genehmigung, Betrieb und Gemeindeprüfung zusammenhängen – ohne Compliance-Lücken in Köln & NRW.",
     date: "2025-08-26",
+    dateModified: "2026-05-26",
     content: [
       "Ein Neubau ist abgenommen, die Baugenehmigung liegt im Ordner, das Hotel oder die Halle ist seit Monaten in Betrieb. Dann kündigt die Gemeinde die Brandverhütungsschau an – und plötzlich tauchen Mängel auf, die niemand mehr zuordnen kann: Rettungswege durch Möbel blockiert, Brandmelderzonen passen nicht mehr zum Mieterausbau, die Brandschutzordnung beschreibt noch den Eröffnungstag. Das Problem ist selten die Schau selbst. Es ist die fehlende Kette zwischen genehmigtem Brandschutzkonzept, laufendem Betrieb und behördlicher Überprüfung. Dieser Artikel erklärt diese Kette verständlich – als dritter Teil unserer BauPrüfVO-Serie nach [Link: /wissen/blog/baupruefvo-nrw-einfach-erklaert|Überblick BauPrüfVO] und [Link: /wissen/blog/brandschutzkonzept-paragraph-9-baupruefvo|§ 9 Brandschutzkonzept].",
       "H2::Was gilt rechtlich?",
@@ -3037,6 +3104,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Prüfverordnung NRW: Erst- und Wiederholungsprüfung durch Prüfsachverständige (BMA, Sprinkler, RWA, Sicherheitsbeleuchtung), Wirk-Prinzip-Prüfung, Fristen 3 und 6 Jahre, wiederkehrende Sonderbau-Prüfungen durch die Bauaufsicht § 10 – verständlich für Betreiber in NRW.",
     date: "2025-09-02",
+    dateModified: "2026-05-26",
     content: [
       "Die BauPrüfVO regelt Nachweise in der Genehmigung – wer plant, reicht ein, wer als Prüfingenieur das Brandschutzkonzept prüft. Sobald das Gebäude in Betrieb ist, kommt eine zweite Verordnung ins Spiel, die viele Betreiber erst kennen, wenn ein Prüftermin ansteht oder die Bauaufsicht nachfragt: die Verordnung über die Prüfung technischer Anlagen und wiederkehrende Prüfungen von Sonderbauten, kurz PrüfVO NRW. Stand: 26. November 2024. Sie regelt nicht den Bauantrag, sondern ob Sprinkler, Brandmeldeanlage, Rauchabzug und Sicherheitsbeleuchtung im laufenden Betrieb wirksam und betriebssicher sind – und ob bei Sonderbauten die Bauaufsicht die Betriebsvorschriften kontrolliert. Dieser Artikel ist der Einstieg in unsere PrüfVO-Serie; davor in der Kette: [Link: /wissen/blog/baupruefvo-nrw-einfach-erklaert|BauPrüfVO], [Link: /wissen/blog/brandschutzkonzept-betrieb-brandverhuetungsschau|Konzept, Betrieb und Brandverhütungsschau].",
       "H2::Was gilt rechtlich?",
@@ -3089,6 +3157,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Wirk-Prinzip-Prüfung § 2 PrüfVO NRW: bestimmungsgemäßes Zusammenwirken von Brandmeldeanlage, RWA, Druckbelüftung, Sprinkler und Aufzug – Pflicht bei Erst- und Wiederholungsprüfung, Abgrenzung zur Wartung, Vorbereitung für Betreiber.",
     date: "2025-09-09",
+    dateModified: "2026-05-26",
     content: [
       "Die Brandmeldeanlage wurde gewartet, die Sicherheitsbeleuchtung hat eine Plakette, der Sprinkler-Inspizient war im Haus. Trotzdem kann die wiederkehrende Prüfung nach PrüfVO NRW scheitern – weil niemand geprüft hat, ob im Brandfall alles zusammen funktioniert. Genau das verlangt § 2 Absatz 1: Neben Wirksamkeit und Betriebssicherheit jeder Anlage für sich muss der Prüfsachverständige das bestimmungsgemäße Zusammenwirken prüfen – die sogenannte Wirk-Prinzip-Prüfung. Sie ist kein Zusatzangebot und kein separates Gutachten, sondern fester Bestandteil jeder Erstprüfung und jeder wiederkehrenden Prüfung. Dieser Artikel erklärt, was das praktisch bedeutet – als zweiter Teil unserer PrüfVO-Serie nach [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO NRW einfach erklärt].",
       "H2::Was gilt rechtlich?",
@@ -3140,6 +3209,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "BMA-Prüfung in NRW: Erst- und Wiederholungsprüfung alle 3 Jahre durch Prüfsachverständige, Abgrenzung zu DIN 14675-Wartung und BetrSichV, Erstprüfung nach Umbau, Leitstelle und Dokumentation für Betreiber.",
     date: "2025-09-16",
+    dateModified: "2026-05-26",
     content: [
       "In fast jedem Sonderbau in NRW steht eine selbsttätige Brandmeldeanlage – Hotel, Versammlungsstätte, Krankenhaus, großes Gewerbeobjekt. Der Wartungsvertrag läuft, die Inspektion war im Frühjahr, das Wartungsbuch liegt im Technikraum. Trotzdem kann die gesetzliche Prüfung nach PrüfVO NRW überfällig sein – weil Wartung und PrüfVO-Prüfung nicht dasselbe sind, weil kein anerkannter Prüfsachverständiger beauftragt wurde oder weil nach einem Umbau die Erstprüfung fehlt. Dieser Artikel erklärt Pflichten, Fristen und typische Fehler speziell für die Brandmeldeanlage – als dritter Teil unserer PrüfVO-Serie nach [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO-Überblick] und [Link: /wissen/blog/wirk-prinzip-pruefung-pruefvo-nrw|Wirk-Prinzip-Prüfung].",
       "H2::Was gilt rechtlich?",
@@ -3190,6 +3260,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Sprinkler, maschinelle und natürliche RWA, Druckbelüftung, nicht-selbsttätige Löschanlagen: Erst- und Wiederholungsprüfung nach PrüfVO NRW, Fristen 3 und 6 Jahre, Wirk-Prinzip mit BMA, typische Mängel für Betreiber.",
     date: "2025-09-23",
+    dateModified: "2026-05-26",
     content: [
       "Neben der Brandmeldeanlage entscheiden im Brandfall oft Anlagen, die im Alltag unsichtbar bleiben: Sprinkler in der Decke, Rauchabzugsklappen im Dach, Druckbelüftung in Treppenräumen, natürliche RWA-Lüftungsöffnungen oder ortsfeste Schaum- und Gaslöschanlagen in Sonderbetrieben. Sie sind in § 1 PrüfVO NRW gesondert aufgeführt – und unterliegen denselben Grundregeln wie die BMA: Erstprüfung vor Inbetriebnahme, wiederkehrende Prüfung durch anerkannte Prüfsachverständige, Wirk-Prinzip-Prüfung mit anderen Anlagen, dokumentierte Berichte. Dieser Artikel ordnet Sprinkler, RWA und Löschanlagen ein – als vierter Teil unserer PrüfVO-Serie nach [Link: /wissen/blog/bma-pruefung-pruefvo-nrw-fristen|BMA-Prüfung] und [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO-Überblick].",
       "H2::Was gilt rechtlich?",
@@ -3241,6 +3312,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Betriebssicherheitsverordnung (BetrSichV): Gefährdungsbeurteilung, sichere Verwendung von Arbeitsmitteln, befähigte Person, § 12 Unterweisung – Abgrenzung zu PrüfVO und DGUV V3 für Betriebe in Köln und NRW.",
     date: "2025-09-30",
+    dateModified: "2026-05-26",
     content: [
       "Wer Maschinen, Werkzeuge, Regaltechnik oder elektrische Betriebsmittel einsetzt, berührt fast immer die Betriebssicherheitsverordnung – kurz BetrSichV. Sie konkretisiert das Arbeitsschutzgesetz für Arbeitsmittel: Was der Arbeitgeber vor Inbetriebnahme klären muss, wer prüft, wer unterweist – und wie das mit der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] zusammenhängt. Stand der Verordnung: 3. Februar 2015, zuletzt geändert Dezember 2025. Dieser Artikel ist der kompakte Einstieg; Vertiefungen: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit|Handhubwagen prüfen], [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV Vorschrift 3] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3289,6 +3361,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Technische Regeln für Arbeitsstätten (ASR): Was sie sind, Bezug zu ArbStättV und Gefährdungsbeurteilung, Übersicht A1–A6 – kompakter Einstieg für Betriebe in NRW.",
     date: "2025-10-07",
+    dateModified: "2026-05-26",
     content: [
       "Wer Arbeitsplätze einrichtet, umbaut oder betreibt, stößt früher oder später auf ASR – die Technischen Regeln für Arbeitsstätten. Sie konkretisieren die Arbeitsstättenverordnung (ArbStättV) für typische Betriebssituationen: Verkehrswege, Brandschutz, Lärm, Bildschirmarbeit, Erste Hilfe. Dieser Artikel ist der Einstieg in unsere ASR-Reihe – kein Gesetzestext, sondern Orientierung für Arbeitgeber, FaSi und Facility – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3336,8 +3409,9 @@ export const blogPosts: BlogPost[] = [
     slug: "asr-a6-bildschirmarbeit",
     title: "ASR A6 Bildschirmarbeit – Ergonomie, Pausen und GBU",
     excerpt:
-      "ASR A6 Bildschirmarbeit (GMBl 2024): Gestaltung von Bildschirm- und Telearbeitsplätzen, Unterbrechungen, GBU und … – praxisnah für Betriebe in Köln und NRW.",
+      "ASR A6 Bildschirmarbeit (GMBl 2024): Gestaltung von Bildschirm- und Telearbeitsplätzen, Pausen und GBU – praxisnah für Köln und NRW.",
     date: "2025-10-14",
+    dateModified: "2026-05-26",
     content: [
       "Fast jeder Betrieb hat Bildschirmarbeitsplätze – Verwaltung, Planung, Lagerbüro, Telearbeit. ASR A6 „Bildschirmarbeit“ (Ausgabe Juli 2024, GMBl 2024) konkretisiert ArbStättV-Anhang Nummer 6: Gestaltung von Bildschirmarbeitsplätzen und -geräten, Unterweisung, Telearbeitsplätze. In älteren Checklisten steht noch „ASR A5.1 Büro- und Bildschirmarbeitsplätze“ – maßgeblich ist heute A6. Grundlage bleibt § 5 ArbSchG: Gefährdungen ermitteln, bewerten, Maßnahmen umsetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3377,8 +3451,9 @@ export const blogPosts: BlogPost[] = [
     slug: "asr-a3-7-laerm-arbeitsplatz",
     title: "ASR A3.7 Lärm am Arbeitsplatz – Bewertung, Gehörschutz und Maßnahmen",
     excerpt:
-      "ASR A3.7 Lärm: Lärmbelastung beurteilen, Unter- und Oberer Auslösewert, technische und organisatorische Maßnahmen, … – praxisnah für Betriebe in Köln und NRW.",
+      "ASR A3.7 Lärm: Lärmbelastung beurteilen, Auslösewerte sowie technische und organisatorische Maßnahmen – praxisnah für Köln und NRW.",
     date: "2025-10-21",
+    dateModified: "2026-05-26",
     content: [
       "Lärm ist eine der häufigsten physikalischen Gefährdungen in Produktion, Werkstatt, Logistik und Großküchen – und ein Standardthema bei BG-Begehungen. ASR A3.7 „Lärm“ konkretisiert ArbStättV-Anforderungen zur Lärmminderung. Ergänzend gilt die Lärm- und Vibrations-Arbeitsschutzverordnung (LArbSchV) mit Unterem Auslösewert 80 dB(A) und Oberem Auslösewert 85 dB(A) für Gehörschutzpflicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3418,8 +3493,9 @@ export const blogPosts: BlogPost[] = [
     slug: "asr-a2-1-absturz-absturzsicherung",
     title: "ASR A2.1 Absturz und Absturzsicherung – Höhen, Schutz, GBU",
     excerpt:
-      "ASR A2.1 Absturz, Sturz und herabfallende Gegenstände: Absturzhöhen, Seitenschutz, PSAgA, Rangfolge der Maßnahmen … – praxisnah für Betriebe in Köln und NRW.",
+      "ASR A2.1 Absturz: Absturzhöhen, Seitenschutz, PSAgA und Rangfolge der Maßnahmen – praxisnah für Köln und NRW.",
     date: "2025-10-28",
+    dateModified: "2026-05-26",
     content: [
       "Stürze gehören zu den häufigsten schweren Arbeitsunfällen – von der Dachkante über das Lagerregal bis zur offenen Bodenöffnung. ASR A2.1 regelt Schutz vor Absturz, Sturz auf der Ebene und herabfallenden Gegenständen. Auf Baustellen gelten zusätzlich BaustellV und [Link: /wissen/blog/trbs-2121-absturz-leitern|TRBS 2121] – [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] koordiniert Schnittstellen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3452,8 +3528,9 @@ export const blogPosts: BlogPost[] = [
     slug: "asr-a4-3-erste-hilfe-arbeitsstaette",
     title: "ASR A4.3 Erste Hilfe – Räume, Ausstattung und Ersthelfer",
     excerpt:
-      "ASR A4.3 Erste Hilfe in Arbeitsstätten: Ersthelfer-Anzahl, Erste-Hilfe-Räume, Ausstattung, Meldeeinrichtungen – … – praxisnah für Betriebe in Köln und NRW.",
+      "ASR A4.3 Erste Hilfe: Ersthelfer-Anzahl, Erste-Hilfe-Räume, Ausstattung und Meldeeinrichtungen – praxisnah für Köln und NRW.",
     date: "2025-11-04",
+    dateModified: "2026-05-26",
     content: [
       "Im Ernstfall zählt jede Minute – Erste Hilfe muss organisiert sein, nicht improvisiert. ASR A4.3 konkretisiert Erste-Hilfe-Räume, vergleichbare Einrichtungen und Ausstattung. Die Anzahl der Ersthelfer und deren Ausbildung regelt die DGUV Vorschrift 1 – beides gehört zusammen in die Gefährdungsbeurteilung – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3496,6 +3573,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Technische Regeln für Gefahrstoffe (TRGS): Was sie sind, Bezug zur GefStoffV, Serien 400/500/800 – kompakter Einstieg für Betriebe in Köln und NRW.",
     date: "2025-11-11",
+    dateModified: "2026-05-26",
     content: [
       "Reiniger im Lager, Öl in der Werkstatt, Kleber in der Produktion – sobald im Betrieb mit Stoffen gearbeitet wird, gilt fast immer die Gefahrstoffverordnung (GefStoffV). Die Technischen Regeln für Gefahrstoffe (TRGS) zeigen, wie Sie das in der Praxis umsetzen – ähnlich wie ASR zur Arbeitsstättenverordnung. Dieser Artikel ordnet TRGS ein, ohne Gesetzestext abzutippen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3538,6 +3616,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRGS 400 Gefährdungsbeurteilung für Tätigkeiten mit Gefahrstoffen: Pflichten, STOP-Prinzip, Verzeichnis, Unterweisung – praxisnah für Betriebe in NRW.",
     date: "2025-11-18",
+    dateModified: "2026-05-26",
     content: [
       "Wer Gefahrstoffe einsetzt, muss deren Risiken beurteilen – nicht nur einmalig, sondern bei neuen Stoffen, geänderten Prozessen oder neuen Erkenntnissen. TRGS 400 „Gefährdungsbeurteilung für Tätigkeiten mit Gefahrstoffen“ ist der zentrale Leitfaden dafür. Sie ergänzt § 5 ArbSchG und die GefStoffV – nicht ersetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3572,6 +3651,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRGS 509 ortsfeste Behälter und TRGS 510 ortsbewegliche Behälter: Lagerung von Gefahrstoffen, Mengen, Abstände, Brandschutz – für Betriebe in Köln und NRW.",
     date: "2025-11-25",
+    dateModified: "2026-05-26",
     content: [
       "Gefahrstoffe im Regal, im Sicherheitsschrank oder auf dem Lagerhof – Lagerung ist eine der häufigsten Schwachstellen bei Begehungen. TRGS 509 regelt ortsfeste Behälter und Füll-/Entleerstellen; TRGS 510 ortsbewegliche Behälter wie Kanister, Fässer und IBC. Beide ergänzen die Gefährdungsbeurteilung und [Link: /wissen/blog/trgs-400-gefaehrdungsbeurteilung-gefahrstoffe|TRGS 400] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3604,8 +3684,9 @@ export const blogPosts: BlogPost[] = [
     slug: "trgs-528-schweisstechnische-arbeiten",
     title: "TRGS 528 Schweißtechnische Arbeiten – Gefahrstoffe, Rauch und Schutz",
     excerpt:
-      "TRGS 528 Schweißen: Gefährdungsbeurteilung, Schweißrauch, Absaugung, PSA, Heißarbeit und Brandschutz – für … – praxisnah für Betriebe in Köln und NRW.",
+      "TRGS 528 Schweißen: Gefährdungsbeurteilung, Schweißrauch, Absaugung, PSA, Heißarbeit und Brandschutz – praxisnah für Köln und NRW.",
     date: "2025-12-02",
+    dateModified: "2026-05-26",
     content: [
       "Schweißen erzeugt Lichtbogen, Funken, heiße Oberflächen und Schweißrauch – chemische und brandtechnische Risiken zugleich. TRGS 528 „Schweißtechnische Arbeiten“ konkretisiert die GefStoffV für diese Tätigkeiten. Sie gilt in der Werkstatt, auf der Baustelle und bei Instandhaltung – nicht nur in der Schlosserei – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3641,6 +3722,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Technische Regeln für Betriebssicherheit (TRBS): Was sie sind, Bezug zur BetrSichV, Serien 1000/2000/3000 – kompakter Einstieg für Betriebe in Köln und NRW.",
     date: "2025-12-09",
+    dateModified: "2026-05-26",
     content: [
       "Regale, Hubwagen, Leitern, Druckgeräte, Aufzüge – alles, womit im Betrieb gearbeitet wird, fällt unter die Betriebssicherheitsverordnung (BetrSichV). Die Technischen Regeln für Betriebssicherheit (TRBS) zeigen, wie Sie das in der Praxis umsetzen – ähnlich wie ASR zur Arbeitsstättenverordnung oder TRGS zur Gefahrstoffverordnung. Dieser Artikel ordnet TRBS ein, ohne das gesamte Regelwerk abzutippen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3683,6 +3765,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 1111 Gefährdungsbeurteilung für Arbeitsmittel: Pflichten, STOP-Prinzip, Inbetriebnahme, Änderungen – praxisnah für Betriebe in NRW.",
     date: "2025-12-16",
+    dateModified: "2026-05-26",
     content: [
       "Bevor ein Hubwagen rollt, eine Presse startet oder ein Regal beladen wird, muss klar sein: Welche Gefahren entstehen – und welche Maßnahmen greifen? TRBS 1111 „Gefährdungsbeurteilung“ ist der zentrale Leitfaden dafür im Betriebssicherheitsrecht. Sie ergänzt § 5 ArbSchG und die BetrSichV – ersetzt sie nicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3717,6 +3800,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 1201 Prüfungen von Arbeitsmitteln und TRBS 1203 befähigte Person: Prüfumfang, Fristen, Qualifikation, Dokumentation – für Betriebe in Köln und NRW.",
     date: "2025-12-23",
+    dateModified: "2026-05-26",
     content: [
       "Die Plakette am Regal, der Sticker am Kaffeekocher, das Protokoll am Hubwagen – hinter jedem Nachweis steht eine Frage: Wer darf prüfen, was muss geprüft werden, wie oft? TRBS 1201 regelt Prüfungen und Kontrollen von Arbeitsmitteln und überwachungsbedürftigen Anlagen. TRBS 1203 definiert, wer das fachlich darf – die zur Prüfung befähigte Person – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3751,6 +3835,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 2121 Absturzgefahr: Leitern Teil 2, Gerüste Teil 1, Seilzugang – Abgrenzung zu ASR A2.1 für Betriebe und Baustellen in NRW.",
     date: "2025-12-30",
+    dateModified: "2026-05-26",
     content: [
       "Auf der Leiter zum Regal, auf dem Gerüst an der Fassade, auf dem Dach bei Wartung – Sturz aus der Höhe gehört zu den schwersten Unfällen im Betrieb. TRBS 2121 regelt Gefährdungen durch Absturz bei der Verwendung von Arbeitsmitteln. Sie ergänzt [Link: /wissen/blog/asr-a2-1-absturz-absturzsicherung|ASR A2.1] (Absturz an der Arbeitsstätte) – ASR für den Ort, TRBS für das Mittel – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3786,6 +3871,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV-Regelwerk: Vorschriften, Informationen und Regeln – Querschnitt V1/V2/V3, Branchen-UVV und Abgrenzung zu ASiG, BetrSichV und BaustellV für Betriebe in Köln und NRW.",
     date: "2026-01-06",
+    dateModified: "2026-05-26",
     content: [
       "Berufsgenossenschaft, Unfallversicherung, UVV – viele Betriebe stoßen zuerst auf die DGUV, wenn es um Prüfungen, Betreuung oder Brandschutz-Schulungen geht. Die Deutsche Gesetzliche Unfallversicherung (DGUV) gibt Regeln heraus, die das Arbeitsschutzgesetz und die Unfallversicherung konkretisieren. Dieser Artikel ordnet das Regelwerk ein – ohne alle Vorschriften abzutippen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3828,6 +3914,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V1 Grundsätze der Prävention: STOP-Prinzip, Rangfolge der Maßnahmen, Gefährdungsbeurteilung – Basis für Arbeitsschutz in NRW.",
     date: "2026-01-13",
+    dateModified: "2026-05-26",
     content: [
       "Bevor Sie über Plaketten, Schulungen oder Schutzhelme sprechen, steht eine Frage: Was ist der eigentliche Grundsatz des Arbeitsschutzes? DGUV Vorschrift 1 „Grundsätze der Prävention“ fasst das zusammen – als Fundament für alle anderen Regeln, von [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2] bis zur branchenspezifischen UVV – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3862,6 +3949,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V38 Bauarbeiten: Abgrenzung zu BaustellV und SiGeKo, Gefährdungen, Unterweisung und Koordination – für Bauherr, SiGeKo und ausführende Betriebe in NRW.",
     date: "2026-01-20",
+    dateModified: "2026-05-26",
     content: [
       "Auf der Baustelle arbeiten oft mehrere Firmen gleichzeitig – Absturz, Elektro, Staub, Kran, Engstellen. Die Baustellenverordnung (BaustellV) verlangt SiGeKo und SiGe-Plan. DGUV Vorschrift 38 „Bauarbeiten“ ergänzt das als Unfallverhütungsvorschrift für die ausführenden Unternehmen – nicht als Ersatz für den Koordinator, sondern als fachliche Tiefe für Gefährdungen bei Bauarbeiten – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3896,6 +3984,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V67 Flurförderzeuge: Handhubwagen, Stapler, Prüfung, Fahrerunterweisung, Verkehrswege – für Logistik und Produktion in Köln und NRW.",
     date: "2026-01-27",
+    dateModified: "2026-05-26",
     content: [
       "Im Lager rattern Handhubwagen, Gabelstapler rangieren Paletten, Engpässe an Kreuzungen – Flurförderzeuge sind Alltag und Unfallquelle zugleich. DGUV Vorschrift 67 (mit Durchführungsanweisungen, ergänzt durch V68/V69) regelt Flurförderzeuge als Unfallverhütungsvorschrift. Sie ergänzt [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV] und [Link: /wissen/blog/trbs-1201-1203-pruefung-befaehigte-person|TRBS 1201/1203] – nicht ersetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3931,6 +4020,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutzgesetz (JArbSchG): Wer gilt als Jugendlicher, wann das Gesetz greift, Arbeitszeit, Verbote, Unterweisung und Aushang – für Betriebe in Köln und NRW.",
     date: "2026-02-03",
+    dateModified: "2026-05-26",
     content: [
       "Azubi in der Werkstatt, Praktikant im Lager, Ferienjob im Büro – sobald im Betrieb Jugendliche mitarbeiten, gilt das Jugendarbeitsschutzgesetz (JArbSchG). Es schützt Beschäftigte von 15 bis unter 18 Jahren – strenger als das allgemeine [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|Arbeitsschutzgesetz]. Dieser Artikel ordnet ein, wann Sie betroffen sind und was praktisch zu tun ist – ohne Gesetzestext abzutippen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3973,6 +4063,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz Arbeitszeit: 8 Stunden, 40 Stunden Woche, 6–20 Uhr, Ruhetage und Ausnahmen – praxisnah für Ausbildung und Ferienjob in NRW.",
     date: "2026-02-10",
+    dateModified: "2026-05-26",
     content: [
       "Jugendliche sollen lernen und arbeiten – nicht ausgebrannt werden. Das JArbSchG begrenzt Arbeitszeit und schützt Ruhezeiten deutlich strenger als beim Erwachsenen-Arbeitsrecht. Wer Azubis, Praktikanten oder Ferienkräfte einsetzt, muss das im Dienstplan und in der [Link: /wissen/blog/jarbschg-unterweisung-aushang-dokumentation|Dokumentation] abbilden – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4014,6 +4105,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz: Welche Tätigkeiten für Jugendliche verboten oder eingeschränkt sind – Abgrenzung zu BetrSichV, TRGS und ASR für Betriebe in NRW.",
     date: "2026-02-17",
+    dateModified: "2026-05-26",
     content: [
       "Nicht alles, was ein ausgebildeter Facharbeiter darf, darf ein 16-Jähriger. Das JArbSchG enthält ein Verzeichnis verbotener und eingeschränkter Tätigkeiten – zum Schutz vor Unfällen und Überforderung. In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] muss stehen: Welche Arbeitsplätze für Jugendliche freigegeben sind – und welche nicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4053,6 +4145,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz Unterweisung halbjährlich, Gesetzesauslegung § 47, Arbeitszeiten-Aushang § 48, Verzeichnis § 49 – für Betriebe mit Azubis in Köln und NRW.",
     date: "2026-02-24",
+    dateModified: "2026-05-26",
     content: [
       "Papierkram? Nein – Nachweis, dass Jugendliche die Gefahren ihres Arbeitsplatzes kennen und der Betrieb die JArbSchG-Pflichten kennt. Drei Bausteine: Unterweisung, Aushang/Bereitstellung, Verzeichnisse und Nachweise – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4093,6 +4186,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutzgesetz (MuSchG): Wer geschützt ist, Schutzfristen, Arbeitszeit, unzulässige Tätigkeiten, Gefährdungsbeurteilung § 10, Aushang § 26 – praxisnah für Betriebe in Köln und NRW.",
     date: "2026-03-03",
+    dateModified: "2026-05-26",
     content: [
       "Schwangerschaft im Team ist kein Sonderfall – sie ist im Mutterschutzgesetz (MuSchG) geregelt. Das Gesetz schützt Gesundheit von Mutter und Kind am Arbeitsplatz während Schwangerschaft, nach der Entbindung und in der Stillzeit. Es gilt in jedem Betrieb mit weiblichen Beschäftigten – unabhängig von der Größe. Nicht jede Frau wird schwanger; aber jeder Arbeitgeber muss vorbereitet sein – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4134,6 +4228,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz Schutzfristen: 6 Wochen vor, 8 Wochen nach Entbindung, Nacht- und Sonntagsarbeit, Mehrarbeit, Freistellung für Untersuchungen und Stillen – für Betriebe in NRW.",
     date: "2026-03-10",
+    dateModified: "2026-05-26",
     content: [
       "Schutzfristen sind das Herzstück des arbeitszeitlichen Mutterschutzes. Sie sollen Mutter und Kind vor Überlastung schützen – nicht nur Papierkram für HR. Wer Personal plant, Azubis einsetzt oder Schichtdienst organisiert, muss die Fristen kennen, bevor eine Schwangerschaft mitgeteilt wird – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4175,6 +4270,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz § 9–13: unverantwortbare Gefährdung, unzulässige Tätigkeiten für Schwangere und Stillende, Maßnahmenhierarchie und ärztliches Beschäftigungsverbot – praxisnah für NRW.",
     date: "2026-03-17",
+    dateModified: "2026-05-26",
     content: [
       "Nicht jeder Arbeitsplatz ist für Schwangere geeignet – manche Tätigkeiten sind verboten, andere nur mit Anpassung. Das MuSchG nennt in § 11 und § 12 konkrete Verbote und Grenzen; § 9 verbietet jede unverantwortbare Gefährdung. In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] muss stehen, welche Plätze grundsätzlich freigegeben sind – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4215,6 +4311,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz Aushangpflicht § 26, Dokumentation § 14, Mitteilung der Beschäftigten, Meldepflicht § 27 und Datenschutz – Checkliste für Betriebe in Köln und NRW.",
     date: "2026-03-24",
+    dateModified: "2026-05-26",
     content: [
       "Mutterschutz endet nicht bei der GBU – Aushang, Information und Nachweise gehören dazu. Drei Pflichten, die bei Begehungen oft fehlen: Gesetz sichtbar machen, Maßnahmen dokumentieren, Mitteilungen der Beschäftigten ernst nehmen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4255,6 +4352,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Sozialgesetzbuch IX (SGB IX): Schwerbehindertenrecht, Beschäftigungspflicht, Arbeitsplatzgestaltung, Schwerbehindertenvertretung – praxisnah für Betriebe in Köln und NRW.",
     date: "2026-04-07",
+    dateModified: "2026-05-26",
     content: [
       "Menschen mit Behinderungen sollen am Arbeitsleben teilhaben – das regelt das Neunte Buch Sozialgesetzbuch (SGB IX). Für Arbeitgeber in Köln und NRW ist vor allem Teil 3 relevant: Schwerbehindertenrecht mit Beschäftigungspflicht, betrieblicher Gestaltung und betrieblicher Mitwirkung. Anders als JArbSchG oder MuSchG ist SGB IX in der Sammelmappe „empfohlen“, nicht aushangpflichtig – trotzdem verbindlich, wenn es greift.",
       "H2::Wer fällt unter SGB IX Teil 3?",
@@ -4296,6 +4394,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Schwerbehindertenquote 5 Prozent, Pflichtarbeitsplätze, Anrechnung, Ausgleichsabgabe und Meldung ans Integrationsamt – für Betriebe ab 20 Arbeitsplätzen in Köln und NRW.",
     date: "2026-04-14",
+    dateModified: "2026-05-26",
     content: [
       "Ab 20 Arbeitsplätzen gilt in Köln und NRW die Schwerbehindertenquote: beschäftigen oder ausgleichen. § 154 SGB IX verlangt mindestens fünf Prozent schwerbehinderte Menschen – bei unter 40 Plätzen mindestens einer, bei unter 60 mindestens zwei. Öffentliche Arbeitgeber haben teils höhere Sätze.",
       "H2::Was zählt als Arbeitsplatz?",
@@ -4337,6 +4436,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Behindertengerechte Arbeitsplätze nach § 164 SGB IX: GBU-Abschnitt, technische Hilfen, Ergonomie, Notfall – für Betriebe in Köln und NRW.",
     date: "2026-04-21",
+    dateModified: "2026-05-26",
     content: [
       "Quote erfüllt, aber Treppe ohne Lift, Software ohne Screenreader, Stapler ohne angepasste Bedienung – dann scheitert Teilhabe. § 164 SGB IX gibt schwerbehinderten Menschen Rechte auf behinderungsgerechte Arbeitsstätten, Maschinen, Organisation und Arbeitszeit – mit Fokus auf Unfallgefahr. Für Betriebe in Köln und NRW gehört das in die [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung], nicht nur in HR.",
       "H2::GBU-Abschnitt Behinderung",
@@ -4380,6 +4480,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "SBV ab fünf schwerbehinderten Beschäftigten, Wahl und Aufgaben, Inklusionsbeauftragter, Abgrenzung Betriebsrat – für Arbeitgeber in Köln und NRW.",
     date: "2026-04-28",
+    dateModified: "2026-05-26",
     content: [
       "Teilhabe braucht Stimme im Betrieb. In Köln und NRW gelten die Regeln des SGB IX Teil 3: Ab fünf nicht nur vorübergehend beschäftigten schwerbehinderten Menschen wählt der Betrieb eine Schwerbehindertenvertretung (SBV). Der Arbeitgeber bestellt einen Inklusionsbeauftragten – nach Möglichkeit selbst schwerbehindert.",
       "H2::Wann muss eine SBV gewählt werden?",

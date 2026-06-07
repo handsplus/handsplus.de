@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, blogPosts } from "@/content/blog";
-import { getPillarSlugForBlog, getRelatedBlogSlugs } from "@/content/blogClusters";
+import {
+  getPillarSlugForBlog,
+  getRelatedBlogSlugs,
+  getRelatedPostsTitle,
+} from "@/content/blogClusters";
 import { BlogBauordnungKoelnTeaser } from "@/components/BlogBauordnungKoelnTeaser";
 import { BlogFaqSection } from "@/components/BlogFaqSection";
 import { BlogTableOfContents } from "@/components/BlogTableOfContents";
@@ -110,7 +114,7 @@ export default async function BlogPostPage({
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.dateModified ?? post.date,
     author: {
       "@type": "Organization",
       "@id": `${BASE_URL}#organization`,
@@ -185,7 +189,10 @@ export default async function BlogPostPage({
           )}
         </article>
 
-        <ClusterRelatedPosts slugs={getRelatedBlogSlugs(post.slug, 4)} />
+        <ClusterRelatedPosts
+          slugs={getRelatedBlogSlugs(post.slug, 4)}
+          title={getRelatedPostsTitle(post.slug) ?? "Weitere Artikel zum Thema"}
+        />
 
         <div className="mt-10 flex flex-wrap gap-4">
           <Link
