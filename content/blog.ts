@@ -1268,6 +1268,10 @@ export const blogPosts: BlogPost[] = [
       "H2::Typische Mängel",
       "Häufig liegt zwar ein GBU-Ordner vor, aber ohne Nachweis der Umsetzung. Unterweisungen beschränken sich auf allgemeine HR-Folien statt auf den konkreten Arbeitsplatz. Anordnungen werden nicht fristgerecht umgesetzt oder es wird keine Fristverlängerung beantragt. Eine Fachkraft für Arbeitssicherheit ist bestellt, aber es fehlt ein Betreuungsplan.",
       "Konsequenzen bei Verstößen: [Link: /wissen/blog/strafen-arbeitsschutz|Bußgeld und Strafrecht]. Health and Safety+ bereitet Betriebe in Köln und NRW auf Begehungen vor – [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|ArbSchG-Hub], [Link: /kontakt|Kontakt].",
+    ],
+    faq: [
+      {
+        question: "Wer prüft – Gewerbeaufsicht oder Berufsgenossenschaft?",
         answer:
           "Gewerbeaufsicht des Landes NRW für staatlichen Arbeitsschutz; Berufsgenossenschaft für Unfallverhütung – oft parallel, unterschiedliche Schwerpunkte.",
       },
