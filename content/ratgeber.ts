@@ -685,6 +685,13 @@ export const ratgeberPosts: RatgeberPost[] = [
           "Schottungen/Kabeldurchbrüche ohne offene Bohrung",
           "Fremdfirmen: Einweisung Meldekette dokumentiert"
         ]
+      },
+      {
+        "h2": "Brandschutz Köln – Vertiefung auf brandschutzkoeln.com",
+        "paragraphs": [
+          "Dieser Ratgeber auf handsplus.de deckt betrieblichen Brandschutz in NRW ab – BSO, Prüffristen, Alarm und Evakuierung. Für Brandschutz Köln mit lokalem Ratgeber-Portal, Sonderbau und Genehmigungspraxis gilt brandschutzkoeln.com als Primary-Domain (H&S+ Keyword-Matrix): [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber].",
+          "Typische Vertiefungen dort: Feuerwehrplan, Nutzungsänderung, PrüfVO NRW. Auf handsplus.de bleiben betriebliche Organisation und Rechts-Hubs – keine parallelen Longform-Artikel zu lokalen Köln-Abnahmethemen. Genehmigung und BauO-Schnitt: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Bauordnung NRW Brandschutz]."
+        ]
       }
     ],
     "faq": [
@@ -874,6 +881,13 @@ export const ratgeberPosts: RatgeberPost[] = [
           "Digitale Bereitstellung von Plänen und SiGeKo für alle mit Zugriff",
           "Klare Eskalationspfade bei PSA-Verstößen",
           "Lessons-learned-Workshop nach Phase 1"
+        ]
+      },
+      {
+        "h2": "SiGeKo Köln – Vertiefung auf sigeko.koeln",
+        "paragraphs": [
+          "Dieser Ratgeber auf handsplus.de erklärt BaustellV und SiGeKo für NRW. Für SiGeKo Köln mit Leistungen und über 100 Fachtexten zur Baustellenkoordination gilt sigeko.koeln als Primary-Domain (H&S+ Keyword-Matrix): [Link: https://sigeko.koeln/ratgeber|sigeko.koeln/ratgeber].",
+          "Typische Vertiefungen dort: [Link: https://sigeko.koeln/ratgeber/wann-ist-sige-ko-pflicht|SiGeKo-Pflicht], [Link: https://sigeko.koeln/ratgeber/was-ist-ein-sige-plan|SiGe-Plan], [Link: https://sigeko.koeln/kontakt|Kontakt SiGeKo Köln]. Rechts-Hubs wie [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV erklärt] bleiben auf handsplus.de."
         ]
       }
     ],
