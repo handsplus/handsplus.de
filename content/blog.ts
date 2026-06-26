@@ -1004,7 +1004,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Sicherheitsbeauftragte nach § 22 SGB VII: Bestellung bei mehr als 20 Beschäftigten, Schulungsinhalte, Abgrenzung zur Fachkraft für Arbeitssicherheit und Praxis in Köln/NRW.",
     date: "2025-04-03",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Sicherheitsbeauftragte (SiBe) unterstützen den Arbeitgeber bei der Umsetzung des Arbeitsschutzes vor Ort. Nach § 22 SGB VII sind sie in Betrieben mit regelmäßig mehr als 20 Beschäftigten zu bestellen; die genaue Anzahl richtet sich nach DGUV Vorschrift 1 (Betriebsgröße, Gefährdung, Gebäudestruktur, Schichtbetrieb) – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1016,6 +1016,8 @@ export const blogPosts: BlogPost[] = [
       "Praxis Köln/NRW: betriebsspezifische Beispiele aus Lager, Werkstatt oder Sozialwirtschaft statt generischer Folien; SiBe als Brücke zwischen Belegschaft und Fachkraft für Arbeitssicherheit. Schulungsnachweise und Bestellungsurkunden archivieren.",
       "H2::Typische Mängel und Vorbereitung",
       "Vor Prüfungen sollten schriftliche Bestellungen, Schulungsnachweise und ein dokumentierter Meldeweg für SiBe-Mängel vorliegen. SiBe ersetzen weder SiFa noch die [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung aller Beschäftigten].",
+      "Sicherheitsbeauftragte nach § 22 SGB VII unterstützen den Arbeitgeber bei Unfallverhütung – freiwillig, aber in vielen Betrieben in Köln und NRW Standard. Sie brauchen qualifizierte Schulung, klare Aufgabenbeschreibung und Einbindung in ASA und Begehungen.",
+      "SiBe ersetzen weder [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] noch Betriebsarzt – Rollenklärung vermeidet Haftungslücken. [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber Arbeitsschutz].",
       "Health and Safety+ führt SiBe-Schulungen in Köln und NRW durch – [Link: /schulungen|Schulungen], [Link: /wissen/blog/akteure-arbeitsschutz|Akteure im Arbeitsschutz]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -1047,7 +1049,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Arbeitsschutz-Dienstleister in NRW: Qualifikation der Fachkraft für Arbeitssicherheit, Leistungsspektrum, Vertragsinhalte und Warnhinweise bei der Auswahl – für Arbeitgeber in Köln und NRW.",
     date: "2025-04-05",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Die Wahl des Arbeitsschutz-Dienstleisters in NRW entscheidet über Qualität der Betreuung, Revisionssicherheit bei BG-Begehungen und im Schadensfall – nicht nur über den Preis. Der Dienstleister handelt als Fachkraft für Arbeitssicherheit im Auftrag des Arbeitgebers; die Gesamtverantwortung bleibt bei der Geschäftsführung.",
       "H2::Was gilt rechtlich?",
@@ -1057,6 +1059,9 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Regionale Nähe Köln/NRW: kurze Wege für Begehungen und Akutfälle; Kenntnis der Praxis von Berufsgenossenschaft und Gewerbeaufsicht im Land.",
       "Kosten: Angebot nach [Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung], keine undifferenzierte Pauschale ohne Analyse.",
+      "Vor Vertragsabschluss lohnt sich ein strukturierter Vergleich: zwei bis drei Anbieter mit gleicher Betriebsbeschreibung (Beschäftigtenzahl, Gefährdungen, Standorte) anfragen, Betreuungsplan und Stundenumfang gegenüberstellen, Probebegehung vereinbaren. In Köln und NRW prüfen BG und Gewerbeaufsicht nicht nur die Bestellung, sondern ob die vereinbarte Zeit auch fachlich nachvollziehbar genutzt wird.",
+      "Der [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber Arbeitsschutz im Unternehmen] bündelt Rollen, ASA und Betreuungsplan – einzelne Blogartikel vertiefen [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2] und [Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung] vor der Anbieterwahl.",
+      "Dokumentieren Sie die Auswahlentscheidung schriftlich – Anbietervergleich, vereinbarte Leistungen und Betreuungsumfang – für Revisionssicherheit bei BG-Begehungen.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei der Anbieterwahl sollten Qualifikationsnachweis, schriftliche Bestellung, verbindliche Arbeitszeit und ein Beispiel-Jahresbericht vorliegen – undifferenzierte Pauschalen ohne Ist-Analyse sind ein Warnsignal.",
       "Warnsignale sind fehlende schriftliche Bestellung, Copy-Paste-Gefährdungsbeurteilungen ohne Begehung oder Unterweisungen ohne Nachweis. Health and Safety+ – [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|externe Fachkraft Köln], [Link: /kontakt|Kontakt].",
@@ -1090,7 +1095,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Unterweisung nach § 12 ArbSchG: Pflichten, Anlässe, Inhalte aus der Gefährdungsbeurteilung, Organisation und Dokumentation – Überblick für Arbeitgeber in Köln und NRW.",
     date: "2025-04-07",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Nach § 12 ArbSchG hat der Arbeitgeber Beschäftigte über Arbeitsplatz-Gefahren und Schutzmaßnahmen zu unterweisen – ausreichend, verständlich, während der Arbeitszeit und nachvollziehbar dokumentiert. Die Inhalte leiten sich in erster Linie aus der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] ab – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -1102,6 +1107,8 @@ export const blogPosts: BlogPost[] = [
       "Dokumentation: Datum, Thema, Teilnehmer, Referent, Bezug zur Version der Gefährdungsbeurteilung oder Betriebsanweisung. Lücken sind Standard-Befunde bei BG-Begehungen. Vertiefung: [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Fristen und Dokumentation].",
       "H2::Typische Mängel und Vorbereitung",
       "Vor BG-Begehungen sollten Unterweisungsmatrix, aktuelle Nachweise und Bezug zur GBU-Version geprüft werden. Lücken entstehen typischerweise, wenn die Unterweisung älter als ein Jahr ist, die GBU aber kürzlich geändert wurde.",
+      "In der Praxis scheitern Unterweisungen oft an fehlender Zielgruppenlogik: Büro, Produktion, Leiharbeit und Fremdfirmen auf Baustellen brauchen unterschiedliche Inhalte und Nachweise. Eine Matrix „Thema × Personengruppe × Frist“ ist der Standard bei BG-Begehungen in NRW.",
+      "Digitale Formate sind zulässig, wenn Verständnis und Erreichbarkeit gesichert sind – bei PSA, Gefahrstoffen und Maschinen empfiehlt die Arbeitsschutzverwaltung NRW weiterhin Präsenz am Arbeitsplatz.",
       "Health and Safety+ plant und führt Unterweisungen in Köln und NRW durch – [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -1237,7 +1244,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Notfallorganisation nach § 10 ArbSchG: Ersthelfer, Brandbekämpfung, Evakuierung, Benennung, Verhältnis zur Beschäftigtenzahl – für Betriebe in Köln und NRW.",
     date: "2026-05-12",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Unfall, Herzstillstand, Brand, Gasalarm – § 10 ArbSchG verlangt, dass der Arbeitgeber Maßnahmen zur Ersten Hilfe, Brandbekämpfung und Evakuierung trifft – passend zu Arbeitsstätte, Tätigkeiten und Beschäftigtenzahl. In Köln und NRW konkretisiert das die DGUV Vorschrift 1 und [Link: /wissen/blog/asr-a4-3-erste-hilfe-arbeitsstaette|ASR A4.3].",
       "H2::Was gilt rechtlich?",
@@ -1248,6 +1255,8 @@ export const blogPosts: BlogPost[] = [
       "Für Ersthelfer gelten folgende Anforderungen. DGUV Vorschrift 1 und ASR A4.3 regeln Anzahl und Qualifikation – abhängig von Beschäftigtenzahl und besonderen Gefahren (Gefahrstoffe, Absturz, alleinige Arbeit). Erste-Hilfe-Kästen, Augenspülung, Defi wo sinnvoll.",
       "Im Bereich Brandbekämpfung gehören dazu [Link: /wissen/blog/asr-a2-2-brandschutzhelfer|Brandschutzhelfer], Löscher, [Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Flucht- und Rettungsplan], [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung]. Evakuierung: Sammelplätze, Rollstuhl-Szenarien – [Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|SGB IX].",
       "Notfallorganisation in GBU dokumentieren: Wer alarmiert? Wer führt Evakuierung? Wer spricht Rettungsdienst an? Übungen protokollieren – Mängel in Maßnahmenplan.",
+      "§ 10 ArbSchG verlangt Erste-Hilfe-Einrichtungen, ausgebildete Ersthelfer und Notfallorganisation passend zur Betriebsgröße und Gefährdung. ASR A4.3 konkretisiert Erste-Hilfe-Räume, Ausrüstung und Kennzeichnung – in NRW prüfen BG und Gewerbeaufsicht Erreichbarkeit und Auffrischung der Ersthelfer.",
+      "Auf Baustellen gelten zusätzliche Anforderungen an Sanitärräume und Erste Hilfe nach BaustellV – Abstimmung mit [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo].",
       "H2::Typische Mängel und Checkliste",
       "Ersthelfer benannt, aber Schulung abgelaufen. Defi vorhanden, niemand geschult. Fluchtplan hängt, Sammelstelle blockiert. Keine Berücksichtigung von Besuchern in großen Objekten.",
       "Zur Selbstkontrolle sollten Arbeitgeber prüfen, ob Benennung schriftlich, ob Ersthelfer/BSH-Quote erfüllt, ob Notfallnummern aktuell, ob Übung dokumentiert, ob Health and Safety+ – [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|ArbSchG-Hub], [Link: /kontakt|Kontakt].",
@@ -1911,13 +1920,15 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Handhubwagen regelmäßig prüfen: Was sagt BetrSichV und die Gefährdungsbeurteilung? Orientierung zu Prüfumfang, Fristen und Alltagskontrolle – aus einem NRW-Mandat.",
     date: "2025-05-09",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Im Rahmen einer Jahresbetreuung durch die Fachkraft für Arbeitssicherheit in NRW stellte sich die Frage, ob und wie oft Handhubwagen (Gabelhubwagen, Wagen ohne Antrieb) prüfpflichtig sind. Hintergrund: täglicher Einsatz im Lager, unterschiedliche Zustände, keine einheitliche Dokumentation.",
       "H2::Was gilt rechtlich?",
       "Handhubwagen sind Arbeitsmittel im Sinne der Betriebssicherheitsverordnung (BetrSichV). Der Arbeitgeber muss ihre Sicherheit sicherstellen – auf Basis der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] nach § 5 ArbSchG. Das umfasst die Wahl geeigneter Arbeitsmittel, Wartung, wiederkehrende Prüfungen durch befähigte Personen (TRBS 1201/1203) und [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung] der Nutzer in Sicht- und Funktionskontrolle vor Einsatz.",
       "Prüfumfang orientiert sich an Herstellerangaben, DGUV-Informationen zu Prüfungen und dem tatsächlichen Verschleiß: Räder, Gabeln, Hydraulik, Bremsen, Kennzeichnung der Tragfähigkeit, sichtbare Beschädigungen. Ergebnis der fachlichen Stellungnahme im Mandat: regelmäßige Prüfung durch befähigte Person – typische Orientierung jährlich, plus tägliche Sicht- und Funktionskontrolle durch die Nutzer vor Einsatz.",
       "Dokumentation ist Pflicht: Prüfdatum, Prüfer, Befund, nächster Termin, ggf. Stilllegung defekter Geräte. Ohne Nachweis bleibt bei Unfällen oder BG-Prüfungen eine Lücke – auch wenn die Geräte „noch laufen“.",
+      "Handhubwagen und Flurförderzeuge unterliegen wiederkehrenden Prüfungen nach BetrSichV und DGUV-Regeln – vor Inbetriebnahme, nach Reparatur und in festen Intervallen durch befähigte Personen. Mängel an Bremsen, Gabeln oder Rollen sind häufige Unfallursachen in Lager und Werkstatt.",
+      "Prüfprotokolle gehören zur Betriebsorganisation und zur BG-Begehung. Vertiefung Flurförderzeuge: [Link: /wissen/blog/dguv-vorschrift-67-flurfoerderzeuge|DGUV Vorschrift 67].",
       "H2::Umsetzung in der Praxis",
       "Organisatorisch hilft ein Prüfkalender gemeinsam mit Regalprüfungen, Hubarbeitsbühnen und Elektroprüfungen nach DGUV V3. Verantwortliche im Lager erhalten eine Kurzcheckliste (Räder, Hydraulik, Gabel, Kennzeichnung).",
       "Die Stellungnahme wurde in den [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht] und in die Fortschreibung der Gefährdungsbeurteilung aufgenommen. Für Geschäftsführungen im Rheinland: Einzelfragen zu Arbeitsmitteln gehören in die laufende Betreuung – nicht erst nach einem Unfall.",
@@ -1952,7 +1963,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jahrespauschale, ASA-Betreuung, integrierte Begehung, Unterweisungen: So strukturieren wir das erste Vertragsjahr externer Arbeitssicherheit – anonymisiert aus einem Kölner Mandat.",
     date: "2025-05-10",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Ein mittelgroßer Logistikstandort in Köln suchte eine externe Fachkraft für Arbeitssicherheit mit klarem Leistungsumfang statt reiner Stundenabrechnung. Das Angebot kombinierte Grundbetreuung nach ASiG und DGUV Vorschrift 2 mit festen Bausteinen im ersten Jahr.",
       "H2::Was gilt rechtlich?",
@@ -1964,6 +1975,8 @@ export const blogPosts: BlogPost[] = [
       "Vergleichbare Strukturen nutzen wir für technische Dienstleister, Sozialträger und Mittelstand in NRW – jeweils mit branchenspezifischer Ist-Erfassung. Details zur Bestellung: [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit].",
       "H2::Typische Mängel und Vorbereitung",
       "Im ersten Vertragsjahr sollten Ist-Erfassung, Betreuungsplan und erste Begehung vor der GBU-Flut stehen – sonst fehlt die Priorisierung für ASA und Jahresbericht. Vor der ersten BG-Begehung sollten Bestellung, Betreuungsplan und dokumentierte Mitwirkungspflichten des Auftraggebers nachvollziehbar sein.",
+      "Im ersten Jahr externer Betreuung stehen Ist-Zustandserfassung, schriftliche Bestellung, Betreuungsplan und Priorisierung offener Mängel im Vordergrund. Sinnvoll sind Quartalsziele, ASA-Vorbereitung und Abstimmung mit Betriebsarzt und Brandschutz.",
+      "Ohne strukturierten Jahresbericht verliert die Betreuung bei Prüfungen an Nachweiswert – [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht] und [Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung].",
       "Health and Safety+ strukturiert externe Betreuung in Köln und NRW – [Link: /wissen/blog/externe-fachkraft-arbeitssicherheit-koeln|externe Fachkraft], [Link: /wissen/blog/ist-zustandserfassung-externe-fasi|Ist-Zustandserfassung], [Link: /arbeitsschutz|Arbeitsschutz]. [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber], [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -1995,7 +2008,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Was in einer ASA wirklich besprochen wird: Gefährdungsbeurteilung Küche, psychische Belastung, Bildschirmarbeitsplätze – anonymisiert aus Protokoll eines Kölner Sozialträgers.",
     date: "2025-05-12",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Der Arbeitsschutzausschuss (ASA) ist bei mehr als 20 Beschäftigten einzurichten – wird oft theoretisch diskutiert, selten transparent beschrieben. Ein anonymisierter Protokollauszug eines KiTa-Trägers in Köln (Online-Sitzung mit Geschäftsführung, Verwaltung, Kita-Leitung, Betriebsarzt, Fachkraft für Arbeitssicherheit) zeigt typische Schwerpunkte jenseits von Formalien.",
       "H2::Was gilt rechtlich?",
@@ -2007,6 +2020,8 @@ export const blogPosts: BlogPost[] = [
       "Gute ASA-Protokolle benennen Status pro Thema (Information, In Arbeit, Offen), Ergebnisse und Verantwortliche. Sie verknüpfen Gefährdungsbeurteilung, Unterweisung und Brandschutz – statt paralleler Insellösungen.",
       "H2::Typische Mängel und Vorbereitung",
       "Vor der ASA-Sitzung sollten Unfallstatistik, offene Maßnahmen aus Begehungen, geplante Umbauten und Unterweisungsstand vorbereitet sein – ohne Tagesordnung und Protokoll erfüllt der ASA nicht seine Beratungsfunktion.",
+      "Der Arbeitsschutzausschuss (ASA) nach ASiG § 11 bündelt SiFa, Betriebsarzt, Sicherheitsbeauftragte und Betriebsrat – mindestens vierteljährlich, mit Protokoll. In Kitas und Sozialträgern in Köln und NRW sind Hygiene, Infektionsschutz, Ergonomie und Brandschutz wiederkehrende ASA-Themen.",
+      "Protokolle sollten Maßnahmen, Verantwortliche und Fristen enthalten – nicht nur Statusberichte. [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber] und [Link: /wissen/blog/akteure-arbeitsschutz|Akteure im Arbeitsschutz].",
       "Health and Safety+ übernimmt in Köln und NRW ASA-Vorbereitung, Protokollierung und fachliche Moderation – für Träger sozialer Einrichtungen, Mittelstand und Logistik. [Link: /wissen/blog/akteure-arbeitsschutz|Akteure im Arbeitsschutz], [Link: /arbeitsschutz|Arbeitsschutz], [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Ratgeber]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -3453,7 +3468,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "ASR A3.7 Lärm: Lärmbelastung beurteilen, Auslösewerte sowie technische und organisatorische Maßnahmen – praxisnah für Köln und NRW.",
     date: "2025-10-21",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Lärm ist eine der häufigsten physikalischen Gefährdungen in Produktion, Werkstatt, Logistik und Großküchen – und ein Standardthema bei BG-Begehungen. ASR A3.7 „Lärm“ konkretisiert ArbStättV-Anforderungen zur Lärmminderung. Ergänzend gilt die Lärm- und Vibrations-Arbeitsschutzverordnung (LArbSchV) mit Unterem Auslösewert 80 dB(A) und Oberem Auslösewert 85 dB(A) für Gehörschutzpflicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3462,6 +3477,8 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Gehörschutz: Pflicht ab Oberem Auslösewert (85 dB(A) im 8-Stunden-Mittel) – passend zur Lärmsituation, persönlich anpassbar wo nötig, Tragepflicht durchsetzbar. Gehörschutz ist letzte Stufe, nicht Ersatz für Lärmminderung. Kennzeichnung von Gehörschutz-Zonen nach [Link: /wissen/blog/asr-einfach-erklaert|ASR A1.3].",
       "Besondere Bereiche: Großküchen (Lärm Spülmaschine, Lüftung), Werkstätten, Druckereien, Callcenter-Akustik (eher mittel, aber psychische Belastung). Lärm und [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz|psychische Belastung] gemeinsam betrachten, wo ständige Hintergrundgeräusche Konzentration stören.",
+      "ASR A3.7 verlangt Lärmbeurteilung, technische und organisatorische Maßnahmen sowie Gehörschutz nur als letzte Stufe der STOP-Hierarchie. In Produktion und Handwerk in NRW sind Lärmkartierungen und Unterweisung zu Gehörschutz typische Prüfpunkte.",
+      "Lärm gehört in die [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] inklusive psychischer Belastung bei dauerhaftem Lärmpegel – Abstimmung mit Betriebsarzt bei Vorsorge.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Lärmbegehungen sollten Lärmkarte, Gehörschutz-Konzept und technische Maßnahmen in der GBU verankert sein. Messprotokolle und Unterweisung zum Tragen von Gehörschutz müssen nachvollziehbar sein.",
       "Dokumentation: Messprotokolle, Maßnahmenplan, Gehörschutz-Ausgabe und Unterweisung, regelmäßige Wirksamkeitskontrolle (Tragen, Dichtigkeit). Health and Safety+ – [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU], [Link: /kontakt|Kontakt]. Hub: [Link: /wissen/blog/asr-einfach-erklaert|ASR einfach erklärt].",
@@ -3495,12 +3512,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "ASR A2.1 Absturz: Absturzhöhen, Seitenschutz, PSAgA und Rangfolge der Maßnahmen – praxisnah für Köln und NRW.",
     date: "2025-10-28",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Stürze gehören zu den häufigsten schweren Arbeitsunfällen – von der Dachkante über das Lagerregal bis zur offenen Bodenöffnung. ASR A2.1 regelt Schutz vor Absturz, Sturz auf der Ebene und herabfallenden Gegenständen. Auf Baustellen gelten zusätzlich BaustellV und [Link: /wissen/blog/trbs-2121-absturz-leitern|TRBS 2121] – [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] koordiniert Schnittstellen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Absturzhöhen – Orientierung: An Arbeitsplätzen und Verkehrswegen, wo Absturzgefahr besteht, gelten ab etwa 1 Meter Absturztiefe Anforderungen an Absturzsicherung. An weiteren Verkehrswegen und Flächen, die nicht ständig als Arbeitsplatz dienen, oft ab 2 Metern. Die GBU muss die konkrete Situation bewerten – keine pauschale „2-Meter-Regel“ ohne Begehung.",
       "Rangfolge der Maßnahmen: Zuerst Absturz vermeiden (Planung, Geländer, Abdeckungen, gesicherte Zugänge). Dann Absturz verhindern (Seitenschutz, Gitterroste, Absturzsicherungen an Dächern). Persönliche Schutzausrüstung gegen Absturz (PSAgA) nur, wenn kollektive Schutzmaßnahmen nicht möglich sind – mit Anschlageinrichtung, Unterweisung, Rettungskonzept.",
+      "ASR A2.1 regelt Absturzgefahren an Kanten, Öffnungen, Dächern und Gerüsten – kollektiver Schutz (Geländer, Netze) hat Vorrang vor persönlicher Schutzausrüstung. Auf Baustellen in NRW greifen zusätzlich BaustellV, TRBS 2121 und die SiGe-Koordination.",
+      "Typische Praxisfälle: Dacharbeiten ohne Seitenschutz, fehlende Absturzsicherung an Laderampen, provisorische Brücken. Die Maßnahmen gehören in GBU und Unterweisung – [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] bei Bauvorhaben.",
       "H2::Umsetzung in der Praxis",
       "Verkehrswege und Öffnungen: Bodenöffnungen, Treppen ohne Geländer, Laderampen, Dachflächen – absichern oder sperren. Herabfallende Gegenstände: Werkzeuge auf Dach, Material an Gerüst, Regalsicherung. Begehungs-Checkliste in GBU und SiGe-Plan.",
       "Praxis aus Mandaten: Dacharbeiten im Bestand ([Link: /wissen/blog/sigeko-dacharbeiten-absturz-bestand-koeln|SiGeKo Dach/Köln]), Abbruch Seitenschutz ([Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|Abbruchphase]), Lager mit fehlendem Regalschutz. Dokumentation: Fotos, Maßnahmen, Freigabe vor Arbeiten in Höhe.",
@@ -3530,7 +3549,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "ASR A4.3 Erste Hilfe: Ersthelfer-Anzahl, Erste-Hilfe-Räume, Ausstattung und Meldeeinrichtungen – praxisnah für Köln und NRW.",
     date: "2025-11-04",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Im Ernstfall zählt jede Minute – Erste Hilfe muss organisiert sein, nicht improvisiert. ASR A4.3 konkretisiert Erste-Hilfe-Räume, vergleichbare Einrichtungen und Ausstattung. Die Anzahl der Ersthelfer und deren Ausbildung regelt die DGUV Vorschrift 1 – beides gehört zusammen in die Gefährdungsbeurteilung – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3541,6 +3560,8 @@ export const blogPosts: BlogPost[] = [
       "GBU Erste Hilfe: Gefährdungen (Schnitt, Chemie, Strom, Höhe), daraus Ersthelferzahl, Ausstattung, ggf. Erste-Hilfe-Raum, Ablauf Notfall ( wer alarmiert, wer leitet Erste Hilfe). Jährlich in Unterweisung und bei Begehung prüfen: Verbandskasten vollständig, Ersthelfer-Liste aktuell, Schilder sichtbar.",
       "H2::Typische Mängel und Vorbereitung",
       "Vor Prüfungen sollten Ersthelfer benannt und geschult, Erste-Hilfe-Material erreichbar und Notfallorganisation in der GBU dokumentiert sein – abgestimmt mit § 10 ArbSchG und DGUV V1.",
+      "ASR A4.3 regelt Erste-Hilfe in Arbeitsstätten: Anzahl Ersthelfer nach Beschäftigtenzahl und Gefährdung, Ausstattung, Erreichbarkeit und Auffrischung. Für Betriebe mit mehreren Standorten in NRW braucht jeder Standort eine eigene Betrachtung.",
+      "Notfallpläne müssen mit Brandschutz und Evakuierung abgestimmt sein – [Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Flucht- und Rettungsplan] und [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz im Betrieb].",
       "Health and Safety+ plant Erste-Hilfe-Organisation mit in ASA und GBU – [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz], [Link: /wissen/blog/asr-einfach-erklaert|ASR-Hub], [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -3616,12 +3637,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRGS 400 Gefährdungsbeurteilung für Tätigkeiten mit Gefahrstoffen: Pflichten, STOP-Prinzip, Verzeichnis, Unterweisung – praxisnah für Betriebe in NRW.",
     date: "2025-11-18",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Wer Gefahrstoffe einsetzt, muss deren Risiken beurteilen – nicht nur einmalig, sondern bei neuen Stoffen, geänderten Prozessen oder neuen Erkenntnissen. TRGS 400 „Gefährdungsbeurteilung für Tätigkeiten mit Gefahrstoffen“ ist der zentrale Leitfaden dafür. Sie ergänzt § 5 ArbSchG und die GefStoffV – nicht ersetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Wann gilt TRGS 400? Sobald Beschäftigte Gefahrstoffe herstellen, bearbeiten, lagern, transportieren oder entsorgen – auch in kleinen Mengen. Reinigungsmittel, Schmierstoffe, Farben, Desinfektionsmittel zählen dazu, wenn sie eingestuft oder kennzeichnungspflichtig sind. Auch „harmlos wirkende“ Alltagsprodukte können Gefahrstoffe sein.",
       "Ablauf in der Praxis: (1) Welche Stoffe und Tätigkeiten gibt es? Gefahrstoffverzeichnis als Basis. (2) Welche Gefährdungen entstehen – Einatmen, Haut, Brand, Explosion? TRGS 401/402 vertiefen Haut und Inhalation, hier reicht die Gesamtbeurteilung. (3) Maßnahmen nach STOP – Substitution zuerst, dann Technik (Absaugung, Lager), Organisation, PSA. (4) Unterweisung und Wirksamkeitskontrolle.",
+      "TRGS 400 ist das zentrale Regelwerk für Gefahrstoff-Gefährdungsbeurteilungen: Ermittlung, Bewertung, Maßnahmen, Ersatzstoffprüfung, Betriebsanweisungen und Unterweisung. Ohne aktuelle GBU sind Lager, Labor und Werkstatt bei BG-Begehungen in NRW schnell beanstandet.",
+      "Brandschutz bei brennbaren Stoffen, Lüftung und PSA müssen in einem Maßnahmenplan stehen – nicht in getrennten Excel-Listen. Einstieg: [Link: /wissen/blog/trgs-einfach-erklaert|TRGS Überblick].",
       "H2::Umsetzung in der Praxis",
       "Dokumentation: Schriftliche GBU mit Datum, Verantwortlichen, Ergebnis und Maßnahmenplan – nicht nur eine Checkliste ohne Begehung. Verknüpfung mit [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen TRGS 555] und [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung]. Bei brennbaren Stoffen zusätzlich [Link: /wissen/blog/brandschutz-brennbare-stoffe|TRGS 800] und [Link: /wissen/blog/trgs-509-510-lagerung-gefahrstoffe|Lager TRGS 509/510].",
       "Bei Begehungen und Prüfungen fallen häufig folgende Mängel auf. GBU aus dem Internet ohne Betriebsbezug. Verzeichnis veraltet. Neue Produkte im Einkauf ohne Sicherheitsdatenblatt-Prüfung. Maßnahmen beschrieben, aber nicht umgesetzt. Keine Verknüpfung zwischen GBU, BA und Unterweisungsnachweis.",
@@ -3651,12 +3674,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRGS 509 ortsfeste Behälter und TRGS 510 ortsbewegliche Behälter: Lagerung von Gefahrstoffen, Mengen, Abstände, Brandschutz – für Betriebe in Köln und NRW.",
     date: "2025-11-25",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Gefahrstoffe im Regal, im Sicherheitsschrank oder auf dem Lagerhof – Lagerung ist eine der häufigsten Schwachstellen bei Begehungen. TRGS 509 regelt ortsfeste Behälter und Füll-/Entleerstellen; TRGS 510 ortsbewegliche Behälter wie Kanister, Fässer und IBC. Beide ergänzen die Gefährdungsbeurteilung und [Link: /wissen/blog/trgs-400-gefaehrdungsbeurteilung-gefahrstoffe|TRGS 400] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "TRGS 509 – wann relevant? Fest installierte Tanks, Sicherheitsschränke als Lagereinheit, Technikräume, Füllstationen. Kernfragen: Ausreichende Belüftung, Auffangflächen, Abstand zu Zündquellen, Mengenbegrenzung im Arbeitsbereich, Kennzeichnung nach CLP. Brandabschnitte und Rettungswege freihalten.",
       "TRGS 510 – wann relevant? Kanister und Fässer im Lager, IBC auf dem Hof, Gebinde im Werkstattregal. Kernfragen: Gefahrstoffe nach Unfallkategorie getrennt lagern (z. B. Nicht Säure neben Lauge ohne Konzept), stabile Stapelung, Regalprüfung nach [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV], Beschilderung, Zugang für Löschmittel und Begehung.",
+      "TRGS 509 und 510 konkretisieren Lagerung brennbarer Flüssigkeiten und Gase: Mengenbegrenzung, Lagerklassen, baulicher und organisatorischer Brandschutz, Betriebsanweisungen und Kennzeichnung. In NRW werden Lager und Tankanlagen bei BG- und Brandschutzbegehungen häufig an TRGS-Vollzug gemessen.",
+      "Brandschutz und Gefahrstoffrecht greifen ineinander – ein gemeinsames Begehungsprotokoll für Lagerbereich spart Doppelarbeit. Überblick: [Link: /wissen/blog/trgs-einfach-erklaert|TRGS einfach erklärt] und [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen].",
       "H2::Umsetzung in der Praxis",
       "Brandschutz-Schnittstelle: Brennbare Flüssigkeiten und Gase unterliegen zusätzlich [Link: /wissen/blog/brandschutz-brennbare-stoffe|TRGS 800]. BSB und FaSi sollten Lager gemeinsam begehen – ein Protokoll, Spalten Gefahrstoff und Brandschutz. Keine Paletten oder Folien in Fluchtwegen; keine offenen Behälter in Büros.",
       "Dokumentation: Lagerkonzept in der GBU – erlaubte Mengen, Standorte, Schutzeinrichtungen, Notfall (Leckage, Brand). Betriebsanweisungen am Lagerort ([Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|TRGS 555]). Unterweisung für Lageristen und alle, die Stoffe entnehmen.",
@@ -3686,12 +3711,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRGS 528 Schweißen: Gefährdungsbeurteilung, Schweißrauch, Absaugung, PSA, Heißarbeit und Brandschutz – praxisnah für Köln und NRW.",
     date: "2025-12-02",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Schweißen erzeugt Lichtbogen, Funken, heiße Oberflächen und Schweißrauch – chemische und brandtechnische Risiken zugleich. TRGS 528 „Schweißtechnische Arbeiten“ konkretisiert die GefStoffV für diese Tätigkeiten. Sie gilt in der Werkstatt, auf der Baustelle und bei Instandhaltung – nicht nur in der Schlosserei – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Gefährdungsbeurteilung: Welches Verfahren (MIG/MAG, WIG, Elektrode)? Welche Werkstoffe und Zusatzwerkstoffe? Welche Rauchkonzentration entsteht – Absaugung am Entstehungsort nötig? TRGS 528 verweist auf TRGS 400 als Rahmen; Schweißrauch kann krebserzeugende Stoffe enthalten – Maßnahmenplan mit Priorität Technik vor PSA.",
       "Schutzmaßnahmen: Ortsnahe Absaugung am Lichtbogen, wenn möglich. Ausreichende Belüftung in Hallen – keine Schweißarbeit in ungelüfteten Kleinräumen ohne Konzept. PSA: Schweißerschutzhelm, Handschuhe, Schutzkleidung, Atemschutz wenn technische Maßnahmen nicht ausreichen. Brandwache und Räumung brennbarer Stoffe in der Umgebung.",
+      "TRGS 528 regelt Schweiß-, Schneid- und verwandte Arbeiten: Gefährdung durch Rauche, UV-Strahlung, Brand- und Explosionsgefahr, Lüftung und Feuerwache. Heißarbeit auf Baustellen und in Werkhallen in NRW erfordert schriftliche Freigabe, Brandwache und Abstimmung mit [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz].",
+      "Schweißrauch gehört in die Gefahrstoff-Gefährdungsbeurteilung; Atemschutz und Absaugung sind keine Optional-Leistung. Schnittstelle [Link: /wissen/blog/brandschutz-brennbare-stoffe|Heißarbeit und brennbare Stoffe] im Betrieb.",
       "H2::Umsetzung in der Praxis",
       "Brandschutz und Heißarbeit: Schweißen ist Heißarbeit – Freigabe nach DGUV Regel 100-500, Abgleich mit [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz]. Kein Schweißen neben Lösemittellager oder offenen Kanistern. Auf Baustellen: SiGe-Plan und Koordinator – [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber].",
       "Unterweisung: Schweißer und Feuerwache vor Ort einweisen – Rauchrisiko, PSA, Brandfall, Erste Hilfe. Betriebsanweisung für Schweißprozess und verwendete Stoffe ([Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|TRGS 555]).",
@@ -3765,12 +3792,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 1111 Gefährdungsbeurteilung für Arbeitsmittel: Pflichten, STOP-Prinzip, Inbetriebnahme, Änderungen – praxisnah für Betriebe in NRW.",
     date: "2025-12-16",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Bevor ein Hubwagen rollt, eine Presse startet oder ein Regal beladen wird, muss klar sein: Welche Gefahren entstehen – und welche Maßnahmen greifen? TRBS 1111 „Gefährdungsbeurteilung“ ist der zentrale Leitfaden dafür im Betriebssicherheitsrecht. Sie ergänzt § 5 ArbSchG und die BetrSichV – ersetzt sie nicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "TRBS 1111 gilt, sobald Arbeitsmittel verwendet werden – von der Handwerkzeugkiste bis zur Produktionslinie, einschließlich gemieteter, gebrauchter oder selbst gebauter Geräte. Überwachungsbedürftige Anlagen wie Aufzüge, Krananlagen oder Druckgeräte brauchen zusätzliche Tiefe, aber die GBU-Logik bleibt dieselbe.",
       "Ablauf in der Praxis: Zuerst erfassen Sie, welche Arbeitsmittel je Bereich oder Tätigkeit vorhanden sind. Dann bewerten Sie die Gefährdungen – mechanisch, elektrisch, thermisch, Sturz, Quetschung. Maßnahmen folgen nach STOP: Substitution, Technik (Schutzeinrichtungen), Organisation (Arbeitsanweisungen), Person (PSA, Unterweisung). Anschließend legen Sie fest, wer in welchem Intervall prüft – siehe [Link: /wissen/blog/trbs-1201-1203-pruefung-befaehigte-person|TRBS 1201/1203]. Abschließend prüfen Sie die Wirksamkeit – nach Umbau, Unfall oder neuer Maschine.",
+      "TRBS 1111 beschreibt, wie Gefährdungsbeurteilungen für Arbeitsmittel aufgebaut sein sollen: Auswahl, Prüfung vor Inbetriebnahme, wiederkehrende Prüfung, Unterweisung und Aufsicht. Sie ergänzt BetrSichV und BG-Regeln für Maschinen, Anlagen und Werkzeuge.",
+      "In der Praxis fehlt oft die Verknüpfung zwischen GBU, Prüfbuch und Unterweisungsnachweis – ein gemeinsames Register pro Arbeitsmittel hilft bei BG-Begehungen in NRW.",
       "H2::Umsetzung in der Praxis",
       "Besondere Momente: Inbetriebnahme neuer Arbeitsmittel – GBU vor erstem Einsatz. Wesentliche Änderungen (Umbau, Software, neuer Aufsatz) – GBU aktualisieren, ggf. Erneute Prüfung. Stilllegung defekter Geräte – dokumentieren, nicht nur „aus dem Weg stellen“. Verknüpfung mit [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung] und Betriebsanweisungen.",
       "Bei Begehungen und Prüfungen fallen häufig folgende Mängel auf. GBU-Text aus dem Internet ohne Maschinenliste. Neue Anlage ohne GBU-Eintrag. Prüfplakette ohne Bezug zur GBU. Verwechslung von allgemeiner GBU und Arbeitsmittel-Teil. Bei Gefahrstoffen parallel [Link: /wissen/blog/trgs-400-gefaehrdungsbeurteilung-gefahrstoffe|TRGS 400]. Bei Arbeitsstätte [Link: /wissen/blog/asr-einfach-erklaert|ASR].",
@@ -3800,12 +3829,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 1201 Prüfungen von Arbeitsmitteln und TRBS 1203 befähigte Person: Prüfumfang, Fristen, Qualifikation, Dokumentation – für Betriebe in Köln und NRW.",
     date: "2025-12-23",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Die Plakette am Regal, der Sticker am Kaffeekocher, das Protokoll am Hubwagen – hinter jedem Nachweis steht eine Frage: Wer darf prüfen, was muss geprüft werden, wie oft? TRBS 1201 regelt Prüfungen und Kontrollen von Arbeitsmitteln und überwachungsbedürftigen Anlagen. TRBS 1203 definiert, wer das fachlich darf – die zur Prüfung befähigte Person – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "TRBS 1201 strukturiert jede Prüfung entlang des Arbeitsmittels, der Prüfart (Sichtprüfung, Funktionsprüfung, wiederkehrende Prüfung, Erstprüfung vor Inbetriebnahme) und des Intervalls aus Herstellerangaben, Norm und Gefährdungsbeurteilung. Das Ergebnis dokumentieren Sie mit Datum, Prüfer, Befund, nächstem Termin und gegebenenfalls Stilllegung.",
       "TRBS 1203 – befähigte Person: Qualifikation, Berufserfahrung und Kenntnis der anzuwendenden Regeln – passend zum Prüfgegenstand. Regale und Hubwagen brauchen andere Kompetenz als Druckgeräte oder Aufzüge. Der Arbeitgeber bleibt verantwortlich – auch wenn ein externer Dienstleister prüft. Qualifikation und Beauftragung schriftlich nachweisen.",
+      "TRBS 1201 bis 1203 regeln Prüfungen durch befähigte Personen: Qualifikation, Befugnis, Prüfarten vor Inbetriebnahme, wiederkehrend und nach Änderung. Ohne klare Benennung im Betrieb entstehen Lücken bei Maschinen, elektrischen Anlagen und Druckbehältern.",
+      "Befähigte Personen sind nicht automatisch die [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] – Rollen und Befugnisse schriftlich regeln. [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU] und Prüfregister führen.",
       "H2::Umsetzung in der Praxis",
       "Abgrenzung elektrische Betriebsmittel: Ortsveränderliche Geräte und Anlagen prüfen Sie nach [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV Vorschrift 3] – ergänzend zur BetrSichV, oft mit derselben befähigten Elektrofachkraft. Das ersetzt nicht die Prüfung mechanischer Arbeitsmittel. In Sonderbauten kann parallel [Link: /wissen/blog/pruefvo-nrw-einfach-erklaert|PrüfVO NRW] mit Prüfsachverständigen gelten.",
       "Praxisbeispiel: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit|Handhubwagen prüfen] – jährliche Prüfung durch befähigte Person, tägliche Sichtkontrolle durch Nutzer, Eintrag in GBU und Prüfkalender. Regale nach DIN EN 15635; Leitern nach TRBS 2121 Teil 2.",
@@ -3835,12 +3866,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "TRBS 2121 Absturzgefahr: Leitern Teil 2, Gerüste Teil 1, Seilzugang – Abgrenzung zu ASR A2.1 für Betriebe und Baustellen in NRW.",
     date: "2025-12-30",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Auf der Leiter zum Regal, auf dem Gerüst an der Fassade, auf dem Dach bei Wartung – Sturz aus der Höhe gehört zu den schwersten Unfällen im Betrieb. TRBS 2121 regelt Gefährdungen durch Absturz bei der Verwendung von Arbeitsmitteln. Sie ergänzt [Link: /wissen/blog/asr-a2-1-absturz-absturzsicherung|ASR A2.1] (Absturz an der Arbeitsstätte) – ASR für den Ort, TRBS für das Mittel – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "TRBS 2121 Teil 2 – Leitern: Wann ist eine Leiter zulässig, wann braucht es ein Gerüst oder Hubarbeitsbühne? Standfestigkeit, Neigungswinkel, Kontakt zur Kante, maximale Arbeitshöhe, keine seitliche Belastung. Tägliche Sichtprüfung vor Benutzung; wiederkehrende Prüfung durch befähigte Person. Typischer Fehler: Stehleiter als Dauerarbeitsplatz.",
       "TRBS 2121 Teil 1 – Gerüste: Auf- und Abbau durch Sachkunde, Absturzsicherung am Gerüst, Belastbarkeit, Wetter, Abstand zu Leitungen. Auf Baustellen zusätzlich Baustellenverordnung und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] – Absturzsicherung im SiGe-Plan, Ausführung durch das ausführende Unternehmen.",
+      "TRBS 2121 Teil 1 und 2 behandeln Absturzgefahren und Leitern: wann Leitern zulässig sind, wann Arbeitsbühnen oder Gerüste Pflicht werden, Prüfung und sichere Benutzung. Leitern sind in der Praxis oft der letzte Ausweg – nicht die Standardlösung.",
+      "Auf Baustellen in NRW greifen BaustellV und SiGeKo – Abstimmung mit [Link: /wissen/blog/asr-a2-1-absturz-absturzsicherung|ASR A2.1] und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber].",
       "H2::Umsetzung in der Praxis",
       "Weitere Teile kurz: Teil 3 Seilzugang und -positionierung – nur mit Qualifikation und Konzept. Teil 4 Ausnahme-Heben von Personen mit nicht vorgesehenen Arbeitsmitteln – nur wenn TRBS es erlaubt, sonst Hubbühne oder Gerüst. Dacharbeiten: [Link: /wissen/blog/sigeko-dacharbeiten-absturz-bestand-koeln|SiGeKo Dacharbeiten].",
       "Gefährdungsbeurteilung: Welche Tätigkeiten in welcher Höhe? Kann Absturz vermieden werden (Arbeit am Boden)? Technische Maßnahmen vor PSA – Seitenschutz, Geländer, Fanglinie. Unterweisung: Leiter richtig anstellen, Gerüst betreten, PSA nur wenn vorgesehen. Verknüpfung mit [Link: /wissen/blog/trbs-1111-gefaehrdungsbeurteilung-arbeitsmittel|TRBS 1111] und Prüfplan [Link: /wissen/blog/trbs-1201-1203-pruefung-befaehigte-person|TRBS 1201/1203].",
@@ -3914,12 +3947,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V1 Grundsätze der Prävention: STOP-Prinzip, Rangfolge der Maßnahmen, Gefährdungsbeurteilung – Basis für Arbeitsschutz in NRW.",
     date: "2026-01-13",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Bevor Sie über Plaketten, Schulungen oder Schutzhelme sprechen, steht eine Frage: Was ist der eigentliche Grundsatz des Arbeitsschutzes? DGUV Vorschrift 1 „Grundsätze der Prävention“ fasst das zusammen – als Fundament für alle anderen Regeln, von [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2] bis zur branchenspezifischen UVV – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Kernbotschaft: Gefahren möglichst vermeiden, nicht nur abfedern. Das heißt: Erst die Gefährdungsbeurteilung – welche Risiken gibt es? Dann Maßnahmen in einer Rangfolge: gefährliche Stoffe oder Prozesse ersetzen (Substitution), technische Schutzmaßnahmen, organisatorische Regeln, erst danach persönliche Schutzausrüstung (PSA). PSA allein reicht selten.",
       "Das STOP-Prinzip lässt sich in der Praxis so anwenden. Bei Substitution kommt es darauf an, weniger giftige Reiniger einzusetzen. Technische Maßnahmen umfassen Absaugung, Schutzgitter und sichere Maschinen. Organisatorisch gelten Arbeitsanweisungen, Begehungen und [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung]. Auf Personenebene gehören PSA und Qualifikation dazu. In der [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|Gefährdungsbeurteilung] dokumentieren Sie, warum welche Stufe gewählt wurde.",
+      "DGUV Vorschrift 1 formuliert die Grundsätze der Prävention: Gefahren an der Quelle bekämpfen, Erfahrungen nutzen, Schäden vermeiden, Wissenschaft und Technik berücksichtigen. Sie ist der Rahmen für alle weiteren DGUV-Regeln und für die Arbeit der Berufsgenossenschaften.",
+      "Für Betriebe in Köln und NRW heißt das: GBU, Unterweisung und Betreuung müssen präventiv wirken – nicht erst nach Unfällen. Vertiefung: [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2 Betreuung].",
       "H2::Umsetzung in der Praxis",
       "Wirksamkeit prüfen: Maßnahmen müssen funktionieren – nicht nur auf Papier stehen. Nach Unfällen, Beinahe-Unfällen, Umbauten oder neuen Erkenntnissen die GBU fortschreiben. Das ist kein Archivprojekt, sondern Steuerung – auch Thema im [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|SiFa-Jahresbericht].",
       "Schnittstellen: V1 gilt für alle Bereiche – Arbeitsstätte ([Link: /wissen/blog/asr-einfach-erklaert|ASR]), Arbeitsmittel ([Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV]), Gefahrstoffe ([Link: /wissen/blog/trgs-400-gefaehrdungsbeurteilung-gefahrstoffe|TRGS 400]), Baustelle ([Link: /wissen/blog/dguv-vorschrift-38-bauarbeiten|DGUV V38]). Ein STOP-Plan pro Thema, nicht widersprüchliche Einzelregeln.",
@@ -3984,12 +4019,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V67 Flurförderzeuge: Handhubwagen, Stapler, Prüfung, Fahrerunterweisung, Verkehrswege – für Logistik und Produktion in Köln und NRW.",
     date: "2026-01-27",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Im Lager rattern Handhubwagen, Gabelstapler rangieren Paletten, Engpässe an Kreuzungen – Flurförderzeuge sind Alltag und Unfallquelle zugleich. DGUV Vorschrift 67 (mit Durchführungsanweisungen, ergänzt durch V68/V69) regelt Flurförderzeuge als Unfallverhütungsvorschrift. Sie ergänzt [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV] und [Link: /wissen/blog/trbs-1201-1203-pruefung-befaehigte-person|TRBS 1201/1203] – nicht ersetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Was zählt als Flurförderzeug? Handhubwagen (ohne Antrieb), elektrische Hubwagen, Gabelstapler, Schubmaststapler, Kommissioniergeräte – alles, was warenbewegend am Boden fährt. Auch gemietete Geräte. In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] erfassen: welche Typen, welche Wege, welche Schnittstellen zu Fußgängern.",
       "Die wichtigsten Pflichten lassen sich wie folgt zusammenfassen. Geeignete Geräte wählen. Wiederkehrende Prüfung durch befähigte Person. Unterweisung der Bediener vor erstem Einsatz und bei Änderungen. Sichere Verkehrswege – Trennung Fußgänger/Fahrzeug wo möglich, Geschwindigkeit, Sicht. Praxisbeispiel Handhubwagen: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit|Prüfpflicht Handhubwagen].",
+      "Flurförderzeuge – Gabelstapler, Hubwagen, Kommissionierer – verursachen in Logistik und Produktion häufig schwere Unfälle. DGUV Vorschrift 67 konkretisiert für Unternehmen mit BG-Verkehrswirtschaft, Postdienste und Logistik die Anforderungen an Fahrerunterweisung, jährliche Unterweisung, Sichtprüfung und wiederkehrende Sachkundeprüfung.",
+      "In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] sollten Verkehrswege, Trennung Fußgänger/Fahrzeug, Ladezonen und Wartung dokumentiert sein. Vertiefung zu Prüfpflichten: [Link: /wissen/blog/pruefpflicht-handhubwagen-arbeitssicherheit|Handhubwagen und Prüfung].",
       "H2::Umsetzung in der Praxis",
       "Stapler vs. Handhubwagen: Stapler brauchen Fahrerbefähigung (Theorie und Praxis nach anerkannten Regeln), jährliche Unterweisung, oft jährliche Geräteprüfung. Handhubwagen: keine Staplerschein, aber Prüfung, Nutzer-Sichtkontrolle und Unterweisung in sicherem Handling – Quetschung an Gabeln ist häufig.",
       "Bei Begehungen und Prüfungen fallen häufig folgende Mängel auf. Stapler ohne gültige Prüfung. Handhubwagen ohne Wartung. Fußgänger und Stapler ohne Regelung. Rampen und Querungen unmarkiert. Keine Unterweisungsnachweise. Elektrische Antriebe zusätzlich [Link: /wissen/blog/dguv-vorschrift-3-elektropruefung|DGUV V3] für Ladetechnik prüfen.",
@@ -4063,7 +4100,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz Arbeitszeit: 8 Stunden, 40 Stunden Woche, 6–20 Uhr, Ruhetage und Ausnahmen – praxisnah für Ausbildung und Ferienjob in NRW.",
     date: "2026-02-10",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Jugendliche sollen lernen und arbeiten – nicht ausgebrannt werden. Das JArbSchG begrenzt Arbeitszeit und schützt Ruhezeiten deutlich strenger als beim Erwachsenen-Arbeitsrecht. Wer Azubis, Praktikanten oder Ferienkräfte einsetzt, muss das im Dienstplan und in der [Link: /wissen/blog/jarbschg-unterweisung-aushang-dokumentation|Dokumentation] abbilden – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4072,6 +4109,8 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Berufsschule: Zeit in der Berufsschule zählt als Arbeitszeit, wenn sie in die betriebliche Ausbildung fällt – Doppelbelastung vermeiden. Wer nach der Schule noch lange im Betrieb bleibt, verletzt schnell die Höchstgrenzen.",
       "Ausnahmen: In bestimmten Branchen (Landwirtschaft, Gaststätten, Messen, Theater u. a.) gelten erweiterte Regeln – nur mit Genehmigung und unter Auflagen. Nicht pauschal „Azubi = Erwachsener“ planen.",
+      "JArbSchG begrenzt Arbeitszeit, Nacht- und Wochenendarbeit für Jugendliche strikt – Abweichungen nur in engen gesetzlichen Ausnahmen. Ausbildungsbetriebe und Saisonbetriebe in NRW werden hier bei Kontrollen häufig beanstandet.",
+      "Dienstpläne müssen mit verbotenen Tätigkeiten und [Link: /wissen/blog/jarbschg-unterweisung-aushang-dokumentation|Unterweisung JArbSchG] zusammenpassen – einheitliche Dokumentation für BG und IHK.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Jugendlichen müssen Arbeitszeitnachweise, Pausen und mindestens 12 Stunden Ruhezeit zwischen Schichten kontrollierbar sein – Überstunden und Wochenendarbeit sind stark eingeschränkt.",
       "Aushang § 48: Ab drei regelmäßig beschäftigten Jugendlichen müssen Beginn, Ende und Pausen der täglichen Arbeitszeit für alle Beschäftigten sichtbar sein – digital oder am Schwarzen Brett. Verknüpfung mit [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG-Hub]. Health and Safety+ – [Link: /kontakt|Kontakt].",
@@ -4105,12 +4144,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz: Welche Tätigkeiten für Jugendliche verboten oder eingeschränkt sind – Abgrenzung zu BetrSichV, TRGS und ASR für Betriebe in NRW.",
     date: "2026-02-17",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Nicht alles, was ein ausgebildeter Facharbeiter darf, darf ein 16-Jähriger. Das JArbSchG enthält ein Verzeichnis verbotener und eingeschränkter Tätigkeiten – zum Schutz vor Unfällen und Überforderung. In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] muss stehen: Welche Arbeitsplätze für Jugendliche freigegeben sind – und welche nicht – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Das Jugendarbeitsschutzgesetz verbietet oder grenzt folgende Tätigkeiten ein. Arbeiten mit erheblicher Gefährdung durch Maschinen, Fahrzeuge oder Tiere. Arbeiten mit gesundheitsgefährdenden Stoffen über bestimmte Grenzen. Arbeiten unter Tage. Akkord- und tempoabhängige Arbeit in vielen Fällen. Alleinig arbeiten in bestimmten Risikosituationen. Konkrete Liste im Gesetz – in der Praxis als Checkliste für Begehungen nutzen.",
       "Maschinen und Arbeitsmittel: Jugendliche nur an Maschinen, wenn die Gefährdungsbeurteilung es erlaubt und Unterweisung vorliegt – oft eingeschränkter als bei Erwachsenen. Schnittstelle [Link: /wissen/blog/betrsichv-einfach-erklaert|BetrSichV] und [Link: /wissen/blog/trbs-einfach-erklaert|TRBS]. Stapler und Flurförderzeuge: besondere Vorsicht – [Link: /wissen/blog/dguv-vorschrift-67-flurfoerderzeuge|DGUV V67].",
+      "JArbSchG verbietet Jugendlichen bestimmte Tätigkeiten – etwa Arbeiten mit erheblichen Gefahrstoffen, auf Dächern ohne Schutz, mit schweren Maschinen oder in Nachtschicht. Ausbildungsbetriebe müssen Tätigkeitspläne gegen die Verbotsliste prüfen.",
+      "Dokumentation und Aufsicht sind Pflicht: Wer Jugendliche einsetzt, trägt erhöhte Sorgfalt. Kombination mit [Link: /wissen/blog/jarbschg-arbeitszeit-ruhezeiten|Arbeitszeit JArbSchG] und Unterweisung.",
       "H2::Umsetzung in der Praxis",
       "Höhe und Absturz: Beschäftigung in Höhen mit Absturzgefahr stark eingeschränkt. Baustelle: [Link: /wissen/blog/dguv-vorschrift-38-bauarbeiten|DGUV V38], [Link: /wissen/blog/asr-a2-1-absturz-absturzsicherung|ASR A2.1], [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo].",
       "Gefahrstoffe und Brand: Jugendliche nicht mit gefährlichen Stoffen über erlaubte Grenzen; keine Heißarbeit ohne Ausnahme. Brandschutz: Evakuierung und Unterweisung ja – Schweißen oder Löschen im Einsatz nur im Rahmen der Ausbildung und erlaubter Tätigkeiten. [Link: /wissen/blog/trgs-einfach-erklaert|TRGS], [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz-Ratgeber].",
@@ -4145,12 +4186,15 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Jugendarbeitsschutz Unterweisung halbjährlich, Gesetzesauslegung § 47, Arbeitszeiten-Aushang § 48, Verzeichnis § 49 – für Betriebe mit Azubis in Köln und NRW.",
     date: "2026-02-24",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Papierkram? Nein – Nachweis, dass Jugendliche die Gefahren ihres Arbeitsplatzes kennen und der Betrieb die JArbSchG-Pflichten kennt. Drei Bausteine: Unterweisung, Aushang/Bereitstellung, Verzeichnisse und Nachweise – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Nach § 29 Unterweisung über Gefahren gilt Folgendes. Vor der ersten Tätigkeit und mindestens halbjährlich wiederholen – häufiger als die jährliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung nach ArbSchG]. Inhalt: arbeitsplatzspezifische Gefahren, Schutzmaßnahmen, Verhalten bei Unfällen, Brand und Evakuierung. Dokumentieren mit Datum, Teilnehmer, Themen, Unterweisende.",
       "Nach § 47 Gesetz und Aufsichtsbehörde gilt Folgendes. Wer regelmäßig mindestens einen Jugendlichen beschäftigt, stellt eine Kopie des JArbSchG und die Anschrift der zuständigen Aufsichtsbehörde bereit – über betriebliche IT oder als Aushang an geeigneter Stelle. Nicht verwechseln mit [Link: /wissen/blog/brandschutzordnung-din-14096|BSO Teil A] am Fluchtweg – beides kann nötig sein.",
+      "JArbSchG verlangt für Jugendliche unter 18 Jahren besondere Unterweisungen, Aushänge zum Jugendarbeitsschutz und Dokumentation der halbjährlichen Unterweisung. Ausbildungsbetriebe in Köln und NRW werden bei BG-Begehungen gezielt auf verbotene Tätigkeiten und Arbeitszeiten geprüft.",
+      "Abstimmung mit [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|allgemeiner Unterweisung] und [Link: /wissen/blog/jarbschg-verbotene-gefaehrliche-arbeiten|verbotenen Arbeiten] vermeidet Widersprüche zwischen Ausbildungsplan und Sicherheitsunterweisung.",
+      "Themenplan, Teilnehmerliste und Datum der halbjährlichen Unterweisung gehören in die ASA-Vorbereitung – nicht nur in der Ausbildungsakte.",
       "H2::Umsetzung in der Praxis",
       "Nach § 48 Arbeitszeiten und Pausen gilt Folgendes. Ab drei regelmäßig beschäftigten Jugendlichen – Information über Beginn, Ende und Pausen täglich sichtbar oder digital zugänglich. Passt zu [Link: /wissen/blog/jarbschg-arbeitszeit-ruhezeiten|Arbeitszeitregeln].",
       "Nach § 49 Verzeichnis gilt Folgendes. Jugendliche erfassen – Name, Geburtsdatum, Tätigkeit, Arbeitszeiten – für die Aufsicht auf Verlangen. Datenschutz beachten, aber Pflicht erfüllen.",
@@ -4186,7 +4230,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutzgesetz (MuSchG): Wer geschützt ist, Schutzfristen, Arbeitszeit, unzulässige Tätigkeiten, Gefährdungsbeurteilung § 10, Aushang § 26 – praxisnah für Betriebe in Köln und NRW.",
     date: "2026-03-03",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Schwangerschaft im Team ist kein Sonderfall – sie ist im Mutterschutzgesetz (MuSchG) geregelt. Das Gesetz schützt Gesundheit von Mutter und Kind am Arbeitsplatz während Schwangerschaft, nach der Entbindung und in der Stillzeit. Es gilt in jedem Betrieb mit weiblichen Beschäftigten – unabhängig von der Größe. Nicht jede Frau wird schwanger; aber jeder Arbeitgeber muss vorbereitet sein – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4195,6 +4239,8 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Gefährdungsbeurteilung § 10 MuSchG: Zwei Stufen – vorausschauend für alle Arbeitsplätze und unverzüglich bei bekannter Schwangerschaft oder Stillzeit. Vertiefung: [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU für Schwangere und Stillende]. Schnittstellen: [Link: /wissen/blog/trgs-einfach-erklaert|Gefahrstoffe TRGS], [Link: /wissen/blog/betriebsanweisungen-gefahrstoffe|Betriebsanweisungen], [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz|psychische Belastung].",
       "Parallel für andere schutzbedürftige Gruppen: [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|Jugendarbeitsschutz JArbSchG], [Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|Teilhabe SGB IX]. Allgemeiner Rahmen: [Link: /wissen/blog/arbeitsschutzgesetz-arbschg-uebersicht|Arbeitsschutzgesetz]. Reform 2025/2026: erweiterte Schutzfristen nach Fehlgeburt – in Personalprozessen und GBU berücksichtigen.",
+      "Das Mutterschutzgesetz schützt Schwangere und Stillende vor gesundheitlichen und finanziellen Nachteilen – mit Beschäftigungsverboten in bestimmten Phasen, Schutz vor Kündigung und Anspruch auf Umgestaltung des Arbeitsplatzes.",
+      "Arbeitgeber in Köln und NRW sollten MuSchG in Personal, Arbeitsschutz und GBU verankern – nicht erst nach Mitteilung einer Schwangerschaft reagieren. Vertiefung: [Link: /wissen/blog/muschg-schutzfristen-arbeitszeit|Schutzfristen].",
       "H2::Typische Mängel und Vorbereitung",
       "Arbeitgeber sollten vor Mitteilung einer Schwangerschaft wissen, wo MuSchG-Aushang hängt, wie GBU nach § 10 ausgelöst wird und wer Mutterschutz koordiniert – mit Betriebsarzt und SiFa.",
       "Neue Spokes: [Link: /wissen/blog/muschg-schutzfristen-arbeitszeit|Schutzfristen], [Link: /wissen/blog/muschg-unzulaessige-taetigkeiten-schutzmasnahmen|Unzulässige Tätigkeiten], [Link: /wissen/blog/muschg-aushang-mitteilung-dokumentation|Aushang und Dokumentation]. Bereits vertieft: [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Mutterschutz], [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz|Psychische GBU]. Health and Safety+ – [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber], [Link: /kontakt|Kontakt].",
@@ -4228,7 +4274,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz Schutzfristen: 6 Wochen vor, 8 Wochen nach Entbindung, Nacht- und Sonntagsarbeit, Mehrarbeit, Freistellung für Untersuchungen und Stillen – für Betriebe in NRW.",
     date: "2026-03-10",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Schutzfristen sind das Herzstück des arbeitszeitlichen Mutterschutzes. Sie sollen Mutter und Kind vor Überlastung schützen – nicht nur Papierkram für HR. Wer Personal plant, Azubis einsetzt oder Schichtdienst organisiert, muss die Fristen kennen, bevor eine Schwangerschaft mitgeteilt wird – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4237,6 +4283,8 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Nach § 5 Nachtarbeit gilt Folgendes. Beschäftigung zwischen 20 und 6 Uhr grundsätzlich verboten – Ausnahmen nur in engen Grenzen mit Genehmigung. § 6 Sonn- und Feiertagsarbeit: grundsätzlich verboten, Ausnahmen möglich. Schichtbetriebe müssen früh umplanen, nicht erst bei Mutterschutzlohn.",
       "Nach § 7 Freistellung gilt Folgendes. Für vorgeburtliche Untersuchungen und zum Stillen – bezahlte Freistellung in der gesetzlich vorgesehenen Dauer. Stillraum und Pausen in der [Link: /wissen/blog/muschg-unzulaessige-taetigkeiten-schutzmasnahmen|betrieblichen Gestaltung] mitdenken.",
+      "Schutzfristen vor und nach der Entbindung verbieten Beschäftigung – mit Mutterschutzlohn und Beschäftigungsverboten, die auch für geringfügig Beschäftigte gelten. Planung von Vertretung und Übergabe muss rechtzeitig erfolgen.",
+      "Arbeitszeitregelungen für Schwangere (keine Nacht- und Sonntagsarbeit ohne Ausnahme) sind mit Dienstplan und [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU] abzustimmen.",
       "H2::Typische Mängel und Vorbereitung",
       "Vor einer Begehung sollte geklärt sein, ob Dokumentation und Maßnahmenplan aktuell? Unterweisung nachweisbar? Verantwortliche und Fristen festgelegt? Abstimmung mit [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] und Betriebsarzt.",
       "Leistungen: Mutterschutzlohn, Mutterschaftsgeld – HR-Thema, aber Arbeitsschutz muss Beschäftigungsverbote rechtzeitig auslösen. Verknüpfung [Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG-Hub]. Health and Safety+ – [Link: /kontakt|Kontakt].",
@@ -4270,7 +4318,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz § 9–13: unverantwortbare Gefährdung, unzulässige Tätigkeiten für Schwangere und Stillende, Maßnahmenhierarchie und ärztliches Beschäftigungsverbot – praxisnah für NRW.",
     date: "2026-03-17",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Nicht jeder Arbeitsplatz ist für Schwangere geeignet – manche Tätigkeiten sind verboten, andere nur mit Anpassung. Das MuSchG nennt in § 11 und § 12 konkrete Verbote und Grenzen; § 9 verbietet jede unverantwortbare Gefährdung. In der [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] muss stehen, welche Plätze grundsätzlich freigegeben sind – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4278,6 +4326,8 @@ export const blogPosts: BlogPost[] = [
       "Nach § 13 MuSchG gilt folgende Rangfolge der Schutzmaßnahmen. Erst Arbeitsbedingungen umgestalten, dann Arbeitsplatzwechsel, erst danach betriebliches Beschäftigungsverbot nach § 13 Abs. 2 – zu unterscheiden vom ärztlichen Beschäftigungsverbot § 16. Ziel: Beschäftigung ermöglichen, wo es sicher geht.",
       "H2::Umsetzung in der Praxis",
       "Stillzeit § 12: Eigene unzulässige Tätigkeiten – Hygiene, Infektionsrisiken in Kita, Pflege, Gastronomie besonders prüfen. Beispiel aus der Praxis: [Link: /wissen/blog/ergonomie-kueche-kita-gefaehrdungsbeurteilung|Ergonomie KiTa-Küche] mit Belastungsbewertung.",
+      "MuSchG listet Tätigkeiten, die Schwangeren und Stillenden untersagt sind – etwa bestimmte Gefahrstoffe, Schichtarbeit unter Druck, schwere körperliche Arbeit. Der Arbeitgeber muss nach Mitteilung unverzüglich umorganisieren oder geeignete Arbeitsplätze zuweisen.",
+      "Schutzmaßnahmen sind nicht Verhandlungssache: fehlende Umsetzung kann Bußgelder und arbeitsrechtliche Ansprüche auslösen. GBU und Betriebsarzt: [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Schwangerschaft].",
       "H2::Typische Mängel und Vorbereitung",
       "Vor einer Begehung sollte geklärt sein, ob Dokumentation und Maßnahmenplan aktuell? Unterweisung nachweisbar? Verantwortliche und Fristen festgelegt? Abstimmung mit [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] und Betriebsarzt.",
       "Bei Mitteilung der Schwangerschaft: unverzüglich konkrete GBU des Arbeitsplatzes, Maßnahmen umsetzen, Beschäftigte informieren. Vertiefung § 10: [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Schwangere und Stillende]. Health and Safety+ – [Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG-Überblick], [Link: /kontakt|Kontakt].",
@@ -4311,12 +4361,14 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz Aushangpflicht § 26, Dokumentation § 14, Mitteilung der Beschäftigten, Meldepflicht § 27 und Datenschutz – Checkliste für Betriebe in Köln und NRW.",
     date: "2026-03-24",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Mutterschutz endet nicht bei der GBU – Aushang, Information und Nachweise gehören dazu. Drei Pflichten, die bei Begehungen oft fehlen: Gesetz sichtbar machen, Maßnahmen dokumentieren, Mitteilungen der Beschäftigten ernst nehmen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Nach § 26 Aushang gilt Folgendes. In jedem Betrieb, in dem Frauen beschäftigt sind, muss das MuSchG an geeigneter Stelle ausgelegt oder über betriebliche IT bereitgestellt werden – vergleichbar [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG § 47], aber ohne Schwellenwert. Auch Ein-Personen-Betriebe mit weiblicher Beschäftigter.",
       "Nach § 14 Dokumentation gilt Folgendes. Ergebnis der Beurteilung, festgelegte Schutzmaßnahmen, Mitteilung an die Beschäftigte in verständlicher Form – mit Verantwortlichen und Fristen. Anbindung an [Link: /wissen/blog/gefaehrdungsbeurteilung-ablauf|GBU-Ablauf] und § 6 ArbSchG.",
+      "MuSchG verlangt neben dem Aushang zum Mutterschutz eine verständliche Information der Beschäftigten über Schutzrechte, Meldewege und Ansprechpersonen. In größeren Betrieben in Köln und NRW empfiehlt sich ein Merkblatt in der Eingangshalle, die Einbindung in die Einarbeitung und ein Eintrag in der Unterweisungsmatrix.",
+      "Bei Schwangerschaft oder Stillzeit löst jede Mitteilung eine erneute arbeitsmedizinische und sicherheitstechnische Bewertung aus – Abstimmung mit Betriebsarzt, [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] und ggf. [Link: /wissen/blog/gefaehrdungsbeurteilung-schwangere-mutterschutz|GBU Schwangerschaft].",
       "H2::Umsetzung in der Praxis",
       "Nach § 15 Mitteilungen gilt Folgendes. Schwangere und stillende Frauen sollen Mitteilung machen – Arbeitgeber darf nicht zu früh fragen, muss aber handeln, sobald er Kenntnis hat. Freiwillige Mitteilung schützt beide Seiten.",
       "Nach § 27 Meldepflicht gilt Folgendes. Bei Verstößen gegen bestimmte Schutzvorschriften Meldung an die Aufsichtsbehörde – z. B. Wenn unzulässige Tätigkeiten nicht abgestellt werden. Bußgelder bis 30.000 Euro möglich – [Link: /wissen/blog/strafen-arbeitsschutz|Konsequenzen Arbeitsschutz].",
@@ -4352,7 +4404,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Sozialgesetzbuch IX (SGB IX): Schwerbehindertenrecht, Beschäftigungspflicht, Arbeitsplatzgestaltung, Schwerbehindertenvertretung – praxisnah für Betriebe in Köln und NRW.",
     date: "2026-04-07",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Menschen mit Behinderungen sollen am Arbeitsleben teilhaben – das regelt das Neunte Buch Sozialgesetzbuch (SGB IX). Für Arbeitgeber in Köln und NRW ist vor allem Teil 3 relevant: Schwerbehindertenrecht mit Beschäftigungspflicht, betrieblicher Gestaltung und betrieblicher Mitwirkung. Anders als JArbSchG oder MuSchG ist SGB IX in der Sammelmappe „empfohlen“, nicht aushangpflichtig – trotzdem verbindlich, wenn es greift.",
       "H2::Wer fällt unter SGB IX Teil 3?",
@@ -4361,6 +4413,8 @@ export const blogPosts: BlogPost[] = [
       "Erstens Beschäftigung und Quote ([Link: /wissen/blog/sgb-ix-beschaeftigungspflicht-ausgleichsabgabe|Beschäftigungspflicht]): ab 20 Arbeitsplätzen mindestens fünf Prozent schwerbehinderte Menschen oder Ausgleichsabgabe. Zweitens Arbeitsplatz und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung] ([Link: /wissen/blog/sgb-ix-arbeitsplatz-gestaltung-gbu|§ 164 Arbeitsplatzgestaltung]): behinderungsgerechte Einrichtung, technische Hilfen, Unfallgefahr. Drittens Organisation ([Link: /wissen/blog/sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter|SBV und Inklusionsbeauftragter]): ab fünf schwerbehinderten Beschäftigten SBV wählen, Inklusionsbeauftragter bestellen.",
       "H2::Schnittstelle Arbeitsschutz",
       "Nach § 164 verlangt behinderungsgerechte Gestaltung von Arbeitsstätten, Maschinen, Organisation und Arbeitszeit – unter besonderer Berücksichtigung der Unfallgefahr. Das ergänzt § 5 ArbSchG, ersetzt es nicht. Evakuierung gilt Folgendes. [Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Flucht- und Rettungsplan] und Personal-Notfallpläne mit der Schwerbehindertenvertretung – [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz-Ratgeber].",
+      "Teilhabe am Arbeitsleben nach SGB IX umfasst Beschäftigung, Ausbildung und Eingliederung schwerbehinderter Menschen – mit Rechten auf angemessene Arbeitsplatzgestaltung, Nachteilsausgleich und Unterstützung durch Integrationsfachdienste.",
+      "Für Arbeitgeber in Köln und NRW bedeutet das: frühzeitige Abstimmung mit Schwerbehindertenvertretung, barrierefreie Wege und technische Hilfen in der GBU dokumentieren – [Link: /wissen/blog/sgb-ix-arbeitsplatz-gestaltung-gbu|Arbeitsplatz und GBU].",
       "H2::Schutzbedürftige Gruppen im Überblick",
       "Parallel gelten eigene Regelwerke: [Link: /wissen/blog/jugendarbeitsschutz-jarbschg-einfach-erklaert|JArbSchG Jugendliche], [Link: /wissen/blog/mutterschutz-muschg-einfach-erklaert|MuSchG Schwangere und Stillende]. Psychische Behinderung und Belastung: [Link: /wissen/blog/psychische-gefaehrdungsbeurteilung-arbeitsplatz|Psychische GBU]. Prävention § 167: Eintritt von Behinderung vermeiden – [Link: /wissen/blog/dguv-vorschrift-1-grundsaetze-praevention|DGUV V1].",
       "Vertiefende Artikel finden Sie in den Spokes zu [Link: /wissen/blog/sgb-ix-beschaeftigungspflicht-ausgleichsabgabe|Quote], [Link: /wissen/blog/sgb-ix-arbeitsplatz-gestaltung-gbu|Arbeitsplatz], [Link: /wissen/blog/sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter|SBV und Inklusion]. Health and Safety+ – [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz-Ratgeber], [Link: /kontakt|Kontakt].",
@@ -4394,7 +4448,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Schwerbehindertenquote 5 Prozent, Pflichtarbeitsplätze, Anrechnung, Ausgleichsabgabe und Meldung ans Integrationsamt – für Betriebe ab 20 Arbeitsplätzen in Köln und NRW.",
     date: "2026-04-14",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Ab 20 Arbeitsplätzen gilt in Köln und NRW die Schwerbehindertenquote: beschäftigen oder ausgleichen. § 154 SGB IX verlangt mindestens fünf Prozent schwerbehinderte Menschen – bei unter 40 Plätzen mindestens einer, bei unter 60 mindestens zwei. Öffentliche Arbeitgeber haben teils höhere Sätze.",
       "H2::Was zählt als Arbeitsplatz?",
@@ -4405,6 +4459,8 @@ export const blogPosts: BlogPost[] = [
       "Freie Arbeitsplätze prüfen: Können schwerbehinderte Menschen – insbesondere arbeitslos Gemeldete – besetzt werden? Agentur für Arbeit früh einbinden. Schwerbehindertenvertretung über Vermittlungsvorschläge und Bewerbungen unverzüglich informieren und anhören. Bei Uneinigkeit Gründe erörtern und dokumentieren.",
       "H2::Typische Fehler in der Praxis",
       "Quote nur auf dem Papier des Integrationsamts, aber keine aktive Stellenprüfung. SBV erfährt von Bewerbungen erst nach der Entscheidung. Ausgleichsabgabe wird gezahlt, Arbeitsplätze bleiben aber physisch nicht behinderungsgerecht – dann scheitert Einstellung trotz Quote. Arbeitsplatz vorher klären: [Link: /wissen/blog/sgb-ix-arbeitsplatz-gestaltung-gbu|Arbeitsplatzgestaltung].",
+      "Die Beschäftigungspflicht nach SGB IX betrifft viele mittelständische Betriebe in NRW überraschend: ab 20 Beschäftigten gilt die Pflicht, schwerbehinderte Menschen in einem festen Quotenrahmen zu beschäftigen oder Ausgleichsabgabe zu zahlen. Die Meldung an die Integrationsfachdienste und die Dokumentation der Schwerbehindertenvertretung gehören in die Personal- und Arbeitsschutzorganisation.",
+      "Schnittstelle zur [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung]: barrierefreie Arbeitsplätze, angepasste Arbeitszeit und betriebliche Eingliederung müssen mit GBU und ASA abgestimmt werden – nicht nur in der Personalabteilung.",
       "Health and Safety+ – [Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|SGB IX-Hub], [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber], [Link: /kontakt|Kontakt].",
     ],
     faq: [
@@ -4436,7 +4492,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Behindertengerechte Arbeitsplätze nach § 164 SGB IX: GBU-Abschnitt, technische Hilfen, Ergonomie, Notfall – für Betriebe in Köln und NRW.",
     date: "2026-04-21",
-    dateModified: "2026-05-26",
+    dateModified: "2026-06-26",
     content: [
       "Quote erfüllt, aber Treppe ohne Lift, Software ohne Screenreader, Stapler ohne angepasste Bedienung – dann scheitert Teilhabe. § 164 SGB IX gibt schwerbehinderten Menschen Rechte auf behinderungsgerechte Arbeitsstätten, Maschinen, Organisation und Arbeitszeit – mit Fokus auf Unfallgefahr. Für Betriebe in Köln und NRW gehört das in die [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|Gefährdungsbeurteilung], nicht nur in HR.",
       "H2::GBU-Abschnitt Behinderung",
@@ -4447,6 +4503,8 @@ export const blogPosts: BlogPost[] = [
       "Arbeitshilfen richten sich nach der Behinderung – Integrationsamt und Agentur für Arbeit können fördern. Die Zumutbarkeitsgrenze schließt unverhältnismäßige Kosten und Kollisionen mit Arbeitsschutzvorschriften nicht aus, setzt aber Grenzen. Trotzdem sollten Sie maximale Inklusion anstreben und Schwerbehindertenvertretung sowie betroffene Person früh einbeziehen.",
       "H2::Unterweisung und Notfall",
       "Die [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisung] muss am konkreten Platz stattfinden – inklusive Alarm, Evakuierung und persönlichem Notfallplan. Abstimmen Sie das mit [Link: /wissen/blog/sgb-ix-schwerbehindertenvertretung-inklusionsbeauftragter|Schwerbehindertenvertretung] und [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz]. Evakuierungshelfer, Warteplätze und Rollstuhl-Szenarien sollten in Übungen erprobt werden, nicht erst im Ernstfall.",
+      "SGB IX verlangt angemessene Arbeitsplatzgestaltung für Menschen mit Behinderungen – technisch, organisatorisch und personell. Das gehört in die Gefährdungsbeurteilung und in die Abstimmung mit Schwerbehindertenvertretung und Integrationsfachdiensten.",
+      "Barrierefreiheit, ergonomische Hilfen und angepasste Arbeitszeit sind keine „Sonderwünsche“, sondern Teil der Prävention – [Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|Teilhabe Überblick] und [Link: /wissen/ratgeber/gefaehrdungsbeurteilung|GBU-Ratgeber].",
       "H2::Typische Mängel bei Begehungen",
       "In Begehungen fällt häufig auf, dass die GBU keinen Abschnitt Behinderung enthält, das Gebäude barrierefrei ist der Arbeitsplatz aber ohne Hilfsmittel, oder der Evakuierungsplan Rollstuhlfahrer nicht berücksichtigt. Maßnahmen aus der GBU fehlen oft in der Unterweisung. Health and Safety+ – [Link: /wissen/blog/teilhabe-sgb-ix-einfach-erklaert|SGB IX-Hub], [Link: /kontakt|Kontakt].",
     ],

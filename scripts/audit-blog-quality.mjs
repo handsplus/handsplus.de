@@ -8,7 +8,7 @@ const src = fs.readFileSync(path.join(root, "content/blog.ts"), "utf8");
 const slugMatches = [...src.matchAll(/slug:\s*"([^"]+)"/g)];
 console.log("Total posts:", slugMatches.length);
 
-const blocks = src.split(/\n  \{\n    slug:/).slice(1);
+const blocks = src.split(/\r?\n  \{\r?\n    slug:/).slice(1);
 const stats = blocks.map((b) => {
   const slug = b.match(/"([^"]+)"/)?.[1];
   const contentMatch = b.match(/content:\s*\[([\s\S]*?)\n    \],/);

@@ -14,7 +14,7 @@ const GENERIC_FAQ_ANSWER =
 const GENERIC_MANGEL_ANSWER =
   "Fehlende oder veraltete Dokumentation, Maßnahmen ohne Verantwortliche";
 
-const blocks = src.split(/\n  \{\n    slug:/).slice(1);
+const blocks = src.split(/\r?\n  \{\r?\n    slug:/).slice(1);
 const results = [];
 
 for (let i = 0; i < blocks.length; i++) {
