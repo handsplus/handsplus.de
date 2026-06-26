@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
       "In Köln und NRW erhöhen innerstädtische Logistik, Abbruchphasen und parallele Gewerke den Koordinationsaufwand spürbar – das gehört in die Kalkulation, nicht auf die Schlussrechnung. Vertiefung Leistungskatalog Bestand: [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang|Innenausbau im Bestand]. Köln-spezifische Faktoren: [Link: /wissen/blog/sigeko-koeln-kosten|SiGeKo-Kosten Köln].",
       "H2::Typische Mängel und Vorbereitung",
       "Bei der Angebotsprüfung sollten Sie klären, ob Vorplanung und Ausführungsphase abgedeckt sind, Begehungen und Einweisungen verbindlich benannt werden und Mehrleistungen bei Lageänderungen geregelt sind. Ein Angebot nur für den SiGe-Plan ohne Koordination deckt die BaustellV-Pflichten in der Regel nicht ab.",
-      "Health and Safety+ erstellt SiGeKo-Angebote für Köln und NRW auf Basis von Leistungsverzeichnis und Risikoprofil. Grobe Orientierung: [Link: /wissen/rechner|Honorar-Rechner]. Pflichten und Ablauf: [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo auf der Baustelle], [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo Pflicht ist]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ erstellt SiGeKo-Angebote für Köln und NRW auf Basis von Leistungsverzeichnis und Risikoprofil. Grobe Orientierung: [Link: /wissen/rechner|Honorar-Rechner]. Pflichten und Ablauf: [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo auf der Baustelle], [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo Pflicht ist], [Link: https://sigeko.koeln/kontakt|SiGeKo beauftragen Köln]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -602,7 +602,7 @@ export const blogPosts: BlogPost[] = [
       "Abgrenzung: Die Fachkraft für Arbeitssicherheit und der Brandschutzbeauftragte arbeiten bei Gefährdungsbeurteilung, Begehungen und Arbeitsschutzausschuss zusammen, ohne Rollen zu vermischen. In Betrieben mit anerkannter Werkfeuerwehr können Aufgaben des Brandschutzbeauftragten an deren Leitung übertragen werden, wenn Qualifikation und Kapazität dem DGUV-Profil entsprechen.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Begehungen fällt häufig auf, dass der BSB benannt aber nicht ausreichend freigestellt ist, die [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung] veraltet ist oder Brandschutzhelfer ohne Löschübung geschult wurden. Vor Prüfungen sollten Bestellung, Aufgabenprofil und Begehungsprotokolle nachvollziehbar sein.",
-      "Health and Safety+ in Köln und NRW: [Link: /brandschutz|Brandschutz] von Konzept und Genehmigung bis zum Betrieb – hier u. a. externe Funktion des Brandschutzbeauftragten, Brandschutzordnung, Begehungen und Übungen. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ in Köln und NRW: [Link: /brandschutz|Brandschutz] von Konzept und Genehmigung bis zum Betrieb – hier u. a. externe Funktion des Brandschutzbeauftragten, Brandschutzordnung, Begehungen und Übungen. Betrieblicher Überblick Köln: [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -702,7 +702,7 @@ export const blogPosts: BlogPost[] = [
       "Als Rechenbeispiel ergeben 8 Beschäftigte an 65 Tagen 520 Personentage – damit fällt die Vorankündigung an, auch ohne 20 gleichzeitig Beschäftigte. Beim Einfamilienhaus mit drei Gewerken nacheinander entsteht der SiGe-Plan oft über Anhang II (§ 2 Abs. 3 lit. b), nicht über die Vorankündigung – erklärt im Artikel [Link: /wissen/blog/baustellv-anhang-ii-gefaehrliche-arbeiten|Anhang II].",
       "Typische Fehler sind eine Vorankündigung erst nach Baubeginn, ein fehlender Aushang, ein generischer Plan ohne Bezug zum Projekt oder die fälschliche Annahme, ein Generalunternehmer mit Subunternehmern gelte als „ein Arbeitgeber“. Fallstudien: [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw|Neubau NRW], [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|Begehung Köln].",
       "H2::Checkliste",
-      "Vor Baustart sollten Schwellenwert, Anhang-I-Angaben, SiGe-Plan vor Erstbetritt der Gewerke und sichtbarer Aushang geklärt sein. Health and Safety+ – [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub], [Link: /kontakt|Kontakt].",
+      "Vor Baustart sollten Schwellenwert, Anhang-I-Angaben, SiGe-Plan vor Erstbetritt der Gewerke und sichtbarer Aushang geklärt sein. Health and Safety+ – [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub], [Link: https://sigeko.koeln/ratgeber/was-ist-ein-sige-plan|SiGe-Plan auf sigeko.koeln], [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -760,7 +760,7 @@ export const blogPosts: BlogPost[] = [
       "Dokumentierte Begehungen, Einweisungen und Übergaben zwischen Rohbau und Ausbau sind in der Praxis entscheidend – etwa bei [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|Abbruch in Köln], [Link: /wissen/blog/sigeko-dacharbeiten-absturz-bestand-koeln|Dacharbeiten im Bestand] oder [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang|Innenausbau im Bestand].",
       "H2::Typische Mängel",
       "Häufig wird der SiGeKo erst bestellt, wenn der Rohbau bereits läuft – dann fehlen oft rechtzeitige Einweisungen und ein vollständiger SiGe-Plan vor Baustart. Auch bei Kranumstellungen, neuen Subunternehmern oder Wetterereignissen wird der Plan nicht fortgeschrieben, obwohl § 3 Abs. 3 das verlangt.",
-      "Weitere Schwachstellen: Der Koordinator hat keinen Zugang zu aktuellen Plänen, Begehungen finden ohne Protokoll statt, oder das Honorar deckt nur die Planung, nicht die Ausführungsphase ab. Honorar-Orientierung: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|SiGeKo-Kosten]. Gesamtüberblick: [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub]. Health and Safety+ – [Link: /sigeko|Leistungen SiGeKo], [Link: /kontakt|Kontakt].",
+      "Weitere Schwachstellen: Der Koordinator hat keinen Zugang zu aktuellen Plänen, Begehungen finden ohne Protokoll statt, oder das Honorar deckt nur die Planung, nicht die Ausführungsphase ab. Honorar-Orientierung: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|SiGeKo-Kosten]. Gesamtüberblick: [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub]. Health and Safety+ – [Link: /sigeko|Leistungen SiGeKo], [Link: https://sigeko.koeln/ratgeber|SiGeKo Portal Köln], [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -829,7 +829,7 @@ export const blogPosts: BlogPost[] = [
       "Legen Sie Begehungsrhythmus, Umgang mit Änderungen (Kran, Wetter, neuer Subunternehmer), Notfall und Erste Hilfe fest – und stimmen Sie das mit [Link: /wissen/blog/dguv-vorschrift-38-bauarbeiten|DGUV V38] und [Link: /wissen/blog/arbschg-mehrere-arbeitgeber-zusammenarbeit|§ 8 ArbSchG] ab.",
       "H2::Typische Mängel bei Begehungen",
       "Oft fehlt die nummerierte Zuordnung zu Anhang II, die Absturzsicherung ist nur für ein Gewerk geplant und der Dachdecker wurde „vergessen“, oder eine Sprengung erfolgt ohne dokumentierte Nachkontrolle. Auch der Abstand zur Hochspannung steht nicht in der Einweisung, der Plan ist nach Kranumstellung veraltet, oder Gefahrstoffe nach Punkt 2 haben kein Lagerkonzept.",
-      "Health and Safety+ unterstützt SiGeKo und SiGe-Plan in Köln und NRW – [Link: /wissen/blog/baustellv-sigeko-koordination-aufgaben|SiGeKo-Aufgaben], [Link: /sigeko|Leistungen], [Link: /kontakt|Kontakt].",
+      "Health and Safety+ unterstützt SiGeKo und SiGe-Plan in Köln und NRW – [Link: /wissen/blog/baustellv-sigeko-koordination-aufgaben|SiGeKo-Aufgaben], [Link: /sigeko|Leistungen], [Link: https://sigeko.koeln/ratgeber|sigeko.koeln/ratgeber], [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -885,7 +885,7 @@ export const blogPosts: BlogPost[] = [
       "Häufig fehlt die Versionierung des SiGe-Plans und eine Fortschreibung bei Lageänderungen, Begehungen finden nur bei Behördenbesuch statt, Übergaben zwischen Rohbau und Ausbau sind undokumentiert oder die Baustellenordnung widerspricht der ArbStättV – dazu [Link: /wissen/blog/rauchen-baustelle-arbstattv-sigeko|Rauchen auf der Baustelle].",
       "Praxis Köln/NRW: Enge Grundstücke, Abbruch und Nachbarschaft erhöhen den Koordinationsbedarf. Begehungsberichte zu Seitenschutz und Absturz in der Abbruchphase: [Link: /wissen/blog/sigeko-begehung-seitenschutz-abbruch-koeln|SiGeKo-Begehung Abbruch]. Schnittstellen zwischen Gewerken: [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|Gefährdungsbeurteilung bei mehreren Gewerken].",
       "Ablauf ab Auftrag (Neubau-Beispiel): [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw|Projektverlauf Wohngebäude]. Honorar: [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung] und [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln].",
-      "Health and Safety+ übernimmt SiGeKo in Köln und NRW – [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub], [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ übernimmt SiGeKo in Köln und NRW – [Link: /wissen/blog/baustellv-einfach-erklaert|BaustellV-Hub], [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo]. Primary-Domain SiGeKo Köln: [Link: https://sigeko.koeln/ratgeber/wann-ist-sige-ko-pflicht|sigeko.koeln]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -1354,7 +1354,7 @@ export const blogPosts: BlogPost[] = [
       "KMU ohne BMA: schlanke BSO mit Fokus auf Löscher, Fluchtwege, Unterweisung und jährliche Begehung reicht – Qualität der Umsetzung zählt mehr als Seitenzahl. Konzerne: einheitliche Mindeststandards, lokale Anpassung Teil C.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Begehungen prüfen Sie, ob BSO Teil A sichtbar hängt, Teil B arbeitsplatzbezogen ist und Fluchtpläne zum IST-Zustand passen. Nach Umbauten oder neuen Ladezonen muss die BSO fortgeschrieben werden.",
-      "Health and Safety+ erstellt und fortgeschreibt BSO nach DIN 14096 in Köln und NRW – Teil A/B/C, Abstimmung mit Alarmplan, Plänen und Versicherer. Ergänzend: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz], [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen]. [Link: /brandschutz|Leistungen Brandschutz], [Link: /kontakt|Kontakt] zur Bestandsaufnahme.",
+      "Health and Safety+ erstellt und fortgeschreibt BSO nach DIN 14096 in Köln und NRW – Teil A/B/C, Abstimmung mit Alarmplan, Plänen und Versicherer. Ergänzend: [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz], [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen], [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber]. [Link: /brandschutz|Leistungen Brandschutz], [Link: /kontakt|Kontakt] zur Bestandsaufnahme.",
     ],
     faq: [
       {
@@ -1709,7 +1709,7 @@ export const blogPosts: BlogPost[] = [
       "Nach Eröffnung: Genehmigtes Konzept und betrieblicher IST-Zustand müssen übereinstimmen – [Link: /wissen/blog/brandschutzordnung-din-14096|Brandschutzordnung], [Link: /wissen/blog/flucht-und-rettungsplan-erstellen|Fluchtpläne] und [Link: /wissen/blog/brandschutzbeauftragter-aufgaben-pflichten|Brandschutzbeauftragter] pflegen den laufenden Betrieb. Abgrenzung: [Link: /wissen/blog/brandschutz-sachverstaendiger-koeln|Brandschutz-Sachverständiger vs. Brandschutzbeauftragter].",
       "H2::Typische Mängel und Vorbereitung",
       "Vor Genehmigung oder Behördenprüfung sollten Konzept, Fluchtwege und technische Anlagen konsistent sein und der betriebliche Brandschutz nach Eröffnung vorbereitet sein – Lücke zwischen genehmigter Planung und IST-Betrieb ist ein häufiger Befund.",
-      "Health and Safety+ in Köln und NRW: brandschutztechnische Konzepte, Stellungnahmen und Bewertungen nach BauO NRW sowie [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz] – BSO, Brandschutzbeauftragter, Begehungen und Brandschutzhelfer aus einer Hand. [Link: /brandschutz|Leistungen Brandschutz], [Link: /kontakt|Kontakt].",
+      "Health and Safety+ in Köln und NRW: brandschutztechnische Konzepte, Stellungnahmen und Bewertungen nach BauO NRW sowie [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz] – BSO, Brandschutzbeauftragter, Begehungen und Brandschutzhelfer aus einer Hand. Genehmigung und Sonderbau: [Link: https://brandschutzkoeln.com/ratgeber/brandschutzkonzept-wann-noetig|brandschutzkoeln.com]. [Link: /brandschutz|Leistungen Brandschutz], [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -1752,12 +1752,12 @@ export const blogPosts: BlogPost[] = [
       "H2::Umsetzung in der Praxis",
       "Gefährdungsbeurteilung Brandgefahr (§ 5 ArbSchG, ASR A2.2): Arbeitgeber bewerten Zündquellen, brennbare Stoffe, Personenanzahl, bauliche und technische Schutzmaßnahmen – Ergebnis: welche organisatorischen und technischen Maßnahmen nötig sind, ob BSB und wie viele BSH. Gefährdungsbeurteilung und BSO müssen zusammenpassen; Widersprüche verwirren Beschäftigte und Auditoren.",
       "An der Schnittstelle zwischen Bau und Betrieb gilt Folgendes. Nach Fertigstellung oder Mieterausbau trägt der Betreiber die Pflege. Jede relevante Änderung löst eine Kette aus: zunächst die Bauordnung prüfen, danach bauliche Maßnahmen, anschließend BMA und Pläne, im Anschluss die BSO und schließlich die Unterweisung. Wer nur organisatorisch „weiterbetreibt“, ohne baulische Nachführung, betreibt faktisch ohne Genehmigung.",
-      "Abgrenzung zum Brandschutzkonzept (Genehmigung): Das BSK ist bauordnungsrechtlich; vorbeugender Betrieb lebt von BSO, Wartung und Disziplin im Alltag. Für genehmigungspflichtige Vorhaben: [Link: /wissen/blog/brandschutzkonzept-erstellen|betriebliches Konzept vs. Genehmigung] und brandschutzkoeln.com für BauO-Tiefe.",
+      "Abgrenzung zum Brandschutzkonzept (Genehmigung): Das BSK ist bauordnungsrechtlich; vorbeugender Betrieb lebt von BSO, Wartung und Disziplin im Alltag. Für genehmigungspflichtige Vorhaben: [Link: /wissen/blog/brandschutzkonzept-erstellen|betriebliches Konzept vs. Genehmigung] und [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com] für BauO-Tiefe.",
       "Aus Begehungen (anonymisiert) sind folgende Schwachstellen bekannt. BMA wartungsfällig, aber Störung quittiert. Fluchtwegplan veraltet nach Umbau. Heißarbeit ohne Freigabe. Löscher hinter Verpackungsmaterial. Veranstaltung ohne BSB-Abstimmung. Brandschotts ohne Kennzeichnung. Vorbeugung heißt hier: Mängel mit Verantwortlichem und Frist, nicht nur Protokoll.",
       "Verantwortung und Konsequenzen: Arbeitgeber/Betreiber trägt Gesamtverantwortung – auch bei externem BSB, Facility und Wartungsfirmen. Verstöße können Bußgelder, Nutzungsuntersagung, Versicherungsausschluss und strafrechtliche Folgen nach sich ziehen. Im ASA-Jahresprogramm sollte der Status aller drei Säulen stehen: überfällige Prüfungen, durchgeführte Übungen und aktuelle BSO-Version.",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Begehungen prüfen Sie, ob baulicher, anlagentechnischer und organisatorischer vorbeugender Brandschutz zusammen dokumentiert ist – nicht nur Löscher, sondern Brandabschnitte, BMA-Wartung und [Link: /wissen/blog/brandschutzordnung-din-14096|BSO]. Vor Audits sollten Wartungsnachweise, Begehungsprotokolle und Unterweisungen zum gleichen Stand wie die Gefährdungsbeurteilung vorliegen.",
-      "Health and Safety+ unterstützt in Köln und NRW alle betrieblich aktiven Säulen: BSB, BSO, Begehungen, Pläne, Schulungen, Prüforganisation – baulische Themen mit Abstimmung zu Genehmigung und Sachverständigen. [Link: /kontakt|Kontakt] zur Bestandsaufnahme nach den drei Säulen.",
+      "Health and Safety+ unterstützt in Köln und NRW alle betrieblich aktiven Säulen: BSB, BSO, Begehungen, Pläne, Schulungen, Prüforganisation – baulische Themen mit Abstimmung zu Genehmigung und Sachverständigen. Primary-Domain Brandschutz Köln: [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber]. [Link: /kontakt|Kontakt] zur Bestandsaufnahme nach den drei Säulen.",
     ],
     faq: [
       {
@@ -2070,7 +2070,7 @@ export const blogPosts: BlogPost[] = [
       "Für Berufsgenossenschaft und Behörde überzeugen nachvollziehbare Maßnahmenketten: Feststellung, Verantwortlicher, Umsetzung, Wirksamkeitskontrolle – nicht bloß Sammellisten. Der SiGeKo dokumentiert die Koordination, nicht die fachliche Abbruchausführung des Gewerkes.",
       "H2::Typische Mängel und Vorbereitung",
       "Vor der nächsten Begehung sollten SiGe-Plan, Begehungsprotokolle und Maßnahmenplan auf dem aktuellen Stand liegen, Unterweisungen nachweisbar sein und Verantwortliche mit Fristen benannt sein – abgestimmt mit [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit] und Betriebsarzt.",
-      "Health and Safety+ führt SiGeKo-Begehungen in Köln und NRW durch – Abbruch, Rohbau, Ausbau. [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo], [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Pflicht], [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|Gefährdungsbeurteilung Schnittstellen]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ führt SiGeKo-Begehungen in Köln und NRW durch – Abbruch, Rohbau, Ausbau. [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo], [Link: https://sigeko.koeln/ratgeber|sigeko.koeln/ratgeber], [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Pflicht], [Link: /wissen/blog/gbu-schnittstelle-mehrere-gewerke-bauprojekt|Gefährdungsbeurteilung Schnittstellen]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -2206,7 +2206,7 @@ export const blogPosts: BlogPost[] = [
       "Hauptgewerke für Erdarbeiten, Rohbau, Gerüst und Ausbau sollten vor Baubeginn zum Kick-off eingeladen werden – das reduziert Parallelarbeiten ohne Absprache. Mehr dazu im [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber] unter Erfolgsfaktoren.",
       "Eine Pauschale deckt meist das Standardpaket ab. Mehrbegehungen, Sondertermine nach Unfällen, erweiterte Gefährdungsbeurteilungen oder die Prüfung vieler Gewerke-Gefährdungsbeurteilungen sind separat zu vereinbaren – vorab im Vertrag, siehe [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung].",
       "Parallel klären: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo-Pflicht?] – auch beim Wohnneubau mit mehreren Gewerken.",
-      "Health and Safety+ strukturiert Neubau- und Umbau-SiGeKo in Köln und NRW mit Projektverlauf und transparenten Meilensteinen. [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ strukturiert Neubau- und Umbau-SiGeKo in Köln und NRW mit Projektverlauf und transparenten Meilensteinen. [Link: /sigeko|Leistungen SiGeKo], [Link: https://sigeko.koeln/ratgeber|SiGeKo Portal Köln], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -2253,7 +2253,7 @@ export const blogPosts: BlogPost[] = [
       "Pflicht und Honorar: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|SiGeKo-Pflicht], [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang|Leistungsumfang Bestand].",
       "H2::Typische Mängel und Vorbereitung",
       "Bei Dacharbeiten im Bestand in Köln sind Absturzsicherung, Witterungsregeln und Schnittstelle Gerüst/Dach im SiGe-Plan vor Erstbetritt des Gewerks festzulegen – Anhang II Nr. 1 greift oft auch unter 7 m über Gerüstkante.",
-      "Health and Safety+ koordiniert SiGeKo für Bestand und Neubau in Köln und NRW – [Link: /sigeko|Leistungen SiGeKo], [Link: /brandschutz|Brandschutz], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ koordiniert SiGeKo für Bestand und Neubau in Köln und NRW – [Link: /sigeko|Leistungen SiGeKo], [Link: https://sigeko.koeln/ratgeber|sigeko.koeln/ratgeber], [Link: /brandschutz|Brandschutz], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber SiGeKo]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -2299,7 +2299,7 @@ export const blogPosts: BlogPost[] = [
       "Abgrenzung: Der SiGeKo koordiniert nur die Baustellen- bzw. Umbauschnittstelle. Für den laufenden Betrieb danach gelten [Link: /wissen/ratgeber/arbeitsschutz-unternehmen|Arbeitsschutz] und [Link: /wissen/ratgeber/brandschutz-betrieb|Brandschutz].",
       "H2::Typische Mängel und Vorbereitung",
       "Beim Innenausbau im Bestand sollten Staub, Lärm, Heißarbeit und gemeinsame Fluchtwege mit laufendem Betrieb im SiGe-Plan stehen – vor Beginn des ersten Gewerks einweisen und dokumentieren.",
-      "Health and Safety+ erstellt vergleichbare Angebote für Köln und NRW. [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ erstellt vergleichbare Angebote für Köln und NRW. [Link: /sigeko|Leistungen SiGeKo], [Link: https://sigeko.koeln/kontakt|sigeko.koeln/kontakt], [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung], [Link: /wissen/blog/sigeko-koeln-kosten|Kosten Köln], [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
@@ -2344,7 +2344,7 @@ export const blogPosts: BlogPost[] = [
       "Leistungsumfang transparent erklärt: [Link: /wissen/blog/sigeko-innenausbau-bestand-leistungsumfang|Innenausbau-Katalog], [Link: /wissen/blog/sigeko-projektverlauf-neubau-wohngebaeude-nrw|Projektverlauf Neubau]. Pflicht vor der Kostenfrage: [Link: /wissen/blog/sigeko-pflicht-wann-braucht-man-sigeko|Wann SiGeKo?], Überblick [Link: /wissen/ratgeber/sigeko-baustelle|Ratgeber].",
       "H2::Typische Mängel und Vorbereitung",
       "Für ein vergleichbares SiGeKo-Angebot in Köln sollten Bauzeit, Gewerkeanzahl, Anhang-II-Anteil und Begehungsrhythmus schriftlich beschrieben sein – innerstädtische Logistik und Abbruchphasen gehören in die Kalkulation, nicht auf die Schlussrechnung.",
-      "Health and Safety+ erstellt SiGeKo-Angebote für Köln und NRW auf Basis von Leistungsverzeichnis und Risikoprofil – nicht pauschal pro Quadratmeter. [Link: /sigeko|Leistungen SiGeKo], [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung]. [Link: /kontakt|Kontakt].",
+      "Health and Safety+ erstellt SiGeKo-Angebote für Köln und NRW auf Basis von Leistungsverzeichnis und Risikoprofil – nicht pauschal pro Quadratmeter. [Link: /sigeko|Leistungen SiGeKo], [Link: https://sigeko.koeln/kontakt|sigeko.koeln/kontakt], [Link: /wissen/rechner|Honorar-Rechner], [Link: /wissen/blog/sigeko-kosten-honorar-orientierung|Honorar-Orientierung]. [Link: /kontakt|Kontakt].",
     ],
     faq: [
       {
