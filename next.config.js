@@ -68,7 +68,6 @@ const nextConfig = {
 
     const legacyWix = [
       { destination: "/ueber-uns", sources: ["/%C3%BCberuns", "/überuns", "/about-4"] },
-      { destination: "/impressum", sources: ["/datenschutz"] },
       { destination: "/leistungen", sources: ["/leistung-hseq"] },
       {
         destination: "/wissen/blog/akteure-arbeitsschutz",

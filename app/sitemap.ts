@@ -36,6 +36,7 @@ const staticRoutes = [
   "/wissen/rechner",
   "/kontakt",
   "/impressum",
+  "/datenschutz",
   "/arbeitsschutz",
   "/brandschutz",
   "/sigeko",

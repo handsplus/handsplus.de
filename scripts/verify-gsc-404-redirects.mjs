@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Prüft die 20 GSC-404-URLs gegen next.config.js (Unicode + percent-encoded).
+ * Prüft die 19 GSC-404-URLs gegen next.config.js (Unicode + percent-encoded).
  */
 import { readFileSync } from "fs";
 import { dirname, join } from "path";
@@ -27,7 +27,6 @@ const gsc404Paths = [
   "/post/wie-ist-der-arbeitsschutz-organisiert",
   "/post/brandschutz-erlaubnisschein-für-schweiß-schneid-löt-auftau-und-trennschleifarbeiten",
   "/post/brandschutz-brandbekämpfung-von-elektrofahrzeugen",
-  "/datenschutz",
   "/about-4",
   "/leistung-hseq",
 ];
@@ -44,4 +43,4 @@ if (!configSrc.includes("www.handsplus.de")) {
   process.exit(1);
 }
 
-console.log("OK: alle 20 GSC-404-Pfade + www-Redirect in next.config.js");
+console.log("OK: alle 19 GSC-404-Pfade + www-Redirect in next.config.js");

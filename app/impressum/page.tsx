@@ -3,16 +3,16 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   path: "/impressum",
-  title: "Impressum & Datenschutz",
-  description: "Impressum und Datenschutzhinweise von Health and Safety + – Rechtliche Informationen und Kontakt.",
-  keywords: ["Impressum", "Datenschutz", "Health and Safety Plus", "Köln"],
+  title: "Impressum",
+  description: "Impressum von Health and Safety + – Rechtliche Informationen und Kontakt.",
+  keywords: ["Impressum", "Health and Safety Plus", "Köln"],
 });
 
 export default function ImpressumPage() {
   return (
     <div className="py-16 sm:py-20 lg:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">Impressum & Datenschutz</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">Impressum</h1>
 
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-slate-900">Angaben gemäß § 5 TMG</h2>
@@ -27,14 +27,17 @@ export default function ImpressumPage() {
           </p>
         </section>
 
-        <section className="mt-12">
-          <h2 className="text-xl font-semibold text-slate-900">Datenschutz</h2>
-          <p className="mt-4 text-slate-600 leading-relaxed">
-            Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Personenbezogene Daten werden nur erhoben, verarbeitet und genutzt, soweit es für die Abwicklung von Anfragen und Verträgen erforderlich ist. Eine Weitergabe an Dritte erfolgt nur im gesetzlich vorgesehenen Rahmen. Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer Daten.
-          </p>
-        </section>
+        <p className="mt-8 text-slate-600">
+          Datenschutzhinweise:{" "}
+          <Link href="/datenschutz" className="text-primary-800 font-medium hover:text-primary-900">
+            Datenschutzerklärung
+          </Link>
+        </p>
 
-        <div className="mt-12">
+        <div className="mt-12 flex flex-wrap gap-x-6 gap-y-2">
+          <Link href="/datenschutz" className="text-primary-800 font-medium hover:text-primary-900">
+            Datenschutz
+          </Link>
           <Link href="/" className="text-primary-800 font-medium hover:text-primary-900">
             ← Zurück zur Startseite
           </Link>

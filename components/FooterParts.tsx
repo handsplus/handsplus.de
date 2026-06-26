@@ -24,7 +24,8 @@ export const footerLeistungen = [
 export const footerUnternehmen = [
   { label: "Über uns", href: "/ueber-uns" },
   { label: "Kontakt", href: "/kontakt" },
-  { label: "Impressum & Datenschutz", href: "/impressum" },
+  { label: "Impressum", href: "/impressum" },
+  { label: "Datenschutz", href: "/datenschutz" },
 ];
 
 export const socialLinks = [
