@@ -105,13 +105,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "bestellung-fachkraft-arbeitssicherheit",
-    title: "Bestellung der Fachkraft für Arbeitssicherheit",
+    title: "Fachkraft für Arbeitssicherheit bestellen: Pflicht nach ASiG § 5",
     excerpt:
-      "Fachkraft für Arbeitssicherheit bestellen: Pflichten nach ASiG und DGUV V2, schriftliche Bestellung, Umfang und Betreuung – praxisnah für Köln und NRW.",
+      "Jeder Arbeitgeber muss nach ASiG § 5 eine Fachkraft für Arbeitssicherheit bestellen – schriftlich, mit Betreuungsumfang nach DGUV V2. Intern oder extern.",
     date: "2025-04-24",
     dateModified: "2026-05-26",
     content: [
-      "Nach ASiG § 5 und DGUV Vorschrift 2 bestellt der Arbeitgeber eine Fachkraft für Arbeitssicherheit – intern oder extern. Ohne schriftliche Bestellung fehlt die nachweisbare Grundlage für die sicherheitstechnische Betreuung – relevant für Betriebe in Köln und NRW.",
+      "Jeder Arbeitgeber muss nach ASiG § 5 eine Fachkraft für Arbeitssicherheit bestellen – intern oder extern. Die Bestellung erfolgt schriftlich und legt den Betreuungsumfang fest (Grund- und betriebsspezifische Anteile nach DGUV Vorschrift 2), die übertragenen Aufgaben, die vorgesehene Arbeitszeit sowie den Zugang zu Arbeitsstätten und Unterlagen. Ohne schriftliche Bestellung fehlt bei Prüfungen durch Berufsgenossenschaft und Gewerbeaufsicht die nachweisbare Grundlage für die sicherheitstechnische Betreuung.",
       "H2::Was gilt rechtlich?",
       "Die Fachkraft für Arbeitssicherheit unterstützt den Arbeitgeber nach ASiG § 6 bei Arbeitsschutz und Unfallverhütung: Beratung zu Gefährdungen und Maßnahmen, Begehungen, Prüfung von Anlagen und Arbeitsverfahren vor der Einführung, Mitwirkung bei [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen]. Sie ersetzt nicht die Geschäftsführung.",
       "Die Bestellung erfolgt schriftlich durch den Arbeitgeber. Sie legt den Betreuungsumfang fest (Grund- und betriebsspezifische Anteile nach DGUV Vorschrift 2), die übertragenen Aufgaben, den Zugang zu Informationen, Unterlagen und Arbeitsstätten, die vorgesehene Arbeitszeit sowie die erforderliche Qualifikation. Bei sicherheitstechnischer Beratung gilt Weisungsfreiheit gegenüber unmittelbaren Vorgesetzten – vergleichbar der Stellung des Betriebsarztes. Der Arbeitgeber stellt nach ASiG § 5 die zur Aufgabenerfüllung erforderlichen Mittel bereit.",
@@ -2371,13 +2371,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "bauordnung-nrw-einfach-erklaert",
-    title: "Bauordnung NRW einfach erklärt – Regeln fürs Bauen in Nordrhein-Westfalen",
+    title: "Bauordnung NRW (BauO): Was gilt beim Bauen?",
     excerpt:
-      "BauO NRW 2018 verständlich: Baugenehmigung, verfahrensfreie Vorhaben (§ 62), Abstandsflächen (§ 6), Brandschutz, Solarpflicht (§ 42a), Begrünung (§ 8) und Barrierefreiheit (§ 49) – für Bauherren, Eigentümer und Handwerker in NRW.",
+      "Die Bauordnung NRW (BauO 2018) regelt Genehmigung (§ 60), verfahrensfreie Vorhaben (§ 62), Abstandsflächen (§ 6) und Brandschutz – kompakt erklärt für NRW.",
     date: "2025-05-27",
     dateModified: "2026-05-26",
     content: [
-      "Wer in Nordrhein-Westfalen bauen, umbauen oder die Nutzung ändern will, stößt auf die Bauordnung für das Land Nordrhein-Westfalen (Landesbauordnung 2018 – BauO NRW 2018). Sie gilt für bauliche Anlagen, Bauprodukte und – wo das Gesetz es vorsieht – auch für Grundstücke und weitere Einrichtungen. In diesem Beitrag ordnen wir die wichtigsten Pflichten verständlich ein – mit Paragraphenbezug, ohne Juristenlatein. Vertiefung zum Brandschutz: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz].",
+      "Die Bauordnung NRW (BauO NRW 2018) ist das zentrale Baurecht in Nordrhein-Westfalen: Sie regelt, wie bauliche Anlagen errichtet, geändert und genutzt werden dürfen – von der Baugenehmigung (§ 60) über verfahrensfreie Vorhaben (§ 62) und Abstandsflächen (§ 6) bis zu Standsicherheit, Brandschutz und Barrierefreiheit. Genehmigungsfreiheit bedeutet nicht vorschriftenfrei: Auch ohne Genehmigungsverfahren gelten alle Anforderungen der BauO.",
       "H2::Was gilt rechtlich?",
       "Grundlage ist § 3 BauO NRW: Anlagen müssen so angeordnet, errichtet, geändert und instand gehalten werden, dass die öffentliche Sicherheit und Ordnung – insbesondere Leben, Gesundheit und natürliche Lebensgrundlagen – nicht gefährdet werden. Das gilt auch bei Nutzungsänderung und Beseitigung. Konkret werden die Anforderungen in den folgenden Abschnitten der BauO geregelt – von Grundstück und Abstand über Standsicherheit und Brandschutz bis zu Genehmigungsverfahren und Beteiligtenpflichten.",
       "Genehmigungspflicht – der Normalfall: Nach § 60 BauO NRW bedürfen Errichtung, Änderung, Nutzungsänderung und Beseitigung von Anlagen grundsätzlich der Baugenehmigung – außer, §§ 61 bis 63, 78 oder 79 sehen etwas anderes vor. Wichtig: Auch ohne Genehmigungsverfahren gelten alle bauordnungsrechtlichen Anforderungen; Genehmigungsfreiheit entbindet nicht von Vorschriften und lässt bauaufsichtliche Eingriffe unberührt.",
@@ -2899,13 +2899,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "brandsicherheitswache-bhkg-nrw",
-    title: "Brandsicherheitswache nach BHKG NRW – Veranstaltungen, Anzeige und Auflagen",
+    title: "Brandsicherheitswache NRW: Wann Pflicht nach § 27 BHKG?",
     excerpt:
-      "Brandsicherheitswache § 27 BHKG NRW: Anzeige bei Veranstaltungen, Auflagen der Gemeinde, Feuerwehr vs. eigene Kräfte – Verbindung zu SBauV Versammlungsstätten und BSO.",
+      "Brandsicherheitswache bei Veranstaltungen mit erhöhter Brandgefahr: Anzeige an die Gemeinde, Auflagen, Feuerwehr oder anerkannte Kräfte – § 27 BHKG NRW erklärt.",
     date: "2025-08-05",
     dateModified: "2026-05-26",
     content: [
-      "Konzert, Messe, Sportevent oder Firmenfeier mit Pyrotechnik: Sobald viele Menschen zusammenkommen und die Brandgefahr steigt, greift § 27 BHKG NRW – neben Sonderbauverordnung und betrieblicher Brandschutzordnung. Veranstaltungen mit erhöhter Brandgefahr müssen der Gemeinde rechtzeitig angezeigt werden. Dieser Artikel erklärt Pflichten und Ablauf; Überblick: [Link: /wissen/blog/bhkg-nrw-einfach-erklaert|Blog BHKG NRW einfach erklärt], Einsatzkette im Dauerbetrieb: [Link: /wissen/blog/bma-leitstelle-bhkg-nrw|BMA und Leitstelle].",
+      "Die Brandsicherheitswache ist die organisatorische und personelle Brandbekämpfung bei Veranstaltungen – durch die Feuerwehr oder durch anerkannte Kräfte, die die Gemeinde dem Veranstalter übertragen kann. Nach § 27 BHKG NRW müssen Veranstaltungen mit erhöhter Brandgefahr, bei denen im Brandfall viele Menschen gefährdet sein können, rechtzeitig bei der Gemeinde angezeigt werden. Die Gemeinde entscheidet über den Einsatz einer Brandsicherheitswache und kann Auflagen erteilen – unabhängig von Sonderbauverordnung und betrieblicher Brandschutzordnung.",
       "H2::Was gilt rechtlich?",
       "Die Brandsicherheitswache ist die organisatorische und personelle Brandbekämpfung bei Veranstaltungen – durch die Feuerwehr oder durch anerkannte Kräfte, die die Gemeinde dem Veranstalter übertragen kann. Angehörige der Wache können Anordnungen treffen, um Brände zu verhüten, zu bekämpfen und Rettungswege zu sichern. Das ist mehr als ein Sicherheitsdienst am Einlass: es erfordert feuerwehrtechnische Qualifikation und Befugnisse im Brandfall.",
       "Nach § 27 BHKG ist eine Anzeige nötig, wenn bei einer Veranstaltung erhöhte Brandgefahr besteht und im Brandfall viele Personen gefährdet sein können. Die Veranstaltung ist der Gemeinde rechtzeitig anzuzeigen; die Gemeinde entscheidet über eine Brandsicherheitswache und kann Auflagen erteilen. Baurechtliche Vorschriften bleiben unberührt – Sonderbauverordnung, Genehmigung und Brandschutzordnung gelten parallel.",
@@ -2954,13 +2954,13 @@ export const blogPosts: BlogPost[] = [
   // BauPrüfVO-Serie: wöchentlich dienstags ab 2025-08-12
   {
     slug: "baupruefvo-nrw-einfach-erklaert",
-    title: "BauPrüfVO NRW einfach erklärt – Bauvorlagen, Nachweise und Prüfingenieur",
+    title: "BauPrüfVO NRW: Was regelt die BauPrüfverordnung?",
     excerpt:
-      "Verordnung über bautechnische Prüfungen (BauPrüfVO): Bauvorlagen §§ 1–20, Nachweise inkl. Brandschutzkonzept § 9, Prüfingenieur Brandschutz §§ 21–28 – verständlich für Bauherren und Planer in NRW.",
+      "Die BauPrüfVO NRW regelt Bauvorlagen, bautechnische Nachweise (§§ 7–9) und Prüfingenieure – nicht die Anforderungen der BauO. Übersicht für Bauherren und Planer in NRW.",
     date: "2025-08-12",
     dateModified: "2026-05-26",
     content: [
-      "Wer in NRW ein größeres Bauprojekt genehmigen lassen muss, kennt die Bauordnung und oft auch die Sonderbauverordnung. Weniger bekannt ist die Verordnung über bautechnische Prüfungen – kurz BauPrüfVO. Sie regelt nicht, wie sicher ein Gebäude sein muss (das steht in der BauO NRW), sondern welche Unterlagen Sie einreichen müssen und wer statische und brandschutztechnische Nachweise prüft. Stand der Verordnung: 26. November 2024. Dieser Artikel ist der Einstieg in unsere BauPrüfVO-Serie; vertiefende Übersicht zum baulichen Brandschutz: [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Ratgeber BauO NRW & Brandschutz], zur Gesetzeslogik der BauO: [Link: /wissen/blog/bauordnung-nrw-einfach-erklaert|Blog BauO NRW einfach erklärt].",
+      "Die BauPrüfVO NRW (Verordnung über bautechnische Prüfungen) regelt, welche Bauvorlagen und bautechnischen Nachweise Sie beim Bauamt einreichen müssen und wer sie prüft – nicht die technischen Anforderungen an das Gebäude (das steht in der BauO NRW). Kernstücke sind die Übereinstimmungserklärung (§ 7), die Nachweise der Standsicherheit und des Schallschutzes (§ 8) sowie das Brandschutzkonzept (§ 9). Prüfingenieurinnen und Prüfingenieure prüfen die Nachweise nach Teil 2 der Verordnung.",
       "H2::Was gilt rechtlich?",
       "Die BauPrüfVO gliedert sich in vier Teile. Der erste Teil (§§ 1–20) beschreibt Bauvorlagen und bautechnische Nachweise für unterschiedliche Genehmigungsverfahren – vom vereinfachten Verfahren über den regulären Bauantrag bis zu Vorbescheid, Typengenehmigung oder Fliegende Bauten. Der zweite Teil (§§ 21–29) regelt Prüfämter, anerkannte Prüfingenieurinnen und Prüfingenieure sowie die Erteilung und Ausführung von Prüfaufträgen. Der dritte Teil (§ 30) betrifft Zuständigkeiten bei Fliegenden Bauten; der vierte Teil enthält Schlussvorschriften. In der Praxis sind für Bauherren und Planer vor allem Teil 1 zur Einreichung von Bauvorlagen und Teil 2 zur Prüfung durch Prüfingenieure relevant.",
       "Bauvorlagen sind mehr als der Architektenplan. Nach § 1 BauPrüfVO i. V. M. § 70 BauO NRW gehören dazu unter anderem Auszüge aus dem Liegenschaftskataster, Lageplan, Bauzeichnungen, Baubeschreibung (bei Gewerbe- oder Landwirtschaftsbetrieben auch Betriebsbeschreibung), Berechnungen zur Kostenermittlung sowie – je nach Vorhaben – die bautechnischen Nachweise. Für viele Vordrucke verweist die Verordnung auf die Sammlung des Ministerialblatts (Gliederungsnummer 23210). Wer ohne vollständige Bauvorlagen beim Bauamt ankommt, verliert Zeit – unabhängig davon, wie gut die Planungsidee ist.",
@@ -3900,13 +3900,13 @@ export const blogPosts: BlogPost[] = [
   // DGUV-Hub: Unfallverhütungsvorschriften und Regelwerk – Megabrain-Einstieg
   {
     slug: "dguv-vorschriften-einfach-erklaert",
-    title: "DGUV Vorschriften einfach erklärt – vom Regelwerk zum Betriebsalltag",
+    title: "DGUV Vorschriften: Was ist das DGUV-Regelwerk?",
     excerpt:
-      "DGUV-Regelwerk: Vorschriften, Informationen und Regeln – Querschnitt V1/V2/V3, Branchen-UVV und Abgrenzung zu ASiG, BetrSichV und BaustellV für Betriebe in Köln und NRW.",
+      "DGUV = Deutsche Gesetzliche Unfallversicherung. Ihr Regelwerk: Vorschriften (UVV), Informationen, Regeln – z. B. V1, V2, V3. Abgrenzung zu ASiG und BetrSichV.",
     date: "2026-01-06",
     dateModified: "2026-05-26",
     content: [
-      "Berufsgenossenschaft, Unfallversicherung, UVV – viele Betriebe stoßen zuerst auf die DGUV, wenn es um Prüfungen, Betreuung oder Brandschutz-Schulungen geht. Die Deutsche Gesetzliche Unfallversicherung (DGUV) gibt Regeln heraus, die das Arbeitsschutzgesetz und die Unfallversicherung konkretisieren. Dieser Artikel ordnet das Regelwerk ein – ohne alle Vorschriften abzutippen – relevant für Betriebe in Köln und NRW.",
+      "DGUV steht für Deutsche Gesetzliche Unfallversicherung – die Spitzenorganisation der gesetzlichen Unfallversicherungsträger (Berufsgenossenschaften und Unfallkassen). Sie gibt das DGUV-Regelwerk heraus: verbindliche Unfallverhütungsvorschriften (z. B. DGUV Vorschrift 1, V2, V3), Informationen, Regeln und Grundsätze, die ArbSchG und Unfallversicherung im Betrieb konkretisieren. Welche Vorschriften für Ihren Betrieb gelten, hängt von Branche und Tätigkeit ab – nicht jede UVV ist überall relevant.",
       "H2::Was gilt rechtlich?",
       "Vier Ebenen im DGUV-Regelwerk: Erstens Vorschriften (UVV) – verbindliche Unfallverhütungsvorschriften, z. B. DGUV Vorschrift 1 (Grundsätze), V2 (Betriebsarzt und FaSi), V3 (Elektro). Zweitens Informationen – z. B. DGUV Information 205-003 für Brandschutzbeauftragte oder 205-023 für Brandschutzhelfer. Drittens Regeln – z. B. DGUV Regel 100-500 für Heißarbeit. Viertens Grundsätze – übergreifende Leitlinien. Nicht alles ist für jeden Betrieb gleich relevant.",
       "Querschnitt vs. Branche: Fast jeder Betrieb berührt V1 (Prävention, STOP-Prinzip), oft V2 (FaSi-Betreuung) und V3 (Elektroprüfung). Dazu kommen Branchen-UVV, wenn die Tätigkeit passt – z. B. V38 Bauarbeiten, V67 Flurförderzeuge im Lager. Wer nur Büro betreibt, braucht keine Kran-UVV – wer auf Baustellen arbeitet, sehr wohl V38 neben BaustellV und SiGeKo.",
