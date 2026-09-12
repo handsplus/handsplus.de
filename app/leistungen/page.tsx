@@ -60,7 +60,19 @@ export default function LeistungenPage() {
           Unsere Leistungen – Arbeitsschutz, SiGeKo, Brandschutz, Elektrosicherheit, Schulungen und Managementsysteme
         </h1>
         <p className="mt-6 text-lg text-slate-600">
-          Wir sorgen für eine qualitativ hochwertige Betreuung, die an Ihre Bedürfnisse angepasst ist.
+          Kurze Übersicht. SiGeKo im Detail auf{" "}
+          <a href="https://sigeko.koeln/" className="text-primary-800 hover:underline">
+            sigeko.koeln
+          </a>
+          , Brandschutz Köln auf{" "}
+          <a href="https://brandschutzkoeln.com/" className="text-primary-800 hover:underline">
+            brandschutzkoeln.com
+          </a>
+          , betriebliche FaSi auf{" "}
+          <a href="https://arbeitssicherheit.nrw/" className="text-primary-800 hover:underline">
+            arbeitssicherheit.nrw
+          </a>
+          .
         </p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

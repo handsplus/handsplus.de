@@ -17,13 +17,19 @@ export default function ImpressumPage() {
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-slate-900">Angaben gemäß § 5 TMG</h2>
           <p className="mt-4 text-slate-600">
-            Health and Safety +<br />
+            Health and Safety + (H&amp;S+)<br />
+            Inhaber: Amin Korkae<br />
             Barcelona-Allee 12<br />
             51103 Köln
           </p>
           <p className="mt-4 text-slate-600">
             E-Mail: kontakt@handsplus.de<br />
             Telefon: 0152 282 61619
+          </p>
+          <p className="mt-4 text-slate-600">
+            Erreichbarkeit: Montag bis Freitag, 08:00–17:00 Uhr
+            <br />
+            Termine nach Vereinbarung
           </p>
         </section>
 

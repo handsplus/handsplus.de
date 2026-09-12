@@ -22,11 +22,13 @@
 
 ## Leistungen
 
-- Arbeitsschutz: https://www.handsplus.de/arbeitsschutz
-- Brandschutz: https://www.handsplus.de/brandschutz
-- SiGeKo: https://www.handsplus.de/sigeko
-- Elektrosicherheit: https://www.handsplus.de/elektrosicherheit
-- Schulungen: https://www.handsplus.de/schulungen
+- Dachmarke / Erstberatung: https://handsplus.de/leistungen
+- Arbeitsschutz (Betrieb / FaSi): https://arbeitssicherheit.nrw/
+- Brandschutz Köln: https://brandschutzkoeln.com/
+- SiGeKo Köln: https://sigeko.koeln/
+- Elektrosicherheit: https://handsplus.de/elektrosicherheit
+- Schulungen: https://handsplus.de/schulungen
+- Unterweisungen (E-Learning): https://arbeitsschutz-nrw.online/
 
 ## Themen-Reihen (Hub-Artikel)
 

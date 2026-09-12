@@ -139,6 +139,7 @@ export function FooterInner() {
                   Barcelona-Allee 12, 51103 Köln
                 </a>
               </li>
+              <li className="text-white/50">Mo–Fr 08:00–17:00 Uhr</li>
             </ul>
           </div>
         </div>
