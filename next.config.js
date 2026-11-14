@@ -6,6 +6,8 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  /** Trailing-Slash-Hop vermeiden — Normalisierung läuft in middleware (Legacy/NFC). */
+  skipTrailingSlashRedirect: true,
   /** Dev: weniger Client-Chunks (hilft bei vereinzeltem Cache-Mismatch). */
   webpack: (config, { dev, isServer }) => {
     if (dev && !isServer) {
