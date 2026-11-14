@@ -1,11 +1,30 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import {
+  CANONICAL_ORIGIN,
+  normalizeLegacyPath,
+  resolveLegacyTarget,
+} from "@/lib/legacy-wix-redirects";
 
 /**
- * Nur Seiten-Pfade: aktuellen Pfad für Server Components (aktive Desktop-Navigation).
- * Keine Middleware auf `/_next/*` – vermeidet Konflikte mit Dev-Assets; Cache-Header nur in next.config.js.
+ * P1-4: Legacy-Wix + www in genau einem Hop (NFC/Latin-1-Normalisierung).
+ * Zusätzlich: aktueller Pfad für die Desktop-Navigation.
  */
 export function middleware(request: NextRequest) {
+  const host = request.headers.get("host")?.split(":")[0]?.toLowerCase() ?? "";
+  const rawPath = request.nextUrl.pathname;
+  const search = request.nextUrl.search;
+  const legacyTarget = resolveLegacyTarget(rawPath);
+
+  if (legacyTarget) {
+    return NextResponse.redirect(new URL(legacyTarget + search, CANONICAL_ORIGIN), 308);
+  }
+
+  if (host === "www.handsplus.de") {
+    const p = normalizeLegacyPath(rawPath);
+    return NextResponse.redirect(new URL(p + search, CANONICAL_ORIGIN), 308);
+  }
+
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-pathname", request.nextUrl.pathname);
   return NextResponse.next({
