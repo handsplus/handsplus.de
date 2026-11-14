@@ -20,7 +20,7 @@ export function FooterInner() {
             <ul className="space-y-1 text-sm">
               <li>
                 <a
-                  href="https://www.sigeko.koeln"
+                  href="https://sigeko.koeln"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
@@ -30,7 +30,7 @@ export function FooterInner() {
               </li>
               <li>
                 <a
-                  href="https://www.arbeitssicherheit.nrw"
+                  href="https://arbeitssicherheit.nrw"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"
@@ -40,7 +40,7 @@ export function FooterInner() {
               </li>
               <li>
                 <a
-                  href="https://www.brandschutzkoeln.com/"
+                  href="https://brandschutzkoeln.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-white/80 transition-colors"

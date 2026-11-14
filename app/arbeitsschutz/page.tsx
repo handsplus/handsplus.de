@@ -271,7 +271,7 @@ export default function ArbeitsschutzPage() {
               </Link>{" "}
               – auf Basis einer lebendigen Gefährdungsbeurteilung. Ausführliche SiFa-Betreuung in Köln:{" "}
               <a
-                href="https://www.arbeitssicherheit.nrw/fachkraft-fuer-arbeitssicherheit-koeln"
+                href="https://arbeitssicherheit.nrw/fachkraft-fuer-arbeitssicherheit-koeln"
                 className="text-primary-800 hover:text-primary-900 underline underline-offset-2"
                 rel="noopener noreferrer"
               >
