@@ -15,8 +15,13 @@ import { ContentText } from "@/lib/contentLinks";
 import { BreadcrumbJsonLd } from "@/lib/breadcrumbJsonLd";
 import { BASE_URL, pageMetadata } from "@/lib/metadata";
 
+/** 301 in next.config – keine eigene HTML-Seite erzeugen (Index-/Canonical-Rauschen). */
+const REDIRECTED_BLOG_SLUGS = new Set(["unterweisung-arbeitssicherheit-pflicht"]);
+
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return blogPosts
+    .filter((post) => !REDIRECTED_BLOG_SLUGS.has(post.slug))
+    .map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({

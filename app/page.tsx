@@ -4,8 +4,12 @@ import Image from "next/image";
 import { ContactStrip } from "@/components/ContactStrip";
 import { HeroMeshBackground } from "@/components/HeroMeshBackground";
 import { GoogleReviewSection } from "@/components/GoogleReviewCards";
-import { googleReviews, GOOGLE_REVIEWS_URL } from "@/content/googleReviews";
-import { pageMetadata } from "@/lib/metadata";
+import {
+  GOOGLE_AGGREGATE_RATING,
+  GOOGLE_REVIEWS_URL,
+  googleReviewsJsonLd,
+} from "@/content/googleReviews";
+import { BASE_URL, pageMetadata } from "@/lib/metadata";
 import { serviceIcons } from "@/lib/serviceIcons";
 
 export const metadata = pageMetadata({
@@ -82,20 +86,27 @@ const zielgruppenLinks = [
   { href: "/managementsysteme", label: "Managementsysteme" },
 ];
 
-function HomeReviewJsonLd() {
-  const featured = googleReviews.find((r) => r.id === "aykut-torbali")!;
+/**
+ * Bewertungs-Markup nur auf der Startseite:
+ * AggregateRating + nested Review[] am LocalBusiness – kein separates Review-Objekt
+ * mit itemReviewed (das löste GSC „Rezension hat mehrere zusammengefasste Bewertungen“ aus).
+ */
+function HomeBusinessRatingJsonLd() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "Review",
-    itemReviewed: {
-      "@type": "LocalBusiness",
-      "@id": "https://handsplus.de#organization",
-      name: "Health and Safety +",
+    "@type": "LocalBusiness",
+    "@id": `${BASE_URL}#organization`,
+    name: "Health and Safety +",
+    url: BASE_URL,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: GOOGLE_AGGREGATE_RATING.ratingValue,
+      bestRating: GOOGLE_AGGREGATE_RATING.bestRating,
+      worstRating: GOOGLE_AGGREGATE_RATING.worstRating,
+      ratingCount: GOOGLE_AGGREGATE_RATING.ratingCount,
+      reviewCount: GOOGLE_AGGREGATE_RATING.reviewCount,
     },
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: featured.author, jobTitle: featured.role },
-    reviewBody: featured.quote,
-    publisher: { "@type": "Organization", name: "Google" },
+    review: googleReviewsJsonLd(),
   };
   return (
     <script
@@ -108,7 +119,7 @@ function HomeReviewJsonLd() {
 export default function HomePage() {
   return (
     <>
-      <HomeReviewJsonLd />
+      <HomeBusinessRatingJsonLd />
       {/* Hero – Mesh-Verlauf (data-hero für kritisches CSS) */}
       <section
         data-hero

@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  alternates: { canonical: BASE_URL },
+  // Canonical pro Seite via pageMetadata – nicht die Startseite für alle URLs setzen.
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -114,14 +114,8 @@ export default function RootLayout({
       geoMidpoint: { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.975 },
       geoRadius: "50000",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      bestRating: "5",
-      worstRating: "1",
-      ratingCount: "42",
-      reviewCount: "42",
-    },
+    // AggregateRating + Review nur auf der Startseite (siehe HomeBusinessRatingJsonLd).
+    // Siteweit + separates Review-JSON-LD löste GSC „Rezension hat mehrere zusammengefasste Bewertungen“ aus.
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+49-152-28261619",

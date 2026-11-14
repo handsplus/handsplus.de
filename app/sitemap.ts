@@ -35,8 +35,7 @@ const staticRoutes = [
   "/wissen/glossar",
   "/wissen/rechner",
   "/kontakt",
-  "/impressum",
-  "/datenschutz",
+  // Impressum/Datenschutz: noindex – nicht in Sitemap (vermeidet „Gecrawlt – nicht indexiert“-Rauschen)
   "/arbeitsschutz",
   "/brandschutz",
   "/sigeko",
