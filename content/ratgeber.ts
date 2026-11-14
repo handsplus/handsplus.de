@@ -52,7 +52,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Rechtliche Grundlage: ArbSchG und Bausteine der Regelwerke",
         "paragraphs": [
           "Das Arbeitsschutzgesetz verpflichtet den Arbeitgeber, alle zumutbaren Maßnahmen zu ergreifen, um Gefahren für Beschäftigte zu vermeiden. Das ist ein offener Pflichtenkatalog: Konkretisierung erfolgt durch Verordnungen, technische Regeln und die Vorschriften der Berufsgenossenschaften. Die Arbeitssicherheitsgesetzgebung (ASiG) ergänzt diese Pflichten durch die Einbindung von Betriebsarzt und Fachkraft für Arbeitssicherheit, sobald gesetzliche Schwellen oder die Gefährdungslage dies erfordern.",
-          "Praktisch bedeutet das ein Managementsystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit], verständliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und nachvollziehbare Nachweise. Gewerbeaufsicht und Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Früh klären, welche Partner für Arbeitssicherheit, Brandschutz und [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] sinnvoll eingebunden werden – spart Doppelarbeit an Schnittstellen."
+          "Praktisch bedeutet das ein Managementsystem aus Erkennen, Bewerten und Vermeiden von Gefahren, ergänzt durch qualifizierte Beratung der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Fachkraft für Arbeitssicherheit], verständliche [Link: /wissen/blog/unterweisung-arbeitsschutz-fristen|Unterweisungen] und nachvollziehbare Nachweise. Gewerbeaufsicht und Berufsgenossenschaft prüfen nicht nur Papier, sondern gehen bei Anlässen vom Ist-Zustand aus. Früh klären, welche Partner für Arbeitssicherheit, Brandschutz und [Link: https://sigeko.koeln/|SiGeKo] sinnvoll eingebunden werden – spart Doppelarbeit an Schnittstellen."
         ]
       },
       {
@@ -144,7 +144,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       {
         "h2": "Baustellenbezug und Koordination mit SiGeKo",
         "paragraphs": [
-          "Unternehmen mit eigenem Bau- oder Montagesektor müssen Schnittstellen zwischen Betriebsstätte und Baustelle definieren. Hier wirken Baustellenkoordinatoren nach BaustellV, Unterauftragnehmer und interne EHS-Funktionen zusammen. Grundlagen liefern wir im Ratgeber [Link: /wissen/ratgeber/sigeko-baustelle] sowie in den Blogbeiträgen zu Vorankündigung, Übergaben und besonders gefährlichen Arbeiten."
+          "Unternehmen mit eigenem Bau- oder Montagesektor müssen Schnittstellen zwischen Betriebsstätte und Baustelle definieren. Hier wirken Baustellenkoordinatoren nach BaustellV, Unterauftragnehmer und interne EHS-Funktionen zusammen. Grundlagen liefern wir im Ratgeber [Link: https://sigeko.koeln/] sowie in den Blogbeiträgen zu Vorankündigung, Übergaben und besonders gefährlichen Arbeiten."
         ]
       },
       {
@@ -405,7 +405,7 @@ export const ratgeberPosts: RatgeberPost[] = [
           "BMA-Schnittstelle im Alarmplan beschreiben – nicht nur Telefonlisten: Was passiert bei Melderauslösung (automatische Weiterleitung, Gebäudegong, SAA-Durchsage)? Wer hat Zugang zur BMZ, wer darf rückstellen? Wie sind RWA, Sprinklervoralarm und Aufzugs-Rückruf ins Brandfallkonzept eingebunden? Typischer Audit-Mangel: Wartungsbuch der BMA ist aktuell, aber Alarmplan erwähnt RWA oder Leitstelle nicht – nach jeder technischen Änderung beide Dokumente anpassen.",
           "Alarmarten und Reaktion unterscheiden: Brandalarm BMA/Handfeuermelder → sofortige Räumung, keine Aufzugsnutzung, Türen im Fluchtweg nicht verriegeln. Hausalarm (manuell) → Räumung auf Anweisung, ggf. ohne automatische Feuerwehraufahrt. Gefahrstoff-/Gasalarm → Szenario aus TRGS 800 (Windrichtung, Sammelstelle außerhalb Gefahrenbereich). Technikalarm RWA/Sprinkler → Facility und BSB, ggf. Teilräumung. Personenschaden → 112 Rettungsdienst parallel zu Brandschutzregeln. Übung → wie Ernstfall, aber vorher gekennzeichnet (sonst Panik und falsche 112-Meldungen).",
           "Mobilitätseingeschränkte Personen: pauschale „Rettet euch selbst“-Regeln reichen nicht. Personal-Notfallpläne (mit Betroffenen und Schwerbehindertenvertretung), Evakuierungshelfer nach DGUV 205-033, ggf. EvacChair oder sicherer Aufenthaltsbereich im Treppenraum mit Freigabe durch Feuerwehr – vorher in Übungen erproben, nicht erst im Brandfall. Power-Napping-Räume, barrierefreie Toiletten und Besucherbereiche in die Etagen-Kontrolllisten aufnehmen.",
-          "Räumungsübungen prüfen das Gesamtsystem: In größeren Verwaltungs- und Produktionsobjekten jährliche Vollübung mit Protokoll (Zeiten, Vollständigkeit, Störungen); spätestens alle fünf Jahre Übung mit realer Einschränkung (gesperrtes Treppenhaus, ausgefallene Durchsage). Unangekündigte Übungen erhöhen den Erkenntnisgewinn, erfordern aber Abstimmung mit Versicherer/Feuerwehr und klare Nachkommunikation – sonst werden echte Alarme ignoriert. Nach jeder Übung: Maßnahmenliste mit Verantwortlichen und Terminen; Fotodokumentation der Fluchtwegkennzeichnung bei Mängeln. Baustellen: Übergabe an SiGeKo ([Link: /wissen/ratgeber/sigeko-baustelle]).",
+          "Räumungsübungen prüfen das Gesamtsystem: In größeren Verwaltungs- und Produktionsobjekten jährliche Vollübung mit Protokoll (Zeiten, Vollständigkeit, Störungen); spätestens alle fünf Jahre Übung mit realer Einschränkung (gesperrtes Treppenhaus, ausgefallene Durchsage). Unangekündigte Übungen erhöhen den Erkenntnisgewinn, erfordern aber Abstimmung mit Versicherer/Feuerwehr und klare Nachkommunikation – sonst werden echte Alarme ignoriert. Nach jeder Übung: Maßnahmenliste mit Verantwortlichen und Terminen; Fotodokumentation der Fluchtwegkennzeichnung bei Mängeln. Baustellen: Übergabe an SiGeKo ([Link: https://sigeko.koeln/]).",
           "Probealarm BMA: nur mit Freigabe BSB/Leitung, Abstimmung Wartungsfirma und – je nach Aufschaltung – Feuerwehr/Leitstelle. Protokoll mit Datum, ausgelöster Meldergruppe, Reaktionszeiten, Mängeln (fehlende Durchsage, Tür offen geblieben). Fremdfirmen und Lieferanten am Wareneingang: Einweisung auf Meldekette und Sammelstelle bei Erstbesuch, Aushang in Fremdsprachen wo nötig. In Multi-Gebäude-Standorten separate Alarmmatrizen (welches Gebäude räumt welches mit) verhindern, dass ein Melder im Gebäude A unkontrolliert Gebäude B leert."
         ],
         "table": {
@@ -725,7 +725,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Wie verknüpfen wir SiGeKo auf der Baustelle?",
-        "answer": "Baustellen verändern Rettungswege, Heißarbeit und temporäre BMA-Abschaltungen. Übergabeprotokolle zwischen SiGeKo und BSB/Facility, Brandschutz in SiGe-Plan und Baustellenbegehung – Details unter [Link: /wissen/ratgeber/sigeko-baustelle]."
+        "answer": "Baustellen verändern Rettungswege, Heißarbeit und temporäre BMA-Abschaltungen. Übergabeprotokolle zwischen SiGeKo und BSB/Facility, Brandschutz in SiGe-Plan und Baustellenbegehung – Details unter [Link: https://sigeko.koeln/]."
       },
       {
         "question": "Was ist bei Garagen und Tiefgaragen zu beachten?",
@@ -1028,7 +1028,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Brandschutz und Bau",
         "paragraphs": [
           "Brandgefahr gehört in die Gefährdungsbeurteilung: Zündquellen, brennbare Stoffe, Personenaufkommen, Rettungswege im IST-Zustand. Ergebnis: Bedarf an BSO, Brandschutzhelfern oder Brandschutzbeauftragtem – abgestimmt mit [Link: /wissen/ratgeber/brandschutz-betrieb|betrieblichem Brandschutz].",
-          "Bei Nutzungsänderungen, Lagerzonen in Fluren oder Umbauten: Gefährdungsbeurteilung und genehmigungsrechtliche Unterlagen synchron halten ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO NRW]). Auf Baustellen ergänzt BaustellV die Bewertung – Schnittstellen über [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo]."
+          "Bei Nutzungsänderungen, Lagerzonen in Fluren oder Umbauten: Gefährdungsbeurteilung und genehmigungsrechtliche Unterlagen synchron halten ([Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|BauO NRW]). Auf Baustellen ergänzt BaustellV die Bewertung – Schnittstellen über [Link: https://sigeko.koeln/|SiGeKo]."
         ]
       },
       {
@@ -1160,7 +1160,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Brandschutzkonzept und Nachweise",
         "paragraphs": [
           "Komplexe Vorhaben – Sonderbauten, Hochhäuser, Versammlungsstätten, große Logistikhallen – erfordern ein strukturiertes Brandschutzkonzept. Es beschreibt, wie baulicher, anlagentechnischer und organisatorischer Brandschutz zusammenwirken: Brandabschnitte, Entrauchung, BMA, Rettungswege, Feuerwehrzufahrt und spätere Betriebsregeln.",
-          "Das Konzept verzahnt Planung, Ausführung und Betriebsphase. Schnittstellen zu SiGeKo auf der Baustelle ([Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo-Ratgeber]) und zur späteren BSO nach DIN 14096 ([Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]) sollten von Anfang an mitgedacht werden – sonst entsteht ein genehmigtes Gebäude, das im Alltag nicht organisiert werden kann.",
+          "Das Konzept verzahnt Planung, Ausführung und Betriebsphase. Schnittstellen zu SiGeKo auf der Baustelle ([Link: https://sigeko.koeln/|SiGeKo-Ratgeber]) und zur späteren BSO nach DIN 14096 ([Link: /wissen/ratgeber/brandschutz-betrieb|betrieblicher Brandschutz]) sollten von Anfang an mitgedacht werden – sonst entsteht ein genehmigtes Gebäude, das im Alltag nicht organisiert werden kann.",
           "Betrieblich: [Link: /wissen/blog/brandschutzkonzept-erstellen]. Genehmigung Köln: [Link: https://brandschutzkoeln.com/ratgeber/brandschutzkonzept-wann-noetig|Konzept oder Stellungnahme?]"
         ]
       },
@@ -1330,7 +1330,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Ortsveränderliche Geräte und Baustellen",
         "paragraphs": [
           "Baustromverteiler, Kabeltrommeln und mobile Werkzeuge sind stark beansprucht – kürzere Prüfintervalle und tägliche Sichtkontrolle durch Nutzer vor Einsatz.",
-          "Auf Baustellen ergänzt [Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo] die Organisation: Elektrozonen im SiGe-Plan, FI-Schutz, schriftliche Regeln für Fremdfirmen. Wasser, Staub und mechanische Schäden gehören in die Gefährdungsbeurteilung."
+          "Auf Baustellen ergänzt [Link: https://sigeko.koeln/|SiGeKo] die Organisation: Elektrozonen im SiGe-Plan, FI-Schutz, schriftliche Regeln für Fremdfirmen. Wasser, Staub und mechanische Schäden gehören in die Gefährdungsbeurteilung."
         ]
       },
       {
@@ -1421,7 +1421,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Unterstützt H&S+ bei Organisation?",
-        "answer": "Ja – Prüfkalender, Inventar, Gefährdungsbeurteilung Elektro und Abstimmung mit SiGeKo auf Baustellen ([Link: /wissen/ratgeber/sigeko-baustelle|SiGeKo]). [Link: /kontakt|Kontakt]."
+        "answer": "Ja – Prüfkalender, Inventar, Gefährdungsbeurteilung Elektro und Abstimmung mit SiGeKo auf Baustellen ([Link: https://sigeko.koeln/|SiGeKo]). [Link: /kontakt|Kontakt]."
       }
     ]
   }

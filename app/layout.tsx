@@ -159,11 +159,6 @@ export default function RootLayout({
     description: defaultDescription,
     publisher: { "@id": `${BASE_URL}#organization` },
     inLanguage: "de-DE",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: { "@type": "EntryPoint", urlTemplate: `${BASE_URL}/wissen/faq` },
-      "query-input": "required name=search_term_string",
-    },
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: ["[data-hero] h1", "[data-hero] p", "main h1", "main h2"],

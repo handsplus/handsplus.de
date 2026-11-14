@@ -44,6 +44,10 @@ export const LEGACY_WIX: Record<string, string> = {
     "https://arbeitssicherheit.nrw/fachkraft-fuer-arbeitssicherheit-koeln",
   "/post/brandschutz-löschmittelauswahl-nach-brandklasse":
     "https://brandschutzkoeln.com/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2",
+  // P2-11 Domain-Rollen
+  "/wissen/ratgeber/sigeko-baustelle": "https://sigeko.koeln/",
+  "/wissen/blog/getraenke-am-arbeitsplatz":
+    "https://arbeitssicherheit.nrw/blog/getraenke-arbeitsplatz-arbeitgeber",
 };
 
 export const CANONICAL_ORIGIN = "https://handsplus.de";
