@@ -38,6 +38,12 @@ export const LEGACY_WIX: Record<string, string> = {
   "/post/brandschutz-brandbekämpfung-von-elektrofahrzeugen": "/brandschutz",
   "/post/muss-eine-ladestation-für-elektro-autos-in-garagen-genehmigt-werden":
     "/elektrosicherheit",
+  // P1-5 404 → kanonische Ziele
+  "/post/dguv-vorschrift-2": "/wissen/blog/dguv-vorschrift-2",
+  "/post/fachkraft-für-arbeitssicherheit":
+    "https://arbeitssicherheit.nrw/fachkraft-fuer-arbeitssicherheit-koeln",
+  "/post/brandschutz-löschmittelauswahl-nach-brandklasse":
+    "https://brandschutzkoeln.com/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2",
 };
 
 export const CANONICAL_ORIGIN = "https://handsplus.de";

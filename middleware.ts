@@ -17,6 +17,9 @@ export function middleware(request: NextRequest) {
   const legacyTarget = resolveLegacyTarget(rawPath);
 
   if (legacyTarget) {
+    if (legacyTarget.startsWith("http://") || legacyTarget.startsWith("https://")) {
+      return NextResponse.redirect(legacyTarget, 308);
+    }
     return NextResponse.redirect(new URL(legacyTarget + search, CANONICAL_ORIGIN), 308);
   }
 

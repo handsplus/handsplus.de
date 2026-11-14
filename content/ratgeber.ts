@@ -729,7 +729,7 @@ export const ratgeberPosts: RatgeberPost[] = [
       },
       {
         "question": "Was ist bei Garagen und Tiefgaragen zu beachten?",
-        "answer": "Besondere Lüftung, Entrauchung, Abstände, ggf. VdS 3885 bei E-Mobilität. Bauordnung: [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze]. Betrieblich: BMA, keine Lagerung brennbarer Stoffe, klare Räumung Tiefgarage in BSO Teil C."
+        "answer": "Besondere Lüftung, Entrauchung, Abstände, ggf. VdS 3885 bei E-Mobilität. Bauordnung: [Link: https://brandschutzkoeln.com/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw|Garagen und Stellplätze]. Betrieblich: BMA, keine Lagerung brennbarer Stoffe, klare Räumung Tiefgarage in BSO Teil C."
       },
       {
         "question": "Li-Ion-Ladestation für Stapler – was ist Pflicht?",
@@ -1191,7 +1191,7 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Technische Anlagen und Sonderthemen",
         "paragraphs": [
           "Lüftung, Feuerungsanlagen und Blitzschutz haben jeweils eigenständige Nachweisketten. Garagen und Sonderbauten erhöhen oft den regulatorischen Aufwand.",
-          "Links: [Link: https://brandschutzkoeln.com/ratgeber/garagen-stellplaetze-brandschutz|Garagen und Stellplätze], [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten], [Link: https://brandschutzkoeln.com/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw|Sprinkler und Trockenbau]."
+          "Links: [Link: https://brandschutzkoeln.com/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw|Garagen und Stellplätze], [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten], [Link: https://brandschutzkoeln.com/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw|Sprinkler und Trockenbau]."
         ]
       },
       {
