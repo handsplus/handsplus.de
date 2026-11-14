@@ -198,9 +198,9 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Brennbare Stoffe im Betrieb: Feststoff, Flüssigkeit, Gas und Staub – Brandverhalten, TRGS 800 und Lagerung – praxisnah für Köln und NRW.",
     date: "2025-03-20",
-    dateModified: "2026-05-26",
+    dateModified: "2026-11-14",
     content: [
-      "Brennbare Stoffe sind im Betrieb selten nur „ein Gefahrstoff im Regal“ – sie sind Papierstapel, Verpackungsfolien, Lackreste, Gase in Flaschen, Holzstaub in der Halle und Kühlschmiermittel-Dämpfe an der Maschine. Für Brandschutz und Arbeitssicherheit zählt das tatsächliche Brandverhalten vor Ort, nicht nur die Etikette auf dem Gebinde. Einordnung im Gesamtkonzept: [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] und [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz] – relevant für Betriebe in Köln und NRW.",
+      "Brennbare Stoffe sind im Betrieb selten nur „ein Gefahrstoff im Regal“ – sie sind Papierstapel, Verpackungsfolien, Lackreste, Gase in Flaschen, Holzstaub in der Halle und Kühlschmiermittel-Dämpfe an der Maschine. Für Brandschutz und Arbeitssicherheit zählt das tatsächliche Brandverhalten vor Ort, nicht nur die Etikette auf dem Gebinde. Abgrenzung: Dieser Artikel vertieft Stoffe, Lager und TRGS 800; der Überblick zu baulich/anlagentechnisch/organisatorisch steht unter [Link: /wissen/blog/vorbeugender-brandschutz-massnahmen|vorbeugender Brandschutz]. BauO- und Gastronomie-Tiefe: [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber] bzw. [Link: https://brandschutzkoeln.com/ratgeber/feuerloescher-gastronomie-koeln|Feuerlöscher Gastronomie]. Einordnung im Gesamtkonzept: [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Aggregatzustände bestimmen die Gefahr: Feststoffe glimmen oder brennen ab (Holz, Kunststoff, Textil). Flüssigkeiten bilden oft zündfähige Dämpfe (Lösemittel, Kraftstoff, Reiniger). Gase und verdampfte Stoffe entzünden sich schnell. Stäube und Nebel können explosionsartig reagieren, wenn Konzentration und Zündquelle zusammentreffen – klassisch in Holzverarbeitung, Metallbearbeitung, Lebensmittel- und Chemieprozessen.",
       "Oberfläche schlägt Masse: Ein Holzblock schwärzt langsam; Holzwolle oder aufgewirbelter Staub entzündet sich deutlich schneller. Feine Metallspäne (Aluminium, Magnesium) können bei Funken oder Hitze heftig reagieren – in Werkstäten deshalb Absaugung, keine offenen Behälter mit Spänen neben Schleifmaschinen. Die 9-V-Batterie-Stahlwolle-Demo zeigt das Prinzip: große Oberfläche, kleine Energiezufuhr genügt.",
@@ -244,9 +244,9 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV Vorschrift 2 (Neufassung 2025): Grund- und betriebsspezifische Betreuung, Betreuungsplan, Bestellung und Jahresbericht – was Arbeitgeber in NRW umsetzen sollten.",
     date: "2025-03-22",
-    dateModified: "2026-05-26",
+    dateModified: "2026-11-14",
     content: [
-      "Die DGUV Vorschrift 2 regelt die betriebliche Betreuung durch Betriebsärzte und Fachkräfte für Arbeitssicherheit auf Grundlage des Arbeitssicherheitsgesetzes (ASiG). Die Neufassung von 2025 macht Pflichten, Betreuungsumfang und Dokumentation verständlicher – ohne das Schutzniveau zu senken. Für Arbeitgeber in Köln und NRW ist sie die zentrale Referenz neben der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|schriftlichen Bestellung] der Fachkraft für Arbeitssicherheit.",
+      "Die DGUV Vorschrift 2 regelt die betriebliche Betreuung durch Betriebsärzte und Fachkräfte für Arbeitssicherheit auf Grundlage des Arbeitssicherheitsgesetzes (ASiG). Die Neufassung von 2025 macht Pflichten, Betreuungsumfang und Dokumentation verständlicher – ohne das Schutzniveau zu senken. Für Arbeitgeber in Köln und NRW ist sie die zentrale Referenz neben der [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|schriftlichen Bestellung] der Fachkraft für Arbeitssicherheit – und baut auf den Grundsätzen der [Link: /wissen/blog/dguv-vorschrift-1-grundsaetze-praevention|DGUV Vorschrift 1] auf.",
       "H2::Was gilt rechtlich?",
       "Struktur der Vorschrift: Verpflichtende Regelungen sind von empfohlenen Regelungen getrennt. Klar definiert sind Grundbetreuung (abhängig von Betriebsart und Beschäftigtenzahl nach Anlagen in der DGUV V2) und betriebsspezifische Betreuung (zusätzlich nach den individuellen Gefährdungen des Betriebs – Maschinen, Gefahrstoffe, Höhenarbeit, psychische Belastung). Beide Anteile müssen im Betreuungsvertrag, in der Bestellung und im Betreuungsplan nachvollziehbar sein.",
       "Betreuungsplan und Jahresbericht: Der Arbeitgeber führt einen Betreuungsplan, der Grund- und Zusatzleistungen, Termine und Verantwortlichkeiten festhält. Die Fachkraft für Arbeitssicherheit erstellt nach § 5 DGUV V2 einen Jahresbericht für die Geschäftsführung – Inhalte: Gefährdungsbeurteilungen, Begehungen, Unterweisungen, Unfälle, offene Maßnahmen, Vorschläge für das kommende Jahr. Der Bericht ist keine Formalität, sondern Steuerungsinstrument für den [Link: /wissen/blog/akteure-arbeitsschutz|Arbeitsschutzausschuss] bei mehr als 20 Beschäftigten.",
@@ -278,7 +278,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Wo vertiefen?",
         answer:
-          "[Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Bestellung SiFa], [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV-Hub] und [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|Jahresbericht].",
+          "[Link: /wissen/blog/dguv-vorschrift-1-grundsaetze-praevention|DGUV V1 Prävention], [Link: /wissen/blog/bestellung-fachkraft-arbeitssicherheit|Bestellung SiFa], [Link: /wissen/blog/dguv-vorschriften-einfach-erklaert|DGUV-Hub] und [Link: /wissen/blog/sifa-jahresbericht-was-gehoert-rein|Jahresbericht].",
       },
     ],
   },
@@ -1740,9 +1740,9 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Vorbeugender Brandschutz: baulich, anlagentechnisch und organisatorisch – Pflichten im Betrieb, Prüffristen und BSO – praxisnah für Köln und NRW.",
     date: "2025-05-03",
-    dateModified: "2026-05-26",
+    dateModified: "2026-11-14",
     content: [
-      "Vorbeugender Brandschutz umfasst alle Maßnahmen, die Brände verhindern, ihre Ausbreitung begrenzen und eine geordnete Rettung ermöglichen – bevor die Feuerwehr eintrifft. Abwehrender Brandschutz (Feuerwehr, Löscheinsatz) kommt danach. Im Unternehmensalltag sind vor allem anlagentechnischer und organisatorischer Brandschutz aktiv zu pflegen; baulicher Brandschutz ist bei Neubau, Umbau und Nutzungsänderung entscheidend und muss im Betrieb zum IST-Zustand passen – relevant für Betriebe in Köln und NRW.",
+      "Vorbeugender Brandschutz umfasst alle Maßnahmen, die Brände verhindern, ihre Ausbreitung begrenzen und eine geordnete Rettung ermöglichen – bevor die Feuerwehr eintrifft. Abwehrender Brandschutz (Feuerwehr, Löscheinsatz) kommt danach. Abgrenzung: Hier die drei Säulen und Betriebsorganisation; Details zu Stoffen, Staub und TRGS 800 stehen unter [Link: /wissen/blog/brandschutz-brennbare-stoffe|brennbare Stoffe]. BauO-Praxis und Feuerlöscher in der Gastronomie: [Link: https://brandschutzkoeln.com/ratgeber|brandschutzkoeln.com/ratgeber]. Im Unternehmensalltag sind vor allem anlagentechnischer und organisatorischer Brandschutz aktiv zu pflegen; baulicher Brandschutz ist bei Neubau, Umbau und Nutzungsänderung entscheidend und muss im Betrieb zum IST-Zustand passen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
       "Die drei Säulen sind kein Schlagwort, sondern eine Prüfstruktur: Fehlt eine Säule, kollabiert das System. Beispiel: perfekte BMA, aber gekeilte Brandschutztüren (baulich/technisch wirkungslos) und keine Übung (organisatorisch blind). Der [Link: /wissen/ratgeber/brandschutz-betrieb|Ratgeber betrieblicher Brandschutz] vertieft Organisation, Prüffristen und Alarmierung; dieser Artikel ordnet die Säulen für Verantwortliche ein.",
       "Säule 1 – Baulicher Brandschutz: Feuerwiderstand von Wänden/Decken (F30–F90), Brandabschnitte, funktionierende Feuerschutzabschlüsse (Türen, Tore, Klappen) ohne Keilung, Rettungswege mit zulässigen Längen und Breiten, zweiter Rettungsweg nach BauO NRW wo erforderlich, fachgerechte Abschottungen von Leitungsdurchführungen (MLAR/abZ). Im Betrieb prüfbar, ob Umbauten nachgezogen wurden und Fluchtwegpläne zum IST-Zustand passen – siehe [Link: /wissen/ratgeber/bauordnung-nrw-brandschutz|Genehmigung vs. IST]. Häufige Befunde sind nachträgliche Bürocontainer im Flur, offene Brandschutztüren und fehlende Kennzeichnung von Schottungen.",
@@ -3416,7 +3416,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Wo finde ich die aktuellen ASR-Texte?",
         answer:
-          "Maßgeblich sind die im Bundesarbeitsblatt (GMBl) bekannt gemachten Fassungen auf der Website der Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA).",
+          "Maßgeblich sind die im Bundesarbeitsblatt (GMBl) bekannt gemachten Fassungen auf der Website der Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA). Vertiefung Bildschirm: [Link: /wissen/blog/asr-a6-bildschirmarbeit|ASR A6 Bildschirmarbeit].",
       },
     ],
   },
@@ -3426,7 +3426,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "ASR A6 Bildschirmarbeit (GMBl 2024): Gestaltung von Bildschirm- und Telearbeitsplätzen, Pausen und GBU – praxisnah für Köln und NRW.",
     date: "2025-10-14",
-    dateModified: "2026-05-26",
+    dateModified: "2026-11-14",
     content: [
       "Fast jeder Betrieb hat Bildschirmarbeitsplätze – Verwaltung, Planung, Lagerbüro, Telearbeit. ASR A6 „Bildschirmarbeit“ (Ausgabe Juli 2024, GMBl 2024) konkretisiert ArbStättV-Anhang Nummer 6: Gestaltung von Bildschirmarbeitsplätzen und -geräten, Unterweisung, Telearbeitsplätze. In älteren Checklisten steht noch „ASR A5.1 Büro- und Bildschirmarbeitsplätze“ – maßgeblich ist heute A6. Grundlage bleibt § 5 ArbSchG: Gefährdungen ermitteln, bewerten, Maßnahmen umsetzen – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -3947,7 +3947,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "DGUV V1 Grundsätze der Prävention: STOP-Prinzip, Rangfolge der Maßnahmen, Gefährdungsbeurteilung – Basis für Arbeitsschutz in NRW.",
     date: "2026-01-13",
-    dateModified: "2026-06-26",
+    dateModified: "2026-11-14",
     content: [
       "Bevor Sie über Plaketten, Schulungen oder Schutzhelme sprechen, steht eine Frage: Was ist der eigentliche Grundsatz des Arbeitsschutzes? DGUV Vorschrift 1 „Grundsätze der Prävention“ fasst das zusammen – als Fundament für alle anderen Regeln, von [Link: /wissen/blog/dguv-vorschrift-2|DGUV V2] bis zur branchenspezifischen UVV – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
@@ -4274,7 +4274,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Mutterschutz Schutzfristen: 6 Wochen vor, 8 Wochen nach Entbindung, Nacht- und Sonntagsarbeit, Mehrarbeit, Freistellung für Untersuchungen und Stillen – für Betriebe in NRW.",
     date: "2026-03-10",
-    dateModified: "2026-06-26",
+    dateModified: "2026-11-14",
     content: [
       "Schutzfristen sind das Herzstück des arbeitszeitlichen Mutterschutzes. Sie sollen Mutter und Kind vor Überlastung schützen – nicht nur Papierkram für HR. Wer Personal plant, Azubis einsetzt oder Schichtdienst organisiert, muss die Fristen kennen, bevor eine Schwangerschaft mitgeteilt wird – relevant für Betriebe in Köln und NRW.",
       "H2::Was gilt rechtlich?",
