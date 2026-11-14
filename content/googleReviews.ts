@@ -3,6 +3,18 @@
 export const GOOGLE_REVIEWS_URL =
   "https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl";
 
+/**
+ * Google-Business-Gesamtbewertung (manuell pflegen).
+ * Gehört nur in LocalBusiness.aggregateRating – nie in ein separates Review-Objekt.
+ */
+export const GOOGLE_AGGREGATE_RATING = {
+  ratingValue: "5.0",
+  bestRating: "5",
+  worstRating: "1",
+  ratingCount: 42,
+  reviewCount: 42,
+} as const;
+
 export type GoogleReview = {
   id: string;
   author: string;
@@ -13,6 +25,26 @@ export type GoogleReview = {
   relativeTime?: string;
   topic?: string;
 };
+
+/** Einzelrezensionen als nested `review` unter LocalBusiness (Google-konform). */
+export function googleReviewsJsonLd() {
+  return googleReviews.map((r) => ({
+    "@type": "Review" as const,
+    author: {
+      "@type": "Person" as const,
+      name: r.author,
+      ...(r.role ? { jobTitle: r.role } : {}),
+    },
+    reviewRating: {
+      "@type": "Rating" as const,
+      ratingValue: String(r.stars),
+      bestRating: "5",
+      worstRating: "1",
+    },
+    reviewBody: r.quote,
+    publisher: { "@type": "Organization" as const, name: "Google" },
+  }));
+}
 
 export const googleReviews: GoogleReview[] = [
   {

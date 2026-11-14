@@ -7,6 +7,7 @@ export const metadata = pageMetadata({
   description:
     "Datenschutzerklärung von Health and Safety + (handsplus.de): Hosting, Kontaktformular, Ihre Rechte nach DSGVO.",
   keywords: ["Datenschutz", "DSGVO", "Health and Safety Plus", "handsplus.de"],
+  noIndex: true,
 });
 
 export default function DatenschutzPage() {

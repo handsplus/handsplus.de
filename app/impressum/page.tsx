@@ -6,6 +6,7 @@ export const metadata = pageMetadata({
   title: "Impressum",
   description: "Impressum von Health and Safety + – Rechtliche Informationen und Kontakt.",
   keywords: ["Impressum", "Health and Safety Plus", "Köln"],
+  noIndex: true,
 });
 
 export default function ImpressumPage() {

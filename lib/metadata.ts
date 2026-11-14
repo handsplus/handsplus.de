@@ -32,6 +32,7 @@ export function pageMetadata({
   openGraphImage,
   openGraphType = "website",
   publishedTime,
+  noIndex = false,
 }: {
   path: string;
   title: string;
@@ -41,6 +42,8 @@ export function pageMetadata({
   openGraphImage?: string;
   openGraphType?: "website" | "article";
   publishedTime?: string;
+  /** Rechtliches / dünne Pflichtseiten: crawlen ok, nicht indexieren. */
+  noIndex?: boolean;
 }): Metadata {
   const url = path.startsWith("/") ? `${BASE_URL}${path}` : `${BASE_URL}/${path}`;
   const desc = description.slice(0, META_DESC_MAX).trim();
@@ -69,7 +72,9 @@ export function pageMetadata({
       description: desc,
       images: [imageUrl],
     },
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    robots: noIndex
+      ? { index: false, follow: true, googleBot: { index: false, follow: true } }
+      : { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
 
