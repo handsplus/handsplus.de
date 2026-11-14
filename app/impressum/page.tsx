@@ -32,6 +32,11 @@ export default function ImpressumPage() {
             <br />
             Termine nach Vereinbarung
           </p>
+          <p className="mt-4 text-slate-600">
+            Steuernummer: 218/5132/3974
+            <br />
+            Eine Umsatzsteuer-Identifikationsnummer (USt-IdNr.) liegt nicht vor.
+          </p>
         </section>
 
         <p className="mt-8 text-slate-600">
