@@ -239,7 +239,7 @@ export default function UberUnsPage() {
 
           <ul className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             {[
-              "Rechtssichere Dokumentation und behördliche Abstimmung",
+              "Nachvollziehbare Dokumentation und behördliche Abstimmung",
               "Praxisnahe Schulungen und regelmäßige Begehungen",
               "Technische Prüfungen und Elektrosicherheit (DGUV)",
               "Modular: einmalige Projekte oder Dauerbetreuung",

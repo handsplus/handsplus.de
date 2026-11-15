@@ -171,7 +171,7 @@ export default function HomePage() {
             Warum professionelle Betreuung unverzichtbar ist
           </h2>
           <p className="mt-4 text-slate-600 font-medium max-w-2xl">
-            Rechtssicherheit, Arbeitsschutz und Werterhalt – mit dem richtigen Partner an Ihrer Seite.
+            Fachlich fundierte Betreuung für Arbeitsschutz und Werterhalt – mit dem richtigen Partner an deiner Seite.
           </p>
           <p className="mt-5 text-slate-600 leading-relaxed max-w-2xl">
             Von der Gefährdungsbeurteilung über Brandschutzkonzepte bis zu SiGeKo, Prüfungen und
