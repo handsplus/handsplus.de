@@ -1123,8 +1123,8 @@ export const ratgeberPosts: RatgeberPost[] = [
         "h2": "Gebäudeklassen und ihre Auswirkungen",
         "paragraphs": [
           "Die BauO NRW ordnet Gebäude in Klassen 1 bis 5 ein – abhängig von Höhe, Nutzung und Personenaufkommen. Je höher die Klasse, desto strenger werden Feuerwiderstand, Rettungswege (erster und ggf. zweiter Rettungsweg), Brandabschnitte und technische Anlagen (BMA, RWA).",
-          "GK 1–2: kleinere Wohn- und Geschäftsbauten mit begrenzter Höhe. GK 3–4: größere Gewerbe-, Büro- und Wohngebäude mit erhöhten Anforderungen. GK 5 und Sonderbauten (Versammlungsstätten, Hochhäuser, Krankenhäuser): brandschutztechnisches Konzept und Prüfingenieur Brandschutz sind in der Regel Pflicht.",
-          "Für Köln gilt das landesrechtliche Verfahren der Bauaufsicht; frühe Abstimmung mit Feuerwehr und Prüfingenieur spart Genehmigungsrunden. Vertiefend: [Link: https://brandschutzkoeln.com/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw|Gebäudeklassen und Brandschutz] und [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten]."
+          "GK 1–2: kleinere Wohn- und Geschäftsbauten mit begrenzter Höhe. GK 3–4: größere Gewerbe-, Büro- und Wohngebäude mit erhöhten Anforderungen. Bei GK 5 ohne Sonderbau brauchst du die Bescheinigung einer oder eines Prüfsachverständigen für Brandschutz (§ 68 Abs. 2 Satz 3 BauO NRW). Bei Sonderbauten bedient sich die Bauaufsicht einer Prüfingenieurin oder eines Prüfingenieurs für Brandschutz (§ 68 Abs. 2 Satz 5). Bei großen Sonderbauten gehört ein Brandschutzkonzept zu den Bauvorlagen (§ 70 Abs. 2 Satz 3) – und auch sonst ist es oft der sauberste Weg zum Nachweis.",
+          "Für Köln gilt das landesrechtliche Verfahren der Bauaufsicht; frühe Abstimmung mit Feuerwehr und den richtigen Prüfrollen spart Genehmigungsrunden. Vertiefend: [Link: https://brandschutzkoeln.com/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw|Gebäudeklassen und Brandschutz] und [Link: https://brandschutzkoeln.com/ratgeber/sonderbauten-brandschutz|Sonderbauten]."
         ],
         "table": {
           "headers": [
