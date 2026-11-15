@@ -544,7 +544,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "pflichtuebertragung-arbeitsschutz",
-    title: "Pflichtenübertragung im Arbeitsschutz – rechtssicher delegieren",
+    title: "Pflichtenübertragung im Arbeitsschutz – korrekt und nachvollziehbar delegieren",
     excerpt:
       "Pflichtenübertragung nach § 13 ArbSchG: Voraussetzungen, Schriftform, Aufsichtspflicht des Arbeitgebers und Abgrenzung zur SiFa – praxisnah für Köln und NRW.",
     date: "2025-03-25",

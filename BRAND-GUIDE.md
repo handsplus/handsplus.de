@@ -111,7 +111,7 @@ Neue Partner-Logos immer in ähnlicher Höhe/Proportion vorbereiten und in `Part
 ### 7. Tonalität der Texte
 
 - Klar, sachlich, aber freundlich.  
-- Fokus auf **Nutzen** für den Kunden (Rechtssicherheit, Entlastung, Praxisnähe).  
+- Fokus auf **Nutzen** für den Kunden (fachliche Fundierung, Entlastung, Praxisnähe). Keine Rechtsgarantien („rechtssicher“ / „Rechtssicherheit“ vermeiden).  
 - Möglichst kurze Absätze, vor allem in Mobilansicht:
   - 2–4 Zeilen pro Absatz sind ideal.
 
