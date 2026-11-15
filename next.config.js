@@ -1,5 +1,37 @@
 const { distDirForConfig } = require("./scripts/next-dist-dir");
 
+/**
+ * Security-Header-Baseline (ATT-45).
+ * CSP bewusst Report-Only: Site nutzt Inline-JSON-LD + critical CSS + Formspree.
+ * Enforce erst nach Report-Auswertung — lieber laufende Site als harte CSP.
+ */
+const SECURITY_HEADERS = [
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  { key: "X-Frame-Options", value: "SAMEORIGIN" },
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+  {
+    key: "Permissions-Policy",
+    value:
+      "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()",
+  },
+  {
+    key: "Content-Security-Policy-Report-Only",
+    value: [
+      "default-src 'self'",
+      "base-uri 'self'",
+      "object-src 'none'",
+      "frame-ancestors 'self'",
+      "form-action 'self' https://formspree.io",
+      "script-src 'self' 'unsafe-inline'",
+      "style-src 'self' 'unsafe-inline'",
+      "img-src 'self' data: blob: https:",
+      "font-src 'self' data:",
+      "connect-src 'self' https://formspree.io",
+      "upgrade-insecure-requests",
+    ].join("; "),
+  },
+];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   distDir: distDirForConfig(),
@@ -24,6 +56,7 @@ const nextConfig = {
   },
   async headers() {
     const isDev = process.env.NODE_ENV === "development";
+    const isProd = process.env.NODE_ENV === "production";
     const out = [];
 
     if (isDev) {
@@ -39,17 +72,20 @@ const nextConfig = {
       });
     }
 
+    const security = [...SECURITY_HEADERS];
+    if (isProd) {
+      security.push({
+        key: "Strict-Transport-Security",
+        value: "max-age=63072000; includeSubDomains; preload",
+      });
+    }
+
     out.push({
       source: "/(.*)",
-      headers: [
-        { key: "X-Content-Type-Options", value: "nosniff" },
-        { key: "X-Frame-Options", value: "SAMEORIGIN" },
-        { key: "X-XSS-Protection", value: "1; mode=block" },
-        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-      ],
+      headers: security,
     });
 
-    if (process.env.NODE_ENV === "production") {
+    if (isProd) {
       out.push({
         source: "/_next/static/:path*",
         headers: [
